@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+      <Department deType="1" FacultyId="1" UniId="1" >
+        <UniversityName>Sakarya Üniversitesi</UniversityName>
+        <FacultyName>Bilişim Fakültesi</FacultyName>
+        <DepartmentName>Bilgisayar Mühendisliği</DepartmentName>
+        <ScoreMin>167</ScoreMin>
+        <ScoreMax>190</ScoreMax>
+        <Order>110</Order>
+        <Quotas>120</Quotas>
+        <EducationType>1. Öğretim</EducationType>
+      </Department>
+      <Department deType="2" FacultyId="2" UniId="1" >
+        <UniversityName>Sakarya Üniversitesi</UniversityName>
+        <FacultyName>Bilişim Fakültesi</FacultyName>
+        <DepartmentName>Bilgisayar Mühendisliği</DepartmentName>
+        <ScoreMin>140</ScoreMin>
+        <ScoreMax>400</ScoreMax>
+        <Order>200</Order>
+        <Quotas>120</Quotas>
+        <EducationType>1. Öğretim</EducationType>
+      </Department>
+      <Department deType="3" FacultyId="1" UniId="2" >
+        <UniversityName>Sakarya Üniversitesi</UniversityName>
+        <FacultyName>Makine Fakültesi</FacultyName>
+        <DepartmentName>Bilgisayar Mühendisliği</DepartmentName>
+        <ScoreMin>167</ScoreMin>
+        <ScoreMax>190</ScoreMax>
+        <Order>160</Order>
+        <Quotas>120</Quotas>
+        <EducationType>1. Öğretim</EducationType>
+      </Department>
+      <Department deType="4" FacultyId="2" UniId="1" >
+        <UniversityName>Erzincan Üniversitesi</UniversityName>
+        <FacultyName> Fakültesi</FacultyName>
+        <DepartmentName>Bilgisayar Mühendisliği</DepartmentName>
+        <ScoreMin>167</ScoreMin>
+        <ScoreMax>190</ScoreMax>
+        <Order>140</Order>
+        <Quotas>120</Quotas>
+        <EducationType>1. Öğretim</EducationType>
+      </Department>
+</Data> 

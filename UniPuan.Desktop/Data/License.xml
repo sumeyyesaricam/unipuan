@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+<LicenseType Id="1" Name="4+Lisans">
+
+  <ScoreType Id="1" Name="MF1" LicenseId="1" />
+  <ScoreType Id="2" Name="MF2" LicenseId="1" />
+  <ScoreType Id="3" Name="MF3" LicenseId="1" />
+  <ScoreType Id="4" Name="MF4" LicenseId="1" />
+  <ScoreType Id="5" Name="TM1" LicenseId="1"/>
+  <ScoreType Id="6" Name="TM2" LicenseId="1"/>
+  <ScoreType Id="7" Name="TM3" LicenseId="1"/>
+  <ScoreType Id="8" Name="TS1" LicenseId="1"/>
+  <ScoreType Id="9" Name="TS2" LicenseId="1"/>
+  <ScoreType Id="10" Name="DİL1" LicenseId="1"/>
+  <ScoreType Id="11" Name="DİL2" LicenseId="1"/>
+  <ScoreType Id="12" Name="DİL3" LicenseId="1"/>
+</LicenseType>
+
+<LicenseType Id="2" Name="2 ÖnLisans">
+  <ScoreType Id="13" Name="YGS1" LicenseId="2"/>
+  <ScoreType Id="14" Name="YGS2" LicenseId="2"/>
+  <ScoreType Id="15" Name="YGS3" LicenseId="2"/>
+  <ScoreType Id="16" Name="YGS4" LicenseId="2"/>
+  <ScoreType Id="17" Name="YGS5" LicenseId="2"/>
+  <ScoreType Id="18" Name="YGS6" LicenseId="2"/>
+</LicenseType>
+</Data>

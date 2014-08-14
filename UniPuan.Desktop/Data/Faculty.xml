@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+<FacultyType Id="1" Name="Bilişim Fakültesi" ScoreTypeId="4"/>
+<FacultyType Id="2" Name="Mühendislik Fakültesi" ScoreTypeId="4"/>
+<FacultyType Id="3" Name="Eğitim Fakültesi"  ScoreTypeId="3" />
+<FacultyType Id="4" Name="İşletme Fakültesi" ScoreTypeId="5" />
+
+</Data>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <University Id="1" Name="Sakarya Üniversitesi" UniType="d" CityId="1" />
+  <University Id="2" Name="Erzincan Üniversitesi"  UniType="d" CityId="2" />
+</Data> 

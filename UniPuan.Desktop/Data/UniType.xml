@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+<UniType Id="d" Name="Devlet Üniversitesi"/>
+<UniType Id="o" Name="Özel Üniversite"/>
+<UniType Id="k" Name="KKTC"/>
+<UniType Id="y" Name="Yurt Dışı"/>
+</Data>
