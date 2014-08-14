@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniPuan.Desktop", "UniPuan.Desktop\UniPuan.Desktop.csproj", "{0C2EAEED-D0EE-4167-9BC1-1D516EB9F615}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniPuan.Web", "UniPuan.Web\UniPuan.Web.csproj", "{2A69D57C-5D0F-4841-BCD0-E448DEF50545}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniPuan", "UniPuan\UniPuan.csproj", "{22CF772A-6168-43F1-B193-61294FBCEAC9}"
 EndProject
@@ -31,16 +29,6 @@ Global
 		{0C2EAEED-D0EE-4167-9BC1-1D516EB9F615}.Release|ARM.ActiveCfg = Release|Any CPU
 		{0C2EAEED-D0EE-4167-9BC1-1D516EB9F615}.Release|x64.ActiveCfg = Release|Any CPU
 		{0C2EAEED-D0EE-4167-9BC1-1D516EB9F615}.Release|x86.ActiveCfg = Release|Any CPU
-		{2A69D57C-5D0F-4841-BCD0-E448DEF50545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A69D57C-5D0F-4841-BCD0-E448DEF50545}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A69D57C-5D0F-4841-BCD0-E448DEF50545}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{2A69D57C-5D0F-4841-BCD0-E448DEF50545}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{2A69D57C-5D0F-4841-BCD0-E448DEF50545}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2A69D57C-5D0F-4841-BCD0-E448DEF50545}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A69D57C-5D0F-4841-BCD0-E448DEF50545}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2A69D57C-5D0F-4841-BCD0-E448DEF50545}.Release|ARM.ActiveCfg = Release|Any CPU
-		{2A69D57C-5D0F-4841-BCD0-E448DEF50545}.Release|x64.ActiveCfg = Release|Any CPU
-		{2A69D57C-5D0F-4841-BCD0-E448DEF50545}.Release|x86.ActiveCfg = Release|Any CPU
 		{22CF772A-6168-43F1-B193-61294FBCEAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{22CF772A-6168-43F1-B193-61294FBCEAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22CF772A-6168-43F1-B193-61294FBCEAC9}.Debug|ARM.ActiveCfg = Debug|Any CPU
