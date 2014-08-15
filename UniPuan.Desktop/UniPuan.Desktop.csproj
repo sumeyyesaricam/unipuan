@@ -97,6 +97,7 @@
     </Content>
     <Content Include="Data\Faculty.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Data\License.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

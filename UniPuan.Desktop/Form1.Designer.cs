@@ -52,6 +52,15 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textRank = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ColId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Faculty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Department = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ScoreType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ScoreMin = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ScoreMax = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Order = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EducationType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Quotas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -303,10 +312,83 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ColId,
+            this.Faculty,
+            this.Department,
+            this.ScoreType,
+            this.ScoreMin,
+            this.ScoreMax,
+            this.Order,
+            this.EducationType,
+            this.Quotas});
             this.dataGridView1.Location = new System.Drawing.Point(12, 482);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(1087, 203);
             this.dataGridView1.TabIndex = 18;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // ColId
+            // 
+            this.ColId.DataPropertyName = "UniversityName";
+            this.ColId.HeaderText = "Üniversite";
+            this.ColId.Name = "ColId";
+            this.ColId.ReadOnly = true;
+            // 
+            // Faculty
+            // 
+            this.Faculty.DataPropertyName = "FacultyName";
+            this.Faculty.HeaderText = "Fakülte";
+            this.Faculty.Name = "Faculty";
+            this.Faculty.ReadOnly = true;
+            // 
+            // Department
+            // 
+            this.Department.DataPropertyName = "DepartmentName";
+            this.Department.HeaderText = "Bölüm";
+            this.Department.Name = "Department";
+            this.Department.ReadOnly = true;
+            // 
+            // ScoreType
+            // 
+            this.ScoreType.DataPropertyName = "ScoreType";
+            this.ScoreType.HeaderText = "Puan Türü";
+            this.ScoreType.Name = "ScoreType";
+            this.ScoreType.ReadOnly = true;
+            // 
+            // ScoreMin
+            // 
+            this.ScoreMin.DataPropertyName = "ScoreMin";
+            this.ScoreMin.HeaderText = "Min. Puan";
+            this.ScoreMin.Name = "ScoreMin";
+            this.ScoreMin.ReadOnly = true;
+            // 
+            // ScoreMax
+            // 
+            this.ScoreMax.DataPropertyName = "ScoreMax";
+            this.ScoreMax.HeaderText = "Max. Puan";
+            this.ScoreMax.Name = "ScoreMax";
+            this.ScoreMax.ReadOnly = true;
+            // 
+            // Order
+            // 
+            this.Order.DataPropertyName = "Order";
+            this.Order.HeaderText = "Sıralama";
+            this.Order.Name = "Order";
+            // 
+            // EducationType
+            // 
+            this.EducationType.DataPropertyName = "EducationType";
+            this.EducationType.HeaderText = "Öğretim Türü";
+            this.EducationType.Name = "EducationType";
+            this.EducationType.ReadOnly = true;
+            // 
+            // Quotas
+            // 
+            this.Quotas.DataPropertyName = "Quotas";
+            this.Quotas.HeaderText = "Kontenjan";
+            this.Quotas.Name = "Quotas";
+            this.Quotas.ReadOnly = true;
             // 
             // Form1
             // 
@@ -356,6 +438,15 @@
         private System.Windows.Forms.ComboBox comboScore;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textRank;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Faculty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Department;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ScoreType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ScoreMin;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ScoreMax;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Order;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EducationType;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Quotas;
     }
 }
 

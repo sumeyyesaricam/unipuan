@@ -45,18 +45,7 @@ namespace UniPuan.Desktop
 
             //if (this.comboFaculty.SelectedIndex > -1 && this.comboFaculty.SelectedValue!="0" )
             //    f.FacultyId = ((Faculty)this.comboFaculty.SelectedItem).Id;
-            //if (this.comboUni.SelectedIndex > -1 && this.comboUni.SelectedValue != "0")
-            //    f.UniId = ((University)this.comboUni.SelectedItem).Id;
-            //if (this.comboCity.SelectedIndex > -1 && this.comboCity.SelectedValue != "0")
-            //    f.CityId = ((City)this.comboCity.SelectedItem).Name;
-            //if (this.comboDepart.SelectedIndex > -1 && this.comboDepart.SelectedValue != "0")
-            //    f.DepartmentId = ((Department)this.comboDepart.SelectedItem).Id;
-            //if (this.comboUniType.SelectedIndex > -1 && this.comboUniType.SelectedValue != "0")
-            //    f.UniTypeId = ((UniType)this.comboUniType.SelectedItem).Name;
-            //if (this.comboScore.SelectedIndex > -1 && this.comboScore.SelectedValue != "0")
-            //    f.ScoreId = ((ScoreType)this.comboScore.SelectedItem).Name;
-            //if (this.comboLic.SelectedIndex > -1 && this.comboLic.SelectedValue != "0")
-            //    f.License = ((LicenseType)this.comboLic.SelectedItem).Name;
+            
             if (this.rdioScore.Checked)
             {
                 f.ScoreMin = this.textScrMin.Text;
@@ -66,8 +55,8 @@ namespace UniPuan.Desktop
                 f.Order = this.textRank.Text;
 
             var xdt = XData.DataList(f);
-            dataGridView1.AutoGenerateColumns = true;
-            dataGridView1.DataSource = xdt;
+            dataGridView1.AutoGenerateColumns = false;
+             dataGridView1.DataSource = xdt;
         }
         public void LicenseSelected()
         {
@@ -85,13 +74,8 @@ namespace UniPuan.Desktop
             if (this.comboScore.Enabled)
             {
                 var f = new Department();
-                if (selected!=null && selected.Id != "0")
-                {
-                    f.ScoreId = selected.Id;
-                }
-                if (this.comboFaculty.SelectedIndex > -1 && this.comboFaculty.SelectedValue != "0")
-                    f.FacultyId = ((Faculty)this.comboFaculty.SelectedItem).Id;
-
+                f.ScoreId = this.comboScore.SelectedFunc<ScoreType, string>(t => t.Id);
+                f.FacultyId = this.comboFaculty.SelectedFunc<Faculty, string>(t => t.Id);
                 this.comboDepart.DataSource = XData.DepList(f);
             }
             if(selected!=null && selected.Id!="0")
@@ -108,39 +92,30 @@ namespace UniPuan.Desktop
         public void FacultySelected()
         {
             var f = new Department();
-            if (this.comboFaculty.SelectedIndex > -1 && this.comboFaculty.SelectedValue != "0")
-                f.FacultyId = ((Faculty)this.comboFaculty.SelectedItem).Id;
-            if (this.comboScore.SelectedIndex > -1 && this.comboScore.SelectedValue != "0")
-                f.ScoreId = ((ScoreType)this.comboScore.SelectedItem).Id;
+            f.FacultyId = this.comboFaculty.SelectedFunc<Faculty, string>(t => t.Id);
+            f.ScoreId = this.comboScore.SelectedFunc<ScoreType, string>(t => t.Id);
             this.comboDepart.DataSource = XData.DepList(f);
         }
         public void UniTypeSelected()
         {
             if(this.comboUniType.Enabled)
-            {
-
-            
-            var f = new University();
-            if (this.comboUniType.SelectedIndex > -1 && this.comboUniType.SelectedValue!="0")
-                f.UniTypeId = ((UniType)this.comboUniType.SelectedItem).Id;
-
-            if (this.comboCity.SelectedIndex > -1 && this.comboCity.SelectedValue != "0")
-                f.CityTypeId = ((City)this.comboCity.SelectedItem).Id;
-
-            this.comboUni.DataSource = XData.UniList(f);
+            { 
+            var d = new University();
+            Filter f = new Filter();
+            f.UniTypeId = this.comboUniType.SelectedFunc<UniType, string>(t => t.Id);
+            f.CityId = this.comboCity.SelectedFunc<City, string>(t => t.Id);
+            this.comboUni.DataSource = XData.UniList(d);
             }
         }
         public void CitySelected()
         {
             if (this.comboCity.Enabled)
             {
-
-                var f = new University();
-                if (this.comboCity.SelectedIndex > -1 && this.comboCity.SelectedValue != "0")
-                    f.CityTypeId = ((City)this.comboCity.SelectedItem).Id;
-                if (this.comboUniType.SelectedIndex > -1 && this.comboUniType.SelectedValue != "0")
-                    f.UniTypeId = ((UniType)this.comboUniType.SelectedItem).Id;
-                this.comboUni.DataSource = XData.UniList(f);
+                var uni = new University();
+                Filter f = new Filter();
+                f.CityId = this.comboCity.SelectedFunc<City, string>(t => t.Id);
+                f.UniTypeId = this.comboUniType.SelectedFunc<UniType, string>(t => t.Id);
+                this.comboUni.DataSource = XData.UniList(uni);
             }
         }
         public void UniSelected()
@@ -158,8 +133,7 @@ namespace UniPuan.Desktop
                 }
                 else
                 {
-                    this.comboUniType.Enabled = true;
-                   
+                    this.comboUniType.Enabled = true;   
                     this.comboCity.Enabled = true;
                 }
             }
@@ -223,6 +197,11 @@ namespace UniPuan.Desktop
         private void comboLic_TextChanged(object sender, EventArgs e)
         {
             LicenseSelected();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
     }
