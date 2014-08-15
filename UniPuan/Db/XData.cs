@@ -12,7 +12,7 @@ namespace UniPuan
 {
     public class XData
     {
-        static string MainPath = @"C:\Users\serife\Desktop\svn\trunk\UniPuan.Desktop\Data\";
+        static string MainPath = AppDomain.CurrentDomain.BaseDirectory + @"\Data\";
         static string PathLicense = MainPath + @"License.xml";
         static string PathFaculty = MainPath + @"Faculty.xml";
         static string PathCity = MainPath + @"City.xml";

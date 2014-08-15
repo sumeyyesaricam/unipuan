@@ -35,20 +35,28 @@ namespace UniPuan.Desktop
         public void DataSearch()
         {
             Filter f = new Filter();
-            if (this.comboFaculty.SelectedIndex > -1 && this.comboFaculty.SelectedValue!="0" )
-                f.FacultyId = ((Faculty)this.comboFaculty.SelectedItem).Id;
-            if (this.comboUni.SelectedIndex > -1 && this.comboUni.SelectedValue != "0")
-                f.UniId = ((University)this.comboUni.SelectedItem).Id;
-            if (this.comboCity.SelectedIndex > -1 && this.comboCity.SelectedValue != "0")
-                f.CityId = ((City)this.comboCity.SelectedItem).Name;
-            if (this.comboDepart.SelectedIndex > -1 && this.comboDepart.SelectedValue != "0")
-                f.DepartmentId = ((Department)this.comboDepart.SelectedItem).Id;
-            if (this.comboUniType.SelectedIndex > -1 && this.comboUniType.SelectedValue != "0")
-                f.UniTypeId = ((UniType)this.comboUniType.SelectedItem).Name;
-            if (this.comboScore.SelectedIndex > -1 && this.comboScore.SelectedValue != "0")
-                f.ScoreId = ((ScoreType)this.comboScore.SelectedItem).Name;
-            if (this.comboLic.SelectedIndex > -1 && this.comboLic.SelectedValue != "0")
-                f.License = ((LicenseType)this.comboLic.SelectedItem).Name;
+            f.FacultyId = this.comboFaculty.SelectedFunc<Faculty, string>(t => t.Id);
+            f.UniId = this.comboUni.SelectedFunc<University, string>(t => t.Id);
+            f.CityId = this.comboCity.SelectedFunc<City, string>(t => t.Name);
+            f.DepartmentId = this.comboDepart.SelectedFunc<Department, string>(t => t.Id);
+            f.UniTypeId = this.comboUniType.SelectedFunc<UniType, string>(t => t.Name);
+            f.ScoreId = this.comboScore.SelectedFunc<ScoreType, string>(t => t.Name);
+            f.License = this.comboLic.SelectedFunc<LicenseType, string>(t => t.Name);
+
+            //if (this.comboFaculty.SelectedIndex > -1 && this.comboFaculty.SelectedValue!="0" )
+            //    f.FacultyId = ((Faculty)this.comboFaculty.SelectedItem).Id;
+            //if (this.comboUni.SelectedIndex > -1 && this.comboUni.SelectedValue != "0")
+            //    f.UniId = ((University)this.comboUni.SelectedItem).Id;
+            //if (this.comboCity.SelectedIndex > -1 && this.comboCity.SelectedValue != "0")
+            //    f.CityId = ((City)this.comboCity.SelectedItem).Name;
+            //if (this.comboDepart.SelectedIndex > -1 && this.comboDepart.SelectedValue != "0")
+            //    f.DepartmentId = ((Department)this.comboDepart.SelectedItem).Id;
+            //if (this.comboUniType.SelectedIndex > -1 && this.comboUniType.SelectedValue != "0")
+            //    f.UniTypeId = ((UniType)this.comboUniType.SelectedItem).Name;
+            //if (this.comboScore.SelectedIndex > -1 && this.comboScore.SelectedValue != "0")
+            //    f.ScoreId = ((ScoreType)this.comboScore.SelectedItem).Name;
+            //if (this.comboLic.SelectedIndex > -1 && this.comboLic.SelectedValue != "0")
+            //    f.License = ((LicenseType)this.comboLic.SelectedItem).Name;
             if (this.rdioScore.Checked)
             {
                 f.ScoreMin = this.textScrMin.Text;
