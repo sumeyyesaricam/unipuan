@@ -89,7 +89,7 @@ namespace UniPuan.Desktop
                 {
                     f.ScoreId = selected.Id;
                 }
-                if (this.comboFaculty.SelectedIndex > -1 && this.comboScore.SelectedValue != "0")
+                if (this.comboFaculty.SelectedIndex > -1 && this.comboFaculty.SelectedValue != "0")
                     f.FacultyId = ((Faculty)this.comboFaculty.SelectedItem).Id;
 
                 this.comboDepart.DataSource = XData.DepList(f);
