@@ -2,7 +2,7 @@
 <Data>
 
   <DepartmentType Id="1" Name="Bilgisayar Mühendisliği" ScoreId="4"  FacultyId="1" />
-  <DepartmentType Id="2" Name="Yazılım Mühendisliği" ScoreId="4"  FacultyId="2" />
-  <DepartmentType Id="3" Name="İnşaat Mühendisliği" ScoreId="1"  FacultyId="2" />
-  <DepartmentType Id="4" Name="Makina Mühendisliği" ScoreId="2"  FacultyId="2" />
+  <DepartmentType Id="2" Name="Matemetik" ScoreId="1" FacultyId="3" />
+  <DepartmentType Id="3" Name="Edebiyat" ScoreId="8" FacultyId="3" />
+  <DepartmentType Id="4" Name="Hemşirelik" ScoreId="13" FacultyId="4" />
 </Data>
