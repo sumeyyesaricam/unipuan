@@ -14,6 +14,7 @@ namespace UniPuan
         public string UniversityName { get; set; }
         public string FacultyName { get; set; }
         public string DepartmentName { get; set; }
+        public string ScoreType { get; set; }
         public string ScoreMin { get; set; }
         public string ScoreMax { get; set; }
         public string Order { get; set; }

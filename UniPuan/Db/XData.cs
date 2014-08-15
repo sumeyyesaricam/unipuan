@@ -12,7 +12,7 @@ namespace UniPuan
 {
     public class XData
     {
-        static string MainPath = @"D:\WheIS\Personel\Sumeyye\UniPuan\test\Source2\trunk\UniPuan.Desktop\Data\";
+        static string MainPath = @"C:\Users\serife\Desktop\svn\trunk\UniPuan.Desktop\Data\";
         static string PathLicense = MainPath + @"License.xml";
         static string PathFaculty = MainPath + @"Faculty.xml";
         static string PathCity = MainPath + @"City.xml";
@@ -158,7 +158,11 @@ namespace UniPuan
                     (f.DepartmentId == null || (t.Attribute("deType").Value == f.DepartmentId)) &&
                     (f.ScoreMin == null || Convert.ToInt32(t.Element("ScoreMin").Value) >= Convert.ToInt32(f.ScoreMin) || Convert.ToInt32(t.Element("ScoreMax").Value) >= Convert.ToInt32(f.ScoreMin)) &&
                     (f.ScoreMax == null || Convert.ToInt32(t.Element("ScoreMax").Value) <= Convert.ToInt32(f.ScoreMax) || Convert.ToInt32(t.Element("ScoreMin").Value) <= Convert.ToInt32(f.ScoreMax)) &&
-                    (f.Order == null || Convert.ToInt32(t.Element("Order").Value) >= Convert.ToInt32(f.Order))
+                    (f.Order == null || Convert.ToInt32(t.Element("Order").Value) >= Convert.ToInt32(f.Order)) &&
+                    (f.ScoreId==null || (t.Element("ScoreType").Value ==f.ScoreId)) &&
+                    (f.UniTypeId == null || (t.Element("UniversityType").Value == f.UniTypeId)) &&
+                     (f.CityId == null || (t.Element("City").Value == f.CityId)) &&
+                     (f.License == null || (t.Element("License").Value == f.License))
                     );
             foreach (var fc in uni)
             {
@@ -169,6 +173,7 @@ namespace UniPuan
                 dt.UniversityName = fc.Element("UniversityName").Value;
                 dt.FacultyName = fc.Element("FacultyName").Value;
                 dt.DepartmentName = fc.Element("DepartmentName").Value;
+                dt.ScoreType = fc.Element("ScoreType").Value;
                 dt.ScoreMin = fc.Element("ScoreMin").Value;
                 dt.ScoreMax = fc.Element("ScoreMax").Value;
                 dt.Order = fc.Element("Order").Value;
