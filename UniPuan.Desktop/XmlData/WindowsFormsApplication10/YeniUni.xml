@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <University>
+    <Id>1</Id>
+    <Name>
+      <UniversityName>AKDENİZ KARPAZ ÜNİVERSİTESİ (KKTC-LEFKOŞA)</UniversityName>
+    </Name>
+    <CityId>82</CityId>
+    <UniTypeId></UniTypeId>
+  </University>
+  <University>
+    <Id>1</Id>
+    <Name>
+      <UniversityName>DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)</UniversityName>
+    </Name>
+    <CityId>82</CityId>
+    <UniTypeId></UniTypeId>
+  </University>
+  <University>
+    <Id>1</Id>
+    <Name>
+      <UniversityName>GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)</UniversityName>
+    </Name>
+    <CityId>82</CityId>
+    <UniTypeId></UniTypeId>
+  </University>
+  <University>
+    <Id>1</Id>
+    <Name>
+      <UniversityName>LEFKE AVRUPA ÜNİVERSİTESİ (KKTC-LEFKE)</UniversityName>
+    </Name>
+    <CityId>82</CityId>
+    <UniTypeId></UniTypeId>
+  </University>
+  <University>
+    <Id>1</Id>
+    <Name>
+      <UniversityName>ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA)</UniversityName>
+    </Name>
+    <CityId>82</CityId>
+    <UniTypeId></UniTypeId>
+  </University>
+  <University>
+    <Id>1</Id>
+    <Name>
+      <UniversityName>YAKIN DOĞU ÜNİVERSİTESİ (KKTC-LEFKOŞA)</UniversityName>
+    </Name>
+    <CityId>82</CityId>
+    <UniTypeId></UniTypeId>
+  </University>
+</Data>
