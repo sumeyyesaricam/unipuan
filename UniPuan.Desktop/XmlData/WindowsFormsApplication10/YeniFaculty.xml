@@ -1,0 +1,1578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Faculty>
+    <Id>1</Id>
+    <Name>Diş Hekimliği Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>2</Id>
+    <Name>Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>3</Id>
+    <Name>Fen-Edebiyat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>4</Id>
+    <Name>İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>5</Id>
+    <Name>İlahiyat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>6</Id>
+    <Name>Mühendislik-Mimarlık Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>7</Id>
+    <Name>Tıp Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>8</Id>
+    <Name>Bolu Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>9</Id>
+    <Name>Bolu Turizm İşletmeciliği ve Otelcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>10</Id>
+    <Name>Kemal Demir Fizik Tedavi ve Rehabilitasyon Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>11</Id>
+    <Name>Gerede Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>13</Id>
+    <Name>Mimarlık Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>14</Id>
+    <Name>Mühendislik ve Doğa Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>16</Id>
+    <Name>Sağlık Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>17</Id>
+    <Name>Tıp Fakültesi (İngilizce) (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>18</Id>
+    <Name>Tıp Fakültesi (İngilizce) (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>19</Id>
+    <Name>İşletme Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>24</Id>
+    <Name>İslami İlimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>25</Id>
+    <Name>Mühendislik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>27</Id>
+    <Name>Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>28</Id>
+    <Name>Turizm İşletmeciliği ve Otelcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>31</Id>
+    <Name>İletişim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>34</Id>
+    <Name>Turizm Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>35</Id>
+    <Name>Veteriner Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>36</Id>
+    <Name>Ziraat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>37</Id>
+    <Name>Nazilli İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>38</Id>
+    <Name>Söke İşletme Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>39</Id>
+    <Name>Aydın Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>40</Id>
+    <Name>Söke Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>43</Id>
+    <Name>Güzel Sanatlar Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>46</Id>
+    <Name>Teknoloji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>50</Id>
+    <Name>Afyon Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>51</Id>
+    <Name>Bolvadin Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>52</Id>
+    <Name>Eczacılık Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>57</Id>
+    <Name>Celal Oruç Hayvansal Üretim Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>62</Id>
+    <Name>Fizik Tedavi ve Rehabilitasyon Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>65</Id>
+    <Name>Edebiyat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>67</Id>
+    <Name>Fen Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>69</Id>
+    <Name>Hemşirelik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>70</Id>
+    <Name>Hukuk Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>75</Id>
+    <Name>Su Ürünleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>79</Id>
+    <Name>Ayşe Sak Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>80</Id>
+    <Name>Beden Eğitimi ve Spor Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>81</Id>
+    <Name>Alanya Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>82</Id>
+    <Name>Alanya İşletme Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>83</Id>
+    <Name>Alanya Mühendislik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>90</Id>
+    <Name>Şereflikoçhisar Uygulamalı Teknoloji ve İşletmecilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>101</Id>
+    <Name>Havacılık ve Uzay Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>104</Id>
+    <Name>İletişim Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>105</Id>
+    <Name>Mimarlık ve Tasarım Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>110</Id>
+    <Name>Açıköğretim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>111</Id>
+    <Name>İktisat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>113</Id>
+    <Name>Dil ve Tarih Coğrafya Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>116</Id>
+    <Name>Eğitim Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>123</Id>
+    <Name>Siyasal Bilgiler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>127</Id>
+    <Name>Ardahan İnsani Bilimler ve Edebiyat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>134</Id>
+    <Name>Orman Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>136</Id>
+    <Name>Hopa İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>142</Id>
+    <Name>Hukuk Fakültesi (İÖ)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>146</Id>
+    <Name>Kazım Karabekir Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>152</Id>
+    <Name>Tıp Fakültesi (İngilizce)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>158</Id>
+    <Name>Güzel Sanatlar Tasarım ve Mimarlık Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>159</Id>
+    <Name>Hukuk Fakültesi (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>160</Id>
+    <Name>Hukuk Fakültesi (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>161</Id>
+    <Name>Hukuk Fakültesi (%50 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>164</Id>
+    <Name>Sivil Havacılık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>167</Id>
+    <Name>Mühendislik ve Mimarlık Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>171</Id>
+    <Name>Hukuk Fakültesi (İngilizce) (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>172</Id>
+    <Name>Hukuk Fakültesi (İngilizce) (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>175</Id>
+    <Name>Mimarlık ve Tasarım Fakültesi  </Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>180</Id>
+    <Name>Tıp Fakültesi (İngilizce) (%50 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>184</Id>
+    <Name>Necatibey Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>188</Id>
+    <Name>Balıkesir Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>189</Id>
+    <Name>Bandırma İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>190</Id>
+    <Name>Burhaniye Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>191</Id>
+    <Name>Bartın Orman Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>198</Id>
+    <Name>Diş Hekimliği Fakültesi (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>199</Id>
+    <Name>Diş Hekimliği Fakültesi (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>200</Id>
+    <Name>Diş Hekimliği Fakültesi (%50 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>201</Id>
+    <Name>Diş Hekimliği Fakültesi (%25 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>204</Id>
+    <Name>Güzel Sanatlar, Tasarım ve Mimarlık Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>208</Id>
+    <Name>Hukuk Fakültesi (%25 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>213</Id>
+    <Name>Tıp Fakültesi (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>214</Id>
+    <Name>Tıp Fakültesi (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>215</Id>
+    <Name>Tıp Fakültesi (%50 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>216</Id>
+    <Name>Tıp Fakültesi (%25 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>217</Id>
+    <Name>Ticari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>223</Id>
+    <Name>Bayburt Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>235</Id>
+    <Name>Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>239</Id>
+    <Name>Eczacılık Fakültesi (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>240</Id>
+    <Name>Eczacılık Fakültesi (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>241</Id>
+    <Name>Eczacılık Fakültesi (%50 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>253</Id>
+    <Name>İlahiyat Fakültesi (İÖ)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>272</Id>
+    <Name>Tarım ve Doğa Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>277</Id>
+    <Name>Doğa Bilimleri, Mimarlık ve Mühendislik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>284</Id>
+    <Name>Ereğli Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>285</Id>
+    <Name>Zonguldak Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>286</Id>
+    <Name>Deniz İşletmeciliği ve Yönetimi Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>290</Id>
+    <Name>Mimarlık ve Mühendislik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>299</Id>
+    <Name>Tütün Eksperliği Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>300</Id>
+    <Name>Hasan Ferdi Turgutlu Teknoloji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>314</Id>
+    <Name>Suşehri Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>315</Id>
+    <Name>Zara Veysel Dursun Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>320</Id>
+    <Name>Hukuk Fakültesi (%75 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>323</Id>
+    <Name>Deniz Bilimleri ve Teknolojisi Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>325</Id>
+    <Name>Fen ve Edebiyat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>333</Id>
+    <Name>Çanakkale Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>335</Id>
+    <Name>Biga İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>336</Id>
+    <Name>Gökçeada Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>362</Id>
+    <Name>Adana Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>376</Id>
+    <Name>Ziya Gökalp Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>377</Id>
+    <Name>Diyarbakır Atatürk Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>385</Id>
+    <Name>Sanat ve Tasarım Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>386</Id>
+    <Name>Buca Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>387</Id>
+    <Name>Denizcilik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>399</Id>
+    <Name>Reha Midilli Foça Turizm İşletmeciliği ve Otelcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>405</Id>
+    <Name>Kütahya Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>407</Id>
+    <Name>Simav Teknoloji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>417</Id>
+    <Name>Akçakoca Turizm İşletmeciliği ve Otelcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>430</Id>
+    <Name>İzmir Atatürk Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>431</Id>
+    <Name>Çeşme Turizm ve Otelcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>444</Id>
+    <Name>Seyrani Ziraat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>473</Id>
+    <Name>Eskişehir Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>479</Id>
+    <Name>İslami İlimler Fakültesi (Arapça) (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>480</Id>
+    <Name>İslami İlimler Fakültesi (Arapça) (Tam Burslu) </Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>481</Id>
+    <Name>İslami İlimler Fakültesi (Arapça) (%75 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>482</Id>
+    <Name>İslami İlimler Fakültesi (Arapça) (%50 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>489</Id>
+    <Name>İlahiyat Fakültesi (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>490</Id>
+    <Name>İlahiyat Fakültesi (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>499</Id>
+    <Name>İnsani ve Sosyal Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>506</Id>
+    <Name>Elazığ Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>511</Id>
+    <Name>Mühendislik ve Teknoloji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>516</Id>
+    <Name>Gazi Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>529</Id>
+    <Name>Bankacılık ve Sigortacılık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>531</Id>
+    <Name>Tapu Kadastro Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>532</Id>
+    <Name>Polatlı Fen-Edebiyat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>535</Id>
+    <Name>Gaziantep Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>546</Id>
+    <Name>İslahiye İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>547</Id>
+    <Name>Nizip Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>556</Id>
+    <Name>Tokat Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>557</Id>
+    <Name>Erbaa Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>558</Id>
+    <Name>Zile Dinçerler Turizm İşletmeciliği ve Otelcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>563</Id>
+    <Name>Güzel Sanatlar ve Mimarlık Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>581</Id>
+    <Name>Tirebolu İletişim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>582</Id>
+    <Name>Bulancak Kadir Karabaş Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>583</Id>
+    <Name>Görele Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>584</Id>
+    <Name>Şebinkarahisar Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>586</Id>
+    <Name>Gümüşhane İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>590</Id>
+    <Name>Gümüşhane Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>602</Id>
+    <Name>Kastamonu Tıp Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>611</Id>
+    <Name>Hemşirelik Yüksekokulu (Ücretli)</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>612</Id>
+    <Name>Hemşirelik Yüksekokulu (Tam Burslu)</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>613</Id>
+    <Name>Sağlık Bilimleri Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>622</Id>
+    <Name>Şanlıurfa Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>629</Id>
+    <Name>İktisadi, İdari ve Sosyal Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>640</Id>
+    <Name>Iğdır Ziraat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>644</Id>
+    <Name>Güzel Sanatlar Fakültesi </Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>651</Id>
+    <Name>Hukuk Fakültesi (İngilizce) (%50 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>654</Id>
+    <Name>İnsani Bilimler ve Edebiyat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>657</Id>
+    <Name>Uygulamalı Teknoloji ve İşletmecilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>662</Id>
+    <Name>Güzel Sanatlar ve Tasarım Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>671</Id>
+    <Name>Malatya Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>672</Id>
+    <Name>İnsan ve Toplum Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>673</Id>
+    <Name>İşletme ve Yönetim Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>678</Id>
+    <Name>Uluslararası İslam ve Din Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>687</Id>
+    <Name>Diş Hekimliği Fakültesi (%75 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>695</Id>
+    <Name>Hukuk Fakültesi (%50 Burslu) </Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>702</Id>
+    <Name>Yabancı Diller Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>712</Id>
+    <Name>Turizm ve Otelcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>719</Id>
+    <Name>Florence Nightingale Hastanesi Hemşirelik Yüksekokulu (Ücretli)</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>720</Id>
+    <Name>Florence Nightingale Hastanesi Hemşirelik Yüksekokulu (Tam Burslu)</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>725</Id>
+    <Name>Eczacılık Fakültesi (İngilizce) (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>726</Id>
+    <Name>Eczacılık Fakültesi (İngilizce) (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>727</Id>
+    <Name>Eczacılık Fakültesi (İngilizce) (%25 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>733</Id>
+    <Name>Hukuk Fakültesi (UOLP-Köln Üniversitesi) (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>734</Id>
+    <Name>Hukuk Fakültesi (UOLP-Köln Üniversitesi) (%25 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>739</Id>
+    <Name>Tıp Fakültesi (İngilizce) (%25 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>759</Id>
+    <Name>Eczacılık Fakültesi (%25 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>783</Id>
+    <Name>Bilgisayar ve Bilişim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>785</Id>
+    <Name>Elektrik-Elektronik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>787</Id>
+    <Name>Gemi İnşaatı ve Deniz Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>788</Id>
+    <Name>İnşaat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>790</Id>
+    <Name>Kimya-Metalurji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>791</Id>
+    <Name>Maden Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>792</Id>
+    <Name>Makine Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>794</Id>
+    <Name>Tekstil Teknolojileri ve Tasarımı Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>795</Id>
+    <Name>Uçak ve Uzay Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>802</Id>
+    <Name>Mühendislik ve Tasarım Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>804</Id>
+    <Name>Uygulamalı Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>805</Id>
+    <Name>Cerrahpaşa Tıp Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>810</Id>
+    <Name>Hasan Ali Yücel Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>811</Id>
+    <Name>Florence Nightingale Hemşirelik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>817</Id>
+    <Name>İstanbul Tıp Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>825</Id>
+    <Name>Ulaştırma ve Lojistik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>826</Id>
+    <Name>Açık ve Uzaktan Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>835</Id>
+    <Name>Mühendislik ve Bilgisayar Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>837</Id>
+    <Name>Tarımsal Teknoloji ve Gıda Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>838</Id>
+    <Name>Diş Hekimliği Fakültesi (İngilizce)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>874</Id>
+    <Name>Kars Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>883</Id>
+    <Name>Kahramanmaraş Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>893</Id>
+    <Name>Hasan Doğan Beden Eğitimi ve Spor Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>895</Id>
+    <Name>Safranbolu Fethi Toker Güzel Sanatlar ve Tasarım Fakültesi </Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>896</Id>
+    <Name>Safranbolu Turizm Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>900</Id>
+    <Name>Fatih Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>913</Id>
+    <Name>Of Teknoloji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>914</Id>
+    <Name>Sürmene Deniz Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>917</Id>
+    <Name>Kamil Özdağ Fen Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>928</Id>
+    <Name>Fazıl Boyner Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>949</Id>
+    <Name>Muallim Rıfat Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>951</Id>
+    <Name>Yusuf Şerefoğlu Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>962</Id>
+    <Name>Kocaeli Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>963</Id>
+    <Name>Barbaros Denizcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>964</Id>
+    <Name>Derbent Turizm İşletmeciliği ve Otelcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>972</Id>
+    <Name>Hemşirelik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>992</Id>
+    <Name>Hemşirelik Yüksekokulu (%25 Burslu)</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1002</Id>
+    <Name>Atatürk Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1020</Id>
+    <Name>Takı Teknolojisi ve Tasarımı Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1028</Id>
+    <Name>Bucak Zeliha Tolunay Uygulamalı Teknoloji ve İşletmecilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1046</Id>
+    <Name>İçel Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1047</Id>
+    <Name>Tarsus Teknoloji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1048</Id>
+    <Name>Erdemli Uygulamalı Teknoloji ve İşletmecilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1049</Id>
+    <Name>Silifke Uygulamalı Teknoloji ve İşletmecilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1061</Id>
+    <Name>Sağlık Hizmetleri Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1073</Id>
+    <Name>Muğla Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1074</Id>
+    <Name>Fethiye Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1075</Id>
+    <Name>Deniz Bilimleri ve Teknolojileri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1082</Id>
+    <Name>Tayfur Ata Sökmen Tıp Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1086</Id>
+    <Name>Hatay Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1087</Id>
+    <Name>İskenderun Sivil Havacılık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1100</Id>
+    <Name>Çorlu Mühendislik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1101</Id>
+    <Name>Ahmet Keleşoğlu Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1106</Id>
+    <Name>Meram Tıp Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1109</Id>
+    <Name>Sosyal ve Beşeri Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1112</Id>
+    <Name>Seydişehir Ahmet Cengiz Mühendislik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1118</Id>
+    <Name>Semra ve Vefa Küçük Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1124</Id>
+    <Name>Tarım Bilimleri ve Teknolojileri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1125</Id>
+    <Name>Niğde Zübeyde Hanım Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1126</Id>
+    <Name>Beden Eğitimi ve Spor Yüksekokulu </Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1144</Id>
+    <Name>Ali Fuad Başgil Hukuk Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1156</Id>
+    <Name>Samsun Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1164</Id>
+    <Name>Fatsa Deniz Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1165</Id>
+    <Name>Ünye İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1177</Id>
+    <Name>Hukuk Fakültesi (%50 Burslu)  </Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1191</Id>
+    <Name>Denizli Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1193</Id>
+    <Name>Spor Bilimleri ve Teknolojisi Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1206</Id>
+    <Name>Ziraat ve Doğa Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1208</Id>
+    <Name>Turgut Kıran Denizcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1209</Id>
+    <Name>Fındıklı Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1211</Id>
+    <Name>Sanat ve Sosyal Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1212</Id>
+    <Name>Yönetim Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1213</Id>
+    <Name>Bilgisayar ve Bilişim Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1224</Id>
+    <Name>Sakarya Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1241</Id>
+    <Name>Akşehir İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1242</Id>
+    <Name>Akşehir Kadir Yallagöz Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1243</Id>
+    <Name>Beyşehir Ali Akkanat İşletme Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1244</Id>
+    <Name>Beyşehir Ali Akkanat Turizm Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1257</Id>
+    <Name>Boyabat İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1271</Id>
+    <Name>Eğirdir Su Ürünleri Fakültesi (Merkez Kampus)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1272</Id>
+    <Name>Eğirdir Turizm ve Otelcilik Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1273</Id>
+    <Name>Yalvaç Büyükkutlu Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1315</Id>
+    <Name>Keşan Yusuf Çapraz Uygulamalı Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1336</Id>
+    <Name>Hava Ulaştırma Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1358</Id>
+    <Name>Bursa Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1359</Id>
+    <Name>İnegöl İşletme Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1384</Id>
+    <Name>Yalova İktisadi ve İdari Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1394</Id>
+    <Name>Diş Hekimliği Fakültesi (İngilizce) (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1395</Id>
+    <Name>Diş Hekimliği Fakültesi (İngilizce) (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1398</Id>
+    <Name>Eczacılık Fakültesi (İngilizce) (%50 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1416</Id>
+    <Name>Eczacılık Fakültesi (Tam Burslu) </Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1438</Id>
+    <Name>Gemi İnşaatı ve Denizcilik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1455</Id>
+    <Name>Veteriner Fakültesi (İÖ)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1457</Id>
+    <Name>Erciş İşletme Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1458</Id>
+    <Name>Van Sağlık Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1460</Id>
+    <Name>Emine-Bahaeddin Nakıboğlu Tıp Fakültesi (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1461</Id>
+    <Name>Emine-Bahaeddin Nakıboğlu Tıp Fakültesi (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1462</Id>
+    <Name>Emine-Bahaeddin Nakıboğlu Tıp Fakültesi (%50 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1463</Id>
+    <Name>Emine-Bahaeddin Nakıboğlu Tıp Fakültesi (%25 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1473</Id>
+    <Name>Askeri Tıp Fakültesi (Sivil Lise-Erkek)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1474</Id>
+    <Name>Askeri Tıp Fakültesi (Sivil Lise-Kız)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1476</Id>
+    <Name>Bilişim Teknolojileri ve Mühendislik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1477</Id>
+    <Name>Ekonomi Fakültesi (Türkistan Yerleşkesi)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1478</Id>
+    <Name>Filoloji Fakültesi (Türkistan Yerleşkesi)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1486</Id>
+    <Name>Veteriner Fakültesi  </Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1491</Id>
+    <Name>Turizm ve Otel İşletmeciliği Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1492</Id>
+    <Name>Eczacılık Fakültesi (İngilizce) (T.C. Vatandaşları) (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1497</Id>
+    <Name>İşletme ve Ekonomi Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1501</Id>
+    <Name>Tıp Fakültesi (İngilizce) (UOLP-Marmara Üniversitesi) (Tam Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1502</Id>
+    <Name>Tıp Fakültesi (İngilizce) (UOLP-Marmara Üniversitesi) (%50 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1503</Id>
+    <Name>Bilgisayar ve Teknoloji Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1507</Id>
+    <Name>Beşeri Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1512</Id>
+    <Name>Mimarlık, Tasarım ve Güzel Sanatlar Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1515</Id>
+    <Name>Denizcilik ve Ulaştırma Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1517</Id>
+    <Name>Uygulamalı Sosyal Bilimler Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1518</Id>
+    <Name>Dr. Fazıl Küçük Eğitim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1527</Id>
+    <Name>Turizm ve Otel İşletmeciliği Yüksekokulu</Name>
+    <LisansId>2</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1553</Id>
+    <Name>İletişim Fakültesi </Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1561</Id>
+    <Name>Veteriner Fakültesi (İngilizce) (Ücretli)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1562</Id>
+    <Name>Veteriner Fakültesi (İngilizce) (%25 Burslu)</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1564</Id>
+    <Name>Filoloji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1565</Id>
+    <Name>Azerbaycan Türk Dünyası İşletme Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1566</Id>
+    <Name>Okul Öncesi Pedagoji ve Psikoloji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1569</Id>
+    <Name>Nakliyat Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1573</Id>
+    <Name>Gazetecilik Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1574</Id>
+    <Name>Sosyal Bilimler ve Psikoloji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1575</Id>
+    <Name>Tarih Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1576</Id>
+    <Name>Uluslararası İlişkiler ve Ekonomi Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1579</Id>
+    <Name>Kimya ve Biyoloji Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1581</Id>
+    <Name>Ekonomi ve Yönetim Bilimleri Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1584</Id>
+    <Name>Eğitim ve Bilim Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1585</Id>
+    <Name>Fizik Tıp ve Rehabilitasyon Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1586</Id>
+    <Name>Türk Dünyası Celalabad İşletme Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1588</Id>
+    <Name>Uluslararası İlişkiler ve Yabancı Diller Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1589</Id>
+    <Name>Milli Kültür Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1590</Id>
+    <Name>Dilller Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+  <Faculty>
+    <Id>1594</Id>
+    <Name>Teknik Bilimler Fakültesi</Name>
+    <LisansId>1</LisansId>
+  </Faculty>
+</Data>
