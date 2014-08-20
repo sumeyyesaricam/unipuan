@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<University>
+  <University>
+    <UniversityName>ABANT İZZET BAYSAL ÜNİVERSİTESİ (BOLU)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ABDULLAH GÜL ÜNİVERSİTESİ (KAYSERİ)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ACIBADEM ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ADANA BİLİM VE TEKNOLOJİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ADIYAMAN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ADNAN MENDERES ÜNİVERSİTESİ (AYDIN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AFYON KOCATEPE ÜNİVERSİTESİ (AFYONKARAHİSAR)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AĞRI İBRAHİM ÇEÇEN ÜNİVERSİTESİ  </UniversityName>
+  </University>
+  <University>
+    <UniversityName>AHİ EVRAN ÜNİVERSİTESİ (KIRŞEHİR)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AKDENİZ ÜNİVERSİTESİ (ANTALYA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AKSARAY ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AMASYA ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ANADOLU ÜNİVERSİTESİ (ESKİŞEHİR)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ANKARA ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ARDAHAN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ARTVİN ÇORUH ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ATATÜRK ÜNİVERSİTESİ (ERZURUM)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ATILIM ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AVRASYA ÜNİVERSİTESİ (TRABZON)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BAHÇEŞEHİR ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BALIKESİR ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BARTIN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BAŞKENT ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BATMAN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BAYBURT ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BEYKENT ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BEZM-İ ÂLEM VAKIF ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BİLECİK ŞEYH EDEBALİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BİNGÖL ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BİTLİS EREN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BOĞAZİÇİ ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BOZOK ÜNİVERSİTESİ (YOZGAT)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BURSA ORHANGAZİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BURSA TEKNİK ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BÜLENT ECEVİT ÜNİVERSİTESİ (ZONGULDAK)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>CANİK BAŞARI ÜNİVERSİTESİ (SAMSUN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>CELÂL BAYAR ÜNİVERSİTESİ (MANİSA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>CUMHURİYET ÜNİVERSİTESİ (SİVAS)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ÇAĞ ÜNİVERSİTESİ (MERSİN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ÇANKAYA ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ÇANKIRI KARATEKİN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ÇUKUROVA ÜNİVERSİTESİ (ADANA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>DİCLE ÜNİVERSİTESİ (DİYARBAKIR)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>DOĞUŞ ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>DOKUZ EYLÜL ÜNİVERSİTESİ (İZMİR)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>DUMLUPINAR ÜNİVERSİTESİ (KÜTAHYA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>DÜZCE ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>EGE ÜNİVERSİTESİ (İZMİR)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ERCİYES ÜNİVERSİTESİ (KAYSERİ)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ERZİNCAN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ERZURUM TEKNİK ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ESKİŞEHİR OSMANGAZİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>FATİH SULTAN MEHMET VAKIF ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>FATİH ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>FIRAT ÜNİVERSİTESİ (ELAZIĞ)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GALATASARAY ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GAZİ ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GAZİANTEP ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GAZİOSMANPAŞA ÜNİVERSİTESİ (TOKAT)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GEBZE YÜKSEK TEKNOLOJİ ENSTİTÜSÜ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GEDİK ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GEDİZ ÜNİVERSİTESİ (İZMİR)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GİRESUN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GÜMÜŞHANE ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>HACETTEPE ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>HAKKARİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>HALİÇ ÜNİVERSİTESİ (İSTANBUL) </UniversityName>
+  </University>
+  <University>
+    <UniversityName>HARRAN ÜNİVERSİTESİ (ŞANLIURFA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>HASAN KALYONCU ÜNİVERSİTESİ (GAZİANTEP)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>HİTİT ÜNİVERSİTESİ (ÇORUM)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>IĞDIR ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>IŞIK ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İHSAN DOĞRAMACI BİLKENT ÜNİVERSİTESİ (ANKARA)  </UniversityName>
+  </University>
+  <University>
+    <UniversityName>İNÖNÜ ÜNİVERSİTESİ (MALATYA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İPEK ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL 29 MAYIS ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL AREL ÜNİVERSİTESİ </UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL AYDIN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL BİLGİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL BİLİM ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL GELİŞİM ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL KEMERBURGAZ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL KÜLTÜR ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL MEDENİYET ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL MEDİPOL ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL SABAHATTİN ZAİM ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL ŞEHİR ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL TEKNİK ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL TİCARET ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İSTANBUL ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İZMİR EKONOMİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İZMİR ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İZMİR YÜKSEK TEKNOLOJİ ENSTİTÜSÜ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KADİR HAS ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KAFKAS ÜNİVERSİTESİ (KARS)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KARABÜK ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KARADENİZ TEKNİK ÜNİVERSİTESİ (TRABZON)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KARAMANOĞLU MEHMETBEY ÜNİVERSİTESİ (KARAMAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KASTAMONU ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KIRIKKALE ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KIRKLARELİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KİLİS 7 ARALIK ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KOCAELİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KOÇ ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KTO KARATAY ÜNİVERSİTESİ (KONYA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MALTEPE ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MARDİN ARTUKLU ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MARMARA ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MEHMET AKİF ERSOY ÜNİVERSİTESİ (BURDUR)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MELİKŞAH ÜNİVERSİTESİ (KAYSERİ)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MERSİN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MEVLANA ÜNİVERSİTESİ (KONYA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MİMAR SİNAN GÜZEL SANATLAR ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MUĞLA SITKI KOÇMAN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MUSTAFA KEMAL ÜNİVERSİTESİ (HATAY)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>MUŞ ALPARSLAN ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>NAMIK KEMAL ÜNİVERSİTESİ (TEKİRDAĞ)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>NECMETTİN ERBAKAN ÜNİVERSİTESİ (KONYA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>NEVŞEHİR ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>NİĞDE ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>NİŞANTAŞI ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>NUH NACİ YAZGAN ÜNİVERSİTESİ (KAYSERİ)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>OKAN ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ONDOKUZ MAYIS ÜNİVERSİTESİ (SAMSUN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ORDU ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ORTA DOĞU TEKNİK ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>OSMANİYE KORKUT ATA ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ÖZYEĞİN ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>PAMUKKALE ÜNİVERSİTESİ (DENİZLİ)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>PİRİ REİS ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>RECEP TAYYİP ERDOĞAN ÜNİVERSİTESİ (RİZE)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>SABANCI ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>SAKARYA ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>SELÇUK ÜNİVERSİTESİ (KONYA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>SİİRT ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>SİNOP ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>SÜLEYMAN DEMİREL ÜNİVERSİTESİ (ISPARTA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>SÜLEYMAN ŞAH ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ŞIRNAK ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ŞİFA ÜNİVERSİTESİ (İZMİR)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>TED ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>TOBB EKONOMİ VE TEKNOLOJİ ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>TOROS ÜNİVERSİTESİ (MERSİN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>TRAKYA ÜNİVERSİTESİ (EDİRNE)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>TUNCELİ ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>TURGUT ÖZAL ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>TÜRK-ALMAN ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>TÜRK HAVA KURUMU ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>UFUK ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ULUDAĞ ÜNİVERSİTESİ (BURSA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ULUSLARARASI ANTALYA ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>UŞAK ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ÜSKÜDAR ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>YALOVA ÜNİVERSİTESİ</UniversityName>
+  </University>
+  <University>
+    <UniversityName>YAŞAR ÜNİVERSİTESİ (İZMİR)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>YEDİTEPE ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>YENİ YÜZYIL ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>YILDIRIM BEYAZIT ÜNİVERSİTESİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>YILDIZ TEKNİK ÜNİVERSİTESİ (İSTANBUL)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>YÜZÜNCÜ YIL ÜNİVERSİTESİ (VAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ZİRVE ÜNİVERSİTESİ (GAZİANTEP)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GÜLHANE ASKERİ TIP AKADEMİSİ (ANKARA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>HOCA AHMET YESEVİ ULUSLARARASI TÜRK-KAZAK ÜNİVERSİTESİ (TÜRKİSTAN-KAZAKİSTAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KIRGIZİSTAN-TÜRKİYE MANAS ÜNİVERSİTESİ (BİŞKEK-KIRGIZİSTAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AKDENİZ KARPAZ ÜNİVERSİTESİ (KKTC-LEFKOŞA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>DOĞU AKDENİZ ÜNİVERSİTESİ (KKTC-GAZİMAĞUSA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>GİRNE AMERİKAN ÜNİVERSİTESİ (KKTC-GİRNE)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>LEFKE AVRUPA ÜNİVERSİTESİ (KKTC-LEFKE)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ULUSLARARASI KIBRIS ÜNİVERSİTESİ (KKTC-LEFKOŞA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>YAKIN DOĞU ÜNİVERSİTESİ (KKTC-LEFKOŞA)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AZERBAYCAN DİLLER ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AZERBAYCAN DEVLET İKTİSAT ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AZERBAYCAN DEVLET MEDENİYET VE İNCE SANAT ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AZERBAYCAN DEVLET PEDAGOJİ ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AZERBAYCAN MİMARLIK VE İNŞAAT ÜNİVERSİTESİ (BAKÜ - AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AZERBAYCAN TEKNİK ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>AZERBAYCAN TIP ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BAKÜ DEVLET ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>BAKÜ SLAVYAN ÜNİVERSİTESİ (BAKÜ-AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>SUMGAYIT DEVLET ÜNİVERSİTESİ (SUMGAYIT-AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ULUSLARARASI SARAYBOSNA ÜNİVERSİTESİ (SARAYBOSNA - BOSNA - HERSEK)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>ŞOTA RUSTAVELİ DEVLET ÜNİVERSİTESİ (BATUM-GÜRCİSTAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>TİFLİS DEVLET TIP ÜNİVERSİTESİ (TİFLİS-GÜRCİSTAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>İKTİSAT VE GİRİŞİMCİLİK ÜNİVERSİTESİ (CELAL-ABAD-KIRGIZİSTAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>NAHCİVAN DEVLET ÜNİVERSİTESİ (NAHCİVAN-AZERBAYCAN)</UniversityName>
+  </University>
+  <University>
+    <UniversityName>KOMRAT DEVLET ÜNİVERSİTESİ (KOMRAT-MOLDOVA) </UniversityName>
+  </University>
+  <University>
+    <UniversityName>ULUSLARARASI BALKAN ÜNİVERSİTESİ (ÜSKÜP-MAKEDONYA)</UniversityName>
+  </University>
+</University>
