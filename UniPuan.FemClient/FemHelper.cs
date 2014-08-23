@@ -16,7 +16,7 @@ namespace UniPuan.FemClient
     {
         public static string DataPath
         {
-            get { return @"D:\WheIS\Personel\Sumeyye\UniPuan\Source\trunk\UniPuan.FemClient\Data\"; }
+            get { return @"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\Data\"; }
         }
         public static List<Bolum> Bolum(bool lisans)
         {
