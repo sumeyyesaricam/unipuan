@@ -22,8 +22,7 @@ namespace UniPuan.Desktop
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ServiceReference1.FemTercihWebServisSoapClient cli = new ServiceReference1.FemTercihWebServisSoapClient();
-            var a = cli.UniversiteleriGetir("0");
+        
             LoadLists();
         }
         public void LoadLists()

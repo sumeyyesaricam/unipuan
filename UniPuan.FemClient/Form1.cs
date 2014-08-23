@@ -48,7 +48,8 @@ namespace UniPuan.FemClient
         }
         public void UniversiteYukle()
         {
-
+            this.lbUniversite.DisplayMember = "Universitead";
+            this.lbUniversite.ValueMember = "UNIVERSITEID";
             if (this.lbBolumSecilen.Items.Count > 0 && this.lbSehirSecilen.Items.Count > 0)
             {
                 var secilenBolumler = new List<Bolum>();
@@ -71,6 +72,34 @@ namespace UniPuan.FemClient
             {
                 this.lbUniversite.DataSource = null;
             }
+        }
+        public void PuanYukle()
+        {
+          
+            if (this.lbBolumSecilen.Items.Count > 0 && this.lbSehirSecilen.Items.Count > 0)
+            {
+                var secilenBolumler = new List<Bolum>();
+                foreach (var item in this.lbBolumSecilen.Items)
+                {
+                    secilenBolumler.Add((Bolum)item);
+                }
+
+                var secilenSehirler = new List<Sehir>();
+                foreach (var item in this.lbSehirSecilen.Items)
+                {
+                    secilenSehirler.Add((Sehir)item);
+                }
+                 var secilenUniversiteler = new List<Universite>();
+                foreach (var item in this.lbUniversiteSecilen.Items)
+                {
+                    secilenUniversiteler.Add((Universite)item);
+                }
+
+                this.dataGridView1.DataSource = FemHelper.LisansPuan(secilenBolumler, secilenSehirler, secilenUniversiteler);
+              
+
+            }
+             
         }
         private void lbBolum_SelectedValueChanged(object sender, EventArgs e)
         {
@@ -120,7 +149,17 @@ namespace UniPuan.FemClient
                 Universite secilen = (Universite)this.lbUniversite.SelectedItem;
                 if (this.lbUniversiteSecilen.Items.OfType<Universite>().Count(t => t.UNIVERSITEID == secilen.UNIVERSITEID) == 0)
                     this.lbUniversiteSecilen.Items.Add(secilen);
+                PuanYukle();
+            }
+        }
 
+        private void lbUniversiteSecilen_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lbUniversiteSecilen.SelectedItem != null)
+            {
+                Universite secilen = (Universite)this.lbUniversiteSecilen.SelectedItem;
+                this.lbUniversiteSecilen.Items.Remove(secilen);
+                
             }
         }
 

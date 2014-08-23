@@ -4,9 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UniPuan.FemClient.Fem;
 
 namespace UniPuan.FemClient
 {
+    // bu serviste başka veriler de var çekmek için
+    //
+    // nasıl :)
     public class FemHelper
     {
         public static List<Bolum> LisansBolumler()
@@ -56,9 +60,30 @@ namespace UniPuan.FemClient
             List<Universite> universiteler = JsonConvert.DeserializeObject<List<Universite>>(universitelerJson);
             return universiteler;
         }
+        public static List<SonuclarSurrogate> LisansPuan(List<Bolum> bolumler, List<Sehir> sehirler, List<Universite> universiteler)
+        {
+            var gelenPuanTuru = "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19"; // bunlar YGS1-YGS2 gibi veriler
+            var gelenUniversiteTuru = "1,2,3,4"; // bunlar DEVLET,OZEL,KIBRIS,YURTDISI
+            var gelenAralik = "BasariAralik|0|0";
+            var yeniBolumlerGelsinmi = true;
+            var gelenOgrenimTuru = "0";
+            var gelenBurs = "0";
+            var gelenOgrenimDili = "0";
+            var gelenBolumler = string.Join(",", bolumler.Select(t => t.BolumId));
+            var gelenSehirler = string.Join(",", sehirler.Select(t => t.ilId));
+            var gelenUniversiteler = string.Join(",", universiteler.Select(t => t.UNIVERSITEID));
+
+            Fem.FemTercihWebServisSoapClient client = new Fem.FemTercihWebServisSoapClient();
+            return client.GetTercihSonuclar(gelenPuanTuru, gelenUniversiteTuru, gelenAralik, yeniBolumlerGelsinmi,
+                gelenOgrenimTuru, gelenBurs, gelenOgrenimDili, gelenBolumler, gelenSehirler,gelenUniversiteler).ToList();
+            
+        }
 
     }
+    public class Puan
+    {
 
+    }
     public class Bolum
     {
         public string BolumAdi { get; set; }
