@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniPuan.Desktop", "UniPuan.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniPuan", "UniPuan\UniPuan.csproj", "{22CF772A-6168-43F1-B193-61294FBCEAC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniPuan.FemClient", "UniPuan.FemClient\UniPuan.FemClient.csproj", "{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,16 @@ Global
 		{22CF772A-6168-43F1-B193-61294FBCEAC9}.Release|ARM.ActiveCfg = Release|Any CPU
 		{22CF772A-6168-43F1-B193-61294FBCEAC9}.Release|x64.ActiveCfg = Release|Any CPU
 		{22CF772A-6168-43F1-B193-61294FBCEAC9}.Release|x86.ActiveCfg = Release|Any CPU
+		{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}.Release|x64.ActiveCfg = Release|Any CPU
+		{FA89B629-EE3C-4263-AD46-51DE2ABFCBE2}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
