@@ -26,9 +26,11 @@ namespace UniPuan.FemClient
         public void BolumYukle()
         {
             var bolumler = FemHelper.Bolum(this.rbLisans.Checked);
+            this.lbBolum.SelectionMode = SelectionMode.None;
             this.lbBolum.DisplayMember = "BolumAdi";
             this.lbBolum.ValueMember = "BolumId";
             this.lbBolum.DataSource = bolumler;
+            this.lbBolum.SelectionMode = SelectionMode.One;
         }
         public void SehirYukle()
         {
@@ -42,15 +44,16 @@ namespace UniPuan.FemClient
                     secilenBolumler.Add((Bolum)item);
                 }
                 var sehirler = FemHelper.Sehir(secilenBolumler);
-                this.lbSehir.SelectedIndex = -1;
+                this.lbSehir.SelectionMode = SelectionMode.None;
                 this.lbSehir.DisplayMember = "ilAdi";
                 this.lbSehir.ValueMember = "ilId";
                 this.lbSehir.DataSource = sehirler;
+                this.lbSehir.SelectionMode = SelectionMode.One;
             }
         }
         public void UniversiteYukle()
         {
-            this.lbUniversite.SelectedIndex = -1;
+            
             this.lbUniversite.DisplayMember = "Universitead";
             this.lbUniversite.ValueMember = "UNIVERSITEID";
             if (this.lbBolumSecilen.Items.Count > 0 && this.lbSehirSecilen.Items.Count > 0)
@@ -68,12 +71,17 @@ namespace UniPuan.FemClient
                 }
 
                 var universiteler = FemHelper.Universite(secilenBolumler, secilenSehirler);
+                this.lbUniversite.SelectionMode = SelectionMode.None;
                 this.lbUniversite.DataSource = universiteler;
+                this.lbUniversite.SelectionMode = SelectionMode.One;
 
             }
             else
             {
+                this.lbUniversite.SelectionMode = SelectionMode.None;
                 this.lbUniversite.DataSource = new List<Universite>();
+                this.lbUniversite.SelectionMode = SelectionMode.One;
+               
             }
         }
         public void PuanYukle()

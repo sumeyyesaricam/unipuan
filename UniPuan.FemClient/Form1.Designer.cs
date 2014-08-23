@@ -61,6 +61,7 @@
             this.lbBolum.FormattingEnabled = true;
             this.lbBolum.Location = new System.Drawing.Point(15, 72);
             this.lbBolum.Name = "lbBolum";
+            this.lbBolum.SelectionMode = System.Windows.Forms.SelectionMode.None;
             this.lbBolum.Size = new System.Drawing.Size(260, 264);
             this.lbBolum.TabIndex = 2;
             this.lbBolum.SelectedValueChanged += new System.EventHandler(this.lbBolum_SelectedValueChanged);
