@@ -25,7 +25,7 @@ namespace UniPuan.FemClient
         }
         public void BolumYukle()
         {
-            var bolumler = FemHelper.LisansBolumler();
+            var bolumler = FemHelper.Bolum(this.rbLisans.Checked);
             this.lbBolum.DisplayMember = "BolumAdi";
             this.lbBolum.ValueMember = "BolumId";
             this.lbBolum.DataSource = bolumler;
@@ -41,7 +41,8 @@ namespace UniPuan.FemClient
                 {
                     secilenBolumler.Add((Bolum)item);
                 }
-                var sehirler = FemHelper.LisansSehirler(secilenBolumler);
+                var sehirler = FemHelper.Sehir(secilenBolumler);
+                this.lbSehir.SelectedIndex = -1;
                 this.lbSehir.DisplayMember = "ilAdi";
                 this.lbSehir.ValueMember = "ilId";
                 this.lbSehir.DataSource = sehirler;
@@ -49,6 +50,7 @@ namespace UniPuan.FemClient
         }
         public void UniversiteYukle()
         {
+            this.lbUniversite.SelectedIndex = -1;
             this.lbUniversite.DisplayMember = "Universitead";
             this.lbUniversite.ValueMember = "UNIVERSITEID";
             if (this.lbBolumSecilen.Items.Count > 0 && this.lbSehirSecilen.Items.Count > 0)
@@ -65,13 +67,13 @@ namespace UniPuan.FemClient
                     secilenSehirler.Add((Sehir)item);
                 }
 
-                var universiteler = FemHelper.LisansUniversiteler(secilenBolumler, secilenSehirler);
+                var universiteler = FemHelper.Universite(secilenBolumler, secilenSehirler);
                 this.lbUniversite.DataSource = universiteler;
 
             }
             else
             {
-                this.lbUniversite.DataSource = null;
+                this.lbUniversite.DataSource = new List<Universite>();
             }
         }
         public void PuanYukle()
@@ -96,7 +98,7 @@ namespace UniPuan.FemClient
                     secilenUniversiteler.Add((Universite)item);
                 }
 
-                this.dataGridView1.DataSource = FemHelper.LisansPuan(secilenBolumler, secilenSehirler, secilenUniversiteler);
+                this.dataGridView1.DataSource = FemHelper.Puan(secilenBolumler, secilenSehirler, secilenUniversiteler);
               
 
             }
@@ -113,7 +115,6 @@ namespace UniPuan.FemClient
             }
             
         }
-
         private void lbBolumSecilen_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (lbBolumSecilen.SelectedItem != null)
@@ -153,7 +154,6 @@ namespace UniPuan.FemClient
                 PuanYukle();
             }
         }
-
         private void lbUniversiteSecilen_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (lbUniversiteSecilen.SelectedItem != null)
@@ -162,6 +162,27 @@ namespace UniPuan.FemClient
                 this.lbUniversiteSecilen.Items.Remove(secilen);
                 
             }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FemHelper.DataCal(this.rbLisans.Checked);
+        }
+
+        private void rbOnlisans_CheckedChanged(object sender, EventArgs e)
+        {
+            this.lbBolumSecilen.Items.Clear();
+            this.lbUniversiteSecilen.Items.Clear();
+            this.lbSehirSecilen.Items.Clear();
+            BolumYukle();
+            
+        }
+
+        private void rbLisans_CheckedChanged(object sender, EventArgs e)
+        {
+            this.lbBolumSecilen.Items.Clear();
+            this.lbUniversiteSecilen.Items.Clear();
+            this.lbSehirSecilen.Items.Clear();
+            BolumYukle();
         }
 
         
