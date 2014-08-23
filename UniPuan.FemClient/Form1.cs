@@ -170,6 +170,7 @@ namespace UniPuan.FemClient
             {
                 Universite secilen = (Universite)this.lbUniversiteSecilen.SelectedItem;
                 this.lbUniversiteSecilen.Items.Remove(secilen);
+                PuanYukle();
                 
             }
         }
