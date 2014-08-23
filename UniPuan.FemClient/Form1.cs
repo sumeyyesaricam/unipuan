@@ -97,8 +97,10 @@ namespace UniPuan.FemClient
                 {
                     secilenUniversiteler.Add((Universite)item);
                 }
-
-                this.dataGridView1.DataSource = FemHelper.Puan(secilenBolumler, secilenSehirler, secilenUniversiteler);
+                if(this.rbLisans.Checked)
+                this.dataGridView1.DataSource = FemHelper.PuanLisans(secilenBolumler, secilenSehirler, secilenUniversiteler);
+                else
+                    this.dataGridView1.DataSource = FemHelper.PuanOnLisans(secilenBolumler, secilenSehirler);
               
 
             }

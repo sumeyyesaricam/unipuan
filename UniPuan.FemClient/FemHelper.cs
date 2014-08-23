@@ -71,7 +71,7 @@ namespace UniPuan.FemClient
 
             return universiteler;
         }
-        public static List<SonuclarSurrogate> Puan(List<Bolum> bolumler, List<Sehir> sehirler, List<Universite> universiteler)
+        public static List<SonuclarSurrogate> PuanLisans(List<Bolum> bolumler, List<Sehir> sehirler, List<Universite> universiteler)
         {
             var gelenPuanTuru = "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19"; // bunlar YGS1-YGS2 gibi veriler
             var gelenUniversiteTuru = "1,2,3,4"; // bunlar DEVLET,OZEL,KIBRIS,YURTDISI
@@ -94,11 +94,33 @@ namespace UniPuan.FemClient
             foreach (var uni in universiteler)
             {
                 gelenUniversiteler = uni.UNIVERSITEID;
+
                 sonuclar.AddRange(client.GetTercihSonuclar(gelenPuanTuru, gelenUniversiteTuru, gelenAralik, yeniBolumlerGelsinmi,
                   gelenOgrenimTuru, gelenBurs, gelenOgrenimDili, gelenBolumler, gelenSehirler, gelenUniversiteler).ToList());
+
             }
             return sonuclar;
 
+        }
+        public static List<OnLisansSonuclarSurrogate> PuanOnLisans(List<Bolum> bolumler, List<Sehir> sehirler)
+        {
+            var gelenPuanTuru = "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19"; // bunlar YGS1-YGS2 gibi veriler
+            var gelenUniversiteTuru = "1,2,3,4"; // bunlar DEVLET,OZEL,KIBRIS,YURTDISI
+            var gelenAralik = "BasariAralik|0|0";
+            var yeniBolumlerGelsinmi = true;
+            var gelenOgrenimTuru = "0";
+            var gelenBurs = "0";
+            var gelenOgrenimDili = "0";
+            var gelenBolumler = string.Join(",", bolumler.Select(t => t.BolumId));
+            var gelenSehirler = string.Join(",", sehirler.Select(t => t.ilId));
+          
+            List<OnLisansSonuclarSurrogate> sonuclar = new List<OnLisansSonuclarSurrogate>();
+
+            Fem.FemTercihWebServisSoapClient client = new Fem.FemTercihWebServisSoapClient();
+            sonuclar.AddRange(client.GetOnLisansTercihSonuclar(gelenPuanTuru, gelenUniversiteTuru, gelenAralik, yeniBolumlerGelsinmi,
+         gelenOgrenimTuru, gelenBurs, gelenOgrenimDili, gelenBolumler, gelenSehirler).ToList());
+
+            return sonuclar;
         }
 
         public static void DataCal(bool lisans)
@@ -153,27 +175,51 @@ namespace UniPuan.FemClient
         public static void PuanCal(bool lisans,List<Bolum> bolumler, List<Sehir> sehirler, List<Universite> universiteler)
         {
             // burayı sen devam edersin
-            var puanlar = Puan(bolumler, sehirler, universiteler);
             List<XElement> xscore = new List<XElement>();
-            foreach (var puan in puanlar)
+            if(lisans)
             {
-                if (puan.ProgramKodu != null)
+                var puanlar = PuanLisans(bolumler, sehirler, universiteler);
+                foreach (var puan in puanlar)
                 {
-
-
-                    xscore.Add(new XElement("Score",
-                        new XElement("Id", puan.ProgramKodu),
-                         new XElement("UniversityName", new XCData(puan.UniversiteAdi.Trim()),
-                         new XElement("DepartmentName", new XCData(puan.BolumAdi.Trim()),
-                         new XElement("Quotas", new XCData(puan.Kontenjan.ToString())),
-                         new XElement("Condition", new XCData((puan.OzelKosullar != null ? puan.OzelKosullar.Trim() : "")),
-                         new XElement("ScoreType", new XCData(puan.PuanTuru.Trim()),
-                             new XElement("ScoreMin", new XCData(puan.EnKucukPuan.ToString()),
-                                 new XElement("Order", new XCData(puan.BasariSirasi.ToString())
+                    if (puan.ProgramKodu != null)
+                    {
+                        xscore.Add(new XElement("Score",
+                            new XElement("Id", puan.ProgramKodu),
+                             new XElement("UniversityName", new XCData(puan.UniversiteAdi.Trim())),
+                             new XElement("DepartmentName", new XCData(puan.BolumAdi.Trim())),
+                             new XElement("Quotas", new XCData(puan.Kontenjan.ToString())),
+                             new XElement("Condition", new XCData((puan.OzelKosullar != null ? puan.OzelKosullar.Trim() : ""))),
+                             new XElement("ScoreType", new XCData(puan.PuanTuru.Trim())),
+                             new XElement("ScoreMin", new XCData(puan.EnKucukPuan.ToString())),
+                             new XElement("Order", new XCData(puan.BasariSirasi.ToString()))
                              )
-                        )))))));
+                        );
+                    }
                 }
             }
+            else
+            {
+                var puanlar = PuanOnLisans(bolumler, sehirler);
+                foreach (var puan in puanlar)
+                {
+                    if (puan.ProgramKodu != null)
+                    {
+                        xscore.Add(new XElement("Score",
+                            new XElement("Id", puan.ProgramKodu),
+                             new XElement("UniversityName", new XCData(puan.UniversiteAdi.Trim())),
+                             new XElement("DepartmentCode", new XCData(puan.ProgramKodu.Trim())),
+                             new XElement("DepartmentName", new XCData(puan.ProgramAdi.Trim())),
+                             //new XElement("Quotas", new XCData(puan.Kontenjan.ToString())),
+                             new XElement("Condition", new XCData((puan.OzelKosullar != null ? puan.OzelKosullar.Trim() : ""))),
+                             new XElement("ScoreType", new XCData(puan.PuanTuru.Trim())),
+                             new XElement("ScoreMin", new XCData(puan.EnKucukPuan.ToString()))
+                             //new XElement("Order", new XCData(puan.BasariSirasi.ToString()))  
+                           )
+                        );
+                    }
+                }
+            }
+            
             XDocument xdoc = new XDocument(new XElement("Data", xscore));
             xdoc.Save(DataPath + (lisans ? "Lisans" : "OnLisans") + @"_Score.xml");
         }

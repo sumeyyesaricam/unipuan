@@ -190,7 +190,9 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="bin\Debug\Newtonsoft.Json.dll" />
     <Content Include="bin\Debug\Newtonsoft.Json.xml">
@@ -199,8 +201,6 @@
     <Content Include="bin\Debug\UniPuan.FemClient.exe" />
     <Content Include="bin\Debug\UniPuan.FemClient.pdb" />
     <Content Include="bin\Debug\UniPuan.FemClient.vshost.exe" />
-    <Content Include="Data\City.xml" />
-    <Content Include="Data\Department.xml" />
     <Content Include="obj\Debug\TempPE\Service References.Fem.Reference.cs.dll" />
     <Content Include="obj\Debug\UniPuan.FemClient.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\UniPuan.FemClient.exe" />
