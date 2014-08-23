@@ -11,8 +11,8 @@ namespace UniPuan.FemClient
     {
         public static List<Bolum> LisansBolumler()
         {
-            var puanTuru = "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19";
-            var universiteTuru = "1,2,3,4";
+            var puanTuru = "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19"; // bunlar YGS1-YGS2 gibi veriler
+            var universiteTuru = "1,2,3,4"; // bunlar DEVLET,OZEL,KIBRIS,YURTDISI
             var gelenAralik = "BasariAralik|0|0";
             var yeniBolumlerGelsinmi = true;
             var gelenOgrenimTuru = "0";
@@ -25,8 +25,8 @@ namespace UniPuan.FemClient
         }
         public static List<Sehir> LisansSehirler(List<Bolum> bolumler)
         {
-            var gelenPuanTuru = "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19";
-            var universiteTuru = "1,2,3,4";
+            var puanTuru = "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19"; // bunlar YGS1-YGS2 gibi veriler
+            var universiteTuru = "1,2,3,4"; // bunlar DEVLET,OZEL,KIBRIS,YURTDISI
             var gelenAralik = "BasariAralik|0|0";
             var yeniBolumlerGelsinmi = true;
             var gelenOgrenimTuru = "0";
@@ -41,8 +41,8 @@ namespace UniPuan.FemClient
         }
         public static List<Universite> LisansUniversiteler(List<Bolum> bolumler, List<Sehir> sehirler)
         {
-            var gelenPuanTuru = "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19";
-            var universiteTuru = "1,2,3,4";
+            var puanTuru = "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19"; // bunlar YGS1-YGS2 gibi veriler
+            var universiteTuru = "1,2,3,4"; // bunlar DEVLET,OZEL,KIBRIS,YURTDISI
             var gelenAralik = "BasariAralik|0|0";
             var yeniBolumlerGelsinmi = true;
             var gelenOgrenimTuru = "0";
