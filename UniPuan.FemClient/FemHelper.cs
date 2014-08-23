@@ -34,14 +34,14 @@ namespace UniPuan.FemClient
             List<XElement> xb = new List<XElement>();
             foreach (var b in bolumler)
             {
-                xb.Add(new XElement("Departmant",
+                xb.Add(new XElement("Department",
                     new XElement("Id", b.BolumId),
                      new XElement("Name", new XCData(b.BolumAdi.Trim()))
                     ));
             }
             XDocument xdoc = new XDocument(new XElement("Data", xb));
             xdoc.Save(@"C:\Users\serife\Desktop\svn\trunk\UniPuan.FemClient\Data\Department.xml");
-            SehirlerCal(bolumler);
+            SehirlerCal(bolumler);  
         }
         public static void SehirlerCal(List<Bolum> bolumler)
         {
@@ -56,14 +56,44 @@ namespace UniPuan.FemClient
             }
             XDocument xdoc = new XDocument(new XElement("Data", xb));
             xdoc.Save(@"C:\Users\serife\Desktop\svn\trunk\UniPuan.FemClient\Data\City.xml");
+            UniversitelerCal(bolumler, sehirler);
         }
         public static void UniversitelerCal(List<Bolum> bolumler,List<Sehir> sehirler)
         {
-            // burayı sen devam edersin
+            var universiteler = LisansUniversiteler(bolumler, sehirler);
+            List<XElement> xuni = new List<XElement>();
+            foreach (var uni in universiteler)
+            {
+                xuni.Add(new XElement("University",
+                    new XElement("Id", uni.UNIVERSITEID), 
+                     new XElement("Name", new XCData(uni.Universitead.Trim()))
+                    ));
+            }
+            XDocument xdoc = new XDocument(new XElement("Data", xuni));
+            xdoc.Save(@"C:\Users\serife\Desktop\svn\trunk\UniPuan.FemClient\Data\University.xml");
+            PuanlarCal(bolumler, sehirler, universiteler);
         }
-        public static void PuanlarCal(List<Bolum> bolumler, List<Sehir> sehirler,List<Universite> universitler)
+        public static void PuanlarCal(List<Bolum> bolumler, List<Sehir> sehirler,List<Universite> universiteler)
         {
             // burayı sen devam edersin
+            var puanlar = LisansPuan(bolumler, sehirler, universiteler);
+            List<XElement> xscore = new List<XElement>();
+            foreach (var puan in puanlar)
+            {
+                xscore.Add(new XElement("Score",
+                    new XElement("Id", puan.ProgramKodu),
+                     new XElement("UniversityName", new XCData(puan.UniversiteAdi.Trim()),
+                     new XElement("DepartmentName", new XCData(puan.BolumAdi.Trim()),
+                     new XElement("Quotas", new XCData(puan.Kontenjan.ToString())),
+                     new XElement("Condition", new XCData(puan.OzelKosullar.Trim()),
+                     new XElement("ScoreType", new XCData(puan.PuanTuru.Trim()),
+                         new XElement("ScoreMin", new XCData(puan.EnKucukPuan.ToString()),
+                             new XElement("Order", new XCData(puan.BasariSirasi.ToString())
+                         )
+                    ))))))); 
+            }
+            XDocument xdoc = new XDocument(new XElement("Data", xscore));
+            xdoc.Save(@"C:\Users\serife\Desktop\svn\trunk\UniPuan.FemClient\Data\Score.xml");
         }
         public static List<Sehir> LisansSehirler(List<Bolum> bolumler)
         {
@@ -96,6 +126,7 @@ namespace UniPuan.FemClient
             Fem.FemTercihWebServisSoapClient client = new Fem.FemTercihWebServisSoapClient();
             var universitelerJson = client.BolumeVeIleGoreUniversiteGetir(gelenPuanTuru, universiteTuru, gelenAralik, yeniBolumlerGelsinmi, gelenOgrenimTuru, gelenBurs, gelenOgrenimDili, gelenBolumler, gelenSehirler);
             List<Universite> universiteler = JsonConvert.DeserializeObject<List<Universite>>(universitelerJson);
+            
             return universiteler;
         }
         public static List<SonuclarSurrogate> LisansPuan(List<Bolum> bolumler, List<Sehir> sehirler, List<Universite> universiteler)
@@ -112,6 +143,7 @@ namespace UniPuan.FemClient
             var gelenUniversiteler = string.Join(",", universiteler.Select(t => t.UNIVERSITEID));
 
             Fem.FemTercihWebServisSoapClient client = new Fem.FemTercihWebServisSoapClient();
+            
             return client.GetTercihSonuclar(gelenPuanTuru, gelenUniversiteTuru, gelenAralik, yeniBolumlerGelsinmi,
                 gelenOgrenimTuru, gelenBurs, gelenOgrenimDili, gelenBolumler, gelenSehirler,gelenUniversiteler).ToList();
             

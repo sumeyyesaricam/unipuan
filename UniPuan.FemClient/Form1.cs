@@ -21,6 +21,7 @@ namespace UniPuan.FemClient
         {
 
             BolumYukle();
+
         }
         public void BolumYukle()
         {
