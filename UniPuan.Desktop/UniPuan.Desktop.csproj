@@ -57,7 +57,6 @@
     <Compile Include="Model\Faculty.cs" />
     <Compile Include="Model\Filter.cs" />
     <Compile Include="Model\LicenseType.cs" />
-    <Compile Include="Model\Program.cs" />
     <Compile Include="Model\ScoreType.cs" />
     <Compile Include="Model\UniType.cs" />
     <Compile Include="Model\University.cs" />

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using UniPuan.FemClient.Fem;
 
 namespace UniPuan.FemClient
@@ -25,7 +26,44 @@ namespace UniPuan.FemClient
             Fem.FemTercihWebServisSoapClient client = new Fem.FemTercihWebServisSoapClient();
             var bolumlerJson = client.GetLisansBolumler(puanTuru, universiteTuru, gelenAralik, yeniBolumlerGelsinmi, gelenOgrenimTuru, gelenBurs, gelenOgrenimDili);
             List<Bolum> bolumler = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Bolum>>(bolumlerJson);
+            BolumlerCal(bolumler);
             return bolumler;
+        }
+        public static void BolumlerCal(List<Bolum> bolumler)
+        {
+            List<XElement> xb = new List<XElement>();
+            foreach (var b in bolumler)
+            {
+                xb.Add(new XElement("Departmant",
+                    new XElement("Id", b.BolumId),
+                     new XElement("Name", new XCData(b.BolumAdi.Trim()))
+                    ));
+            }
+            XDocument xdoc = new XDocument(new XElement("Data", xb));
+            xdoc.Save(@"C:\Users\serife\Desktop\svn\trunk\UniPuan.FemClient\Data\Department.xml");
+            SehirlerCal(bolumler);
+        }
+        public static void SehirlerCal(List<Bolum> bolumler)
+        {
+            var sehirler = LisansSehirler(bolumler);
+            List<XElement> xb = new List<XElement>();
+            foreach (var s in sehirler)
+            {
+                xb.Add(new XElement("City",
+                    new XElement("Id", s.ilId),
+                     new XElement("Name", new XCData(s.ilAdi.Trim()))
+                    ));
+            }
+            XDocument xdoc = new XDocument(new XElement("Data", xb));
+            xdoc.Save(@"C:\Users\serife\Desktop\svn\trunk\UniPuan.FemClient\Data\City.xml");
+        }
+        public static void UniversitelerCal(List<Bolum> bolumler,List<Sehir> sehirler)
+        {
+            // burayı sen devam edersin
+        }
+        public static void PuanlarCal(List<Bolum> bolumler, List<Sehir> sehirler,List<Universite> universitler)
+        {
+            // burayı sen devam edersin
         }
         public static List<Sehir> LisansSehirler(List<Bolum> bolumler)
         {
