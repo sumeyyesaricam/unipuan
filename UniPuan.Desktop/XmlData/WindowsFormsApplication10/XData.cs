@@ -10,6 +10,7 @@ namespace WindowsFormsApplication10
 {
     public class XData
     {
+        static string pathDep1=@"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\YeniDepartment.xml";
         static string path = @"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\dt.xml";
         static string pathData = @"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\Data.xml";
         static string pathCity = @"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\City.xml";
@@ -77,50 +78,46 @@ namespace WindowsFormsApplication10
         
         public static void DepartmentTransfer()
         {
-            var doc = XDocument.Load(pathData);
-            var df = XDocument.Load(pathFaculty);
+            var df = XDocument.Load(pathDep1);
             var dp = XDocument.Load(pathDep);
-            var dc = doc.Element("dataroot").Elements("University").Elements("DepartmentName");
-            var fa = df.Element("Data").Elements("Faculty");
+            var fa = df.Element("Data").Elements("Department");
             var ds = dp.Element("dataroot").Elements("Department");
             string scoretype = null;
             int i = 1;
              List<XElement> department = new List<XElement>();
-             string sonfakulte = null;
-             foreach (var item in dc)
+             string edutype = null;
+             foreach (var item in fa)           
              {
-                 if ((item.Value.Contains("Fakültesi") || (item.Value.Contains("Yüksekokulu"))))
+                 foreach (var dr in ds)
                  {
-                     foreach (var fc in fa)
+                     if (dr.Value != ("<Department/>"))
                      {
-                         if (fc.Element("Name").Value == item.Value)
-                             sonfakulte =fc.Element("Id").Value ;
-                     }
-                 }
-                 else
-                 {
-                     foreach (var dr in ds)
-                     {
-                         if (dr.Element("DepartmentName").Value == item.Value)
+                         if (dr.Element("DepartmentName").Value == item.Element("Name").Value)
+
                              if (dr.Element("ScoreType").Value != null)
                              {
                                  scoretype = dr.Element("ScoreType").Value;
-                             } }
-                                 if (!department.Exists(t => t.Element("Name").Value == item.Value))
-                                 {
-                                     var xf = new XElement("Department",
-                                       new XElement("Id", i),
-                                       new XElement("Name", item.Value),
-                                       //new XElement("ScoreId", scoretype),
-                                       new XElement("FacultyId", sonfakulte)
-                                       );
-                                     department.Add(xf);
-                                 }
+                                 if (scoretype.Contains("YGS"))
+                                     edutype = "Ön Lisans";
+                                 else
+                                     edutype = "Lisans";
+                             }
+                         if (!department.Exists(t => t.Element("Name").Value == item.Element("Name").Value))
+                         {
+                             var xf = new XElement("Department",
+                               new XElement("Id", i),
+                               new XElement("Name", item.Element("Name").Value),
+                               new XElement("ScoreId", scoretype),
+                               new XElement("Edutype", edutype)
+                               );
+                             department.Add(xf);
+                         }
                      }
-                     i++;
                  }
+                     i++;
+             }
              XDocument xdo = new XDocument(new XElement("Data", department));
-             xdo.Save(@"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\YeniDepartment.xml");
+             xdo.Save(@"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\Department1.xml");
         }
         public static void CityTransfer()
         {

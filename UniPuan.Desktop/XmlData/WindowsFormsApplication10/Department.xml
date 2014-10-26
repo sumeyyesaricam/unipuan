@@ -252,7 +252,6 @@
 <DepartmentName>Makine Mühendisliği (İngilizce)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -307,7 +306,6 @@
 <DepartmentName>Tıp Fakültesi (İngilizce) (Tam Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İşletme Fakültesi</DepartmentName>
 </Department>
@@ -326,7 +324,6 @@
 <DepartmentName>Endüstri Mühendisliği (İngilizce)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -496,7 +493,6 @@
 <DepartmentName>Yiyecek ve İçecek İşletmeciliği</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -807,7 +803,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -1155,7 +1150,6 @@
 <DepartmentName>Muhasebe (İÖ)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eczacılık Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -1267,7 +1261,6 @@
 <DepartmentName>Hayvansal Üretim</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -1426,7 +1419,6 @@
 <DepartmentName>Hemşirelik (İÖ)</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -1850,7 +1842,6 @@
 <DepartmentName>Endüstri Mühendisliği</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -2048,7 +2039,6 @@
 <DepartmentName>Bankacılık ve Finans (İÖ)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -2155,7 +2145,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eczacılık Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -2438,44 +2427,54 @@
 </Department>
 <Department>
 <DepartmentName>Felsefe (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Sosyoloji (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Tarih (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Türk Dili ve Edebiyatı (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>İktisat Fakültesi</DepartmentName>
 </Department>
 <Department>
 <DepartmentName>Çalışma Ekonomisi ve Endüstri İlişkileri (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>İktisat (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Kamu Yönetimi (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Maliye (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Uluslararası İlişkiler (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>İşletme Fakültesi</DepartmentName>
 </Department>
 <Department>
 <DepartmentName>İşletme (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Konaklama İşletmeciliği (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Dil ve Tarih Coğrafya Fakültesi</DepartmentName>
 </Department>
@@ -2879,7 +2878,6 @@
 <DepartmentName>Zootekni</DepartmentName>
 <ScoreType>MF-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Ardahan İnsani Bilimler ve Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -2929,7 +2927,6 @@
 <DepartmentName>Gıda Mühendisliği</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -3027,7 +3024,6 @@
 <DepartmentName>Siyaset Bilimi ve Kamu Yönetimi</DepartmentName>
 <ScoreType>TM-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -3501,17 +3497,20 @@
 </Department>
 <Department>
 <DepartmentName>Halkla İlişkiler ve Tanıtım (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>İşletme (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Sosyal Hizmet (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Sosyoloji (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -3999,7 +3998,6 @@
 <DepartmentName>Uçak Gövde - Motor (İngilizce) (%25 Burslu)</DepartmentName>
 <ScoreType>YGS-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -4240,7 +4238,6 @@
 <DepartmentName>Çocuk Gelişimi (Tam Burslu)</DepartmentName>
 <ScoreType>TM-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Bilimleri Fakültesi</DepartmentName>
 </Department>
@@ -4698,7 +4695,6 @@
 <DepartmentName>Tıp Fakültesi (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -4950,6 +4946,7 @@
 </Department>
 <Department>
 <DepartmentName>Balıkesir Bandırma Sağlık Y.O.</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Hemşirelik</DepartmentName>
@@ -4978,7 +4975,6 @@
 <DepartmentName>Uluslararası Ticaret</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Bartın Orman Fakültesi</DepartmentName>
 </Department>
@@ -5128,7 +5124,6 @@
 <DepartmentName>Tekstil Mühendisliği</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -5693,7 +5688,6 @@
 <DepartmentName>Yönetim Bilişim Sistemleri  (%25 Burslu)</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -5797,7 +5791,6 @@
 <DepartmentName>İmalat Mühendisliği (M.T.O.K.) (İÖ)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Bayburt Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -5882,7 +5875,6 @@
 <DepartmentName>Makine Mühendisliği (İÖ)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -6245,7 +6237,6 @@
 <DepartmentName>Sermaye Piyasaları ve Portföy Yönetimi (%50 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -6333,7 +6324,6 @@
 <DepartmentName>Tıp Fakültesi (%50 Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -6434,7 +6424,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -6563,7 +6552,6 @@
 <DepartmentName>Toprak Bilimi ve Bitki Besleme</DepartmentName>
 <ScoreType>MF-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -6624,7 +6612,6 @@
 <DepartmentName>Sosyal Hizmet</DepartmentName>
 <ScoreType>YGS-5</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -6756,7 +6743,6 @@
 <DepartmentName>Yönetim Bilişim Sistemleri (İngilizce)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -6898,7 +6884,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İktisadi ve İdari Bilimler Fakültesi</DepartmentName>
 </Department>
@@ -6980,7 +6965,6 @@
 <DepartmentName>Makine Mühendisliği (%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Doğa Bilimleri, Mimarlık ve Mühendislik Fakültesi</DepartmentName>
 </Department>
@@ -7000,7 +6984,6 @@
 <DepartmentName>Metalurji ve Malzeme Mühendisliği</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -7214,7 +7197,6 @@
 <DepartmentName>Denizcilik İşletmeleri Yönetimi</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -7383,7 +7365,6 @@
 <DepartmentName>Mimarlık (%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -7656,7 +7637,6 @@
 <DepartmentName>Yazılım Mühendisliği (M.T.O.K.) (İÖ)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -8110,7 +8090,6 @@
 <DepartmentName>Sigortacılık ve Risk Yönetimi</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -8309,7 +8288,6 @@
 <DepartmentName>Hukuk Fakültesi (%25 Burslu)</DepartmentName>
 <ScoreType>TM-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Deniz Bilimleri ve Teknolojisi Fakültesi</DepartmentName>
 </Department>
@@ -8665,7 +8643,6 @@
 <DepartmentName>Gastronomi</DepartmentName>
 <ScoreType>YGS-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -8906,7 +8883,6 @@
 <DepartmentName>Mekatronik Mühendisliği (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -9033,7 +9009,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -9385,12 +9360,12 @@
 </Department>
 <Department>
 <DepartmentName>Karataş Turizm İşletmeciliği ve Otelcilik Y.O.</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Konaklama İşletmeciliği</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -9617,7 +9592,6 @@
 <DepartmentName>Spor Yöneticiliği</DepartmentName>
 <ScoreType>YGS-5</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -9890,7 +9864,6 @@
 <DepartmentName>Mimarlık (%50 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Buca Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -10247,7 +10220,6 @@
 <DepartmentName>Turizm İşletmeciliği ve Otelcilik</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -10545,7 +10517,6 @@
 <DepartmentName>İmalat Mühendisliği (M.T.O.K.) (İÖ)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -10758,7 +10729,6 @@
 <DepartmentName>Akçakoca Turizm İşletmeciliği ve Otelcilik Y.O. (İÖ)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -11092,7 +11062,6 @@
 <DepartmentName>Turizm Rehberliği</DepartmentName>
 <ScoreType>DİL-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -11537,7 +11506,6 @@
 <DepartmentName>Uçak Gövde - Motor (İÖ)</DepartmentName>
 <ScoreType>YGS-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eczacılık Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -11688,7 +11656,6 @@
 <DepartmentName>Sivil Hava Ulaştırma İşletmeciliği</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -11753,7 +11720,6 @@
 <DepartmentName>Makine Mühendisliği (İÖ)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -12022,7 +11988,6 @@
 <DepartmentName>Sağlık Kurumları Yöneticiliği</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -12172,7 +12137,6 @@
 <DepartmentName>Mimarlık (%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -12573,7 +12537,6 @@
 <DepartmentName>Tıp Fakültesi (Tam Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -12987,7 +12950,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -13045,7 +13007,6 @@
 <DepartmentName>Endüstri Mühendisliği</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -13550,7 +13511,6 @@
 <DepartmentName>Türk Dili ve Edebiyatı</DepartmentName>
 <ScoreType>TS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -13784,7 +13744,6 @@
 <DepartmentName>Sosyal Bilgiler Öğretmenliği</DepartmentName>
 <ScoreType>TS-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -14016,7 +13975,6 @@
 <DepartmentName>Yiyecek ve İçecek İşletmeciliği</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen Fakültesi</DepartmentName>
 </Department>
@@ -14061,7 +14019,6 @@
 <DepartmentName>Malzeme Bilimi ve Mühendisliği</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Güzel Sanatlar ve Mimarlık Fakültesi</DepartmentName>
 </Department>
@@ -14211,7 +14168,6 @@
 <DepartmentName>Metalurji ve Malzeme Mühendisliği (%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -14488,7 +14444,6 @@
 <DepartmentName>Sosyal Hizmet (%25 Burslu)</DepartmentName>
 <ScoreType>TM-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -14667,7 +14622,6 @@
 <DepartmentName>Moda Tasarımı (İÖ)</DepartmentName>
 <ScoreType>YGS-5</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -14838,7 +14792,6 @@
 <DepartmentName>Sosyal Hizmet (İÖ)</DepartmentName>
 <ScoreType>YGS-5</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -15134,7 +15087,6 @@
 <DepartmentName>Odyoloji</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -15172,7 +15124,6 @@
 <DepartmentName>İlköğretim Din Kültürü ve Ahlak Bilgisi Öğretmenliği</DepartmentName>
 <ScoreType>YGS-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -15416,7 +15367,6 @@
 <DepartmentName>Fizyoterapi ve Rehabilitasyon (Tam Burslu)</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -15602,7 +15552,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -15842,7 +15791,6 @@
 <DepartmentName>Hemşirelik (%25 Burslu)</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -15946,7 +15894,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Iğdır Ziraat Fakültesi</DepartmentName>
 </Department>
@@ -15992,7 +15939,6 @@
 <DepartmentName>Gıda Mühendisliği (İÖ)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -16480,7 +16426,6 @@
 <DepartmentName>Yazılım Mühendisliği (İngilizce) (UOLP-SUNY Brockport) (Ücretli)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen Fakültesi</DepartmentName>
 </Department>
@@ -16768,6 +16713,7 @@
 </Department>
 <Department>
 <DepartmentName>Uygulamalı Yabancı Diller Y.O.</DepartmentName>
+<ScoreType>YGS-6</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Bankacılık ve Finans (İngilizce) (Tam Burslu)</DepartmentName>
@@ -16777,7 +16723,6 @@
 <DepartmentName>Bankacılık ve Finans (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -17081,7 +17026,6 @@
 <DepartmentName>Odyoloji</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İnsan ve Toplum Bilimleri Fakültesi</DepartmentName>
 </Department>
@@ -17182,7 +17126,6 @@
 <DepartmentName>Uluslararası İlişkiler (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>TM-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -17248,7 +17191,6 @@
 <DepartmentName>İslam ve Din Bilimleri (%50 Burslu) </DepartmentName>
 <ScoreType>YGS-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -17831,7 +17773,6 @@
 <DepartmentName>Uluslararası Lojistik ve Taşımacılık (%25 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -18628,7 +18569,6 @@
 <DepartmentName>Mütercim-Tercümanlık (Rusça) (%25 Burslu)</DepartmentName>
 <ScoreType>DİL-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -19201,7 +19141,6 @@
 <DepartmentName>Uluslararası Lojistik ve Taşımacılık (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -19272,7 +19211,6 @@
 <DepartmentName>Sağlık Kurumları Yöneticiliği (Tam Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İktisadi, İdari ve Sosyal Bilimler Fakültesi</DepartmentName>
 </Department>
@@ -19610,7 +19548,6 @@
 <DepartmentName>Odyoloji (%25 Burslu)</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eczacılık Fakültesi (İngilizce) (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -19883,7 +19820,6 @@
 <DepartmentName>Tıp Fakültesi (İngilizce) (%25 Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -20294,7 +20230,6 @@
 <DepartmentName>Sanat Yönetimi (%25 Burslu)</DepartmentName>
 <ScoreType>TS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -20325,7 +20260,6 @@
 <DepartmentName>Tıp Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi (Tam Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -20421,7 +20355,6 @@
 <DepartmentName>Tıp Fakültesi (%25 Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -20624,7 +20557,6 @@
 <DepartmentName>Hemşirelik (%25 Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Hukuk Fakültesi (Ücretli)</DepartmentName>
 <ScoreType>TM-2</ScoreType>
@@ -20872,7 +20804,6 @@
 <DepartmentName>Endüstri Mühendisliği (İngilizce) (%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Bilgisayar ve Bilişim Fakültesi</DepartmentName>
 </Department>
@@ -21146,6 +21077,7 @@
 </Department>
 <Department>
 <DepartmentName>İTÜ-KKTC Eğitim Araştırma Yerleşkesi (Gazimağusa)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Deniz Ulaştırma İşletme Mühendisliği (İngilizce) (Ücretli)</DepartmentName>
@@ -21195,7 +21127,6 @@
 <DepartmentName>Gemi Makineleri İşletme Mühendisliği (İngilizce) (KKTC Vatandaşları) (Ücretli)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -21563,7 +21494,6 @@
 <DepartmentName>Uluslararası Lojistik (%25 Burslu)</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Cerrahpaşa Tıp Fakültesi</DepartmentName>
 </Department>
@@ -22093,23 +22023,28 @@
 </Department>
 <Department>
 <DepartmentName>Coğrafya (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Felsefe (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>İktisat (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>İşletme (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Sosyoloji (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Tarih (Açıköğretim)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -22531,7 +22466,6 @@
 <DepartmentName>Gıda Mühendisliği (İngilizce) (%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi (İngilizce)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -22619,7 +22553,6 @@
 <DepartmentName>Turizm Rehberliği</DepartmentName>
 <ScoreType>DİL-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -22866,7 +22799,6 @@
 <DepartmentName>Hemşirelik (%25 Burslu)</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen Fakültesi</DepartmentName>
 </Department>
@@ -22920,7 +22852,6 @@
 <DepartmentName>Makine Mühendisliği (İngilizce)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Hukuk Fakültesi (Ücretli)</DepartmentName>
 <ScoreType>TM-2</ScoreType>
@@ -23320,7 +23251,6 @@
 <DepartmentName>Uluslararası Ticaret ve Lojistik (%25 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -23491,7 +23421,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -23700,7 +23629,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -24121,7 +24049,6 @@
 <DepartmentName>Turizm İşletmeciliği (İÖ)</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -24470,7 +24397,6 @@
 <DepartmentName>Gemi İnşaatı ve Gemi Makineleri Mühendisliği</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -24562,7 +24488,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -24773,7 +24698,6 @@
 <DepartmentName>Turizm ve Otel İşletmeciliği (İÖ)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -25028,7 +24952,6 @@
 <DepartmentName>Spor Yöneticiliği</DepartmentName>
 <ScoreType>YGS-5</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -25160,7 +25083,6 @@
 <DepartmentName>Sağlık Kurumları İşletmeciliği (İÖ)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -25283,7 +25205,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -25653,7 +25574,6 @@
 <DepartmentName>Uçak Gövde - Motor Bakım (İÖ)</DepartmentName>
 <ScoreType>YGS-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen Fakültesi</DepartmentName>
 </Department>
@@ -25909,7 +25829,6 @@
 <DepartmentName>Tıp Fakültesi (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Güzel Sanatlar ve Tasarım Fakültesi</DepartmentName>
 </Department>
@@ -26103,7 +26022,6 @@
 <DepartmentName>Mekatronik Mühendisliği(%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -26574,7 +26492,6 @@
 <DepartmentName>Tıp Fakültesi (İngilizce) (Tam Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -26638,7 +26555,6 @@
 <DepartmentName>Konaklama İşletmeciliği</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Atatürk Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -27021,7 +26937,6 @@
 <DepartmentName>Takı Tasarımı</DepartmentName>
 <ScoreType>YGS-5</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -27175,7 +27090,6 @@
 <DepartmentName>Yönetim Bilişim Sistemleri (İÖ)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -27365,7 +27279,6 @@
 <DepartmentName>Mimarlık (%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eczacılık Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -27602,7 +27515,6 @@
 <DepartmentName>İşletme Bilgi Yönetimi</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -27835,7 +27747,6 @@
 <DepartmentName>Fizyoterapi ve Rehabilitasyon (Tam Burslu)</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -27889,7 +27800,6 @@
 <DepartmentName>Şehir ve Bölge Planlama</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -28124,6 +28034,7 @@
 </Department>
 <Department>
 <DepartmentName>Turizm İşletmeciliği ve Otelcilik Y.O.</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Konaklama İşletmeciliği</DepartmentName>
@@ -28156,7 +28067,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Deniz Bilimleri ve Teknolojileri Fakültesi</DepartmentName>
 </Department>
@@ -28378,6 +28288,7 @@
 </Department>
 <Department>
 <DepartmentName>Turizm İşletmeciliği ve Otelcilik Y.O.</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Seyahat İşletmeciliği</DepartmentName>
@@ -28406,7 +28317,6 @@
 <DepartmentName>Sivil Hava Ulaştırma İşletmeciliği (İÖ)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -28537,7 +28447,6 @@
 <DepartmentName>Sağlık Kurumları Yöneticiliği</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -28708,7 +28617,6 @@
 <DepartmentName>Tekstil Mühendisliği</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Ahmet Keleşoğlu Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -28999,7 +28907,6 @@
 <DepartmentName>Makine Mühendisliği (İÖ)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -29134,7 +29041,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -29319,7 +29225,6 @@
 <DepartmentName>Spor Yöneticiliği</DepartmentName>
 <ScoreType>YGS-5</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İktisadi, İdari ve Sosyal Bilimler Fakültesi</DepartmentName>
 </Department>
@@ -29497,7 +29402,6 @@
 <DepartmentName>Radyo, Televizyon ve Sinema (%50 Burslu)</DepartmentName>
 <ScoreType>TS-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Güzel Sanatlar ve Tasarım Fakültesi</DepartmentName>
 </Department>
@@ -29618,7 +29522,6 @@
 <DepartmentName>Hemşirelik ve Sağlık Hizmetleri (%25 Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -30316,7 +30219,6 @@
 <DepartmentName>Turizm ve Otelcilik (%50 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Ali Fuad Başgil Hukuk Fakültesi</DepartmentName>
 <ScoreType>TM-2</ScoreType>
@@ -30652,7 +30554,6 @@
 <DepartmentName>Sivil Hava Ulaştırma İşletmeciliği</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -30795,7 +30696,6 @@
 <DepartmentName>Kamu Yönetimi (İÖ)</DepartmentName>
 <ScoreType>TM-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -30977,6 +30877,7 @@
 </Department>
 <Department>
 <DepartmentName>ODTU KUZEY KIBRIS KAMPUSU (KKTC-GÜZELYURT)</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Bilgisayar ve Öğretim Teknolojileri Öğretmenliği (İngilizce) (Tam Burslu)</DepartmentName>
@@ -31178,7 +31079,6 @@
 <DepartmentName>Petrol ve Doğalgaz Mühendisliği (İngilizce) (KKTC Vatandaşları) (Ücretli)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -31260,7 +31160,6 @@
 <DepartmentName>Makine Mühendisliği (İÖ)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -31531,7 +31430,6 @@
 <DepartmentName>Otel Yöneticiliği (İngilizce) (%25 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -31898,7 +31796,6 @@
 <DepartmentName>Organik Tarım İşletmeciliği</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Denizcilik Fakültesi</DepartmentName>
 </Department>
@@ -31980,7 +31877,6 @@
 <DepartmentName>Makine Mühendisliği (İngilizce) (%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -32135,7 +32031,6 @@
 <DepartmentName>Bankacılık ve Finans</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Mühendislik ve Doğa Bilimleri Fakültesi</DepartmentName>
 </Department>
@@ -32193,7 +32088,6 @@
 <DepartmentName>Yönetim Bilimleri Programları (İngilizce) (%25 Burslu)</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Bilgisayar ve Bilişim Bilimleri Fakültesi</DepartmentName>
 </Department>
@@ -32676,7 +32570,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -33174,7 +33067,6 @@
 <DepartmentName>Konaklama İşletmeciliği (İÖ)</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -33288,7 +33180,6 @@
 <DepartmentName>Hemşirelik (İÖ)</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -33347,7 +33238,6 @@
 <DepartmentName>İşletme</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -33819,7 +33709,6 @@
 <DepartmentName>Muhasebe ve Finansal Yönetim (İÖ)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İnsan ve Toplum Bilimleri Fakültesi</DepartmentName>
 </Department>
@@ -33926,7 +33815,6 @@
 <DepartmentName>Uluslararası Ticaret ve Finans (İngilizce) (%25 Burslu)</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İktisadi ve İdari Bilimler Fakültesi</DepartmentName>
 </Department>
@@ -33969,7 +33857,6 @@
 <DepartmentName>Maden Mühendisliği</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -34037,7 +33924,6 @@
 <DepartmentName>Tıp Fakültesi (%50 Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -34079,7 +33965,6 @@
 <DepartmentName>Mühendislik Programları (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -34464,7 +34349,6 @@
 <DepartmentName>Tıp Fakültesi (%50 Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Güzel Sanatlar Fakültesi</DepartmentName>
 </Department>
@@ -34614,7 +34498,6 @@
 <DepartmentName>İnşaat Mühendisliği (İngilizce) (%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eczacılık Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -34893,7 +34776,6 @@
 <DepartmentName>Uluslararası Ticaret</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -35009,7 +34891,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Hukuk Fakültesi (Ücretli)</DepartmentName>
 <ScoreType>TM-2</ScoreType>
@@ -35221,7 +35102,6 @@
 <DepartmentName>Sosyal Hizmet (%25 Burslu)</DepartmentName>
 <ScoreType>YGS-5</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Hukuk Fakültesi</DepartmentName>
 <ScoreType>TM-2</ScoreType>
@@ -35252,7 +35132,6 @@
 <DepartmentName>Mekatronik Sistemler Mühendisliği (Almanca)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Hava Ulaştırma Fakültesi</DepartmentName>
 </Department>
@@ -35465,7 +35344,6 @@
 <DepartmentName>Mekatronik Mühendisliği (%25 Burslu)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -35575,7 +35453,6 @@
 <DepartmentName>Hemşirelik Yüksekokulu (Tam Burslu)</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -35888,7 +35765,6 @@
 <DepartmentName>Uluslararası İşletmecilik ve Ticaret</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Güzel Sanatlar ve Mimarlık Fakültesi</DepartmentName>
 </Department>
@@ -36057,7 +35933,6 @@
 <DepartmentName>Turizm ve Otel İşletmeciliği (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -36290,7 +36165,6 @@
 <DepartmentName>Uluslararası Lojistik ve Taşımacılık (İÖ)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İletişim Fakültesi</DepartmentName>
 </Department>
@@ -36587,7 +36461,6 @@
 <DepartmentName>Sosyal Hizmet (%25 Burslu)</DepartmentName>
 <ScoreType>TM-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Hukuk Fakültesi</DepartmentName>
 <ScoreType>TM-2</ScoreType>
@@ -36677,7 +36550,6 @@
 <DepartmentName>Uluslararası Ticaret ve Finansman</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fen-Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -37028,7 +36900,6 @@
 <DepartmentName>Film Tasarımı (%25 Burslu)</DepartmentName>
 <ScoreType>TS-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi (İngilizce) (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -37573,7 +37444,6 @@
 <DepartmentName>Yönetim Bilişim Sistemleri (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -37813,7 +37683,6 @@
 <DepartmentName>Tıp Fakültesi (Tam Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Hukuk Fakültesi</DepartmentName>
 <ScoreType>TM-2</ScoreType>
@@ -37956,7 +37825,6 @@
 <DepartmentName>Tıp Fakültesi (İngilizce)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -38212,7 +38080,6 @@
 <DepartmentName>Şehir ve Bölge Planlama</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -38455,7 +38322,6 @@
 <DepartmentName>Hemşirelik</DepartmentName>
 <ScoreType>YGS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -38786,7 +38652,6 @@
 <DepartmentName>Hemşirelik (%25 Burslu)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Askeri Tıp Fakültesi (Sivil Lise-Erkek)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -38799,7 +38664,6 @@
 <DepartmentName>Hemşirelik Yüksekokulu</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Bilişim Teknolojileri ve Mühendislik Fakültesi</DepartmentName>
 </Department>
@@ -38844,7 +38708,6 @@
 <DepartmentName>Uluslararası İlişkiler  </DepartmentName>
 <ScoreType>TM-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat Fakültesi</DepartmentName>
 </Department>
@@ -38980,7 +38843,6 @@
 <DepartmentName>Mütercim-Tercümanlık (Türkçe-Rusça)  </DepartmentName>
 <ScoreType>DİL-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İşletme Fakültesi</DepartmentName>
 </Department>
@@ -39027,7 +38889,6 @@
 <DepartmentName>Konaklama İşletmeciliği (İngilizce) (Tam Burslu)</DepartmentName>
 <ScoreType>TM-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eczacılık Fakültesi (İngilizce) (T.C. Vatandaşları) (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -39764,7 +39625,6 @@
 <DepartmentName>Yönetim Bilişim Sistemleri (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Beşeri Bilimler Fakültesi</DepartmentName>
 </Department>
@@ -40367,7 +40227,6 @@
 <DepartmentName>Yönetim Bilişim Sistemleri (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Dr. Fazıl Küçük Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -40691,7 +40550,6 @@
 <DepartmentName>Yönetim Bilişim Sistemleri (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eczacılık Fakültesi (İngilizce) (T.C. Vatandaşları) (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -41202,6 +41060,7 @@
 </Department>
 <Department>
 <DepartmentName>Turizm ve Otel İşletmeciliği Y.O.</DepartmentName>
+<ScoreType>0</ScoreType>
 </Department>
 <Department>
 <DepartmentName>Turizm ve Otel İşletmeciliği (İngilizce) (Ücretli)</DepartmentName>
@@ -41222,7 +41081,6 @@
 <DepartmentName>Yönetim Bilişim Sistemleri (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Atatürk Eğitim Fakültesi</DepartmentName>
 </Department>
@@ -41586,7 +41444,6 @@
 <DepartmentName>Turizm ve Otel İşletmeciliği (İngilizce) (%50 Burslu)</DepartmentName>
 <ScoreType>YGS-6</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Filoloji Fakültesi</DepartmentName>
 </Department>
@@ -41594,7 +41451,6 @@
 <DepartmentName>İngiliz Dili ve Edebiyatı (Ücretli)</DepartmentName>
 <ScoreType>DİL-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Bilgisayar Uygulamalı Ekonomi (Ücretli)</DepartmentName>
 <ScoreType>TM-1</ScoreType>
@@ -41626,7 +41482,6 @@
 <DepartmentName>Uluslararası İlişkiler (Ücretli)</DepartmentName>
 <ScoreType>TM-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Edebiyat (Senaryo Yazarı) (Ücretli)</DepartmentName>
 <ScoreType>TS-2</ScoreType>
@@ -41635,7 +41490,6 @@
 <DepartmentName>Sanat Tarihi ve Teorisi (Ücretli)</DepartmentName>
 <ScoreType>TS-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İşitme Engelliler Öğretmenliği (Ücretli)</DepartmentName>
 <ScoreType>YGS-4</ScoreType>
@@ -41647,7 +41501,6 @@
 <DepartmentName>Okul Öncesi Öğretmenliği (Ücretli)</DepartmentName>
 <ScoreType>YGS-5</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>İnşaat Fakültesi</DepartmentName>
 </Department>
@@ -41669,12 +41522,10 @@
 <DepartmentName>Jeodezi ve Haritacılık Mühendisliği (Ücretli)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Bilgisayar Mühendisliği (Ücretli)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Diş Hekimliği Fakültesi (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
@@ -41683,7 +41534,6 @@
 <DepartmentName>Tıp Fakültesi (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Filoloji Fakültesi</DepartmentName>
 </Department>
@@ -41723,7 +41573,6 @@
 <DepartmentName>Uluslararası İlişkiler (Ücretli)</DepartmentName>
 <ScoreType>TM-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Filoloji Fakültesi</DepartmentName>
 </Department>
@@ -41735,7 +41584,6 @@
 <DepartmentName>Rus Dili ve Edebiyatı (Ücretli)</DepartmentName>
 <ScoreType>DİL-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Filoloji Fakültesi</DepartmentName>
 </Department>
@@ -41757,7 +41605,6 @@
 <DepartmentName>Bilgisayar Mühendisliği (Ücretli)</DepartmentName>
 <ScoreType>MF-4</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Ekonomi ve Yönetim Bilimleri Fakültesi</DepartmentName>
 </Department>
@@ -41923,7 +41770,6 @@
 <DepartmentName>Sosyal ve Siyasal Bilimler (%25 Burslu)</DepartmentName>
 <ScoreType>TM-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Eğitim ve Bilim Fakültesi</DepartmentName>
 </Department>
@@ -41931,7 +41777,6 @@
 <DepartmentName>Matematik (Ücretli)</DepartmentName>
 <ScoreType>MF-1</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Fizik Tıp ve Rehabilitasyon Fakültesi</DepartmentName>
 </Department>
@@ -41939,7 +41784,6 @@
 <DepartmentName>Fizik Tıp ve Rehabilitasyon (Ücretli)</DepartmentName>
 <ScoreType>MF-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Türk Dünyası Celalabad İşletme Fakültesi</DepartmentName>
 </Department>
@@ -41955,7 +41799,6 @@
 <DepartmentName>Uluslararası İlişkiler (Ücretli)</DepartmentName>
 <ScoreType>TM-2</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Mimarlık ve Mühendislik Fakültesi</DepartmentName>
 </Department>
@@ -41970,7 +41813,6 @@
 <DepartmentName>Rus Dili ve Öğretmenliği (Ücretli)</DepartmentName>
 <ScoreType>DİL-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Milli Kültür Fakültesi</DepartmentName>
 </Department>
@@ -41978,7 +41820,6 @@
 <DepartmentName>Rus ve İngiliz Dilleri ve Edebiyatları (Öğretmenlik) (Ücretli)</DepartmentName>
 <ScoreType>DİL-3</ScoreType>
 </Department>
-<Department/>
 <Department>
 <DepartmentName>Dilller Fakültesi</DepartmentName>
 </Department>
