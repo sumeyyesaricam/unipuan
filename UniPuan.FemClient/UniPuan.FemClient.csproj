@@ -207,6 +207,7 @@
     <Content Include="obj\Debug\UniPuan.FemClient.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\UniPuan.FemClient.exe" />
     <Content Include="obj\Debug\UniPuan.FemClient.pdb" />
+    <Content Include="Resources\0_523d8_bf00ebbd_XL.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

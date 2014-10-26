@@ -10,12 +10,12 @@ namespace WindowsFormsApplication10
 {
     public class XData
     {
-        static string path = @"C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\dt.xml";
-        static string pathData = @"C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\Data.xml";
-        static string pathCity = @"C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\City.xml";
-        static string pathFaculty = @"C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\YeniFaculty.xml";
-        static string pathDep = @"C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\Department.xml";
-        static string pathYCity = @"C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\YeniCity.xml";
+        static string path = @"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\dt.xml";
+        static string pathData = @"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\Data.xml";
+        static string pathCity = @"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\City.xml";
+        static string pathFaculty = @"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\YeniFaculty.xml";
+        static string pathDep = @"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\Department.xml";
+        static string pathYCity = @"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\YeniCity.xml";
         public static void UniversityTransfer()
         {
 
@@ -27,13 +27,13 @@ namespace WindowsFormsApplication10
             int i = 1;
             List<XElement> yeniElements = new List<XElement>();
             foreach (var item in xd)
-            { 
-                foreach (var ci in cty)
-                {    
-                    var dc = item.Where(t => (t.Value.Contains(ci.Element("Name").Value)));
-                    if (dc != null)
-                    { city = ci.Element("Id").Value; }
-                }
+            {
+                //foreach (var ci in cty)
+                //{
+                //    var dc = item.Where(t => (t.Value.Contains(ci.Element("Name").Value)));
+                //    if (dc != null)
+                //    { city = ci.Element("Id").Value; }
+                //}
                 var xu = new XElement("University",
                           new XElement("Id", i),
                           new XElement("Name", item.Value),
@@ -43,7 +43,7 @@ namespace WindowsFormsApplication10
                 yeniElements.Add(xu);
             }
             XDocument xdoc = new XDocument(new XElement("Data", yeniElements));
-            xdoc.Save(@"C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\YeniUni.xml");
+            xdoc.Save(@"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\YeniUni.xml");
         }
        
         public static void FacultyTransfer()
@@ -72,7 +72,7 @@ namespace WindowsFormsApplication10
             
                 }
             XDocument xdo = new XDocument(new XElement("Data", faculty));
-            xdo.Save(@"C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\YeniFaculty.xml");
+            xdo.Save(@"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\YeniFaculty.xml");
         }
         
         public static void DepartmentTransfer()
@@ -111,7 +111,7 @@ namespace WindowsFormsApplication10
                                      var xf = new XElement("Department",
                                        new XElement("Id", i),
                                        new XElement("Name", item.Value),
-                                       new XElement("ScoreId", scoretype),
+                                       //new XElement("ScoreId", scoretype),
                                        new XElement("FacultyId", sonfakulte)
                                        );
                                      department.Add(xf);
@@ -120,7 +120,7 @@ namespace WindowsFormsApplication10
                      i++;
                  }
              XDocument xdo = new XDocument(new XElement("Data", department));
-             xdo.Save(@"C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\YeniDepartment.xml");
+             xdo.Save(@"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\YeniDepartment.xml");
         }
         public static void CityTransfer()
         {
@@ -136,10 +136,9 @@ namespace WindowsFormsApplication10
                           );
                 city.Add(xu);
                 i++;
-            }
-            
+            }            
             XDocument xo = new XDocument(new XElement("Data", city));
-            xo.Save(@"C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\YeniCity.xml");
+            xo.Save(@"F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\YeniCity.xml");
         }
     }
 

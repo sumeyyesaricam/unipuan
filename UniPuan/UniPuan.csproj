@@ -51,7 +51,7 @@
     <Compile Include="Model\UniType.cs" />
     <Compile Include="Model\University.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Db\XData.cs" />
+    <Compile Include="Model\Db\XData.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -7,3 +7,12 @@ C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\
 C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.pdb
 C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.exe
 C:\Users\serife\Desktop\hey\WindowsFormsApplication10\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.pdb
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.exe.config
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.exe
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.csprojResolveAssemblyReference.cache
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Form1.resources
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Properties.Resources.resources
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.csproj.GenerateResource.Cache
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.exe
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.pdb
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.Desktop\XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.pdb

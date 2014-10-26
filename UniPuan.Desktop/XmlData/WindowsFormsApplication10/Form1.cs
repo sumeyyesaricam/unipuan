@@ -19,7 +19,7 @@ namespace WindowsFormsApplication10
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           XData.UniversityTransfer();
+           //XData.UniversityTransfer();
            XData.FacultyTransfer();
            XData.DepartmentTransfer();
            XData.CityTransfer();
