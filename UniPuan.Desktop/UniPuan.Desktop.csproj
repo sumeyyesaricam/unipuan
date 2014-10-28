@@ -160,6 +160,7 @@
     <Content Include="XmlData\WindowsFormsApplication10\City.xml" />
     <Content Include="XmlData\WindowsFormsApplication10\Data.xml" />
     <Content Include="XmlData\WindowsFormsApplication10\Department.xml" />
+    <Content Include="XmlData\WindowsFormsApplication10\Department1.xml" />
     <Content Include="XmlData\WindowsFormsApplication10\dt.xml" />
     <Content Include="XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.csproj.FileListAbsolute.txt" />
     <Content Include="XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.exe" />
