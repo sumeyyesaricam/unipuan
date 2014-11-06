@@ -59,5 +59,15 @@ namespace UniPuan.Desktop.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1f5e25cbbc7bce619093efdc21333721 {
+            get {
+                object obj = ResourceManager.GetObject("1f5e25cbbc7bce619093efdc21333721", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
