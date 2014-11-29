@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Department>
+    <Id>110</Id>
+    <Name><![CDATA[Kooperatifçilik]]></Name>
+  </Department>
+  <Department>
+    <Id>208</Id>
+    <Name><![CDATA[Turizm ve Otel İşletmeciliği]]></Name>
+  </Department>
+  <Department>
+    <Id>108</Id>
+    <Name><![CDATA[Kimya Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>9</Id>
+    <Name><![CDATA[Aşçılık]]></Name>
+  </Department>
+  <Department>
+    <Id>144</Id>
+    <Name><![CDATA[Organik Tarım]]></Name>
+  </Department>
+  <Department>
+    <Id>44</Id>
+    <Name><![CDATA[Deri Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>139</Id>
+    <Name><![CDATA[Muhasebe ve Vergi Uygulamaları]]></Name>
+  </Department>
+  <Department>
+    <Id>104</Id>
+    <Name><![CDATA[İşletme Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>113</Id>
+    <Name><![CDATA[Kümes Hayvanları Yetiştiriciliği]]></Name>
+  </Department>
+  <Department>
+    <Id>14</Id>
+    <Name><![CDATA[Bahçe Tarımı]]></Name>
+  </Department>
+  <Department>
+    <Id>12</Id>
+    <Name><![CDATA[Ayakkabı Tasarım ve Üretimi]]></Name>
+  </Department>
+  <Department>
+    <Id>119</Id>
+    <Name><![CDATA[Lojistik]]></Name>
+  </Department>
+  <Department>
+    <Id>203</Id>
+    <Name><![CDATA[Tıbbi ve Aromatik Bitkiler]]></Name>
+  </Department>
+  <Department>
+    <Id>80</Id>
+    <Name><![CDATA[Gıda Kalite Kontrolü ve Analizi]]></Name>
+  </Department>
+  <Department>
+    <Id>46</Id>
+    <Name><![CDATA[Dış Ticaret]]></Name>
+  </Department>
+  <Department>
+    <Id>134</Id>
+    <Name><![CDATA[Mimari Restorasyon]]></Name>
+  </Department>
+  <Department>
+    <Id>156</Id>
+    <Name><![CDATA[Peyzaj ve Süs Bitkileri]]></Name>
+  </Department>
+  <Department>
+    <Id>145</Id>
+    <Name><![CDATA[Ormancılık ve Orman Ürünleri]]></Name>
+  </Department>
+  <Department>
+    <Id>4</Id>
+    <Name><![CDATA[Ağız ve Diş Sağlığı]]></Name>
+  </Department>
+  <Department>
+    <Id>103</Id>
+    <Name><![CDATA[İşçi Sağlığı ve İş Güvenliği]]></Name>
+  </Department>
+  <Department>
+    <Id>84</Id>
+    <Name><![CDATA[Grafik Tasarımı]]></Name>
+  </Department>
+  <Department>
+    <Id>133</Id>
+    <Name><![CDATA[Mimari Dekoratif Sanatlar]]></Name>
+  </Department>
+  <Department>
+    <Id>153</Id>
+    <Name><![CDATA[Pazarlama]]></Name>
+  </Department>
+  <Department>
+    <Id>197</Id>
+    <Name><![CDATA[Tarla Bitkileri]]></Name>
+  </Department>
+  <Department>
+    <Id>37</Id>
+    <Name><![CDATA[Çocuk Gelişimi]]></Name>
+  </Department>
+  <Department>
+    <Id>15</Id>
+    <Name><![CDATA[Bankacılık ve Sigortacılık]]></Name>
+  </Department>
+  <Department>
+    <Id>81</Id>
+    <Name><![CDATA[Gıda Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>20</Id>
+    <Name><![CDATA[Bilgi Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>226</Id>
+    <Name><![CDATA[Yerel Yönetimler]]></Name>
+  </Department>
+  <Department>
+    <Id>175</Id>
+    <Name><![CDATA[Seracılık]]></Name>
+  </Department>
+  <Department>
+    <Id>30</Id>
+    <Name><![CDATA[Büro Yönetimi ve Yönetici Asistanlığı]]></Name>
+  </Department>
+  <Department>
+    <Id>201</Id>
+    <Name><![CDATA[Tıbbi Laboratuvar Teknikleri]]></Name>
+  </Department>
+  <Department>
+    <Id>152</Id>
+    <Name><![CDATA[Patoloji Laboratuvar Teknikleri]]></Name>
+  </Department>
+  <Department>
+    <Id>116</Id>
+    <Name><![CDATA[Laborant ve Veteriner Sağlık]]></Name>
+  </Department>
+  <Department>
+    <Id>209</Id>
+    <Name><![CDATA[Turizm ve Seyahat Hizmetleri]]></Name>
+  </Department>
+  <Department>
+    <Id>96</Id>
+    <Name><![CDATA[İlk ve Acil Yardım]]></Name>
+  </Department>
+  <Department>
+    <Id>151</Id>
+    <Name><![CDATA[Özel Güvenlik ve Koruma]]></Name>
+  </Department>
+  <Department>
+    <Id>199</Id>
+    <Name><![CDATA[Tıbbi Dokümantasyon ve Sekreterlik]]></Name>
+  </Department>
+  <Department>
+    <Id>8</Id>
+    <Name><![CDATA[Arıcılık]]></Name>
+  </Department>
+  <Department>
+    <Id>130</Id>
+    <Name><![CDATA[Menkul Kıymetler ve Sermaye Piyasası]]></Name>
+  </Department>
+  <Department>
+    <Id>195</Id>
+    <Name><![CDATA[Tarımsal İşletmecilik]]></Name>
+  </Department>
+  <Department>
+    <Id>59</Id>
+    <Name><![CDATA[Emlak ve Emlak Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>115</Id>
+    <Name><![CDATA[Kuyumculuk ve Takı Tasarımı]]></Name>
+  </Department>
+  <Department>
+    <Id>190</Id>
+    <Name><![CDATA[Süt ve Ürünleri Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>86</Id>
+    <Name><![CDATA[Halkla İlişkiler ve Tanıtım]]></Name>
+  </Department>
+  <Department>
+    <Id>68</Id>
+    <Name><![CDATA[Et ve Ürünleri Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>227</Id>
+    <Name><![CDATA[Zeytincilik ve Zeytin İşleme Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>169</Id>
+    <Name><![CDATA[Saç Bakımı ve Güzellik Hizmetleri]]></Name>
+  </Department>
+  <Department>
+    <Id>34</Id>
+    <Name><![CDATA[Çevre Sağlığı]]></Name>
+  </Department>
+  <Department>
+    <Id>16</Id>
+    <Name><![CDATA[Basım ve Yayın Teknolojileri]]></Name>
+  </Department>
+  <Department>
+    <Id>73</Id>
+    <Name><![CDATA[Fizyoterapi]]></Name>
+  </Department>
+  <Department>
+    <Id>222</Id>
+    <Name><![CDATA[Yaşlı Bakımı]]></Name>
+  </Department>
+  <Department>
+    <Id>137</Id>
+    <Name><![CDATA[Moda Tasarımı]]></Name>
+  </Department>
+  <Department>
+    <Id>47</Id>
+    <Name><![CDATA[Diyaliz]]></Name>
+  </Department>
+  <Department>
+    <Id>7</Id>
+    <Name><![CDATA[Anestezi]]></Name>
+  </Department>
+  <Department>
+    <Id>6</Id>
+    <Name><![CDATA[Ameliyathane Hizmetleri]]></Name>
+  </Department>
+  <Department>
+    <Id>123</Id>
+    <Name><![CDATA[Maliye]]></Name>
+  </Department>
+  <Department>
+    <Id>71</Id>
+    <Name><![CDATA[Fidan Yetiştiriciliği]]></Name>
+  </Department>
+  <Department>
+    <Id>98</Id>
+    <Name><![CDATA[İnsan Kaynakları Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>94</Id>
+    <Name><![CDATA[İkram Hizmetleri]]></Name>
+  </Department>
+  <Department>
+    <Id>192</Id>
+    <Name><![CDATA[Tapu ve Kadastro]]></Name>
+  </Department>
+  <Department>
+    <Id>70</Id>
+    <Name><![CDATA[Evde Hasta Bakımı]]></Name>
+  </Department>
+  <Department>
+    <Id>146</Id>
+    <Name><![CDATA[Ortopedik Protez ve Ortez]]></Name>
+  </Department>
+  <Department>
+    <Id>148</Id>
+    <Name><![CDATA[Otobüs Kaptanlığı]]></Name>
+  </Department>
+  <Department>
+    <Id>171</Id>
+    <Name><![CDATA[Sağlık Kurumları İşletmeciliği]]></Name>
+  </Department>
+  <Department>
+    <Id>48</Id>
+    <Name><![CDATA[Doğal Yapı Taşları Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>159</Id>
+    <Name><![CDATA[Radyo ve Televizyon Programcılığı]]></Name>
+  </Department>
+  <Department>
+    <Id>49</Id>
+    <Name><![CDATA[Doğalgaz ve Tesisatı Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>76</Id>
+    <Name><![CDATA[Geleneksel El Sanatları]]></Name>
+  </Department>
+  <Department>
+    <Id>158</Id>
+    <Name><![CDATA[Posta Hizmetleri]]></Name>
+  </Department>
+  <Department>
+    <Id>66</Id>
+    <Name><![CDATA[Engelli Bakımı ve Rehabilitasyon]]></Name>
+  </Department>
+  <Department>
+    <Id>74</Id>
+    <Name><![CDATA[Fotoğrafçılık ve Kameramanlık]]></Name>
+  </Department>
+  <Department>
+    <Id>124</Id>
+    <Name><![CDATA[Mantarcılık]]></Name>
+  </Department>
+  <Department>
+    <Id>42</Id>
+    <Name><![CDATA[Deniz ve Liman İşletmeciliği]]></Name>
+  </Department>
+  <Department>
+    <Id>33</Id>
+    <Name><![CDATA[Çevre Koruma ve Kontrol]]></Name>
+  </Department>
+  <Department>
+    <Id>180</Id>
+    <Name><![CDATA[Sivil Savunma ve İtfaiyecilik]]></Name>
+  </Department>
+  <Department>
+    <Id>75</Id>
+    <Name><![CDATA[Gaz ve Tesisatı Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>178</Id>
+    <Name><![CDATA[Sivil Hava Ulaştırma İşletmeciliği]]></Name>
+  </Department>
+  <Department>
+    <Id>2</Id>
+    <Name><![CDATA[Adalet]]></Name>
+  </Department>
+  <Department>
+    <Id>172</Id>
+    <Name><![CDATA[Sahne ve Dekor Tasarımı]]></Name>
+  </Department>
+  <Department>
+    <Id>31</Id>
+    <Name><![CDATA[Çağrı Merkezi Hizmetleri]]></Name>
+  </Department>
+  <Department>
+    <Id>140</Id>
+    <Name><![CDATA[Nükleer Teknoloji ve Radyasyon Güvenliği]]></Name>
+  </Department>
+  <Department>
+    <Id>183</Id>
+    <Name><![CDATA[Sosyal Hizmetler]]></Name>
+  </Department>
+  <Department>
+    <Id>189</Id>
+    <Name><![CDATA[Süt ve Besi Hayvancılığı]]></Name>
+  </Department>
+  <Department>
+    <Id>26</Id>
+    <Name><![CDATA[Bitki Koruma]]></Name>
+  </Department>
+  <Department>
+    <Id>204</Id>
+    <Name><![CDATA[Tohumculuk]]></Name>
+  </Department>
+  <Department>
+    <Id>168</Id>
+    <Name><![CDATA[Reklamcılık]]></Name>
+  </Department>
+  <Department>
+    <Id>89</Id>
+    <Name><![CDATA[Havacılıkta Yer Hizmetleri Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>69</Id>
+    <Name><![CDATA[Ev İdaresi]]></Name>
+  </Department>
+  <Department>
+    <Id>95</Id>
+    <Name><![CDATA[İlahiyat]]></Name>
+  </Department>
+  <Department>
+    <Id>154</Id>
+    <Name><![CDATA[Perakende Satış ve Mağaza Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>193</Id>
+    <Name><![CDATA[Tarım]]></Name>
+  </Department>
+  <Department>
+    <Id>164</Id>
+    <Name><![CDATA[Raylı Sistemler İşletmeciliği]]></Name>
+  </Department>
+  <Department>
+    <Id>127</Id>
+    <Name><![CDATA[Marka İletişimi]]></Name>
+  </Department>
+  <Department>
+    <Id>211</Id>
+    <Name><![CDATA[Ulaştırma ve Trafik Hizmetleri]]></Name>
+  </Department>
+  <Department>
+    <Id>51</Id>
+    <Name><![CDATA[Eczane Hizmetleri]]></Name>
+  </Department>
+  <Department>
+    <Id>53</Id>
+    <Name><![CDATA[Elektrik Enerjisi Üretim, İletim ve Dağıtımı]]></Name>
+  </Department>
+  <Department>
+    <Id>184</Id>
+    <Name><![CDATA[Spor Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>112</Id>
+    <Name><![CDATA[Kültürel Miras ve Turizm]]></Name>
+  </Department>
+  <Department>
+    <Id>128</Id>
+    <Name><![CDATA[Medya ve İletişim]]></Name>
+  </Department>
+  <Department>
+    <Id>179</Id>
+    <Name><![CDATA[Sivil Havacılık Kabin Hizmetleri]]></Name>
+  </Department>
+  <Department>
+    <Id>22</Id>
+    <Name><![CDATA[Bilgisayar Operatörlüğü]]></Name>
+  </Department>
+  <Department>
+    <Id>219</Id>
+    <Name><![CDATA[Yapı Ressamlığı]]></Name>
+  </Department>
+  <Department>
+    <Id>207</Id>
+    <Name><![CDATA[Turizm Rehberliği]]></Name>
+  </Department>
+  <Department>
+    <Id>67</Id>
+    <Name><![CDATA[Eser Koruma]]></Name>
+  </Department>
+  <Department>
+    <Id>174</Id>
+    <Name><![CDATA[Şarap Üretim Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>91</Id>
+    <Name><![CDATA[Hukuk Büro Yönetimi ve Sekreterliği]]></Name>
+  </Department>
+  <Department>
+    <Id>214</Id>
+    <Name><![CDATA[Uygulamalı İngilizce ve Çevirmenlik]]></Name>
+  </Department>
+  <Department>
+    <Id>11</Id>
+    <Name><![CDATA[Avcılık ve Yaban Hayatı]]></Name>
+  </Department>
+  <Department>
+    <Id>101</Id>
+    <Name><![CDATA[İş Sağlığı ve Güvenliği]]></Name>
+  </Department>
+  <Department>
+    <Id>45</Id>
+    <Name><![CDATA[Diş Protez Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>120</Id>
+    <Name><![CDATA[Maden Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>182</Id>
+    <Name><![CDATA[Sosyal Güvenlik]]></Name>
+  </Department>
+  <Department>
+    <Id>223</Id>
+    <Name><![CDATA[Yat İşletme ve Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>202</Id>
+    <Name><![CDATA[Tıbbi Tanıtım ve Pazarlama]]></Name>
+  </Department>
+  <Department>
+    <Id>162</Id>
+    <Name><![CDATA[Rafineri ve Petro-Kimya Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>85</Id>
+    <Name><![CDATA[Halıcılık ve Kilimcilik]]></Name>
+  </Department>
+  <Department>
+    <Id>117</Id>
+    <Name><![CDATA[Laboratuvar Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>64</Id>
+    <Name><![CDATA[Endüstriyel Tavukçuluk]]></Name>
+  </Department>
+  <Department>
+    <Id>13</Id>
+    <Name><![CDATA[Bağcılık]]></Name>
+  </Department>
+  <Department>
+    <Id>43</Id>
+    <Name><![CDATA[Deri Konfeksiyon]]></Name>
+  </Department>
+  <Department>
+    <Id>79</Id>
+    <Name><![CDATA[Geoteknik]]></Name>
+  </Department>
+  <Department>
+    <Id>62</Id>
+    <Name><![CDATA[Endüstriyel Cam ve Seramik]]></Name>
+  </Department>
+  <Department>
+    <Id>118</Id>
+    <Name><![CDATA[Lastik ve Plastik Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>196</Id>
+    <Name><![CDATA[Tarımsal Ürünler Muhafaza ve Depolama Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>155</Id>
+    <Name><![CDATA[Perfüzyon Teknikleri]]></Name>
+  </Department>
+  <Department>
+    <Id>185</Id>
+    <Name><![CDATA[Su Altı Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>3</Id>
+    <Name><![CDATA[Adalet Meslek Yüksekokulu]]></Name>
+  </Department>
+  <Department>
+    <Id>125</Id>
+    <Name><![CDATA[Marina İşletme]]></Name>
+  </Department>
+  <Department>
+    <Id>141</Id>
+    <Name><![CDATA[Nükleer Tıp Teknikleri]]></Name>
+  </Department>
+  <Department>
+    <Id>92</Id>
+    <Name><![CDATA[İç Mekan Tasarımı]]></Name>
+  </Department>
+  <Department>
+    <Id>176</Id>
+    <Name><![CDATA[Seramik ve Cam]]></Name>
+  </Department>
+  <Department>
+    <Id>177</Id>
+    <Name><![CDATA[Seramik, Cam ve Çinicilik]]></Name>
+  </Department>
+  <Department>
+    <Id>132</Id>
+    <Name><![CDATA[Meyve ve Sebze İşleme Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>147</Id>
+    <Name><![CDATA[Oto Boya ve Karoseri]]></Name>
+  </Department>
+  <Department>
+    <Id>107</Id>
+    <Name><![CDATA[Kesme Çiçek Yetiştiriciliği]]></Name>
+  </Department>
+  <Department>
+    <Id>36</Id>
+    <Name><![CDATA[Çim Alan Tesisi ve Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>206</Id>
+    <Name><![CDATA[Turizm Animasyonu]]></Name>
+  </Department>
+  <Department>
+    <Id>1</Id>
+    <Name><![CDATA[Acil Durum ve Afet Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>10</Id>
+    <Name><![CDATA[Atçılık ve Antrenörlüğü]]></Name>
+  </Department>
+  <Department>
+    <Id>150</Id>
+    <Name><![CDATA[Otopsi Yardımcılığı]]></Name>
+  </Department>
+  <Department>
+    <Id>90</Id>
+    <Name><![CDATA[Hayvansal Üretim]]></Name>
+  </Department>
+  <Department>
+    <Id>114</Id>
+    <Name><![CDATA[Kuruyemiş Üretimi ve Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>212</Id>
+    <Name><![CDATA[Un ve Unlu Mamuller Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>72</Id>
+    <Name><![CDATA[Fındık Eksperliği]]></Name>
+  </Department>
+  <Department>
+    <Id>61</Id>
+    <Name><![CDATA[Endüstriyel Bitkiler Yetiştiriciliği]]></Name>
+  </Department>
+  <Department>
+    <Id>188</Id>
+    <Name><![CDATA[Süs Bitkileri Yetiştiriciliği]]></Name>
+  </Department>
+  <Department>
+    <Id>187</Id>
+    <Name><![CDATA[Sulama Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>27</Id>
+    <Name><![CDATA[Biyokimya]]></Name>
+  </Department>
+  <Department>
+    <Id>29</Id>
+    <Name><![CDATA[Boya Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>111</Id>
+    <Name><![CDATA[Kozmetik Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>35</Id>
+    <Name><![CDATA[Çevre Temizliği ve Denetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>105</Id>
+    <Name><![CDATA[Kağıt Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>157</Id>
+    <Name><![CDATA[Podoloji]]></Name>
+  </Department>
+  <Department>
+    <Id>205</Id>
+    <Name><![CDATA[Turist Rehberliği]]></Name>
+  </Department>
+  <Department>
+    <Id>17</Id>
+    <Name><![CDATA[Basın ve Yayıncılık]]></Name>
+  </Department>
+  <Department>
+    <Id>32</Id>
+    <Name><![CDATA[Çay Tarımı ve İşleme Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>217</Id>
+    <Name><![CDATA[Yağ Endüstrisi]]></Name>
+  </Department>
+  <Department>
+    <Id>186</Id>
+    <Name><![CDATA[Su Ürünleri İşleme Teknolojisi]]></Name>
+  </Department>
+  <Department>
+    <Id>225</Id>
+    <Name><![CDATA[Yem Teknolojisi ve Hayvan Besleme]]></Name>
+  </Department>
+  <Department>
+    <Id>216</Id>
+    <Name><![CDATA[Uygulamalı Rusça ve Çevirmenlik]]></Name>
+  </Department>
+  <Department>
+    <Id>138</Id>
+    <Name><![CDATA[Moda Yönetimi]]></Name>
+  </Department>
+  <Department>
+    <Id>215</Id>
+    <Name><![CDATA[Uygulamalı İspanyolca ve Çevirmenlik]]></Name>
+  </Department>
+  <Department>
+    <Id>39</Id>
+    <Name><![CDATA[Çorap ve Moda Tasarımı]]></Name>
+  </Department>
+  <Department>
+    <Id>88</Id>
+    <Name><![CDATA[Hava Lojistiği]]></Name>
+  </Department>
+  <Department>
+    <Id>83</Id>
+    <Name><![CDATA[Görsel İletişim]]></Name>
+  </Department>
+  <Department>
+    <Id>126</Id>
+    <Name><![CDATA[Marina ve Yat İşletmeciliği]]></Name>
+  </Department>
+</Data>

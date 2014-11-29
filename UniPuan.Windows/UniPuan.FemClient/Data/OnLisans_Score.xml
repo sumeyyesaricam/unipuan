@@ -1,0 +1,4503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <Score>
+    <Id>100351322</Id>
+    <UniversityName><![CDATA[ADNAN MENDERES ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[100351322]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[443,5]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>104250913</Id>
+    <UniversityName><![CDATA[GAZİANTEP ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[104250913]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[439,6]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>110350707</Id>
+    <UniversityName><![CDATA[BÜLENT ECEVİT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[110350707]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[428,45]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205350123</Id>
+    <UniversityName><![CDATA[ŞİFA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205350123]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 772]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[428]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>107450126</Id>
+    <UniversityName><![CDATA[MERSİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[107450126]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[427,7]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>100150714</Id>
+    <UniversityName><![CDATA[ABANT İZZET BAYSAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[100150714]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[426,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102950136</Id>
+    <UniversityName><![CDATA[ÇUKUROVA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102950136]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[425,3]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204550981</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204550981]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[423,15]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106650657</Id>
+    <UniversityName><![CDATA[KIRIKKALE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106650657]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[418,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102751287</Id>
+    <UniversityName><![CDATA[ÇANAKKALE ONSEKİZ MART ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102751287]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[418,6]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752242</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752242]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[417,1]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>109250661</Id>
+    <UniversityName><![CDATA[SÜLEYMAN DEMİREL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[109250661]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[38, 87]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[416,85]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103450023</Id>
+    <UniversityName><![CDATA[EGE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103450023]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[411,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105350293</Id>
+    <UniversityName><![CDATA[İNONÜ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105350293]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[407,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102650484</Id>
+    <UniversityName><![CDATA[CUMHURİYET ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102650484]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[87, 713]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[404,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103950106</Id>
+    <UniversityName><![CDATA[FIRAT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103950106]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[404,65]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>110250568</Id>
+    <UniversityName><![CDATA[YÜZÜNCÜ YIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[110250568]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[403,7]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>107250525</Id>
+    <UniversityName><![CDATA[MARMARA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[107250525]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[402,2712]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>107750759</Id>
+    <UniversityName><![CDATA[MUSTAFA KEMAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[107750759]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[401,9]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752181</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752181]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[400,95]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>107451239</Id>
+    <UniversityName><![CDATA[MERSİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[107451239]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[400,75]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108750492</Id>
+    <UniversityName><![CDATA[RECEP TAYYİP ERDOGAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108750492]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[400,55]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103150353</Id>
+    <UniversityName><![CDATA[DOKUZ EYLÜL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103150353]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[38]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[399,9]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455042</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455042]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[399,65]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201551016</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201551016]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Uzaktan Öğretim) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 222]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[398,51509]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>110350364</Id>
+    <UniversityName><![CDATA[BÜLENT ECEVİT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[110350364]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[397,75]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>101150156</Id>
+    <UniversityName><![CDATA[ANKARA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[101150156]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[397,4]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205650156</Id>
+    <UniversityName><![CDATA[TURGUT OZAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205650156]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 720]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[397,4]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>109750011</Id>
+    <UniversityName><![CDATA[ULUDAĞ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[109750011]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[38]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[396,65]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205350062</Id>
+    <UniversityName><![CDATA[ŞİFA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205350062]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 772]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[396,55]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202550696</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202550696]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[396,1608]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205650438</Id>
+    <UniversityName><![CDATA[TURGUT OZAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205650438]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 720]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[395,89372]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250184</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250184]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[395,35]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>109450253</Id>
+    <UniversityName><![CDATA[TRAKYA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[109450253]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[394,5]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>110351186</Id>
+    <UniversityName><![CDATA[BÜLENT ECEVİT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[110351186]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[391,25]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206350165</Id>
+    <UniversityName><![CDATA[ZİRVE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206350165]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 21, 242]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[389,26609]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450234</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450234]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[388,3]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455051</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455051]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[386,7]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203550384</Id>
+    <UniversityName><![CDATA[İZMİR EKONOMİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203550384]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 171]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[385,15898]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102150683</Id>
+    <UniversityName><![CDATA[BİTLİS EREN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102150683]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[385]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103050169</Id>
+    <UniversityName><![CDATA[DİCLE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103050169]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[383,35]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105650015</Id>
+    <UniversityName><![CDATA[İSTANBUL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105650015]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet Meslek Yüksekokulu]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[381,88765]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201550821</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201550821]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 222]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[381,32367]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103050742</Id>
+    <UniversityName><![CDATA[DİCLE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103050742]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[380,75]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106150635</Id>
+    <UniversityName><![CDATA[KARABÜK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106150635]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[21]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[378,6]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103150017</Id>
+    <UniversityName><![CDATA[DOKUZ EYLÜL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103150017]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet Meslek Yüksekokulu]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[377,62869]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103550904</Id>
+    <UniversityName><![CDATA[ERCİYES ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103550904]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[377,1]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201850387</Id>
+    <UniversityName><![CDATA[GEDİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201850387]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 165]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[376,75523]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105970652</Id>
+    <UniversityName><![CDATA[KAFKAS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105970652]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[376,75226]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>100751363</Id>
+    <UniversityName><![CDATA[AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[100751363]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[376,59911]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>107250022</Id>
+    <UniversityName><![CDATA[MARMARA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[107250022]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[375,6]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200650259</Id>
+    <UniversityName><![CDATA[BAŞKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200650259]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 20]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[375,15]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204050023</Id>
+    <UniversityName><![CDATA[KTO KARATAY ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204050023]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet Meslek Yüksekokulu (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 716]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[375,10265]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203050829</Id>
+    <UniversityName><![CDATA[İSTANBUL KÜLTÜR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203050829]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 47]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[374,69862]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205650174</Id>
+    <UniversityName><![CDATA[TURGUT OZAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205650174]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 720]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[373,75]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106951722</Id>
+    <UniversityName><![CDATA[KOCAELİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106951722]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[373,7]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200150025</Id>
+    <UniversityName><![CDATA[ACIBADEM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200150025]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 120]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[373,3]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202352322</Id>
+    <UniversityName><![CDATA[İSTANBUL AREL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202352322]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 215]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[372,85]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108950224</Id>
+    <UniversityName><![CDATA[SELÇUK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108950224]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[370,92457]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202453576</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202453576]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[370,46743]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103550685</Id>
+    <UniversityName><![CDATA[ERCİYES ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103550685]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[370,2]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103550967</Id>
+    <UniversityName><![CDATA[ERCİYES ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103550967]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[369,25438]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103050778</Id>
+    <UniversityName><![CDATA[DİCLE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103050778]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[369,09903]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203750716</Id>
+    <UniversityName><![CDATA[KADİR HAS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203750716]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 50]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[368,85941]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751247</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751247]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[367,71335]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203851219</Id>
+    <UniversityName><![CDATA[KAPADOKYA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[203851219]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 281, 286, 850]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[366,35]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456313</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456313]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[365,93254]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202650041</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202650041]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 29, 38]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[365,75]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201450028</Id>
+    <UniversityName><![CDATA[FATİH SULTAN MEHMET VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201450028]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 734]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[364,11225]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205850048</Id>
+    <UniversityName><![CDATA[UFUK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205850048]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 227]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[363,35]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205850206</Id>
+    <UniversityName><![CDATA[UFUK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205850206]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 227]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[363,06513]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201150067</Id>
+    <UniversityName><![CDATA[ÇANKAYA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201150067]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 31, 46]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[362,94443]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751595</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751595]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[362,6683]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204150755</Id>
+    <UniversityName><![CDATA[MALTEPE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204150755]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 144]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[362,28925]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203150052</Id>
+    <UniversityName><![CDATA[İSTANBUL MEDİPOL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203150052]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 709]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[360,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204751862</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204751862]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[360,29238]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455069</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455069]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[359,74973]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103650657</Id>
+    <UniversityName><![CDATA[ERZİNCAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103650657]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[359,05]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108650112</Id>
+    <UniversityName><![CDATA[PAMUKKALE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108650112]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[38]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[357,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106951697</Id>
+    <UniversityName><![CDATA[KOCAELİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106951697]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[356,64803]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108251017</Id>
+    <UniversityName><![CDATA[ONDOKUZ MAYIS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108251017]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[46, 276]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[356,60521]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205850224</Id>
+    <UniversityName><![CDATA[UFUK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205850224]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 227]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[356,5]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>109950257</Id>
+    <UniversityName><![CDATA[YALOVA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[109950257]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[355,97144]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203150316</Id>
+    <UniversityName><![CDATA[İSTANBUL MEDİPOL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203150316]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 709]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[355,59568]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551194</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551194]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[355,11488]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108950233</Id>
+    <UniversityName><![CDATA[SELÇUK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108950233]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[355,1]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751556</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751556]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[353,5756]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201050447</Id>
+    <UniversityName><![CDATA[ÇAG ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201050447]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 4, 27]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[353,57429]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204450046</Id>
+    <UniversityName><![CDATA[MEVLANA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204450046]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 718]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[353,35458]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103451569</Id>
+    <UniversityName><![CDATA[EGE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103451569]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[352,65]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200651248</Id>
+    <UniversityName><![CDATA[BAŞKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200651248]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 20]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[350,65]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105350875</Id>
+    <UniversityName><![CDATA[İNONÜ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105350875]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[350,3165]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201850396</Id>
+    <UniversityName><![CDATA[GEDİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201850396]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 165]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[350,04595]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103550155</Id>
+    <UniversityName><![CDATA[ERCİYES ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103550155]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[349,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204770083</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204770083]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[348,88416]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203851237</Id>
+    <UniversityName><![CDATA[KAPADOKYA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[203851237]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 281, 286, 850]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[348,35]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>109252993</Id>
+    <UniversityName><![CDATA[SÜLEYMAN DEMİREL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[109252993]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[348,24478]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202352297</Id>
+    <UniversityName><![CDATA[İSTANBUL AREL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202352297]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 215]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[347,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200650453</Id>
+    <UniversityName><![CDATA[BAŞKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200650453]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 20]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[347,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103070701</Id>
+    <UniversityName><![CDATA[DİCLE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103070701]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[347,48512]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106050636</Id>
+    <UniversityName><![CDATA[KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106050636]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[347,2]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108750544</Id>
+    <UniversityName><![CDATA[RECEP TAYYİP ERDOGAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108750544]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[346,85978]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>104251232</Id>
+    <UniversityName><![CDATA[GAZİANTEP ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[104251232]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[346,6588]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201551449</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201551449]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 222]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[346,45]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>101451503</Id>
+    <UniversityName><![CDATA[ATATÜRK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[101451503]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[344,34531]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202752751</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202752751]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[343,35581]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203150176</Id>
+    <UniversityName><![CDATA[İSTANBUL MEDİPOL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203150176]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 709]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[343,34177]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150633</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150633]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 66, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[343,05]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105950463</Id>
+    <UniversityName><![CDATA[KAFKAS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105950463]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[341,7]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>100351358</Id>
+    <UniversityName><![CDATA[ADNAN MENDERES ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[100351358]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[341,65]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106650578</Id>
+    <UniversityName><![CDATA[KIRIKKALE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106650578]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[340,81653]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202650208</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202650208]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 29, 38]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[340,6]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105750014</Id>
+    <UniversityName><![CDATA[İZMİR KATİP ÇELEBİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105750014]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[339,4]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>109970207</Id>
+    <UniversityName><![CDATA[YALOVA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[109970207]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[338,24084]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201450037</Id>
+    <UniversityName><![CDATA[FATİH SULTAN MEHMET VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201450037]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 734]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[338,04702]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200950053</Id>
+    <UniversityName><![CDATA[BEZM-İ ALEM VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200950053]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 733]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[338]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106150583</Id>
+    <UniversityName><![CDATA[KARABÜK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106150583]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[21]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[337,41865]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201050474</Id>
+    <UniversityName><![CDATA[ÇAG ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201050474]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 4, 27]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[336,84227]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752278</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752278]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[336,5]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108970185</Id>
+    <UniversityName><![CDATA[SELÇUK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108970185]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[336,37254]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103650012</Id>
+    <UniversityName><![CDATA[ERZİNCAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103650012]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[336,18723]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106450598</Id>
+    <UniversityName><![CDATA[KASTAMONU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106450598]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[334,66707]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206350174</Id>
+    <UniversityName><![CDATA[ZİRVE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206350174]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 21, 242]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[333,61079]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202454998</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202454998]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[333,25]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>109272246</Id>
+    <UniversityName><![CDATA[SÜLEYMAN DEMİREL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[109272246]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[333,15122]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102350381</Id>
+    <UniversityName><![CDATA[BOZOK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102350381]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[332,76551]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201550839</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201550839]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 222]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[332,56668]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200950062</Id>
+    <UniversityName><![CDATA[BEZM-İ ALEM VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200950062]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 733]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[332,27609]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102650475</Id>
+    <UniversityName><![CDATA[CUMHURİYET ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102650475]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri]]></DepartmentName>
+    <Condition><![CDATA[87, 713]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[332,2]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105050984</Id>
+    <UniversityName><![CDATA[HARRAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105050984]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[331,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102970643</Id>
+    <UniversityName><![CDATA[ÇUKUROVA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102970643]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[331,45]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202770098</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202770098]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[331,15]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200350941</Id>
+    <UniversityName><![CDATA[AVRASYA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200350941]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 776]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[330,5]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202454556</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202454556]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[330,13648]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150509</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150509]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 66, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[329,4821]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450261</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450261]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[329,05]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203750725</Id>
+    <UniversityName><![CDATA[KADİR HAS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203750725]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 50]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[329,01421]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751832</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751832]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[328,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455103</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455103]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[328,4]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551185</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551185]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[327,65]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204050032</Id>
+    <UniversityName><![CDATA[KTO KARATAY ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204050032]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet Meslek Yüksekokulu (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 716]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[327,20814]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>101450417</Id>
+    <UniversityName><![CDATA[ATATÜRK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[101450417]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[325,55]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455112</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455112]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[325,43377]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103670149</Id>
+    <UniversityName><![CDATA[ERZİNCAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103670149]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[322,98594]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203051121</Id>
+    <UniversityName><![CDATA[İSTANBUL KÜLTÜR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203051121]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 47]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[321,06476]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201551413</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201551413]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 222]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[321]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106170287</Id>
+    <UniversityName><![CDATA[KARABÜK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106170287]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2, 21]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[318,59549]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102370173</Id>
+    <UniversityName><![CDATA[BOZOK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102370173]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[318,28998]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203150061</Id>
+    <UniversityName><![CDATA[İSTANBUL MEDİPOL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203150061]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 709]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[317,82807]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202352304</Id>
+    <UniversityName><![CDATA[İSTANBUL AREL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202352304]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 215]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[317,28248]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106470496</Id>
+    <UniversityName><![CDATA[KASTAMONU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106470496]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[316,27863]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200350923</Id>
+    <UniversityName><![CDATA[AVRASYA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200350923]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 776]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[314,8]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751574</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751574]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[314,5]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108250364</Id>
+    <UniversityName><![CDATA[ONDOKUZ MAYIS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108250364]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[46]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[314,4]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108251141</Id>
+    <UniversityName><![CDATA[ONDOKUZ MAYIS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108251141]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[46]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[311,25]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201850403</Id>
+    <UniversityName><![CDATA[GEDİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201850403]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 165]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[310,93464]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250166</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250166]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[310,91348]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102950666</Id>
+    <UniversityName><![CDATA[ÇUKUROVA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102950666]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[310,75]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200651239</Id>
+    <UniversityName><![CDATA[BAŞKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200651239]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 20]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[310,2]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202454944</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202454944]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[309]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201050456</Id>
+    <UniversityName><![CDATA[ÇAG ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201050456]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 4, 27]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[307,38198]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456331</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456331]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[306,51351]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200650295</Id>
+    <UniversityName><![CDATA[BAŞKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200650295]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 20]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[304,25]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455096</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455096]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[303,95]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202352331</Id>
+    <UniversityName><![CDATA[İSTANBUL AREL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202352331]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 215]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[301,81455]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204050041</Id>
+    <UniversityName><![CDATA[KTO KARATAY ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204050041]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet Meslek Yüksekokulu (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 716]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[300,6025]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751647</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751647]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[300,06264]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105650078</Id>
+    <UniversityName><![CDATA[İSTANBUL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105650078]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[299,15]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751841</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751841]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[298,94209]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203150016</Id>
+    <UniversityName><![CDATA[İSTANBUL MEDİPOL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203150016]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 709]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[298,9]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300450154</Id>
+    <UniversityName><![CDATA[ULUSLARARASI KIBRIS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300450154]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 71, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[298,71239]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300250492</Id>
+    <UniversityName><![CDATA[GİRNE AMERİKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300250492]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 69, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[298,43158]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202454565</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202454565]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[297,3592]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202770105</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202770105]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[297,05076]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455078</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455078]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[295,41139]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102652144</Id>
+    <UniversityName><![CDATA[CUMHURİYET ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102652144]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[87, 713]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[295,2]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752287</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752287]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[294,22496]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200950026</Id>
+    <UniversityName><![CDATA[BEZM-İ ALEM VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200950026]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 733]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[294,05]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106170357</Id>
+    <UniversityName><![CDATA[KARABÜK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106170357]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2, 21]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[292,4]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200650974</Id>
+    <UniversityName><![CDATA[BAŞKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200650974]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 20]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[292,14794]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455121</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455121]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[291,43809]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751859</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751859]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[291,10053]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205350053</Id>
+    <UniversityName><![CDATA[ŞİFA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205350053]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[772]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[287,7873]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751929</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751929]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[287,5]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150721</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150721]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 66, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[286,97014]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200650859</Id>
+    <UniversityName><![CDATA[BAŞKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200650859]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 20]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[284,70862]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106650648</Id>
+    <UniversityName><![CDATA[KIRIKKALE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106650648]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[283,85]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202752769</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202752769]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[282,12123]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751965</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751965]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[280]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551158</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551158]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[279,41255]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300450163</Id>
+    <UniversityName><![CDATA[ULUSLARARASI KIBRIS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300450163]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 71, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[276,06848]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202770114</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202770114]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[275,33968]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201050465</Id>
+    <UniversityName><![CDATA[ÇAG ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201050465]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 4, 27]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[275,30992]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201551591</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201551591]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 222]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[272,72496]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551228</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551228]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[269,60389]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201850378</Id>
+    <UniversityName><![CDATA[GEDİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201850378]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[165]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[269,16368]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551201</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551201]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[268,09007]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202650032</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202650032]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[29, 38]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[267,99872]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200950044</Id>
+    <UniversityName><![CDATA[BEZM-İ ALEM VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200950044]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[733]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[266,15148]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205850039</Id>
+    <UniversityName><![CDATA[UFUK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205850039]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[227]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[263,72332]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150642</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150642]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 66, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[263,5229]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201150076</Id>
+    <UniversityName><![CDATA[ÇANKAYA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201150076]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 31, 46]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[261,9033]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751656</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751656]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[261,83839]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203051139</Id>
+    <UniversityName><![CDATA[İSTANBUL KÜLTÜR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203051139]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 47]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[257,8457]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456349</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456349]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[256,20859]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205650165</Id>
+    <UniversityName><![CDATA[TURGUT OZAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205650165]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[720]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[254,80346]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202352288</Id>
+    <UniversityName><![CDATA[İSTANBUL AREL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202352288]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[215]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[252,66866]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202650192</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202650192]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[29, 38]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[252,5798]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455033</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455033]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[251,27329]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202550703</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202550703]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[250,15861]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206350183</Id>
+    <UniversityName><![CDATA[ZİRVE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206350183]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 21, 242]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[249,94877]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205650429</Id>
+    <UniversityName><![CDATA[TURGUT OZAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205650429]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[720]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[245,28468]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751256</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751256]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[245,0626]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751823</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751823]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[243,49919]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250175</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250175]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[243,48165]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202454962</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202454962]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[242,91217]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203550375</Id>
+    <UniversityName><![CDATA[İZMİR EKONOMİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203550375]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 171]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[242,48329]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204050014</Id>
+    <UniversityName><![CDATA[KTO KARATAY ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204050014]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet Meslek Yüksekokulu (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[716]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[241,92303]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203150325</Id>
+    <UniversityName><![CDATA[İSTANBUL MEDİPOL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203150325]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 709]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[241,00785]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200950035</Id>
+    <UniversityName><![CDATA[BEZM-İ ALEM VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200950035]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 733]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[240,40469]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202752796</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202752796]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[240,39708]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201551431</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201551431]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[222]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[239,51798]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455087</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455087]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[239,11542]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202352313</Id>
+    <UniversityName><![CDATA[İSTANBUL AREL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202352313]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[215]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[237,41878]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752269</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752269]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[235,91746]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201150085</Id>
+    <UniversityName><![CDATA[ÇANKAYA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201150085]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 31, 46]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[234,69183]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205350114</Id>
+    <UniversityName><![CDATA[ŞİFA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205350114]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[772]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[234,41932]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204150746</Id>
+    <UniversityName><![CDATA[MALTEPE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204150746]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 144]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[234,38651]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202770089</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202770089]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[233,06894]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203150025</Id>
+    <UniversityName><![CDATA[İSTANBUL MEDİPOL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203150025]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 709]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[231,56508]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205850199</Id>
+    <UniversityName><![CDATA[UFUK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205850199]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[227]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[230,74739]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455015</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455015]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[230,71527]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751938</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751938]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[229,82068]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300550356</Id>
+    <UniversityName><![CDATA[YAKIN DOGU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300550356]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 73, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[228,96632]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203150185</Id>
+    <UniversityName><![CDATA[İSTANBUL MEDİPOL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203150185]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 709]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[227,64602]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200650841</Id>
+    <UniversityName><![CDATA[BAŞKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200650841]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 20]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[226,61498]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300250517</Id>
+    <UniversityName><![CDATA[GİRNE AMERİKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300250517]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 69, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[223,33106]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751974</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751974]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[222,26511]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150624</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150624]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[66, 97, 791]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[220,98607]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204450037</Id>
+    <UniversityName><![CDATA[MEVLANA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204450037]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[718]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[214,99712]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205850215</Id>
+    <UniversityName><![CDATA[UFUK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205850215]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[227]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[214,16872]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752251</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752251]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[212,16614]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202454971</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202454971]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[211,77152]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201550812</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201550812]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[222]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[208,42021]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752199</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752199]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[206,59681]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205650147</Id>
+    <UniversityName><![CDATA[TURGUT OZAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205650147]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[720]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[205,91932]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202455024</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202455024]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[204,19794]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202453567</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202453567]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[197,8886]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203050811</Id>
+    <UniversityName><![CDATA[İSTANBUL KÜLTÜR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203050811]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 47]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[197,46789]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203851228</Id>
+    <UniversityName><![CDATA[KAPADOKYA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[203851228]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 281, 286, 850]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[196,94544]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450243</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450243]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[195,90256]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200950017</Id>
+    <UniversityName><![CDATA[BEZM-İ ALEM VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200950017]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[733]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[193,79033]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250157</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250157]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[193,63939]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>101050775</Id>
+    <UniversityName><![CDATA[ANADOLU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[101050775]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Açıköğretim)]]></DepartmentName>
+    <Condition><![CDATA[9, 773]]></Condition>
+    <ScoreType><![CDATA[AÖF]]></ScoreType>
+    <ScoreMin><![CDATA[191,11058]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203851201</Id>
+    <UniversityName><![CDATA[KAPADOKYA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[203851201]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 281, 286, 850]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[183,50881]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751547</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751547]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[95]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[182,1373]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202454935</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202454935]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[181,96246]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201551422</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201551422]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 222]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[176,77389]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751947</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751947]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[174,74904]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752233</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752233]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[169,42182]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551679</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551679]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550315</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550315]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[719]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550324</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550324]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 719]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550333</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550333]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 719]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752903</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752903]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752912</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752912]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752921</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752921]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551855</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551855]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551864</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551864]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551873</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551873]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551882</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551882]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203851361</Id>
+    <UniversityName><![CDATA[KAPADOKYA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[203851361]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 281, 286, 850]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203851379</Id>
+    <UniversityName><![CDATA[KAPADOKYA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[203851379]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 281, 286, 850]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551891</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551891]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551907</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551907]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551916</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551916]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551925</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551925]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752939</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752939]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752948</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752948]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752957</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752957]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 38, 46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250615</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250615]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250624</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250624]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551285</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551285]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551294</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551294]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551301</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551301]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551319</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551319]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551328</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551328]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551488</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551488]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551497</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551497]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551504</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551504]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551513</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551513]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551522</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551522]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300250605</Id>
+    <UniversityName><![CDATA[GİRNE AMERİKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300250605]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[69, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300250614</Id>
+    <UniversityName><![CDATA[GİRNE AMERİKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300250614]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 69, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150863</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150863]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[66, 97, 791]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150872</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150872]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 66, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150881</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150881]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 66, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207550018</Id>
+    <UniversityName><![CDATA[İSTANBUL ESENYURT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[207550018]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 229]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207550027</Id>
+    <UniversityName><![CDATA[İSTANBUL ESENYURT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[207550027]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 229]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207550036</Id>
+    <UniversityName><![CDATA[İSTANBUL ESENYURT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[207550036]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 229]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207650017</Id>
+    <UniversityName><![CDATA[BİRUNİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[207650017]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 866]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207650026</Id>
+    <UniversityName><![CDATA[BİRUNİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[207650026]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 866]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300550408</Id>
+    <UniversityName><![CDATA[YAKIN DOGU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300550408]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 73, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300550762</Id>
+    <UniversityName><![CDATA[YAKIN DOGU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300550762]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 73, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550281</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550281]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[719]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550299</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550299]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 719]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550306</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550306]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 719]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205350256</Id>
+    <UniversityName><![CDATA[ŞİFA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205350256]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[772]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205350265</Id>
+    <UniversityName><![CDATA[ŞİFA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205350265]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 772]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205650474</Id>
+    <UniversityName><![CDATA[TURGUT OZAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205650474]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[720]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205650483</Id>
+    <UniversityName><![CDATA[TURGUT OZAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205650483]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 720]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300550771</Id>
+    <UniversityName><![CDATA[YAKIN DOGU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300550771]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 73, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250599</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250599]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250606</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250606]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202550775</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202550775]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202550784</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202550784]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202550793</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202550793]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202550809</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202550809]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300450348</Id>
+    <UniversityName><![CDATA[ULUSLARARASI KIBRIS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300450348]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[71, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300450357</Id>
+    <UniversityName><![CDATA[ULUSLARARASI KIBRIS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300450357]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 71, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207650035</Id>
+    <UniversityName><![CDATA[BİRUNİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[207650035]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 866]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207650044</Id>
+    <UniversityName><![CDATA[BİRUNİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[207650044]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 866]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207550045</Id>
+    <UniversityName><![CDATA[İSTANBUL ESENYURT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[207550045]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 229]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207550054</Id>
+    <UniversityName><![CDATA[İSTANBUL ESENYURT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[207550054]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 229]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207550063</Id>
+    <UniversityName><![CDATA[İSTANBUL ESENYURT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[207550063]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 229]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300250623</Id>
+    <UniversityName><![CDATA[GİRNE AMERİKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300250623]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[69, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300250632</Id>
+    <UniversityName><![CDATA[GİRNE AMERİKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300250632]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 69, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551531</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551531]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551549</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551549]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551558</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551558]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551567</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551567]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551576</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551576]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551337</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551337]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551346</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551346]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551355</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551355]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551364</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551364]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551373</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551373]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200551197</Id>
+    <UniversityName><![CDATA[BAHÇEŞEHİR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200551197]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[18, 46]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200551204</Id>
+    <UniversityName><![CDATA[BAHÇEŞEHİR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200551204]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 18, 46]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200551213</Id>
+    <UniversityName><![CDATA[BAHÇEŞEHİR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200551213]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 18, 46]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450349</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450349]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450358</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450358]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108651067</Id>
+    <UniversityName><![CDATA[PAMUKKALE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108651067]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (KKTC Uyruklu)]]></DepartmentName>
+    <Condition><![CDATA[38, 90]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>106070773</Id>
+    <UniversityName><![CDATA[KAHRAMANMARAŞ SÜTÇÜ İMAM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[106070773]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>107770966</Id>
+    <UniversityName><![CDATA[MUSTAFA KEMAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[107770966]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>101150905</Id>
+    <UniversityName><![CDATA[ANKARA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[101150905]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (KKTC Uyruklu)]]></DepartmentName>
+    <Condition><![CDATA[90]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751802</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751802]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751811</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751811]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751829</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751829]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751838</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751838]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200950238</Id>
+    <UniversityName><![CDATA[BEZM-İ ALEM VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200950238]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 733]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200150397</Id>
+    <UniversityName><![CDATA[ACIBADEM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200150397]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 120]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200150404</Id>
+    <UniversityName><![CDATA[ACIBADEM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200150404]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 120]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200150255</Id>
+    <UniversityName><![CDATA[ACIBADEM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200150255]]></DepartmentCode>
+    <DepartmentName><![CDATA[Anestezi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 120]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751956</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751956]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751983</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751983]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202551297</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202551297]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202551304</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202551304]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202551313</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202551313]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202551322</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202551322]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201551404</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201551404]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[222]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202454989</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202454989]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>104850564</Id>
+    <UniversityName><![CDATA[HACETTEPE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[104850564]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[4]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>104150914</Id>
+    <UniversityName><![CDATA[GAZİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[104150914]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>101150898</Id>
+    <UniversityName><![CDATA[ANKARA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[101150898]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102551305</Id>
+    <UniversityName><![CDATA[CELAL BAYAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102551305]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551837</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551837]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551846</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551846]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550342</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550342]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[719]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550351</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550351]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 719]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550369</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550369]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 719]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751911</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751911]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300550753</Id>
+    <UniversityName><![CDATA[YAKIN DOGU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300550753]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 73, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300550435</Id>
+    <UniversityName><![CDATA[YAKIN DOGU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300550435]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 73, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150712</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150712]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[66, 97, 791]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150739</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150739]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 66, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551919</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551919]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551928</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551928]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551937</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551937]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551946</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551946]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206551955</Id>
+    <UniversityName><![CDATA[ÜSKÜDAR ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206551955]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 811]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250509</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250509]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250518</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250518]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250527</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250527]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>108953175</Id>
+    <UniversityName><![CDATA[SELÇUK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[108953175]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450252</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450252]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200752103</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200752103]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200752112</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200752112]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200752166</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200752166]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200752175</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200752175]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200950229</Id>
+    <UniversityName><![CDATA[BEZM-İ ALEM VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200950229]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 733]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450225</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450225]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751732</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751732]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751953</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751953]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751962</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751962]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 95]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450279</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450279]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ağız ve Diş Sağlığı (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450401</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450401]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450419</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450419]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450428</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450428]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450437</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450437]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450446</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450446]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200450455</Id>
+    <UniversityName><![CDATA[AVRUPA MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[200450455]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 711]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>103451718</Id>
+    <UniversityName><![CDATA[EGE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[103451718]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (KKTC Uyruklu)]]></DepartmentName>
+    <Condition><![CDATA[90]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>102652532</Id>
+    <UniversityName><![CDATA[CUMHURİYET ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[102652532]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (KKTC Uyruklu)]]></DepartmentName>
+    <Condition><![CDATA[87, 90, 713]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>104850591</Id>
+    <UniversityName><![CDATA[HACETTEPE ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[104850591]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri]]></DepartmentName>
+    <Condition><![CDATA[4]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105051134</Id>
+    <UniversityName><![CDATA[HARRAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105051134]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202050498</Id>
+    <UniversityName><![CDATA[IŞIK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202050498]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[133]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202050505</Id>
+    <UniversityName><![CDATA[IŞIK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202050505]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 133]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202050514</Id>
+    <UniversityName><![CDATA[IŞIK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202050514]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 133]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202050523</Id>
+    <UniversityName><![CDATA[IŞIK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202050523]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[133]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202050532</Id>
+    <UniversityName><![CDATA[IŞIK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202050532]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 133]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202050541</Id>
+    <UniversityName><![CDATA[IŞIK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202050541]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 133]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202550739</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202550739]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202550748</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202550748]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202550757</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202550757]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202550766</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLGİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202550766]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 45]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456525</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456525]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456534</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456534]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456543</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456543]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456552</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456552]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456561</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456561]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456579</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456579]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456588</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456588]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456597</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456597]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202753025</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202753025]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202753034</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202753034]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202753043</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202753043]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202753052</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202753052]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 237]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202650474</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202650474]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[29]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202650483</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202650483]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 29]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202650492</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202650492]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[29]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202650508</Id>
+    <UniversityName><![CDATA[İSTANBUL BİLİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202650508]]></DepartmentCode>
+    <DepartmentName><![CDATA[Ameliyathane Hizmetleri (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 29]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>109850725</Id>
+    <UniversityName><![CDATA[UŞAK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[109850725]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>109870235</Id>
+    <UniversityName><![CDATA[UŞAK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[109870235]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>101150853</Id>
+    <UniversityName><![CDATA[ANKARA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[101150853]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[14, 81]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>101150862</Id>
+    <UniversityName><![CDATA[ANKARA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[101150862]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Uzaktan Öğretim)]]></DepartmentName>
+    <Condition><![CDATA[14, 81, 226]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>101451724</Id>
+    <UniversityName><![CDATA[ATATÜRK ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[101451724]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Açıköğretim)]]></DepartmentName>
+    <Condition><![CDATA[9, 773]]></Condition>
+    <ScoreType><![CDATA[AÖF]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>100770987</Id>
+    <UniversityName><![CDATA[AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[100770987]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>104270698</Id>
+    <UniversityName><![CDATA[GAZİANTEP ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[104270698]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105370313</Id>
+    <UniversityName><![CDATA[İNONÜ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105370313]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ)]]></DepartmentName>
+    <Condition><![CDATA[2]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>104150968</Id>
+    <UniversityName><![CDATA[GAZİ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[104150968]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet]]></DepartmentName>
+    <Condition><![CDATA[865]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202751586</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202751586]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[237]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200751238</Id>
+    <UniversityName><![CDATA[BEYKENT ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200751238]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[95]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>203750707</Id>
+    <UniversityName><![CDATA[KADİR HAS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[203750707]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[50]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202456304</Id>
+    <UniversityName><![CDATA[İSTANBUL AYDİN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202456304]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 52]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201551007</Id>
+    <UniversityName><![CDATA[FATİH ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201551007]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Uzaktan Öğretim) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[222]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>202752742</Id>
+    <UniversityName><![CDATA[İSTANBUL GELİŞİM ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[202752742]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[237]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204751853</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204751853]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204450055</Id>
+    <UniversityName><![CDATA[MEVLANA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204450055]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 718]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204450064</Id>
+    <UniversityName><![CDATA[MEVLANA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204450064]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 718]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200350932</Id>
+    <UniversityName><![CDATA[AVRASYA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200350932]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[776]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>105650969</Id>
+    <UniversityName><![CDATA[İSTANBUL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[105650969]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi (Uzaktan Öğretim)]]></DepartmentName>
+    <Condition><![CDATA[226]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200350914</Id>
+    <UniversityName><![CDATA[AVRASYA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200350914]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[776]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200351427</Id>
+    <UniversityName><![CDATA[AVRASYA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200351427]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 776]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>200351436</Id>
+    <UniversityName><![CDATA[AVRASYA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[200351436]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 776]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204752172</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204752172]]></DepartmentCode>
+    <DepartmentName><![CDATA[Acil Durum ve Afet Yönetimi (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-2]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206850663</Id>
+    <UniversityName><![CDATA[İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[206850663]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[212]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206850672</Id>
+    <UniversityName><![CDATA[İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[206850672]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 212]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206850681</Id>
+    <UniversityName><![CDATA[İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[206850681]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 212]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206850699</Id>
+    <UniversityName><![CDATA[İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[206850699]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[212]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206850706</Id>
+    <UniversityName><![CDATA[İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[206850706]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 212]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206850715</Id>
+    <UniversityName><![CDATA[İSTANBUL ŞİŞLİ MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[206850715]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 212]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207450513</Id>
+    <UniversityName><![CDATA[ATAŞEHİR ADİGÜZEL MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[207450513]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 213]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207450522</Id>
+    <UniversityName><![CDATA[ATAŞEHİR ADİGÜZEL MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[207450522]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 213]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207450531</Id>
+    <UniversityName><![CDATA[ATAŞEHİR ADİGÜZEL MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[207450531]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 213]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207450549</Id>
+    <UniversityName><![CDATA[ATAŞEHİR ADİGÜZEL MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[207450549]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 213]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>207450558</Id>
+    <UniversityName><![CDATA[ATAŞEHİR ADİGÜZEL MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[207450558]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 213]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150493</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150493]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[66, 97, 791]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551776</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551776]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551785</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551785]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551819</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551819]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204551828</Id>
+    <UniversityName><![CDATA[NİŞANTAŞI ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204551828]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 721]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>204770074</Id>
+    <UniversityName><![CDATA[OKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[204770074]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 270]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205052467</Id>
+    <UniversityName><![CDATA[PLATO MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[205052467]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[46, 702]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205052476</Id>
+    <UniversityName><![CDATA[PLATO MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[205052476]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 702]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205052485</Id>
+    <UniversityName><![CDATA[PLATO MESLEK YÜKSEKOKULU]]></UniversityName>
+    <DepartmentCode><![CDATA[205052485]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 46, 702]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550439</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550439]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[719]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550448</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550448]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 719]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205550457</Id>
+    <UniversityName><![CDATA[TOROS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205550457]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 719]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201650017</Id>
+    <UniversityName><![CDATA[HASAN KALYONCU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201650017]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[735]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201650026</Id>
+    <UniversityName><![CDATA[HASAN KALYONCU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201650026]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 735]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201650035</Id>
+    <UniversityName><![CDATA[HASAN KALYONCU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201650035]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 735]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201650044</Id>
+    <UniversityName><![CDATA[HASAN KALYONCU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201650044]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 735]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300250508</Id>
+    <UniversityName><![CDATA[GİRNE AMERİKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300250508]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 69, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201450082</Id>
+    <UniversityName><![CDATA[FATİH SULTAN MEHMET VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201450082]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 734]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201450091</Id>
+    <UniversityName><![CDATA[FATİH SULTAN MEHMET VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201450091]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 734]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201450107</Id>
+    <UniversityName><![CDATA[FATİH SULTAN MEHMET VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201450107]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 734]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201450116</Id>
+    <UniversityName><![CDATA[FATİH SULTAN MEHMET VAKİF ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201450116]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (İÖ) (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 734]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300350322</Id>
+    <UniversityName><![CDATA[LEFKE AVRUPA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300350322]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[70, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300350331</Id>
+    <UniversityName><![CDATA[LEFKE AVRUPA ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300350331]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 70, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300450145</Id>
+    <UniversityName><![CDATA[ULUSLARARASI KIBRIS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300450145]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[71, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300450233</Id>
+    <UniversityName><![CDATA[ULUSLARARASI KIBRIS ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300450233]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 71, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300550568</Id>
+    <UniversityName><![CDATA[YAKIN DOGU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300550568]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 73, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300550453</Id>
+    <UniversityName><![CDATA[YAKIN DOGU ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300550453]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%75 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 73, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>201050438</Id>
+    <UniversityName><![CDATA[ÇAG ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[201050438]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[4, 27]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>205650465</Id>
+    <UniversityName><![CDATA[TURGUT OZAL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[205650465]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%25 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 720]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300150518</Id>
+    <UniversityName><![CDATA[DOGU AKDENİZ ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300150518]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (%50 Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 66, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>300250474</Id>
+    <UniversityName><![CDATA[GİRNE AMERİKAN ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[300250474]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[69, 97]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250448</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250448]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Ücretli)]]></DepartmentName>
+    <Condition><![CDATA[736]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+  <Score>
+    <Id>206250457</Id>
+    <UniversityName><![CDATA[YENİ YÜZYIL ÜNİVERSİTESİ]]></UniversityName>
+    <DepartmentCode><![CDATA[206250457]]></DepartmentCode>
+    <DepartmentName><![CDATA[Adalet (Tam Burslu)]]></DepartmentName>
+    <Condition><![CDATA[3, 736]]></Condition>
+    <ScoreType><![CDATA[YGS-3]]></ScoreType>
+    <ScoreMin><![CDATA[]]></ScoreMin>
+  </Score>
+</Data>
