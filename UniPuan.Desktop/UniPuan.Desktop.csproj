@@ -65,6 +65,19 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlData\WindowsFormsApplication10\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XmlData\WindowsFormsApplication10\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XmlData\WindowsFormsApplication10\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="XmlData\WindowsFormsApplication10\Program.cs" />
+    <Compile Include="XmlData\WindowsFormsApplication10\Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlData\WindowsFormsApplication10\Properties\Resources.Designer.cs" />
+    <Compile Include="XmlData\WindowsFormsApplication10\Properties\Settings.Designer.cs" />
+    <Compile Include="XmlData\WindowsFormsApplication10\University.cs" />
+    <Compile Include="XmlData\WindowsFormsApplication10\XData.cs" />
     <Compile Include="XmlToSql.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -79,6 +92,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="XmlData\WindowsFormsApplication10\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Form1.resources" />
+    <EmbeddedResource Include="XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.Properties.Resources.resources" />
+    <EmbeddedResource Include="XmlData\WindowsFormsApplication10\Properties\Resources.resx" />
     <None Include="bin\Debug\UniPuan.Desktop.exe.config" />
     <None Include="bin\Debug\UniPuan.Desktop.vshost.exe.config" />
     <None Include="bin\Debug\UniPuan.Desktop.vshost.exe.manifest" />
@@ -91,6 +110,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="XmlData\WindowsFormsApplication10.v12.suo" />
+    <None Include="XmlData\WindowsFormsApplication10\App.config" />
+    <None Include="XmlData\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.exe.config" />
+    <None Include="XmlData\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.vshost.exe.config" />
+    <None Include="XmlData\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.vshost.exe.manifest" />
+    <None Include="XmlData\WindowsFormsApplication10\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="XmlData\WindowsFormsApplication10\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.csproj.GenerateResource.Cache" />
+    <None Include="XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.csprojResolveAssemblyReference.cache" />
+    <None Include="XmlData\WindowsFormsApplication10\Properties\Settings.settings" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -123,6 +152,23 @@
     <Content Include="Data\UniType.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="XmlData\WindowsFormsApplication10.sln" />
+    <Content Include="XmlData\WindowsFormsApplication10\bin\Debug\dt.xml" />
+    <Content Include="XmlData\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.exe" />
+    <Content Include="XmlData\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.pdb" />
+    <Content Include="XmlData\WindowsFormsApplication10\bin\Debug\WindowsFormsApplication10.vshost.exe" />
+    <Content Include="XmlData\WindowsFormsApplication10\City.xml" />
+    <Content Include="XmlData\WindowsFormsApplication10\Data.xml" />
+    <Content Include="XmlData\WindowsFormsApplication10\Department.xml" />
+    <Content Include="XmlData\WindowsFormsApplication10\dt.xml" />
+    <Content Include="XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.csproj.FileListAbsolute.txt" />
+    <Content Include="XmlData\WindowsFormsApplication10\obj\Debug\WindowsFormsApplication10.exe" />
+    <Content Include="XmlData\WindowsFormsApplication10\WindowsFormsApplication10.csproj" />
+    <Content Include="XmlData\WindowsFormsApplication10\WindowsFormsApplication10.csproj.user" />
+    <Content Include="XmlData\WindowsFormsApplication10\YeniCity.xml" />
+    <Content Include="XmlData\WindowsFormsApplication10\YeniDepartment.xml" />
+    <Content Include="XmlData\WindowsFormsApplication10\YeniFaculty.xml" />
+    <Content Include="XmlData\WindowsFormsApplication10\YeniUni.xml" />
     <None Include="Resources\1f5e25cbbc7bce619093efdc21333721.jpg" />
   </ItemGroup>
   <ItemGroup>

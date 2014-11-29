@@ -59,15 +59,5 @@ namespace UniPuan.FemClient.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _0_523d8_bf00ebbd_XL {
-            get {
-                object obj = ResourceManager.GetObject("0_523d8_bf00ebbd_XL", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

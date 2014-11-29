@@ -82,6 +82,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="bin\Debug\UniPuan.FemClient.exe.config" />
     <None Include="bin\Debug\UniPuan.FemClient.vshost.exe.config" />
