@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetHarcUcretleri">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetHarcUcretleriResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHarcUcretleriResult" type="tns:ArrayOfHarcUcretleriSurrogate" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfHarcUcretleriSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="HarcUcretleriSurrogate" nillable="true" type="tns:HarcUcretleriSurrogate" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="HarcUcretleriSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="OkulAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NormalOgretim" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IkinciOgretim" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetOzelKosullar">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetOzelKosullarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOzelKosullarResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOzelKosullarbyId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="kosulNumarasi" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOzelKosullarbyIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOzelKosullarbyIdResult" type="tns:ArrayOfOzelKosulSurrogate" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfOzelKosulSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OzelKosulSurrogate" nillable="true" type="tns:OzelKosulSurrogate" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OzelKosulSurrogate">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="KosulNumarasi" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Aciklama" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetLisansBolumler">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="puanTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="universiteTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenAralik" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="yeniBolumlerGelsinmi" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBurs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimDili" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLisansBolumlerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLisansBolumlerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetIllerByBolumler">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gelenPuanTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenUniversiteTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenAralik" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="yeniBolumlerGelsinmi" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBurs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimDili" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBolumler" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetIllerByBolumlerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetIllerByBolumlerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BolumeVeIleGoreUniversiteGetir">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gelenPuanTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenUniversiteTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenAralik" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="yeniBolumlerGelsinmi" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBurs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimDili" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBolumler" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenIller" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BolumeVeIleGoreUniversiteGetirResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BolumeVeIleGoreUniversiteGetirResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BolumeVeIleGoreUniversiteGetirOnLisans">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gelenPuanTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenUniversiteTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenAralik" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="yeniBolumlerGelsinmi" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBurs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimDili" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBolumler" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenIller" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BolumeVeIleGoreUniversiteGetirOnLisansResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BolumeVeIleGoreUniversiteGetirOnLisansResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTercihSonuclar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gelenPuanTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenUniversiteTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenAralik" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="yeniBolumlerGelsinmi" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBurs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimDili" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBolumler" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenIller" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenUniversiteler" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTercihSonuclarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTercihSonuclarResult" type="tns:ArrayOfSonuclarSurrogate" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfSonuclarSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SonuclarSurrogate" nillable="true" type="tns:SonuclarSurrogate" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SonuclarSurrogate">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ProgramKodu" nillable="true" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="UniversiteId" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="UniversiteAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BolumAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="KilavuzBolumAdi" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Kontenjan" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="PuanTuru" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EnKucukPuan" nillable="true" type="s:double" />
+          <s:element minOccurs="1" maxOccurs="1" name="BasariSirasi" nillable="true" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="OzelKosullar" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetOnLisansBolumler">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gelenPuanTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenUniversiteTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenAralik" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="yeniBolumlerGelsinmi" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBurs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimDili" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOnLisansBolumlerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOnLisansBolumlerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSoruCevap">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSoruCevapResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSoruCevapResult" type="tns:ArrayOfSoruCevapSurrogate" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfSoruCevapSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="SoruCevapSurrogate" nillable="true" type="tns:SoruCevapSurrogate" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SoruCevapSurrogate">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="SoruNumarasi" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Soru" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cevap" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetIllerByBolumlerOnLisans">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gelenPuanTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenUniversiteTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenAralik" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="yeniBolumlerGelsinmi" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBurs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimDili" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBolumler" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetIllerByBolumlerOnLisansResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetIllerByBolumlerOnLisansResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOnLisansTercihSonuclar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gelenPuanTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenUniversiteTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenAralik" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="yeniBolumlerGelsinmi" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimTuru" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBurs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenOgrenimDili" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenBolumler" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenIller" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOnLisansTercihSonuclarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOnLisansTercihSonuclarResult" type="tns:ArrayOfOnLisansSonuclarSurrogate" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfOnLisansSonuclarSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OnLisansSonuclarSurrogate" nillable="true" type="tns:OnLisansSonuclarSurrogate" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OnLisansSonuclarSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ProgramAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UniversiteAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FakulteAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OzelKosullar" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PuanTuru" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="EnKucukPuan" nillable="true" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Oncelikler" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProgramKodu" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="UniversiteId" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendMail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="tercihList" type="tns:ArrayOfLisansMailSonucSurrogate" />
+            <s:element minOccurs="0" maxOccurs="1" name="mailAdress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfLisansMailSonucSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="LisansMailSonucSurrogate" nillable="true" type="tns:LisansMailSonucSurrogate" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="LisansMailSonucSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ProgramKodu" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UniversiteAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProgramAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GenelKontenjan" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OzelKosullar" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PuanTuru" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EnKucukPuan" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BasariSirasi" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendMailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMailResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendOnLisansMail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="onLisanstercihList" type="tns:ArrayOfOnLisansMailSonucSurrogate" />
+            <s:element minOccurs="0" maxOccurs="1" name="mailAdress" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfOnLisansMailSonucSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OnLisansMailSonucSurrogate" nillable="true" type="tns:OnLisansMailSonucSurrogate" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OnLisansMailSonucSurrogate">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UniversiteAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Fakulte" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ProgramAdi" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="GenelKontenjan" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OzelKosullar" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PuanTuru" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EnKucukPuan" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendOnLisansMailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendOnLisansMailResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendResim">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="gelenurl" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="gelenResimId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="geleni" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendResimResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="UniversiteGetir">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="universiteId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UniversiteGetirResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UniversiteGetirResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UniversiteleriGetir">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="skipped" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UniversiteleriGetirResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UniversiteleriGetirResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deneme">
+        <s:complexType />
+      </s:element>
+      <s:element name="denemeResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetHarcUcretleriSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHarcUcretleri" />
+  </wsdl:message>
+  <wsdl:message name="GetHarcUcretleriSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHarcUcretleriResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOzelKosullarSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOzelKosullar" />
+  </wsdl:message>
+  <wsdl:message name="GetOzelKosullarSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOzelKosullarResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOzelKosullarbyIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOzelKosullarbyId" />
+  </wsdl:message>
+  <wsdl:message name="GetOzelKosullarbyIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOzelKosullarbyIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLisansBolumlerSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLisansBolumler" />
+  </wsdl:message>
+  <wsdl:message name="GetLisansBolumlerSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLisansBolumlerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetIllerByBolumlerSoapIn">
+    <wsdl:part name="parameters" element="tns:GetIllerByBolumler" />
+  </wsdl:message>
+  <wsdl:message name="GetIllerByBolumlerSoapOut">
+    <wsdl:part name="parameters" element="tns:GetIllerByBolumlerResponse" />
+  </wsdl:message>
+  <wsdl:message name="BolumeVeIleGoreUniversiteGetirSoapIn">
+    <wsdl:part name="parameters" element="tns:BolumeVeIleGoreUniversiteGetir" />
+  </wsdl:message>
+  <wsdl:message name="BolumeVeIleGoreUniversiteGetirSoapOut">
+    <wsdl:part name="parameters" element="tns:BolumeVeIleGoreUniversiteGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="BolumeVeIleGoreUniversiteGetirOnLisansSoapIn">
+    <wsdl:part name="parameters" element="tns:BolumeVeIleGoreUniversiteGetirOnLisans" />
+  </wsdl:message>
+  <wsdl:message name="BolumeVeIleGoreUniversiteGetirOnLisansSoapOut">
+    <wsdl:part name="parameters" element="tns:BolumeVeIleGoreUniversiteGetirOnLisansResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTercihSonuclarSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTercihSonuclar" />
+  </wsdl:message>
+  <wsdl:message name="GetTercihSonuclarSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTercihSonuclarResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOnLisansBolumlerSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOnLisansBolumler" />
+  </wsdl:message>
+  <wsdl:message name="GetOnLisansBolumlerSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOnLisansBolumlerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSoruCevapSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSoruCevap" />
+  </wsdl:message>
+  <wsdl:message name="GetSoruCevapSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSoruCevapResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetIllerByBolumlerOnLisansSoapIn">
+    <wsdl:part name="parameters" element="tns:GetIllerByBolumlerOnLisans" />
+  </wsdl:message>
+  <wsdl:message name="GetIllerByBolumlerOnLisansSoapOut">
+    <wsdl:part name="parameters" element="tns:GetIllerByBolumlerOnLisansResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOnLisansTercihSonuclarSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOnLisansTercihSonuclar" />
+  </wsdl:message>
+  <wsdl:message name="GetOnLisansTercihSonuclarSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOnLisansTercihSonuclarResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMail" />
+  </wsdl:message>
+  <wsdl:message name="SendMailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendOnLisansMailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendOnLisansMail" />
+  </wsdl:message>
+  <wsdl:message name="SendOnLisansMailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendOnLisansMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendResimSoapIn">
+    <wsdl:part name="parameters" element="tns:SendResim" />
+  </wsdl:message>
+  <wsdl:message name="SendResimSoapOut">
+    <wsdl:part name="parameters" element="tns:SendResimResponse" />
+  </wsdl:message>
+  <wsdl:message name="UniversiteGetirSoapIn">
+    <wsdl:part name="parameters" element="tns:UniversiteGetir" />
+  </wsdl:message>
+  <wsdl:message name="UniversiteGetirSoapOut">
+    <wsdl:part name="parameters" element="tns:UniversiteGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="UniversiteleriGetirSoapIn">
+    <wsdl:part name="parameters" element="tns:UniversiteleriGetir" />
+  </wsdl:message>
+  <wsdl:message name="UniversiteleriGetirSoapOut">
+    <wsdl:part name="parameters" element="tns:UniversiteleriGetirResponse" />
+  </wsdl:message>
+  <wsdl:message name="denemeSoapIn">
+    <wsdl:part name="parameters" element="tns:deneme" />
+  </wsdl:message>
+  <wsdl:message name="denemeSoapOut">
+    <wsdl:part name="parameters" element="tns:denemeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FemTercihWebServisSoap">
+    <wsdl:operation name="GetHarcUcretleri">
+      <wsdl:input message="tns:GetHarcUcretleriSoapIn" />
+      <wsdl:output message="tns:GetHarcUcretleriSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOzelKosullar">
+      <wsdl:input message="tns:GetOzelKosullarSoapIn" />
+      <wsdl:output message="tns:GetOzelKosullarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOzelKosullarbyId">
+      <wsdl:input message="tns:GetOzelKosullarbyIdSoapIn" />
+      <wsdl:output message="tns:GetOzelKosullarbyIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLisansBolumler">
+      <wsdl:input message="tns:GetLisansBolumlerSoapIn" />
+      <wsdl:output message="tns:GetLisansBolumlerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIllerByBolumler">
+      <wsdl:input message="tns:GetIllerByBolumlerSoapIn" />
+      <wsdl:output message="tns:GetIllerByBolumlerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BolumeVeIleGoreUniversiteGetir">
+      <wsdl:input message="tns:BolumeVeIleGoreUniversiteGetirSoapIn" />
+      <wsdl:output message="tns:BolumeVeIleGoreUniversiteGetirSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BolumeVeIleGoreUniversiteGetirOnLisans">
+      <wsdl:input message="tns:BolumeVeIleGoreUniversiteGetirOnLisansSoapIn" />
+      <wsdl:output message="tns:BolumeVeIleGoreUniversiteGetirOnLisansSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTercihSonuclar">
+      <wsdl:input message="tns:GetTercihSonuclarSoapIn" />
+      <wsdl:output message="tns:GetTercihSonuclarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOnLisansBolumler">
+      <wsdl:input message="tns:GetOnLisansBolumlerSoapIn" />
+      <wsdl:output message="tns:GetOnLisansBolumlerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSoruCevap">
+      <wsdl:input message="tns:GetSoruCevapSoapIn" />
+      <wsdl:output message="tns:GetSoruCevapSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIllerByBolumlerOnLisans">
+      <wsdl:input message="tns:GetIllerByBolumlerOnLisansSoapIn" />
+      <wsdl:output message="tns:GetIllerByBolumlerOnLisansSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOnLisansTercihSonuclar">
+      <wsdl:input message="tns:GetOnLisansTercihSonuclarSoapIn" />
+      <wsdl:output message="tns:GetOnLisansTercihSonuclarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <wsdl:input message="tns:SendMailSoapIn" />
+      <wsdl:output message="tns:SendMailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOnLisansMail">
+      <wsdl:input message="tns:SendOnLisansMailSoapIn" />
+      <wsdl:output message="tns:SendOnLisansMailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendResim">
+      <wsdl:input message="tns:SendResimSoapIn" />
+      <wsdl:output message="tns:SendResimSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UniversiteGetir">
+      <wsdl:input message="tns:UniversiteGetirSoapIn" />
+      <wsdl:output message="tns:UniversiteGetirSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UniversiteleriGetir">
+      <wsdl:input message="tns:UniversiteleriGetirSoapIn" />
+      <wsdl:output message="tns:UniversiteleriGetirSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deneme">
+      <wsdl:input message="tns:denemeSoapIn" />
+      <wsdl:output message="tns:denemeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FemTercihWebServisSoap" type="tns:FemTercihWebServisSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetHarcUcretleri">
+      <soap:operation soapAction="http://tempuri.org/GetHarcUcretleri" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOzelKosullar">
+      <soap:operation soapAction="http://tempuri.org/GetOzelKosullar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOzelKosullarbyId">
+      <soap:operation soapAction="http://tempuri.org/GetOzelKosullarbyId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLisansBolumler">
+      <soap:operation soapAction="http://tempuri.org/GetLisansBolumler" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIllerByBolumler">
+      <soap:operation soapAction="http://tempuri.org/GetIllerByBolumler" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BolumeVeIleGoreUniversiteGetir">
+      <soap:operation soapAction="http://tempuri.org/BolumeVeIleGoreUniversiteGetir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BolumeVeIleGoreUniversiteGetirOnLisans">
+      <soap:operation soapAction="http://tempuri.org/BolumeVeIleGoreUniversiteGetirOnLisans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTercihSonuclar">
+      <soap:operation soapAction="http://tempuri.org/GetTercihSonuclar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOnLisansBolumler">
+      <soap:operation soapAction="http://tempuri.org/GetOnLisansBolumler" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSoruCevap">
+      <soap:operation soapAction="http://tempuri.org/GetSoruCevap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIllerByBolumlerOnLisans">
+      <soap:operation soapAction="http://tempuri.org/GetIllerByBolumlerOnLisans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOnLisansTercihSonuclar">
+      <soap:operation soapAction="http://tempuri.org/GetOnLisansTercihSonuclar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <soap:operation soapAction="http://tempuri.org/SendMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOnLisansMail">
+      <soap:operation soapAction="http://tempuri.org/SendOnLisansMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendResim">
+      <soap:operation soapAction="http://tempuri.org/SendResim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UniversiteGetir">
+      <soap:operation soapAction="http://tempuri.org/UniversiteGetir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UniversiteleriGetir">
+      <soap:operation soapAction="http://tempuri.org/UniversiteleriGetir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deneme">
+      <soap:operation soapAction="http://tempuri.org/deneme" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FemTercihWebServisSoap12" type="tns:FemTercihWebServisSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetHarcUcretleri">
+      <soap12:operation soapAction="http://tempuri.org/GetHarcUcretleri" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOzelKosullar">
+      <soap12:operation soapAction="http://tempuri.org/GetOzelKosullar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOzelKosullarbyId">
+      <soap12:operation soapAction="http://tempuri.org/GetOzelKosullarbyId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLisansBolumler">
+      <soap12:operation soapAction="http://tempuri.org/GetLisansBolumler" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIllerByBolumler">
+      <soap12:operation soapAction="http://tempuri.org/GetIllerByBolumler" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BolumeVeIleGoreUniversiteGetir">
+      <soap12:operation soapAction="http://tempuri.org/BolumeVeIleGoreUniversiteGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BolumeVeIleGoreUniversiteGetirOnLisans">
+      <soap12:operation soapAction="http://tempuri.org/BolumeVeIleGoreUniversiteGetirOnLisans" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTercihSonuclar">
+      <soap12:operation soapAction="http://tempuri.org/GetTercihSonuclar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOnLisansBolumler">
+      <soap12:operation soapAction="http://tempuri.org/GetOnLisansBolumler" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSoruCevap">
+      <soap12:operation soapAction="http://tempuri.org/GetSoruCevap" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIllerByBolumlerOnLisans">
+      <soap12:operation soapAction="http://tempuri.org/GetIllerByBolumlerOnLisans" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOnLisansTercihSonuclar">
+      <soap12:operation soapAction="http://tempuri.org/GetOnLisansTercihSonuclar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <soap12:operation soapAction="http://tempuri.org/SendMail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOnLisansMail">
+      <soap12:operation soapAction="http://tempuri.org/SendOnLisansMail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendResim">
+      <soap12:operation soapAction="http://tempuri.org/SendResim" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UniversiteGetir">
+      <soap12:operation soapAction="http://tempuri.org/UniversiteGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UniversiteleriGetir">
+      <soap12:operation soapAction="http://tempuri.org/UniversiteleriGetir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deneme">
+      <soap12:operation soapAction="http://tempuri.org/deneme" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FemTercihWebServis">
+    <wsdl:port name="FemTercihWebServisSoap" binding="tns:FemTercihWebServisSoap">
+      <soap:address location="http://tercih.fem.com.tr/FemTercihWebServis.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FemTercihWebServisSoap12" binding="tns:FemTercihWebServisSoap12">
+      <soap12:address location="http://tercih.fem.com.tr/FemTercihWebServis.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
