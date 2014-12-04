@@ -1,0 +1,10 @@
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\bin\Debug\UniPuan.FemClient.exe.config
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\bin\Debug\UniPuan.FemClient.exe
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\bin\Debug\UniPuan.FemClient.pdb
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\bin\Debug\Newtonsoft.Json.xml
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\obj\Debug\UniPuan.FemClient.csprojResolveAssemblyReference.cache
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\obj\Debug\UniPuan.FemClient.Form1.resources
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\obj\Debug\UniPuan.FemClient.Properties.Resources.resources
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\obj\Debug\UniPuan.FemClient.csproj.GenerateResource.Cache
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\obj\Debug\UniPuan.FemClient.exe
+F:\WheIS\Projects\UniPuan\Source\trunk\UniPuan.FemClient\obj\Debug\UniPuan.FemClient.pdb

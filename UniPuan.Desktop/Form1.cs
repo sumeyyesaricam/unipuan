@@ -22,9 +22,9 @@ namespace UniPuan.Desktop
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            listBox1.Parent = pictureBox1;
-            listBox1.BackColor = Color.Transparent;
-            LoadLists();
+            //listBox1.Parent = pictureBox1;
+            //listBox1.BackColor = Color.Transparent;
+            //LoadLists();
         }
         public void LoadLists()
         {
@@ -206,6 +206,11 @@ namespace UniPuan.Desktop
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

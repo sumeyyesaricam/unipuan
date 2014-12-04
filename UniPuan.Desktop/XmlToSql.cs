@@ -27,5 +27,6 @@ namespace UniPuan.Desktop
                var sonuc = komut.ExecuteNonQuery();
            }
        }
+      
     }
 }
