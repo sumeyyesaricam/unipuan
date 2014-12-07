@@ -275,7 +275,41 @@ namespace UniPuan.FemClient
                 var sonuc2 = komut2.ExecuteNonQuery();
             }
             baglanti.Close();
-            UniversiteCalSql(lisans, bolum, city);
+            foreach (var item in city)
+            {
+                foreach (var blm in bolumler)
+                {
+                    UniversiteCalSql(lisans, blm, item);
+                }
+            }
+        }
+        public static void UniversiteCalSql(bool lisans, Bolum bolum,Sehir sehir)
+        {         
+            SqlConnection baglanti = new SqlConnection(@"Data Source=ASUS\SQLEXPRESS;Initial Catalog=UniPuan;Integrated Security=True");
+            baglanti.Open();
+            List<Bolum> bolumler = new List<FemClient.Bolum>();
+            bolumler.Add(bolum);
+            List<Sehir> sehirler = new List<FemClient.Sehir>();
+            sehirler.Add(sehir);
+            var universiteler = Universite(bolumler, sehirler);
+            foreach (var item in universiteler)
+            {
+                SqlCommand komut = new SqlCommand("UP_SP_UNIVERSITY_SAVE", baglanti);
+                komut.CommandType = System.Data.CommandType.StoredProcedure;
+                komut.Parameters.AddWithValue("@UNIVERSITYID", item.UNIVERSITEID);
+                komut.Parameters.AddWithValue("@UNIVERSITYNAME", item.Universitead);
+                komut.Parameters.AddWithValue("@CITYID", sehir.ilId);
+                komut.Parameters.AddWithValue("@UNITYPEID", "2");
+                var sonuc = komut.ExecuteNonQuery();
+                
+                SqlCommand komut1 = new SqlCommand("INSERT into UP_ST_UNIVERSITYDEPARTMENT (UNIVERSITYID,DEPARTMENTID) " +
+              " values(@UNIVERSITYID,@DEPARTMENTID)", baglanti);
+                komut1.Parameters.AddWithValue("@UNIVERSITYID", item.UNIVERSITEID);
+                komut1.Parameters.AddWithValue("@DEPARTMENTID", bolum.BolumId);
+                var sonuc1 = komut1.ExecuteNonQuery();
+            }          
+            baglanti.Close();
+            PuanCalSql(lisans, bolumler, sehirler, universiteler);
         }
         public static void SehirCalSql2(bool lisans, List<Bolum> bolumler)
         {
@@ -313,31 +347,7 @@ namespace UniPuan.FemClient
             baglanti.Close();
             PuanCalSql(lisans, bolumler, sehirler, universiteler);
         }
-        public static void UniversiteCalSql(bool lisans, Bolum bolum, List<Sehir> sehirler)
-        {
-            
-            SqlConnection baglanti = new SqlConnection(@"Data Source=ASUS\SQLEXPRESS;Initial Catalog=UniPuan;Integrated Security=True");
-            baglanti.Open();
-            List<Bolum> bolumler = new List<FemClient.Bolum>();
-            bolumler.Add(bolum);
-            var uni = Universite(bolumler, sehirler);
-            var universiteler = Universite(bolumler, sehirler);
-            foreach (var item in uni)
-            {
-                SqlCommand komut = new SqlCommand("UP_SP_UNIVERSITY_SAVE", baglanti);
-                komut.Parameters.AddWithValue("@UNIVERSITYID", item.UNIVERSITEID);
-                komut.Parameters.AddWithValue("@UNIVERSITYNAME", item.Universitead);
-                var sonuc = komut.ExecuteNonQuery();
-
-                SqlCommand komut1 = new SqlCommand("INSERT into UP_ST_UNIVERSITYDEPARTMENT (UNIVERSITYID,DEPARTMENTID) " +
-              " values(@UNIVERSITYID,@DEPARTMENTID)", baglanti);
-                komut1.Parameters.AddWithValue("@UNIVERSITYID", item.UNIVERSITEID);
-                komut1.Parameters.AddWithValue("@DEPARTMENTID", bolum.BolumId);
-                var sonuc1 = komut.ExecuteNonQuery();
-            }
-            baglanti.Close();
-            PuanCalSql(lisans, bolumler, sehirler, universiteler);
-        }
+      
         public static void PuanCalSql(bool lisans, List<Bolum> bolumler, List<Sehir> sehirler, List<Universite> universiteler)
         {         
             SqlConnection baglanti = new SqlConnection(@"Data Source=ASUS\SQLEXPRESS;Initial Catalog=UniPuan;Integrated Security=True");
@@ -348,19 +358,18 @@ namespace UniPuan.FemClient
                 var puanlar = PuanLisans(bolumler, sehirler, universiteler);
                 foreach (var item in puanlar)
                 {
-                    SqlCommand komut = new SqlCommand("INSERT into UP_ST_SCORE (SCOREID,UNIVERSITYNAME,DEPARTMENTNAME,QUOTAS,CONDİTİON,SCORETYPE,SCOREMIN,ORDERR) " +
-             " values(@SCOREID,@UNIVERSITYNAME,@DEPARTMENTNAME,@QUOTAS,@CONDİTİON,@SCORETYPE,@SCOREMIN,@ORDERR)", baglanti);
-                    komut.Parameters.AddWithValue("@SCOREID", item.ProgramKodu);
+                    SqlCommand komut = new SqlCommand("INSERT into UP_ST_PROGRAM (PROGRAMID,UNIVERSITYNAME,DEPARTMENTNAME,QUOTAS,CONDITION,SCORETYPE,SCOREMIN,ORDERR) " +
+             " values (@PROGRAMID,@UNIVERSITYNAME,@DEPARTMENTNAME,@QUOTAS,@CONDITION,@SCORETYPE,@SCOREMIN,@ORDERR)", baglanti);
+                    komut.Parameters.AddWithValue("@PROGRAMID", item.ProgramKodu);
                     komut.Parameters.AddWithValue("@UNIVERSITYNAME", item.UniversiteAdi);
                     komut.Parameters.AddWithValue("@DEPARTMENTNAME", item.BolumAdi);
-                    komut.Parameters.AddWithValue("@QUOTAS", item.Kontenjan);
-                    komut.Parameters.AddWithValue("@CONDİTİON", item.OzelKosullar);
-                    komut.Parameters.AddWithValue("@SCORETYPE", item.PuanTuru);
-                    komut.Parameters.AddWithValue("@SCOREMIN", item.EnKucukPuan);
-                    komut.Parameters.AddWithValue("@ORDERR", item.BasariSirasi);
+                    komut.Parameters.AddWithValue("@QUOTAS", item.Kontenjan.HasValue ? (object)item.Kontenjan : DBNull.Value);
+                    komut.Parameters.AddWithValue("@CONDITION", item.OzelKosullar == null ? DBNull.Value : (object)item.OzelKosullar);
+                    komut.Parameters.AddWithValue("@SCORETYPE", item.PuanTuru == null ? DBNull.Value : (object)item.PuanTuru);
+                    komut.Parameters.AddWithValue("@SCOREMIN", item.EnKucukPuan.HasValue ? (object)item.EnKucukPuan : DBNull.Value);
+                    komut.Parameters.AddWithValue("@ORDERR", item.BasariSirasi.HasValue ? (object)item.BasariSirasi : DBNull.Value);
                     var sonuc = komut.ExecuteNonQuery();
                 }
-
             }
             else
             {
@@ -369,12 +378,12 @@ namespace UniPuan.FemClient
                 {
                     if (item.ProgramKodu != null)
                     {
-                        SqlCommand komut = new SqlCommand("INSERT into UP_ST_SCORE (SCOREID,UNIVERSITYNAME,DEPARTMENTNAME,QUOTAS,CONDİTİON,SCORETYPE,SCOREMIN,ORDERR) " +
-             " values(@SCOREID,@UNIVERSITYNAME,@DEPARTMENTNAME,@QUOTAS,@CONDİTİON,@SCORETYPE,@SCOREMIN,@ORDERR)", baglanti);
-                        komut.Parameters.AddWithValue("@SCOREID", item.ProgramKodu);
+                        SqlCommand komut = new SqlCommand("INSERT into UP_ST_SCORE (PROGRAMID,UNIVERSITYNAME,DEPARTMENTNAME,QUOTAS,CONDITION,SCORETYPE,SCOREMIN,ORDERR) " +
+             " values(@PROGRAMID,@UNIVERSITYNAME,@DEPARTMENTNAME,@QUOTAS,@CONDITION,@SCORETYPE,@SCOREMIN,@ORDERR)", baglanti);
+                        komut.Parameters.AddWithValue("@PROGRAMID", item.ProgramKodu);
                         komut.Parameters.AddWithValue("@UNIVERSITYNAME", item.UniversiteAdi);
                         komut.Parameters.AddWithValue("@DEPARTMENTNAME", item.ProgramAdi);
-                        komut.Parameters.AddWithValue("@CONDİTİON", item.OzelKosullar);
+                        komut.Parameters.AddWithValue("@CONDITION", item.OzelKosullar);
                         komut.Parameters.AddWithValue("@SCORETYPE", item.PuanTuru);
                         komut.Parameters.AddWithValue("@SCOREMIN", item.EnKucukPuan);
                         var sonuc = komut.ExecuteNonQuery();
