@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="UniPuanModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="UP_ST_CITY">
+          <Key>
+            <PropertyRef Name="CITYID" />
+          </Key>
+          <Property Name="CITYID" Type="int" Nullable="false" />
+          <Property Name="CITYNAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_CITYDEPARTMENT">
+          <Key>
+            <PropertyRef Name="CITYID" />
+            <PropertyRef Name="DEPARTMENTID" />
+          </Key>
+          <Property Name="CITYID" Type="int" Nullable="false" />
+          <Property Name="DEPARTMENTID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_DEPARTMENT">
+          <Key>
+            <PropertyRef Name="DEPARTMENTID" />
+          </Key>
+          <Property Name="DEPARTMENTID" Type="int" Nullable="false" />
+          <Property Name="DEPARTMENTNAME" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="SCORETYPE" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="EDUTYPE" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_EDUTYPE">
+          <Key>
+            <PropertyRef Name="EDUTYPEID" />
+          </Key>
+          <Property Name="EDUTYPEID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="EDUTYPENAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_PROGRAM">
+          <Key>
+            <PropertyRef Name="PROGRAMID" />
+          </Key>
+          <Property Name="PROGRAMID" Type="float" Nullable="false" />
+          <Property Name="UNIVERSITYNAME" Type="nvarchar(max)" />
+          <Property Name="DEPARTMENTNAME" Type="nvarchar(max)" />
+          <Property Name="QUOTAS" Type="int" />
+          <Property Name="CONDITION" Type="nvarchar" MaxLength="50" />
+          <Property Name="SCORETYPE" Type="nvarchar" MaxLength="50" />
+          <Property Name="SCOREMIN" Type="float" />
+          <Property Name="ORDERR" Type="float" />
+          <Property Name="DEPARTMENTID" Type="int" />
+          <Property Name="UNIVERSITYID" Type="int" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'UniPuan.dbo.UP_ST_SCORE' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="UP_ST_SCORE">
+          <Property Name="PROGRAMID" Type="float" />
+          <Property Name="UNIVERSITYNAME" Type="nvarchar(max)" />
+          <Property Name="DEPARTMENTNAME" Type="nvarchar(max)" />
+          <Property Name="QUOTAS" Type="int" />
+          <Property Name="CONDITION" Type="nvarchar" MaxLength="50" />
+          <Property Name="SCOREMIN" Type="float" />
+          <Property Name="ORDERR" Type="float" />
+        </EntityType>-->
+        <EntityType Name="UP_ST_SCORETYPE">
+          <Key>
+            <PropertyRef Name="SCORETYPEID" />
+          </Key>
+          <Property Name="SCORETYPEID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="SCORETYPENAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_UNITYPE">
+          <Key>
+            <PropertyRef Name="UNITYPEID" />
+          </Key>
+          <Property Name="UNITYPEID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UNITYPENAME" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="UP_ST_UNIVERSITY">
+          <Key>
+            <PropertyRef Name="UNIVERSITYID" />
+          </Key>
+          <Property Name="UNIVERSITYID" Type="int" Nullable="false" />
+          <Property Name="UNIVERSITYNAME" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="CITYID" Type="int" Nullable="false" />
+          <Property Name="UNITYPEID" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="UP_ST_UNIVERSITYDEPARTMENT">
+          <Property Name="UNIVERSITYID" Type="int" />
+          <Property Name="DEPARTMENTID" Type="int" />
+        </EntityType>-->
+        <EntityContainer Name="UniPuanModelStoreContainer">
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UP_ST_CITY" EntityType="Self.UP_ST_CITY" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UP_ST_CITYDEPARTMENT" EntityType="Self.UP_ST_CITYDEPARTMENT" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UP_ST_DEPARTMENT" EntityType="Self.UP_ST_DEPARTMENT" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UP_ST_EDUTYPE" EntityType="Self.UP_ST_EDUTYPE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UP_ST_PROGRAM" EntityType="Self.UP_ST_PROGRAM" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UP_ST_SCORETYPE" EntityType="Self.UP_ST_SCORETYPE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UP_ST_UNITYPE" EntityType="Self.UP_ST_UNITYPE" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UP_ST_UNIVERSITY" EntityType="Self.UP_ST_UNIVERSITY" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="UniPuanModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="sysdiagram">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_CITY">
+          <Key>
+            <PropertyRef Name="CITYID" />
+          </Key>
+          <Property Name="CITYID" Type="Int32" Nullable="false" />
+          <Property Name="CITYNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_CITYDEPARTMENT">
+          <Key>
+            <PropertyRef Name="CITYID" />
+            <PropertyRef Name="DEPARTMENTID" />
+          </Key>
+          <Property Name="CITYID" Type="Int32" Nullable="false" />
+          <Property Name="DEPARTMENTID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_DEPARTMENT">
+          <Key>
+            <PropertyRef Name="DEPARTMENTID" />
+          </Key>
+          <Property Name="DEPARTMENTID" Type="Int32" Nullable="false" />
+          <Property Name="DEPARTMENTNAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="SCORETYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="EDUTYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_EDUTYPE">
+          <Key>
+            <PropertyRef Name="EDUTYPEID" />
+          </Key>
+          <Property Name="EDUTYPEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EDUTYPENAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_SCORETYPE">
+          <Key>
+            <PropertyRef Name="SCORETYPEID" />
+          </Key>
+          <Property Name="SCORETYPEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="SCORETYPENAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="UP_ST_UNITYPE">
+          <Key>
+            <PropertyRef Name="UNITYPEID" />
+          </Key>
+          <Property Name="UNITYPEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UNITYPENAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="UP_ST_UNIVERSITY">
+          <Key>
+            <PropertyRef Name="UNIVERSITYID" />
+          </Key>
+          <Property Name="UNIVERSITYID" Type="Int32" Nullable="false" />
+          <Property Name="UNIVERSITYNAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="CITYID" Type="Int32" Nullable="false" />
+          <Property Name="UNITYPEID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="UniPuanEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+          <EntitySet Name="UP_ST_CITY" EntityType="Self.UP_ST_CITY" />
+          <EntitySet Name="UP_ST_CITYDEPARTMENT" EntityType="Self.UP_ST_CITYDEPARTMENT" />
+          <EntitySet Name="UP_ST_DEPARTMENT" EntityType="Self.UP_ST_DEPARTMENT" />
+          <EntitySet Name="UP_ST_EDUTYPE" EntityType="Self.UP_ST_EDUTYPE" />
+          <EntitySet Name="UP_ST_SCORETYPE" EntityType="Self.UP_ST_SCORETYPE" />
+          <EntitySet Name="UP_ST_UNITYPE" EntityType="Self.UP_ST_UNITYPE" />
+          <EntitySet Name="UP_ST_UNIVERSITY" EntityType="Self.UP_ST_UNIVERSITY" />
+          <EntitySet Name="UP_ST_PROGRAM" EntityType="UniPuanModel.UP_ST_PROGRAM" />
+        </EntityContainer>
+        <EntityType Name="UP_ST_PROGRAM">
+          <Key>
+            <PropertyRef Name="PROGRAMID" />
+          </Key>
+          <Property Name="PROGRAMID" Type="Double" Nullable="false" />
+          <Property Name="UNIVERSITYNAME" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="DEPARTMENTNAME" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="QUOTAS" Type="Int32" />
+          <Property Name="CONDITION" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SCORETYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SCOREMIN" Type="Double" />
+          <Property Name="ORDERR" Type="Double" />
+          <Property Name="DEPARTMENTID" Type="Int32" />
+          <Property Name="UNIVERSITYID" Type="Int32" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="UniPuanModelStoreContainer" CdmEntityContainer="UniPuanEntities1">
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="UniPuanModel.sysdiagram">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UP_ST_CITY">
+            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_CITY">
+              <MappingFragment StoreEntitySet="UP_ST_CITY">
+                <ScalarProperty Name="CITYID" ColumnName="CITYID" />
+                <ScalarProperty Name="CITYNAME" ColumnName="CITYNAME" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UP_ST_CITYDEPARTMENT">
+            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_CITYDEPARTMENT">
+              <MappingFragment StoreEntitySet="UP_ST_CITYDEPARTMENT">
+                <ScalarProperty Name="CITYID" ColumnName="CITYID" />
+                <ScalarProperty Name="DEPARTMENTID" ColumnName="DEPARTMENTID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UP_ST_DEPARTMENT">
+            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_DEPARTMENT">
+              <MappingFragment StoreEntitySet="UP_ST_DEPARTMENT">
+                <ScalarProperty Name="DEPARTMENTID" ColumnName="DEPARTMENTID" />
+                <ScalarProperty Name="DEPARTMENTNAME" ColumnName="DEPARTMENTNAME" />
+                <ScalarProperty Name="SCORETYPE" ColumnName="SCORETYPE" />
+                <ScalarProperty Name="EDUTYPE" ColumnName="EDUTYPE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UP_ST_EDUTYPE">
+            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_EDUTYPE">
+              <MappingFragment StoreEntitySet="UP_ST_EDUTYPE">
+                <ScalarProperty Name="EDUTYPEID" ColumnName="EDUTYPEID" />
+                <ScalarProperty Name="EDUTYPENAME" ColumnName="EDUTYPENAME" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UP_ST_SCORETYPE">
+            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_SCORETYPE">
+              <MappingFragment StoreEntitySet="UP_ST_SCORETYPE">
+                <ScalarProperty Name="SCORETYPEID" ColumnName="SCORETYPEID" />
+                <ScalarProperty Name="SCORETYPENAME" ColumnName="SCORETYPENAME" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UP_ST_UNITYPE">
+            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_UNITYPE">
+              <MappingFragment StoreEntitySet="UP_ST_UNITYPE">
+                <ScalarProperty Name="UNITYPEID" ColumnName="UNITYPEID" />
+                <ScalarProperty Name="UNITYPENAME" ColumnName="UNITYPENAME" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UP_ST_UNIVERSITY">
+            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_UNIVERSITY">
+              <MappingFragment StoreEntitySet="UP_ST_UNIVERSITY">
+                <ScalarProperty Name="UNIVERSITYID" ColumnName="UNIVERSITYID" />
+                <ScalarProperty Name="UNIVERSITYNAME" ColumnName="UNIVERSITYNAME" />
+                <ScalarProperty Name="CITYID" ColumnName="CITYID" />
+                <ScalarProperty Name="UNITYPEID" ColumnName="UNITYPEID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UP_ST_PROGRAM">
+            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_PROGRAM">
+              <MappingFragment StoreEntitySet="UP_ST_PROGRAM">
+                <ScalarProperty Name="UNIVERSITYID" ColumnName="UNIVERSITYID" />
+                <ScalarProperty Name="DEPARTMENTID" ColumnName="DEPARTMENTID" />
+                <ScalarProperty Name="ORDERR" ColumnName="ORDERR" />
+                <ScalarProperty Name="SCOREMIN" ColumnName="SCOREMIN" />
+                <ScalarProperty Name="SCORETYPE" ColumnName="SCORETYPE" />
+                <ScalarProperty Name="CONDITION" ColumnName="CONDITION" />
+                <ScalarProperty Name="QUOTAS" ColumnName="QUOTAS" />
+                <ScalarProperty Name="DEPARTMENTNAME" ColumnName="DEPARTMENTNAME" />
+                <ScalarProperty Name="UNIVERSITYNAME" ColumnName="UNIVERSITYNAME" />
+                <ScalarProperty Name="PROGRAMID" ColumnName="PROGRAMID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

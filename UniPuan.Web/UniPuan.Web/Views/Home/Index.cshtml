@@ -1,0 +1,143 @@
+﻿@model UniPuan.Web.Models.UniModel
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="banner">
+    <div class="container">
+        <div class="header-text">
+            <p class="big-text">Tercihleri yaparken nelere dikkat edilmeli?</p>
+            <p class="small-text">Tercih sürecinde ilk tercihler genelde realite olan tercihleri oluşturur. İlk birkaç tercihin puanı alınan puanın üstlerinde olabilir. Fakat bu tercihlerin sayısı birkaç taneyi geçmemelidir. Bu tercihlerden sonra ideal tercih sıralaması yapılmalıdır. Bu sıralama belirlenirken öncelikle istek sırası göz önünde bulundurulmalıdır.
+Bölümün alan içi veya alan dışı olması, bölümün özellikleri, kontenjan sayıları dikkat edilecek hususlardandır. Kazanılsa dahi kayıt olmayı düşünülmeyen programlara tercih listesinde yer verilmemelidir.</p>
+            <div class="button-section">
+                <ul>
+                    <li><a href="#" class="top-button white">Tercihe Başla</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+            function selectedIndexChanged() {
+
+            }
+</script>
+<div class="features" id="features">
+    <div class="container">
+        <h3 class="text-head">Hayatta Başarılar</h3>
+        <div class="features-section">
+            <div class="form-group">
+                @using (Html.BeginForm())
+                {
+                    <div class="widget-toolbar">
+                        <button class="btn btn-sm btn-primary">
+                            <i class="icon-search"></i>
+                            <span class="hidden-phone">Ara</span>
+                        </button>
+                    </div>
+                    <div class="widget-toolbar">
+                        <input class="filter form-control" type="text" placeholder="Ara" name="txtDepartment">
+                    </div>
+                }
+                @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @id = "form" }))
+                {
+                    @Html.LabelFor(model => model.Departments, new { @class = "col-sm-3 control-label no-padding-right" })
+                        @Html.ListBox("OrnekListBox", Model.Departments)        
+                    @Html.ListBox("OrnekListBox", Model.Departments, new { @onchange = "document.getElementById('form').submit()" })
+                }
+            </div>
+
+            <div class="form-group">
+                @using (Html.BeginForm())
+                {
+                    <div class="widget-toolbar">
+                        <button class="btn btn-sm btn-primary">
+                            <i class="icon-search"></i>
+                            <span class="hidden-phone">Ara</span>
+                        </button>
+                    </div>
+                    <div class="widget-toolbar">
+                        <input class="filter form-control" type="text" placeholder="Ara" name="txtCity">
+                    </div>
+                }
+                @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @id = "form" }))
+                {
+                    @Html.LabelFor(model => model.Cities, new { @class = "col-sm-3 control-label no-padding-right" })
+                    @Html.ListBox("OrnekListBox", Model.Cities)
+                    @Html.ListBox("OrnekListBox", Model.Cities, new { @onchange = "document.getElementById('form').submit()" })
+                }               
+            </div>
+
+            <div class="form-group">
+@using (Html.BeginForm())
+{
+    <div class="widget-toolbar">
+        <button class="btn btn-sm btn-primary">
+            <i class="icon-search"></i>
+            <span class="hidden-phone">Ara</span>
+        </button>
+    </div>
+        <div class="widget-toolbar">
+            <input class="filter form-control" type="text" placeholder="Ara" name="txtUni">
+        </div>
+} 
+                @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @id = "form" }))
+          {
+    @Html.LabelFor(model => model.Universities, new { @class = "col-sm-3 control-label no-padding-right" })
+    @Html.ListBox("OrnekListBox", Model.Universities)
+    @Html.ListBox("OrnekListBox", Model.Universities, new { @onchange = "document.getElementById('form').submit()" })
+            }
+   
+            </div>
+            </div>
+    </div>
+</div>
+<div class="stories" id="stories">
+    <div class="container">
+        <h3 class="text-head">Stories Of Extant</h3>
+        <p class="box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mi nulla, in imperdiet arcu hendrerit in.</p>
+        <div class="stories-section">
+            
+        </div>
+    </div>
+</div>
+<div class="contact" id="contact">
+    <div class="container">
+        <h3 class="text-head">Contact At Extant</h3>
+        <p class="box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mi nulla, in imperdiet arcu hendrerit in.</p>
+        <div class="contact-section">
+
+            <form>
+                <input type="text" name="Name" placeholder="İsim" /><br />
+                <input type="email" name="email" placeholder="Email" /><br />
+                <textarea placeholder="Message" rows="6"></textarea>
+                <button type="submit" class="submit">Mesaj Gönder</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="infooter">
+            <p class="copyright">Copyright &copy; Extant 2014 by <a class="credit" href="http://www.html5layouts.com">HTML5 Layouts</a></p>
+        </div>
+        <ul class="socialmedia">
+            <li><a href="https://twitter.com/"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/"><i class="icon-facebook"></i></a></li>
+            <li><a href="https://dribbble.com/"><i class="icon-dribbble"></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="icon-linkedin"></i></a></li>
+            <li><a href="http://instagram.com/"><i class="icon-instagram"></i></a></li>
+        </ul>
+    </div>
+</div>
+@*<div style=”font-family:Arial”>
+    <h2>Index</h2>
+    @using (Html.BeginForm())
+{
+        @Html.ListBoxFor(m => m.SelectedCities, Model.Cities)
+        <br />
+        <input type="submit" value="Submit" />
+}
+</div>*@

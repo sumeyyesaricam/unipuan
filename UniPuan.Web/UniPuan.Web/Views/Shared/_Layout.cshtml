@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title </title>
+    <link href="~/Content/Extant/css/font-awesome-ie7.min.css" rel="stylesheet" />
+    <link href="~/Content/Extant/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/Extant/css/jquery.sidr.dark.css" rel="stylesheet" />
+    <link href="~/Content/Extant/css/responsive.css" rel="stylesheet" />
+    <script src="~/Content/Extant/js/jquery.nicescroll.min.js"></script>
+    <script src="~/Content/Extant/sidr/jquery.sidr.min.js"></script>
+    <link href="~/Content/Extant/sidr/stylesheets/jquery.sidr.light.css" rel="stylesheet" />
+    <script src="~/Content/Extant/js/jquery.min.js"></script>
+    <link href="~/Content/Extant/sidr/stylesheets/jquery.sidr.dark.css" rel="stylesheet" />
+    <link href="~/Content/Extant/style.css" rel="stylesheet" />
+    <script src="~/Content/Extant/js/smoothscroll.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo-menu">
+                <div class="logo">
+                    <h1><a href="#">Tercih Rehberi</a></h1>
+                </div>
+                <!--<a id="simple-menu" href="#sidr">Toggle menu</a>-->
+                <div id="mobile-header">
+                    <a class="responsive-menu-button" href="#"><img src="images/11.png" /></a>
+                </div>
+                <div class="menu" id="navigation">
+                    <ul>
+                        <li><a href="#">Anasayfa</a></li>
+                        <li><a href="#features">Tercih Yap</a></li>
+                        <li><a href="#stories">Sonuçlar</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container body-content">
+
+            @RenderBody()
+            <hr />
+        </div>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#simple-menu').sidr({
+                side: 'right'
+            });
+        });
+        $('.responsive-menu-button').sidr({
+            name: 'sidr-main',
+            source: '#navigation',
+            side: 'right'
+
+        });
+        $(document).ready(
+        function () {
+            $("html").niceScroll({ cursorborder: "0px solid #fff", cursorwidth: "5px", scrollspeed: "70" });
+        }
+        );
+    </script>
+</body>
+</html>
