@@ -177,6 +177,7 @@ namespace UniPuan.FemClient
         private void button1_Click(object sender, EventArgs e)
         {
             FemHelper.DataCalSql(this.rbLisans.Checked);
+            MessageBox.Show("Bitti");
         }
 
         private void rbOnlisans_CheckedChanged(object sender, EventArgs e)

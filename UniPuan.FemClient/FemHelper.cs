@@ -115,13 +115,18 @@ namespace UniPuan.FemClient
             var gelenOgrenimDili = "0";
             var gelenBolumler = string.Join(",", bolumler.Select(t => t.BolumId));
             var gelenSehirler = string.Join(",", sehirler.Select(t => t.ilId));
-          
+        
             List<OnLisansSonuclarSurrogate> sonuclar = new List<OnLisansSonuclarSurrogate>();
 
             Fem.FemTercihWebServisSoapClient client = new Fem.FemTercihWebServisSoapClient();
+         //   sonuclar.AddRange(client.GetOnLisansTercihSonuclar(gelenPuanTuru, gelenUniversiteTuru, gelenAralik, yeniBolumlerGelsinmi,
+         //gelenOgrenimTuru, gelenBurs, gelenOgrenimDili, gelenBolumler, gelenSehirler).ToList());
+            foreach (var shr in sehirler)
+            {
             sonuclar.AddRange(client.GetOnLisansTercihSonuclar(gelenPuanTuru, gelenUniversiteTuru, gelenAralik, yeniBolumlerGelsinmi,
          gelenOgrenimTuru, gelenBurs, gelenOgrenimDili, gelenBolumler, gelenSehirler).ToList());
 
+            }
             return sonuclar;
         }
 
@@ -298,7 +303,7 @@ namespace UniPuan.FemClient
                 komut.CommandType = System.Data.CommandType.StoredProcedure;
                 komut.Parameters.AddWithValue("@UNIVERSITYID", item.UNIVERSITEID);
                 komut.Parameters.AddWithValue("@UNIVERSITYNAME", item.Universitead);
-                komut.Parameters.AddWithValue("@CITYID", sehir.ilId);
+                komut.Parameters.AddWithValue("@CITYID", sehir.ilId); 
                 komut.Parameters.AddWithValue("@UNITYPEID", "2");
                 var sonuc = komut.ExecuteNonQuery();
                 
@@ -391,6 +396,7 @@ namespace UniPuan.FemClient
                 }
             }
         }      
+
     }
      
     public class Bolum

@@ -20,9 +20,10 @@ namespace WindowsFormsApplication10
         private void Form1_Load(object sender, EventArgs e)
         {
            //XData.UniversityTransfer();
-           XData.FacultyTransfer();
-           XData.DepartmentTransfer();
-           XData.CityTransfer();
+           //XData.FacultyTransfer();
+           //XData.DepartmentTransfer();
+           //XData.CityTransfer();
+            SqlEdit.DepartmentScore();
           
         }
     }
