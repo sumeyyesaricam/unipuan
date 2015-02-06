@@ -56,23 +56,23 @@
     <Property Name="DEPARTMENTID" Type="int" />
     <Property Name="UNIVERSITYID" Type="int" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6013: The table/view 'UniPuan.dbo.UP_ST_SCORE' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="UP_ST_SCORE">
-          <Property Name="PROGRAMID" Type="float" />
-          <Property Name="UNIVERSITYNAME" Type="nvarchar(max)" />
-          <Property Name="DEPARTMENTNAME" Type="nvarchar(max)" />
-          <Property Name="QUOTAS" Type="int" />
-          <Property Name="CONDITION" Type="nvarchar" MaxLength="50" />
-          <Property Name="SCOREMIN" Type="float" />
-          <Property Name="ORDERR" Type="float" />
-        </EntityType>-->
   <EntityType Name="UP_ST_SCORETYPE">
     <Key>
       <PropertyRef Name="SCORETYPEID" />
     </Key>
     <Property Name="SCORETYPEID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="SCORETYPENAME" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UP_ST_SELECT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="SDEPARTMENT" Type="nvarchar" MaxLength="100" />
+    <Property Name="SCITY" Type="nvarchar" MaxLength="50" />
+    <Property Name="SUNI" Type="nvarchar" MaxLength="100" />
+    <Property Name="SSTYPE" Type="nvarchar" MaxLength="50" />
+    <Property Name="SUTYPE" Type="nvarchar" MaxLength="50" />
+    <Property Name="ID" Type="nchar" MaxLength="10" Nullable="false" />
   </EntityType>
   <EntityType Name="UP_ST_UNITYPE">
     <Key>
@@ -90,12 +90,6 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_SCORE' does not have a primary k
     <Property Name="CITYID" Type="int" Nullable="false" />
     <Property Name="UNITYPEID" Type="int" Nullable="false" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
-        <EntityType Name="UP_ST_UNIVERSITYDEPARTMENT">
-          <Property Name="UNIVERSITYID" Type="int" />
-          <Property Name="DEPARTMENTID" Type="int" />
-        </EntityType>-->
   <EntityContainer Name="UniPuanModelStoreContainer">
     <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UP_ST_CITY" EntityType="Self.UP_ST_CITY" Schema="dbo" store:Type="Tables" />
@@ -104,6 +98,7 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
     <EntitySet Name="UP_ST_EDUTYPE" EntityType="Self.UP_ST_EDUTYPE" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UP_ST_PROGRAM" EntityType="Self.UP_ST_PROGRAM" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UP_ST_SCORETYPE" EntityType="Self.UP_ST_SCORETYPE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UP_ST_SELECT" EntityType="Self.UP_ST_SELECT" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UP_ST_UNITYPE" EntityType="Self.UP_ST_UNITYPE" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UP_ST_UNIVERSITY" EntityType="Self.UP_ST_UNIVERSITY" Schema="dbo" store:Type="Tables" />
   </EntityContainer>

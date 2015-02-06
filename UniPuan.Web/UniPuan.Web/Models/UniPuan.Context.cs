@@ -10,11 +10,8 @@
 namespace UniPuan.Web.Models
 {
     using System;
-    using System.Collections.Generic;
-    using System.ComponentModel;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    using System.Web.Mvc;
     
     public partial class UniPuanEntities1 : DbContext
     {
@@ -36,6 +33,7 @@ namespace UniPuan.Web.Models
         public virtual DbSet<UP_ST_SCORETYPE> UP_ST_SCORETYPE { get; set; }
         public virtual DbSet<UP_ST_UNITYPE> UP_ST_UNITYPE { get; set; }
         public virtual DbSet<UP_ST_UNIVERSITY> UP_ST_UNIVERSITY { get; set; }
-        public virtual DbSet<UP_ST_PROGRAM> UP_ST_PROGRAM { get; set; }     
+        public virtual DbSet<UP_ST_PROGRAM> UP_ST_PROGRAM { get; set; }
+        public virtual DbSet<UP_ST_SELECT> UP_ST_SELECT { get; set; }
     }
 }

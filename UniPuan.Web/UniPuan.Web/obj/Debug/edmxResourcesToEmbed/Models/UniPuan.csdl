@@ -74,6 +74,7 @@
     <EntitySet Name="UP_ST_UNITYPE" EntityType="Self.UP_ST_UNITYPE" />
     <EntitySet Name="UP_ST_UNIVERSITY" EntityType="Self.UP_ST_UNIVERSITY" />
     <EntitySet Name="UP_ST_PROGRAM" EntityType="UniPuanModel.UP_ST_PROGRAM" />
+    <EntitySet Name="UP_ST_SELECT" EntityType="UniPuanModel.UP_ST_SELECT" />
   </EntityContainer>
   <EntityType Name="UP_ST_PROGRAM">
     <Key>
@@ -89,5 +90,16 @@
     <Property Name="ORDERR" Type="Double" />
     <Property Name="DEPARTMENTID" Type="Int32" />
     <Property Name="UNIVERSITYID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="UP_ST_SELECT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="SDEPARTMENT" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SCITY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SUNI" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SSTYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SUTYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ID" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
   </EntityType>
 </Schema>

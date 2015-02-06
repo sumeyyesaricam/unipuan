@@ -19,77 +19,91 @@ Bölümün alan içi veya alan dışı olması, bölümün özellikleri, kontenj
 </div>
 <script type="text/javascript">
             function selectedIndexChanged() {
-
             }
 </script>
 <div class="features" id="features">
     <div class="container">
-        <h3 class="text-head">Hayatta Başarılar</h3>
-        <div class="features-section">
-            <div class="form-group">
-                @using (Html.BeginForm())
-                {
-                    <div class="widget-toolbar">
-                        <button class="btn btn-sm btn-primary">
-                            <i class="icon-search"></i>
-                            <span class="hidden-phone">Ara</span>
-                        </button>
-                    </div>
-                    <div class="widget-toolbar">
-                        <input class="filter form-control" type="text" placeholder="Ara" name="txtDepartment">
-                    </div>
-                }
-                @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @id = "form" }))
-                {
-                    @Html.LabelFor(model => model.Departments, new { @class = "col-sm-3 control-label no-padding-right" })
-                        @Html.ListBox("OrnekListBox", Model.Departments)        
-                    @Html.ListBox("OrnekListBox", Model.Departments, new { @onchange = "document.getElementById('form').submit()" })
-                }
-            </div>
-
-            <div class="form-group">
-                @using (Html.BeginForm())
-                {
-                    <div class="widget-toolbar">
-                        <button class="btn btn-sm btn-primary">
-                            <i class="icon-search"></i>
-                            <span class="hidden-phone">Ara</span>
-                        </button>
-                    </div>
-                    <div class="widget-toolbar">
-                        <input class="filter form-control" type="text" placeholder="Ara" name="txtCity">
-                    </div>
-                }
-                @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @id = "form" }))
-                {
-                    @Html.LabelFor(model => model.Cities, new { @class = "col-sm-3 control-label no-padding-right" })
-                    @Html.ListBox("OrnekListBox", Model.Cities)
-                    @Html.ListBox("OrnekListBox", Model.Cities, new { @onchange = "document.getElementById('form').submit()" })
-                }               
-            </div>
-
-            <div class="form-group">
-@using (Html.BeginForm())
-{
-    <div class="widget-toolbar">
-        <button class="btn btn-sm btn-primary">
-            <i class="icon-search"></i>
-            <span class="hidden-phone">Ara</span>
-        </button>
-    </div>
-        <div class="widget-toolbar">
-            <input class="filter form-control" type="text" placeholder="Ara" name="txtUni">
-        </div>
-} 
-                @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @id = "form" }))
-          {
-    @Html.LabelFor(model => model.Universities, new { @class = "col-sm-3 control-label no-padding-right" })
-    @Html.ListBox("OrnekListBox", Model.Universities)
-    @Html.ListBox("OrnekListBox", Model.Universities, new { @onchange = "document.getElementById('form').submit()" })
-            }
-   
-            </div>
-            </div>
+        <h3 class="text-head">Hayatta Başarılar</h3>     
+            <div class="features-section">                        
+                <table>
+                    <tr><td><input class="filter form-control" type="text" placeholder="Ara" name="searchd" style="font-size:large;width:200px;"></td>
+                    <td></td><td></td>
+                    <td><input class="filter form-control" type="text" placeholder="Ara" name="searchd" style="font-size:large;width:200px;"></td>
+                    <td>@Html.Label("Puan Türü")</td></tr>
+                    <tr>@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                    {
+                    <td>
+                        <select size="10" name="boxdep"
+                                multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_LeftBox" style="font-size:large;width:200px;">
+                            @foreach (var dep in Model.Departments)
+                            {<option>@dep.Text</option>}
+                        </select><input type="hidden">
+                    </td><td><input type="submit" value="Ekle" class="btn btn-danger" name="Ekle" /></td>
+                    <td><input type="submit" value="Çıkar" class="btn btn-danger" name="Cikar" /></td>
+                    <td><select size="10" name="ctl00$ContentPlaceHolder1$Illist$RightBox"
+                     multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_RightBox" style="font-size:large;width:200px;">
+                    @foreach (var dep in Model.SelectedDepartments)
+                    {<option>@dep</option>}
+                    </select></td> }
+                    <td><div class="input-append no-padding no-margin">
+                        @Html.DropDownList("SelectedPuan", "Puan Türünü Seç")
+                    </div></td></tr>
+                    <tr><td><input class="filter form-control" type="text" placeholder="Ara" name="searchc" style="font-size:large;width:200px;"></td>
+                    <td></td><td></td>
+                    <td><input class="filter form-control" type="text" placeholder="Ara" name="searchc" style="font-size:large;width:200px;"></td>
+                    <td>@Html.Label("Üniversite Türü")</td></tr>
+                    <tr>@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                    {
+                    <td>
+                        <select size="10" name="boxcity"
+                                multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_LeftBox" style="font-size:large;width:200px;">
+                            @foreach (var cty in Model.Cities)
+                            {<option>@cty.Text</option>}
+                        </select><input type="hidden">
+                    </td>
+                    <td><input type="submit" value="Ekle" class="btn btn-danger" name="Ekle" /></td>
+                    <td><input type="submit" value="Çıkar" class="btn btn-danger" name="Cikar" /></td>
+                    <td>
+                        <select size="10" name="ctl00$ContentPlaceHolder1$Illist$RightBox"
+                                multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_RightBox" style="font-size:large;width:200px;">
+                           @foreach (var cty in Model.SelectedCities)
+                           {<option>@cty</option>}
+                        </select></td>}
+                    <td>
+                      
+                            @Html.CheckBox("Devlet")<br />
+                            @Html.CheckBox("Vakıf")<br />
+                            @Html.CheckBox("Özel")<br />
+                            @Html.CheckBox("KKTC")<br />                      
+                        </td>
+                    </tr>
+                    <tr><td><input class="filter form-control" type="text" placeholder="Ara" name="searchu" style="font-size:large;width:200px;"></td>
+                    <td></td><td></td>
+                    <td><input class="filter form-control" type="text" placeholder="Ara" name="searchu" style="font-size:large;width:200px;"></td>
+                    <td>@Html.Label("Puan-Başarı")</td></tr>
+                    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                    {<tr>
+                    <td>
+                        <select size="10" name="boxuni" multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_LeftBox" style="font-size:large;width:200px;">
+                            @foreach (var uni in Model.Universities)
+                        {<option>@uni.Text</option>}
+                        </select><input type="hidden">     
+                       </td>
+                    <td><input type="submit" value="Ekle" class="btn btn-danger" name="Ekle" /></td>
+                    <td><input type="submit" value="Çıkar" class="btn btn-danger" name="Cikar" /></td>
+                    <td><select size="10" name="ctl00$ContentPlaceHolder1$Illist$RightBox"
+                     multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_RightBox" style="font-size:large;width:200px;">
+                            @foreach (var uni in Model.SelectedUniversities)
+                            {<option>@uni</option>}
+                    </select></td>
+                    <td>@Html.RadioButton("Puan Aralığı",Model.Cities)<br />
+                    @Html.RadioButton("Başarı Sıralaması", Model.Cities)<br />
+                    @Html.TextBox("Min.", Model.Cities)<br />
+                    @Html.TextBox("Max", Model.Cities)<br />
+                        </td></tr>}
+                    <tr><td></td><td></td><td><input type="submit" value="Araştır" class="btn btn-danger" name="Araştır" /></td><td></td><td></td></tr>
+                </table>
+            </div> 
     </div>
 </div>
 <div class="stories" id="stories">
@@ -132,12 +146,6 @@ Bölümün alan içi veya alan dışı olması, bölümün özellikleri, kontenj
         </ul>
     </div>
 </div>
-@*<div style=”font-family:Arial”>
-    <h2>Index</h2>
-    @using (Html.BeginForm())
-{
-        @Html.ListBoxFor(m => m.SelectedCities, Model.Cities)
-        <br />
-        <input type="submit" value="Submit" />
+@section Scripts {
+    @System.Web.Optimization.Scripts.Render("~/bundles/jqueryval")
 }
-</div>*@

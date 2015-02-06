@@ -14,6 +14,7 @@
         <EntityTypeShape EntityType="UniPuanModel.UP_ST_UNITYPE" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="UniPuanModel.UP_ST_UNIVERSITY" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
         <EntityTypeShape EntityType="UniPuanModel.UP_ST_PROGRAM" Width="1.5" PointX="3.375" PointY="6.75" />
+        <EntityTypeShape EntityType="UniPuanModel.UP_ST_SELECT" Width="1.5" PointX="5.375" PointY="6.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -88,5 +88,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="UP_ST_SELECT">
+      <EntityTypeMapping TypeName="UniPuanModel.UP_ST_SELECT">
+        <MappingFragment StoreEntitySet="UP_ST_SELECT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="SUTYPE" ColumnName="SUTYPE" />
+          <ScalarProperty Name="SSTYPE" ColumnName="SSTYPE" />
+          <ScalarProperty Name="SUNI" ColumnName="SUNI" />
+          <ScalarProperty Name="SCITY" ColumnName="SCITY" />
+          <ScalarProperty Name="SDEPARTMENT" ColumnName="SDEPARTMENT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

@@ -11,16 +11,12 @@ namespace UniPuan.Web.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel;
-    using System.Web.Mvc;
     
     public partial class UP_ST_DEPARTMENT
     {
         public int DEPARTMENTID { get; set; }
-         [DisplayName("Bölümler")]
         public string DEPARTMENTNAME { get; set; }
         public string SCORETYPE { get; set; }
         public string EDUTYPE { get; set; }
-        public MultiSelectList DepartmentList { get; set; }
     }
 }

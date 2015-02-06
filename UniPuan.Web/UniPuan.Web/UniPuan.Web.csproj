@@ -206,6 +206,9 @@
     <Compile Include="Models\UP_ST_SCORETYPE.cs">
       <DependentUpon>UniPuan.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\UP_ST_SELECT.cs">
+      <DependentUpon>UniPuan.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\UP_ST_UNITYPE.cs">
       <DependentUpon>UniPuan.tt</DependentUpon>
     </Compile>

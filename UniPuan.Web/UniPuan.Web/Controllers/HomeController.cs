@@ -13,9 +13,20 @@ namespace UniPuan.Web.Controllers
     public class HomeController : Controller
     {
 
-        public ActionResult Index(Guid? SelectedDepartment, Guid? SelectedCity, Guid? SelectedUni, string txtDepartment, string txtCity, string txtUni)
+        public ActionResult Index(Guid? SelectedPuan, string boxuni, string boxcity, string boxdep)
         {
             UniPuanEntities1 uni = new UniPuanEntities1();
+            ViewBag.SelectedPuan = new SelectList(uni.UP_ST_SCORETYPE, "SCORETYPEID", "SCORETYPENAME", SelectedPuan);
+            List<SelectListItem> listunitype = new List<SelectListItem>();
+            foreach (var type in uni.UP_ST_UNITYPE)
+            {
+                SelectListItem selectList = new SelectListItem()
+                { 
+                    Text = type.UNITYPENAME,
+                    Value = type.UNITYPEID.ToString(),
+                };
+                listunitype.Add(selectList);
+            }
             List<SelectListItem> listdep = new List<SelectListItem>();
             foreach (var dep in uni.UP_ST_DEPARTMENT)
             {
@@ -35,7 +46,6 @@ namespace UniPuan.Web.Controllers
                {
                    Text = city.CITYNAME,
                    Value = city.CITYID.ToString(),
-                   //Selected = dep.IsSelected
                };
                listcity.Add(selectList);
            }
@@ -47,37 +57,29 @@ namespace UniPuan.Web.Controllers
                {
                    Text = univ.UNIVERSITYNAME,
                    Value = univ.UNIVERSITYID.ToString(),
-                   //Selected = dep.IsSelected
                };
                listuni.Add(selectList);
            }
+           List<string> listsec = new List<string>();
+           listsec.Add(boxdep);
+               List<string> listsct = new List<string>();
+               listsct.Add(boxcity);
+               List<string> listsun = new List<string>();
+               listsun.Add(boxuni);
            UniModel uniViewModel = new UniModel()
            {
                Departments = listdep,
                Cities = listcity,
-               Universities = listuni
+               Universities = listuni,
+               Unitypes=listunitype,
+               SelectedDepartments = listsec,
+               SelectedCities = listsct,
+               SelectedUniversities = listsun
            };
            return View(uniViewModel);
-        }
-
-      [HttpPost]
-      public string Index(IEnumerable<string> selectedCities)
-      {
-    if (selectedCities == null)
-    {
-        return "No cities are selected";
-    }
-    else
-    {
-        StringBuilder sb = new StringBuilder();
-        sb.Append("You selected – " + string.Join(",", selectedCities));
-        return sb.ToString();
-    }
-       }
+        }       
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 

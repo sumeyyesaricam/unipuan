@@ -11,12 +11,10 @@ namespace UniPuan.Web.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel;
     
     public partial class UP_ST_CITY
     {
         public int CITYID { get; set; }
-        [DisplayName("Þehirler")]
         public string CITYNAME { get; set; }
     }
 }
