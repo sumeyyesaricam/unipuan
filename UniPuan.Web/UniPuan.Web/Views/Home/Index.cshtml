@@ -22,97 +22,109 @@ Bölümün alan içi veya alan dışı olması, bölümün özellikleri, kontenj
             }
 </script>
 <div class="features" id="features">
-    <div class="container">
-        <h3 class="text-head">Hayatta Başarılar</h3>     
+    <div class="container box1 col-md-6">
+        <h3 class="text-head">Hayatta Başarılar</h3>            
             <div class="features-section">                        
-                <table>
-                    <tr><td><input class="filter form-control" type="text" placeholder="Ara" name="searchd" style="font-size:large;width:200px;"></td>
-                    <td></td><td></td>
-                    <td><input class="filter form-control" type="text" placeholder="Ara" name="searchd" style="font-size:large;width:200px;"></td>
-                    <td>@Html.Label("Puan Türü")</td></tr>
-                    <tr>@using (Html.BeginForm("Index", "Home", FormMethod.Post))
-                    {
-                    <td>
-                        <select size="10" name="boxdep"
-                                multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_LeftBox" style="font-size:large;width:200px;">
-                            @foreach (var dep in Model.Departments)
-                            {<option>@dep.Text</option>}
-                        </select><input type="hidden">
-                    </td><td><input type="submit" value="Ekle" class="btn btn-danger" name="Ekle" /></td>
-                    <td><input type="submit" value="Çıkar" class="btn btn-danger" name="Cikar" /></td>
-                    <td><select size="10" name="ctl00$ContentPlaceHolder1$Illist$RightBox"
-                     multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_RightBox" style="font-size:large;width:200px;">
-                    @foreach (var dep in Model.SelectedDepartments)
-                    {<option>@dep</option>}
-                    </select></td> }
-                    <td><div class="input-append no-padding no-margin">
-                        @Html.DropDownList("SelectedPuan", "Puan Türünü Seç")
-                    </div></td></tr>
-                    <tr><td><input class="filter form-control" type="text" placeholder="Ara" name="searchc" style="font-size:large;width:200px;"></td>
-                    <td></td><td></td>
-                    <td><input class="filter form-control" type="text" placeholder="Ara" name="searchc" style="font-size:large;width:200px;"></td>
-                    <td>@Html.Label("Üniversite Türü")</td></tr>
-                    <tr>@using (Html.BeginForm("Index", "Home", FormMethod.Post))
-                    {
-                    <td>
-                        <select size="10" name="boxcity"
-                                multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_LeftBox" style="font-size:large;width:200px;">
-                            @foreach (var cty in Model.Cities)
-                            {<option>@cty.Text</option>}
-                        </select><input type="hidden">
-                    </td>
-                    <td><input type="submit" value="Ekle" class="btn btn-danger" name="Ekle" /></td>
-                    <td><input type="submit" value="Çıkar" class="btn btn-danger" name="Cikar" /></td>
-                    <td>
-                        <select size="10" name="ctl00$ContentPlaceHolder1$Illist$RightBox"
-                                multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_RightBox" style="font-size:large;width:200px;">
-                           @foreach (var cty in Model.SelectedCities)
-                           {<option>@cty</option>}
-                        </select></td>}
-                    <td>
-                      
-                            @Html.CheckBox("Devlet")<br />
-                            @Html.CheckBox("Vakıf")<br />
-                            @Html.CheckBox("Özel")<br />
-                            @Html.CheckBox("KKTC")<br />                      
-                        </td>
-                    </tr>
-                    <tr><td><input class="filter form-control" type="text" placeholder="Ara" name="searchu" style="font-size:large;width:200px;"></td>
-                    <td></td><td></td>
-                    <td><input class="filter form-control" type="text" placeholder="Ara" name="searchu" style="font-size:large;width:200px;"></td>
-                    <td>@Html.Label("Puan-Başarı")</td></tr>
+                   @Html.Label("Puan Türü")@Html.DropDownList("SelectedPuan", "Puan Türünü Seç")<br />
+                @Html.Label("Üniversite Türü")
+               @foreach (var typ in Model.Unitypes)
+               {<label class="inline">
+                <input type="checkbox" class="ace">
+                <span class="lbl">@typ.Text</span>
+            </label>}
+
                     @using (Html.BeginForm("Index", "Home", FormMethod.Post))
-                    {<tr>
-                    <td>
-                        <select size="10" name="boxuni" multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_LeftBox" style="font-size:large;width:200px;">
-                            @foreach (var uni in Model.Universities)
-                        {<option>@uni.Text</option>}
-                        </select><input type="hidden">     
-                       </td>
-                    <td><input type="submit" value="Ekle" class="btn btn-danger" name="Ekle" /></td>
-                    <td><input type="submit" value="Çıkar" class="btn btn-danger" name="Cikar" /></td>
-                    <td><select size="10" name="ctl00$ContentPlaceHolder1$Illist$RightBox"
-                     multiple="multiple" id="ctl00_ContentPlaceHolder1_Illist_RightBox" style="font-size:large;width:200px;">
-                            @foreach (var uni in Model.SelectedUniversities)
-                            {<option>@uni</option>}
-                    </select></td>
-                    <td>@Html.RadioButton("Puan Aralığı",Model.Cities)<br />
-                    @Html.RadioButton("Başarı Sıralaması", Model.Cities)<br />
-                    @Html.TextBox("Min.", Model.Cities)<br />
-                    @Html.TextBox("Max", Model.Cities)<br />
-                        </td></tr>}
-                    <tr><td></td><td></td><td><input type="submit" value="Araştır" class="btn btn-danger" name="Araştır" /></td><td></td><td></td></tr>
-                </table>
+                    {
+                        <form id="demoform" action="#" method="post">
+                            <select multiple="multiple" size="10" name="duallistbox_demo1[]">
+                              @foreach (var dep in Model.Departments)
+                              {<option value="option1">@dep.Text</option>}                      
+                            </select>
+                            
+                            <br>
+                            @*<button type="submit" class="btn btn-default btn-block">Submit data</button>*@
+                        </form>  
+                    }              
+                    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                    {
+                        <form id="demoform" action="#" method="post">
+                            <select multiple="multiple" size="10" name="duallistbox_demo1[]">
+                                @foreach (var cty in Model.Cities)
+                                {
+                                <option value="option1">@cty.Text</option>}
+                            </select>
+                            
+                            <br>
+                            @*<button type="submit" class="btn btn-default btn-block">Submit data</button>*@
+                        </form>                       
+                       <input type="hidden">
+                    }
+                    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                    {
+                        <form id="demoform" action="#" method="post">
+                            <select multiple="multiple" size="10" name="duallistbox_demo1[]">
+                                @foreach (var uni in Model.Universities)
+                                {<option value="option1">@uni.Text</option>}
+                            </select>
+                            <br>
+                            @*<button type="submit" class="btn btn-default btn-block">Submit data</button>*@
+                        </form>                      
+                        <input type="hidden">
+    <label>
+        <input name="form-field-radio" type="radio" class="ace">
+        <span class="lbl"> Puan Aralığı</span>
+    </label>
+    <label>
+        <input name="form-field-radio" type="radio" class="ace">
+        <span class="lbl"> Başarı Sıralaması</span>
+    </label>                  
+                    @Html.TextBox("Min.")
+                    @Html.TextBox("Max")<br />
+                     }<input type="submit" value="Araştır" class="btn btn-danger" name="Araştır" />
             </div> 
     </div>
 </div>
 <div class="stories" id="stories">
     <div class="container">
         <h3 class="text-head">Stories Of Extant</h3>
-        <p class="box-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mi nulla, in imperdiet arcu hendrerit in.</p>
         <div class="stories-section">
-            
-        </div>
+            <table id="veritablosu">
+
+                <tr>
+                    <th width="1%" rowspan="2">
+                    </th>
+                    <th width="1%" rowspan="2" style="text-align:right;">#</th>
+                    <th rowspan="2">Puan<br>Tipi</th>
+                    <th rowspan="2">Kodu</th>
+                    <th colspan="1">Üniversite</th>
+                    <th colspan="1">Program</th>
+                    <th rowspan="2">Ek Bilgi</th>
+                    <th colspan="3">Başarı Sır.</th>
+                    <th rowspan="2">2014<br>Ek P.<br>Bş.Sr.</th>
+                    <th colspan="3">Taban Puanlar</th>
+                    <th rowspan="2">Süre</th>
+                    <th colspan="4">Kontejan</th>
+                    <th colspan="1">Öz.Koşullar</th>
+                </tr>
+                <tr>
+                    <th>Şehir</th>
+                    <th>Fakulte</th>
+                    <th>2012</th>
+                    <th>2013</th>
+                    <th>2014</th>
+                    <th>2012</th>
+                    <th>2013</th>
+                    <th>2014</th>
+                    <th>2012</th>
+                    <th>2013</th>
+                    <th>2014</th>
+                    <th>O.1</th>
+                    <th>Yer.Önc.</th>
+                </tr>
+
+            </table>
+             
+         </div>
     </div>
 </div>
 <div class="contact" id="contact">
@@ -149,3 +161,110 @@ Bölümün alan içi veya alan dışı olması, bölümün özellikleri, kontenj
 @section Scripts {
     @System.Web.Optimization.Scripts.Render("~/bundles/jqueryval")
 }
+<script type="text/javascript">
+    jQuery(function ($) {
+        var demo1 = $('select[name="duallistbox_demo1[]"]').bootstrapDualListbox({ infoTextFiltered: '<span class="label label-purple label-lg">Filtered</span>' });
+        var container1 = demo1.bootstrapDualListbox('getContainer');
+        container1.find('.btn').addClass('btn-white btn-info btn-bold');
+
+        /**var setRatingColors = function() {
+            $(this).find('.star-on-png,.star-half-png').addClass('orange2').removeClass('grey');
+            $(this).find('.star-off-png').removeClass('orange2').addClass('grey');
+        }*/
+        $('.rating').raty({
+            'cancel': true,
+            'half': true,
+            'starType': 'i'
+            /**,
+
+            'click': function() {
+                setRatingColors.call(this);
+            },
+            'mouseover': function() {
+                setRatingColors.call(this);
+            },
+            'mouseout': function() {
+                setRatingColors.call(this);
+            }*/
+        })//.find('i:not(.star-raty)').addClass('grey');
+
+
+
+        //////////////////
+        //select2
+        $('.select2').css('width', '200px').select2({ allowClear: true })
+        $('#select2-multiple-style .btn').on('click', function (e) {
+            var target = $(this).find('input[type=radio]');
+            var which = parseInt(target.val());
+            if (which == 2) $('.select2').addClass('tag-input-style');
+            else $('.select2').removeClass('tag-input-style');
+        });
+
+        //////////////////
+        $('.multiselect').multiselect({
+            enableFiltering: true,
+            buttonClass: 'btn btn-white btn-primary',
+            templates: {
+                button: '<button type="button" class="multiselect dropdown-toggle" data-toggle="dropdown"></button>',
+                ul: '<ul class="multiselect-container dropdown-menu"></ul>',
+                filter: '<li class="multiselect-item filter"><div class="input-group"><span class="input-group-addon"><i class="fa fa-search"></i></span><input class="form-control multiselect-search" type="text"></div></li>',
+                filterClearBtn: '<span class="input-group-btn"><button class="btn btn-default btn-white btn-grey multiselect-clear-filter" type="button"><i class="fa fa-times-circle red2"></i></button></span>',
+                li: '<li><a href="javascript:void(0);"><label></label></a></li>',
+                divider: '<li class="multiselect-item divider"></li>',
+                liGroup: '<li class="multiselect-item group"><label class="multiselect-group"></label></li>'
+            }
+        });
+
+
+        ///////////////////
+
+        //typeahead.js
+        //example taken from plugin's page at: https://twitter.github.io/typeahead.js/examples/
+        var substringMatcher = function (strs) {
+            return function findMatches(q, cb) {
+                var matches, substringRegex;
+
+                // an array that will be populated with substring matches
+                matches = [];
+
+                // regex used to determine if a string contains the substring `q`
+                substrRegex = new RegExp(q, 'i');
+
+                // iterate through the pool of strings and for any string that
+                // contains the substring `q`, add it to the `matches` array
+                $.each(strs, function (i, str) {
+                    if (substrRegex.test(str)) {
+                        // the typeahead jQuery plugin expects suggestions to a
+                        // JavaScript object, refer to typeahead docs for more info
+                        matches.push({ value: str });
+                    }
+                });
+
+                cb(matches);
+            }
+        }
+
+        $('input.typeahead').typeahead({
+            hint: true,
+            highlight: true,
+            minLength: 1
+        }, {
+            name: 'states',
+            displayKey: 'value',
+            source: substringMatcher(ace.vars['US_STATES'])
+        });
+
+
+        ///////////////
+
+
+        //in ajax mode, remove remaining elements before leaving page
+        $(document).one('ajaxloadstart.page', function (e) {
+            $('[class*=select2]').remove();
+            $('select[name="duallistbox_demo1[]"]').bootstrapDualListbox('destroy');
+            $('.rating').raty('destroy');
+            $('.multiselect').multiselect('destroy');
+        });
+
+    });
+</script>

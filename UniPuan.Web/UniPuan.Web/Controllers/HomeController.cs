@@ -13,7 +13,7 @@ namespace UniPuan.Web.Controllers
     public class HomeController : Controller
     {
 
-        public ActionResult Index(Guid? SelectedPuan, string boxuni, string boxcity, string boxdep)
+        public ActionResult Index(Guid? SelectedPuan, string boxuni, string boxcity, string boxdep, string searchd)
         {
             UniPuanEntities1 uni = new UniPuanEntities1();
             ViewBag.SelectedPuan = new SelectList(uni.UP_ST_SCORETYPE, "SCORETYPEID", "SCORETYPENAME", SelectedPuan);
