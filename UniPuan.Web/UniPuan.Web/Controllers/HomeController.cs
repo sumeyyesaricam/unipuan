@@ -77,12 +77,180 @@ namespace UniPuan.Web.Controllers
                SelectedUniversities = listsun
            };
            return View(uniViewModel);
-        }       
+        }
+
+        public UniModel GetModel(Guid? SelectedPuan, string boxuni, string boxcity, string boxdep, string searchd)
+        {
+            UniPuanEntities1 uni = new UniPuanEntities1();
+            ViewBag.SelectedPuan = new SelectList(uni.UP_ST_SCORETYPE, "SCORETYPEID", "SCORETYPENAME", SelectedPuan);
+            List<SelectListItem> listunitype = new List<SelectListItem>();
+            foreach (var type in uni.UP_ST_UNITYPE)
+            {
+                SelectListItem selectList = new SelectListItem()
+                {
+                    Text = type.UNITYPENAME,
+                    Value = type.UNITYPEID.ToString(),
+                };
+                listunitype.Add(selectList);
+            }
+            List<SelectListItem> listdep = new List<SelectListItem>();
+            foreach (var dep in uni.UP_ST_DEPARTMENT)
+            {
+                SelectListItem selectList = new SelectListItem()
+                {
+                    Text = dep.DEPARTMENTNAME,
+                    Value = dep.DEPARTMENTID.ToString(),
+                    //Selected = dep.IsSelected
+                };
+                listdep.Add(selectList);
+            }
+
+            List<SelectListItem> listcity = new List<SelectListItem>();
+            foreach (var city in uni.UP_ST_CITY)
+            {
+                SelectListItem selectList = new SelectListItem()
+                {
+                    Text = city.CITYNAME,
+                    Value = city.CITYID.ToString(),
+                };
+                listcity.Add(selectList);
+            }
+
+            List<SelectListItem> listuni = new List<SelectListItem>();
+            foreach (var univ in uni.UP_ST_UNIVERSITY)
+            {
+                SelectListItem selectList = new SelectListItem()
+                {
+                    Text = univ.UNIVERSITYNAME,
+                    Value = univ.UNIVERSITYID.ToString(),
+                };
+                listuni.Add(selectList);
+            }
+            List<string> listsec = new List<string>();
+            listsec.Add(boxdep);
+            List<string> listsct = new List<string>();
+            listsct.Add(boxcity);
+            List<string> listsun = new List<string>();
+            listsun.Add(boxuni);
+            UniModel uniViewModel = new UniModel()
+            {
+                Departments = listdep,
+                Cities = listcity,
+                Universities = listuni,
+                Unitypes = listunitype,
+                SelectedDepartments = listsec,
+                SelectedCities = listsct,
+                SelectedUniversities = listsun
+            };
+            return uniViewModel;
+        }
+        public ActionResult SelectList(Guid? SelectedPuan, string boxuni, string boxcity, string boxdep, string searchd)
+        {
+            var uniViewModel = GetModel(SelectedPuan,  boxuni,  boxcity,  boxdep,  searchd);
+            return View(uniViewModel);
+        }
+        [HttpPost]
+        public ActionResult SelectList(UniModel model,string bootstrap_duallistbox_selected_list_ddlDepartments)
+        {
+            return View(model);
+        }
+        //[HttpPost]
+        public ActionResult GetCities(string id)
+        {
+            var idList = id.Split(',').Select(t => Convert.ToInt32(t));
+            UniPuanEntities1 uni = new UniPuanEntities1();
+            var cities = (from c in uni.UP_ST_CITY
+                          where
+                          c.UP_ST_DEPARTMENT.Count(d => idList.Contains(d.DEPARTMENTID)) > 0
+                          select new CityData() { CITYID = c.CITYID, CITYNAME = c.CITYNAME }).ToList();
+            return Json(cities, JsonRequestBehavior.AllowGet);
+        }
+        public class CityData
+        {
+            public int CITYID { get; set; }
+            public string CITYNAME { get; set; }
+        }
         public ActionResult About()
         {
             return View();
         }
+        public ActionResult AnaSayfa()
+        {
+            return View();
+        }
+        public ActionResult TercihYap(Guid? SelectedPuan, string boxuni, string boxcity, string boxdep, string searchd)
+        {
+                UniPuanEntities1 uni = new UniPuanEntities1();
+                ViewBag.SelectedPuan = new SelectList(uni.UP_ST_SCORETYPE, "SCORETYPEID", "SCORETYPENAME", SelectedPuan);
+                List<SelectListItem> listunitype = new List<SelectListItem>();
+                foreach (var type in uni.UP_ST_UNITYPE)
+                {
+                    SelectListItem selectList = new SelectListItem()
+                    {
+                        Text = type.UNITYPENAME,
+                        Value = type.UNITYPEID.ToString(),
+                    };
+                    listunitype.Add(selectList);
+                }
+                List<SelectListItem> listdep = new List<SelectListItem>();
+                foreach (var dep in uni.UP_ST_DEPARTMENT)
+                {
+                    SelectListItem selectList = new SelectListItem()
+                    {
+                        Text = dep.DEPARTMENTNAME,
+                        Value = dep.DEPARTMENTID.ToString(),
+                        //Selected = dep.IsSelected
+                    };
+                    listdep.Add(selectList);
+                }
 
+                List<SelectListItem> listcity = new List<SelectListItem>();
+                foreach (var city in uni.UP_ST_CITY)
+                {
+                    SelectListItem selectList = new SelectListItem()
+                    {
+                        Text = city.CITYNAME,
+                        Value = city.CITYID.ToString(),
+                    };
+                    listcity.Add(selectList);
+                }
+
+                List<SelectListItem> listuni = new List<SelectListItem>();
+                foreach (var univ in uni.UP_ST_UNIVERSITY)
+                {
+                    SelectListItem selectList = new SelectListItem()
+                    {
+                        Text = univ.UNIVERSITYNAME,
+                        Value = univ.UNIVERSITYID.ToString(),
+                    };
+                    listuni.Add(selectList);
+                }
+                List<string> listsec = new List<string>();
+                listsec.Add(boxdep);
+                List<string> listsct = new List<string>();
+                listsct.Add(boxcity);
+                List<string> listsun = new List<string>();
+                listsun.Add(boxuni);
+                UniModel uniViewModel = new UniModel()
+                {
+                    Departments = listdep,
+                    Cities = listcity,
+                    Universities = listuni,
+                    Unitypes = listunitype,
+                    SelectedDepartments = listsec,
+                    SelectedCities = listsct,
+                    SelectedUniversities = listsun
+                };
+                return View(uniViewModel);
+        }
+        public ActionResult Sonuclar()
+        {
+            return View();
+        }
+        public ActionResult Ulasım()
+        {
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

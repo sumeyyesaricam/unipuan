@@ -1,81 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="UniPuanModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="sysdiagram">
-    <Key>
-      <PropertyRef Name="diagram_id" />
-    </Key>
-    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="principal_id" Type="Int32" Nullable="false" />
-    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="version" Type="Int32" />
-    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
-  </EntityType>
+  <EntityContainer Name="UniPuanEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UP_ST_CITY" EntityType="UniPuanModel.UP_ST_CITY" />
+    <EntitySet Name="UP_ST_DEPARTMENT" EntityType="UniPuanModel.UP_ST_DEPARTMENT" />
+    <EntitySet Name="UP_ST_EDUTYPE" EntityType="UniPuanModel.UP_ST_EDUTYPE" />
+    <EntitySet Name="UP_ST_PROGRAM" EntityType="UniPuanModel.UP_ST_PROGRAM" />
+    <EntitySet Name="UP_ST_SCORETYPE" EntityType="UniPuanModel.UP_ST_SCORETYPE" />
+    <EntitySet Name="UP_ST_SELECT" EntityType="UniPuanModel.UP_ST_SELECT" />
+    <EntitySet Name="UP_ST_UNITYPE" EntityType="UniPuanModel.UP_ST_UNITYPE" />
+    <EntitySet Name="UP_ST_UNIVERSITY" EntityType="UniPuanModel.UP_ST_UNIVERSITY" />
+    <AssociationSet Name="UP_ST_CITYDEPARTMENT" Association="UniPuanModel.UP_ST_CITYDEPARTMENT">
+      <End Role="UP_ST_CITY" EntitySet="UP_ST_CITY" />
+      <End Role="UP_ST_DEPARTMENT" EntitySet="UP_ST_DEPARTMENT" />
+    </AssociationSet>
+  </EntityContainer>
   <EntityType Name="UP_ST_CITY">
     <Key>
       <PropertyRef Name="CITYID" />
     </Key>
     <Property Name="CITYID" Type="Int32" Nullable="false" />
-    <Property Name="CITYNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-  </EntityType>
-  <EntityType Name="UP_ST_CITYDEPARTMENT">
-    <Key>
-      <PropertyRef Name="CITYID" />
-      <PropertyRef Name="DEPARTMENTID" />
-    </Key>
-    <Property Name="CITYID" Type="Int32" Nullable="false" />
-    <Property Name="DEPARTMENTID" Type="Int32" Nullable="false" />
+    <Property Name="CITYNAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UP_ST_DEPARTMENT" Relationship="UniPuanModel.UP_ST_CITYDEPARTMENT" FromRole="UP_ST_CITY" ToRole="UP_ST_DEPARTMENT" />
   </EntityType>
   <EntityType Name="UP_ST_DEPARTMENT">
     <Key>
       <PropertyRef Name="DEPARTMENTID" />
     </Key>
     <Property Name="DEPARTMENTID" Type="Int32" Nullable="false" />
-    <Property Name="DEPARTMENTNAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="SCORETYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="EDUTYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DEPARTMENTNAME" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SCORETYPE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EDUTYPE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="UP_ST_CITY" Relationship="UniPuanModel.UP_ST_CITYDEPARTMENT" FromRole="UP_ST_DEPARTMENT" ToRole="UP_ST_CITY" />
   </EntityType>
   <EntityType Name="UP_ST_EDUTYPE">
     <Key>
       <PropertyRef Name="EDUTYPEID" />
     </Key>
     <Property Name="EDUTYPEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="EDUTYPENAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="EDUTYPENAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
   </EntityType>
-  <EntityType Name="UP_ST_SCORETYPE">
-    <Key>
-      <PropertyRef Name="SCORETYPEID" />
-    </Key>
-    <Property Name="SCORETYPEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="SCORETYPENAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-  </EntityType>
-  <EntityType Name="UP_ST_UNITYPE">
-    <Key>
-      <PropertyRef Name="UNITYPEID" />
-    </Key>
-    <Property Name="UNITYPEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="UNITYPENAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-  </EntityType>
-  <EntityType Name="UP_ST_UNIVERSITY">
-    <Key>
-      <PropertyRef Name="UNIVERSITYID" />
-    </Key>
-    <Property Name="UNIVERSITYID" Type="Int32" Nullable="false" />
-    <Property Name="UNIVERSITYNAME" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="CITYID" Type="Int32" Nullable="false" />
-    <Property Name="UNITYPEID" Type="Int32" Nullable="false" />
-  </EntityType>
-  <EntityContainer Name="UniPuanEntities1" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
-    <EntitySet Name="UP_ST_CITY" EntityType="Self.UP_ST_CITY" />
-    <EntitySet Name="UP_ST_CITYDEPARTMENT" EntityType="Self.UP_ST_CITYDEPARTMENT" />
-    <EntitySet Name="UP_ST_DEPARTMENT" EntityType="Self.UP_ST_DEPARTMENT" />
-    <EntitySet Name="UP_ST_EDUTYPE" EntityType="Self.UP_ST_EDUTYPE" />
-    <EntitySet Name="UP_ST_SCORETYPE" EntityType="Self.UP_ST_SCORETYPE" />
-    <EntitySet Name="UP_ST_UNITYPE" EntityType="Self.UP_ST_UNITYPE" />
-    <EntitySet Name="UP_ST_UNIVERSITY" EntityType="Self.UP_ST_UNIVERSITY" />
-    <EntitySet Name="UP_ST_PROGRAM" EntityType="UniPuanModel.UP_ST_PROGRAM" />
-    <EntitySet Name="UP_ST_SELECT" EntityType="UniPuanModel.UP_ST_SELECT" />
-  </EntityContainer>
   <EntityType Name="UP_ST_PROGRAM">
     <Key>
       <PropertyRef Name="PROGRAMID" />
@@ -91,6 +54,13 @@
     <Property Name="DEPARTMENTID" Type="Int32" />
     <Property Name="UNIVERSITYID" Type="Int32" />
   </EntityType>
+  <EntityType Name="UP_ST_SCORETYPE">
+    <Key>
+      <PropertyRef Name="SCORETYPEID" />
+    </Key>
+    <Property Name="SCORETYPEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SCORETYPENAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
   <EntityType Name="UP_ST_SELECT">
     <Key>
       <PropertyRef Name="ID" />
@@ -102,4 +72,24 @@
     <Property Name="SUTYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="ID" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
   </EntityType>
+  <EntityType Name="UP_ST_UNITYPE">
+    <Key>
+      <PropertyRef Name="UNITYPEID" />
+    </Key>
+    <Property Name="UNITYPEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UNITYPENAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="UP_ST_UNIVERSITY">
+    <Key>
+      <PropertyRef Name="UNIVERSITYID" />
+    </Key>
+    <Property Name="UNIVERSITYID" Type="Int32" Nullable="false" />
+    <Property Name="UNIVERSITYNAME" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CITYID" Type="Int32" Nullable="false" />
+    <Property Name="UNITYPEID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="UP_ST_CITYDEPARTMENT">
+    <End Type="UniPuanModel.UP_ST_CITY" Role="UP_ST_CITY" Multiplicity="*" />
+    <End Type="UniPuanModel.UP_ST_DEPARTMENT" Role="UP_ST_DEPARTMENT" Multiplicity="*" />
+  </Association>
 </Schema>

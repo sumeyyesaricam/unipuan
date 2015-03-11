@@ -25,15 +25,13 @@ namespace UniPuan.Web.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<UP_ST_CITY> UP_ST_CITY { get; set; }
-        public virtual DbSet<UP_ST_CITYDEPARTMENT> UP_ST_CITYDEPARTMENT { get; set; }
         public virtual DbSet<UP_ST_DEPARTMENT> UP_ST_DEPARTMENT { get; set; }
         public virtual DbSet<UP_ST_EDUTYPE> UP_ST_EDUTYPE { get; set; }
+        public virtual DbSet<UP_ST_PROGRAM> UP_ST_PROGRAM { get; set; }
         public virtual DbSet<UP_ST_SCORETYPE> UP_ST_SCORETYPE { get; set; }
+        public virtual DbSet<UP_ST_SELECT> UP_ST_SELECT { get; set; }
         public virtual DbSet<UP_ST_UNITYPE> UP_ST_UNITYPE { get; set; }
         public virtual DbSet<UP_ST_UNIVERSITY> UP_ST_UNIVERSITY { get; set; }
-        public virtual DbSet<UP_ST_PROGRAM> UP_ST_PROGRAM { get; set; }
-        public virtual DbSet<UP_ST_SELECT> UP_ST_SELECT { get; set; }
     }
 }

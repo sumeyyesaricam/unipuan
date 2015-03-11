@@ -14,9 +14,16 @@ namespace UniPuan.Web.Models
     
     public partial class UP_ST_DEPARTMENT
     {
+        public UP_ST_DEPARTMENT()
+        {
+            this.UP_ST_CITY = new HashSet<UP_ST_CITY>();
+        }
+    
         public int DEPARTMENTID { get; set; }
         public string DEPARTMENTNAME { get; set; }
         public string SCORETYPE { get; set; }
         public string EDUTYPE { get; set; }
+    
+        public virtual ICollection<UP_ST_CITY> UP_ST_CITY { get; set; }
     }
 }

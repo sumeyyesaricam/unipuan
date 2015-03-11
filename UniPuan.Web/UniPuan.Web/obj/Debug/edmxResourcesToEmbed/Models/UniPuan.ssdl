@@ -1,15 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="UniPuanModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="sysdiagrams">
-    <Key>
-      <PropertyRef Name="diagram_id" />
-    </Key>
-    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
-    <Property Name="principal_id" Type="int" Nullable="false" />
-    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="version" Type="int" />
-    <Property Name="definition" Type="varbinary(max)" />
-  </EntityType>
   <EntityType Name="UP_ST_CITY">
     <Key>
       <PropertyRef Name="CITYID" />
@@ -56,6 +46,17 @@
     <Property Name="DEPARTMENTID" Type="int" />
     <Property Name="UNIVERSITYID" Type="int" />
   </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'UniPuan.dbo.UP_ST_SCORE' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="UP_ST_SCORE">
+          <Property Name="PROGRAMID" Type="float" />
+          <Property Name="UNIVERSITYNAME" Type="nvarchar(max)" />
+          <Property Name="DEPARTMENTNAME" Type="nvarchar(max)" />
+          <Property Name="QUOTAS" Type="int" />
+          <Property Name="CONDITION" Type="nvarchar" MaxLength="50" />
+          <Property Name="SCOREMIN" Type="float" />
+          <Property Name="ORDERR" Type="float" />
+        </EntityType>-->
   <EntityType Name="UP_ST_SCORETYPE">
     <Key>
       <PropertyRef Name="SCORETYPEID" />
@@ -90,8 +91,37 @@
     <Property Name="CITYID" Type="int" Nullable="false" />
     <Property Name="UNITYPEID" Type="int" Nullable="false" />
   </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="UP_ST_UNIVERSITYDEPARTMENT">
+          <Property Name="UNIVERSITYID" Type="int" />
+          <Property Name="DEPARTMENTID" Type="int" />
+        </EntityType>-->
+  <Association Name="FK_UP_ST_CITYDEPARTMENT_UP_ST_CITY">
+    <End Role="UP_ST_CITY" Type="Self.UP_ST_CITY" Multiplicity="1" />
+    <End Role="UP_ST_CITYDEPARTMENT" Type="Self.UP_ST_CITYDEPARTMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UP_ST_CITY">
+        <PropertyRef Name="CITYID" />
+      </Principal>
+      <Dependent Role="UP_ST_CITYDEPARTMENT">
+        <PropertyRef Name="CITYID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UP_ST_CITYDEPARTMENT_UP_ST_DEPARTMENT">
+    <End Role="UP_ST_DEPARTMENT" Type="Self.UP_ST_DEPARTMENT" Multiplicity="1" />
+    <End Role="UP_ST_CITYDEPARTMENT" Type="Self.UP_ST_CITYDEPARTMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UP_ST_DEPARTMENT">
+        <PropertyRef Name="DEPARTMENTID" />
+      </Principal>
+      <Dependent Role="UP_ST_CITYDEPARTMENT">
+        <PropertyRef Name="DEPARTMENTID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <EntityContainer Name="UniPuanModelStoreContainer">
-    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UP_ST_CITY" EntityType="Self.UP_ST_CITY" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UP_ST_CITYDEPARTMENT" EntityType="Self.UP_ST_CITYDEPARTMENT" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UP_ST_DEPARTMENT" EntityType="Self.UP_ST_DEPARTMENT" Schema="dbo" store:Type="Tables" />
@@ -101,5 +131,13 @@
     <EntitySet Name="UP_ST_SELECT" EntityType="Self.UP_ST_SELECT" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UP_ST_UNITYPE" EntityType="Self.UP_ST_UNITYPE" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UP_ST_UNIVERSITY" EntityType="Self.UP_ST_UNIVERSITY" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_UP_ST_CITYDEPARTMENT_UP_ST_CITY" Association="Self.FK_UP_ST_CITYDEPARTMENT_UP_ST_CITY">
+      <End Role="UP_ST_CITY" EntitySet="UP_ST_CITY" />
+      <End Role="UP_ST_CITYDEPARTMENT" EntitySet="UP_ST_CITYDEPARTMENT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UP_ST_CITYDEPARTMENT_UP_ST_DEPARTMENT" Association="Self.FK_UP_ST_CITYDEPARTMENT_UP_ST_DEPARTMENT">
+      <End Role="UP_ST_DEPARTMENT" EntitySet="UP_ST_DEPARTMENT" />
+      <End Role="UP_ST_CITYDEPARTMENT" EntitySet="UP_ST_CITYDEPARTMENT" />
+    </AssociationSet>
   </EntityContainer>
 </Schema>

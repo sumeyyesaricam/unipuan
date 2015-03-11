@@ -5,16 +5,15 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="69602ab067614457a05a3b08de12fa6b" Name="Diagram1">
-        <EntityTypeShape EntityType="UniPuanModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="UniPuanModel.UP_ST_CITY" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="UniPuanModel.UP_ST_CITYDEPARTMENT" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="UniPuanModel.UP_ST_DEPARTMENT" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="UniPuanModel.UP_ST_EDUTYPE" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="UniPuanModel.UP_ST_SCORETYPE" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="UniPuanModel.UP_ST_UNITYPE" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="UniPuanModel.UP_ST_UNIVERSITY" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="UniPuanModel.UP_ST_PROGRAM" Width="1.5" PointX="3.375" PointY="6.75" />
-        <EntityTypeShape EntityType="UniPuanModel.UP_ST_SELECT" Width="1.5" PointX="5.375" PointY="6.75" />
+        <EntityTypeShape EntityType="UniPuanModel.UP_ST_CITY" Width="1.5" PointX="0.75" PointY="1.125" />
+        <EntityTypeShape EntityType="UniPuanModel.UP_ST_DEPARTMENT" Width="1.5" PointX="3" PointY="0.875" />
+        <EntityTypeShape EntityType="UniPuanModel.UP_ST_EDUTYPE" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="UniPuanModel.UP_ST_PROGRAM" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="UniPuanModel.UP_ST_SCORETYPE" Width="1.5" PointX="4.75" PointY="3.75" />
+        <EntityTypeShape EntityType="UniPuanModel.UP_ST_SELECT" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="UniPuanModel.UP_ST_UNITYPE" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="UniPuanModel.UP_ST_UNIVERSITY" Width="1.5" PointX="4.75" PointY="6.75" />
+        <AssociationConnector Association="UniPuanModel.UP_ST_CITYDEPARTMENT" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
