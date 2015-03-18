@@ -1,6 +1,67 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="UniPuanModelStoreContainer" CdmEntityContainer="UniPuanEntities1">
+    <EntitySetMapping Name="UP_ST_UNIVERSITY">
+      <EntityTypeMapping TypeName="UniPuanModel.UP_ST_UNIVERSITY">
+        <MappingFragment StoreEntitySet="UP_ST_UNIVERSITY">
+          <ScalarProperty Name="UNITYPEID" ColumnName="UNITYPEID" />
+          <ScalarProperty Name="CITYID" ColumnName="CITYID" />
+          <ScalarProperty Name="UNIVERSITYNAME" ColumnName="UNIVERSITYNAME" />
+          <ScalarProperty Name="UNIVERSITYID" ColumnName="UNIVERSITYID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="UniPuanModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="UniPuanModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="UniPuanModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="UniPuanModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="UniPuanModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="UniPuanModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="UniPuanModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="UniPuanModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="UniPuanModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="UP_SP_CITY_SAVE" FunctionName="UniPuanModel.Store.UP_SP_CITY_SAVE" />
+    <FunctionImportMapping FunctionImportName="UP_SP_CITY_SELECT" FunctionName="UniPuanModel.Store.UP_SP_CITY_SELECT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="UniPuanModel.UP_SP_CITY_SELECT_Result">
+          <ScalarProperty Name="CITYID" ColumnName="CITYID" />
+          <ScalarProperty Name="CITYNAME" ColumnName="CITYNAME" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UP_SP_DEPARTMENT_JOİN" FunctionName="UniPuanModel.Store.UP_SP_DEPARTMENT_JOİN">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="UniPuanModel.UP_SP_DEPARTMENT_JOİN_Result">
+          <ScalarProperty Name="PROGRAMID" ColumnName="PROGRAMID" />
+          <ScalarProperty Name="UNIVERSITYNAME" ColumnName="UNIVERSITYNAME" />
+          <ScalarProperty Name="DEPARTMENTNAME" ColumnName="DEPARTMENTNAME" />
+          <ScalarProperty Name="QUOTAS" ColumnName="QUOTAS" />
+          <ScalarProperty Name="CONDITION" ColumnName="CONDITION" />
+          <ScalarProperty Name="SCORETYPE" ColumnName="SCORETYPE" />
+          <ScalarProperty Name="SCOREMIN" ColumnName="SCOREMIN" />
+          <ScalarProperty Name="ORDERR" ColumnName="ORDERR" />
+          <ScalarProperty Name="DEPARTMENTID" ColumnName="DEPARTMENTID" />
+          <ScalarProperty Name="UNIVERSITYID" ColumnName="UNIVERSITYID" />
+          <ScalarProperty Name="DEPARTMENTID1" ColumnName="DEPARTMENTID1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UP_SP_UNIVERSITY_SAVE" FunctionName="UniPuanModel.Store.UP_SP_UNIVERSITY_SAVE" />
     <EntitySetMapping Name="UP_ST_CITY">
       <EntityTypeMapping TypeName="UniPuanModel.UP_ST_CITY">
         <MappingFragment StoreEntitySet="UP_ST_CITY">
@@ -51,33 +112,11 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="UP_ST_SELECT">
-      <EntityTypeMapping TypeName="UniPuanModel.UP_ST_SELECT">
-        <MappingFragment StoreEntitySet="UP_ST_SELECT">
-          <ScalarProperty Name="ID" ColumnName="ID" />
-          <ScalarProperty Name="SUTYPE" ColumnName="SUTYPE" />
-          <ScalarProperty Name="SSTYPE" ColumnName="SSTYPE" />
-          <ScalarProperty Name="SUNI" ColumnName="SUNI" />
-          <ScalarProperty Name="SCITY" ColumnName="SCITY" />
-          <ScalarProperty Name="SDEPARTMENT" ColumnName="SDEPARTMENT" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="UP_ST_UNITYPE">
       <EntityTypeMapping TypeName="UniPuanModel.UP_ST_UNITYPE">
         <MappingFragment StoreEntitySet="UP_ST_UNITYPE">
           <ScalarProperty Name="UNITYPENAME" ColumnName="UNITYPENAME" />
           <ScalarProperty Name="UNITYPEID" ColumnName="UNITYPEID" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="UP_ST_UNIVERSITY">
-      <EntityTypeMapping TypeName="UniPuanModel.UP_ST_UNIVERSITY">
-        <MappingFragment StoreEntitySet="UP_ST_UNIVERSITY">
-          <ScalarProperty Name="UNITYPEID" ColumnName="UNITYPEID" />
-          <ScalarProperty Name="CITYID" ColumnName="CITYID" />
-          <ScalarProperty Name="UNIVERSITYNAME" ColumnName="UNIVERSITYNAME" />
-          <ScalarProperty Name="UNIVERSITYID" ColumnName="UNIVERSITYID" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -87,6 +126,14 @@
       </EndProperty>
       <EndProperty Name="UP_ST_CITY">
         <ScalarProperty Name="CITYID" ColumnName="CITYID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="UP_ST_UNIVERSITYDEPARTMENT" TypeName="UniPuanModel.UP_ST_UNIVERSITYDEPARTMENT" StoreEntitySet="UP_ST_UNIVERSITYDEPARTMENT">
+      <EndProperty Name="UP_ST_UNIVERSITY">
+        <ScalarProperty Name="UNIVERSITYID" ColumnName="UNIVERSITYID" />
+      </EndProperty>
+      <EndProperty Name="UP_ST_DEPARTMENT">
+        <ScalarProperty Name="DEPARTMENTID" ColumnName="DEPARTMENTID" />
       </EndProperty>
     </AssociationSetMapping>
   </EntityContainerMapping>

@@ -24,5 +24,8 @@ namespace UniPuan.Web.Models
         public Nullable<double> ORDERR { get; set; }
         public Nullable<int> DEPARTMENTID { get; set; }
         public Nullable<int> UNIVERSITYID { get; set; }
+    
+        public virtual UP_ST_PROGRAM UP_ST_PROGRAM1 { get; set; }
+        public virtual UP_ST_PROGRAM UP_ST_PROGRAM2 { get; set; }
     }
 }

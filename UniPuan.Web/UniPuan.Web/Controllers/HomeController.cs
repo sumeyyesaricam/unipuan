@@ -150,11 +150,10 @@ namespace UniPuan.Web.Controllers
             return View(uniViewModel);
         }
         [HttpPost]
-        public ActionResult SelectList(UniModel model,string bootstrap_duallistbox_selected_list_ddlDepartments)
+        public ActionResult SelectList(UniModel model, string bootstrap_duallistbox_selected_list_ddlDepartments, string bootstrap_duallistbox_selected_list_ddlCities)
         {
             return View(model);
         }
-        //[HttpPost]
         public ActionResult GetCities(string id)
         {
             var idList = id.Split(',').Select(t => Convert.ToInt32(t));
@@ -165,10 +164,36 @@ namespace UniPuan.Web.Controllers
                           select new CityData() { CITYID = c.CITYID, CITYNAME = c.CITYNAME }).ToList();
             return Json(cities, JsonRequestBehavior.AllowGet);
         }
+        public ActionResult GetUniversities(string id)
+        {
+            var idList = id.Split(',').Select(t => Convert.ToInt32(t));
+            UniPuanEntities1 uni = new UniPuanEntities1();
+            //var universities= uni.UP_ST_UNIVERSITY.Where(d=> d.CITYID.ToString()==id).ToList();
+            var unies = (from u in uni.UP_ST_UNIVERSITY
+                         where
+                         u.UP_ST_DEPARTMENT.Count(d => idList.Contains(d.DEPARTMENTID)) > 0
+                         select new UniData() { UNIVERSITYID = u.UNIVERSITYID, UNIVERSITYNAME = u.UNIVERSITYNAME }).ToList();
+            return Json(unies, JsonRequestBehavior.AllowGet);
+        }
+        public ActionResult GetUnies(string id)
+        {
+            var idList = id.Split(',').Select(t => Convert.ToInt32(t));
+            UniPuanEntities1 uni = new UniPuanEntities1();
+            var universities = (from u in uni.UP_ST_UNIVERSITY
+                                where
+                                idList.Contains(u.CITYID)
+                select new UniData() { UNIVERSITYID = u.UNIVERSITYID, UNIVERSITYNAME = u.UNIVERSITYNAME }).ToList();
+            return Json(universities, JsonRequestBehavior.AllowGet);
+        }
         public class CityData
         {
             public int CITYID { get; set; }
             public string CITYNAME { get; set; }
+        }
+        public class UniData
+        {
+            public int UNIVERSITYID { get; set; }
+            public string UNIVERSITYNAME { get; set; }
         }
         public ActionResult About()
         {

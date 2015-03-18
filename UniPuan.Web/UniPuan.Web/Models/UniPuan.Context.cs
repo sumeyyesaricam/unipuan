@@ -12,6 +12,8 @@ namespace UniPuan.Web.Models
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class UniPuanEntities1 : DbContext
     {
@@ -25,13 +27,171 @@ namespace UniPuan.Web.Models
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<UP_ST_UNIVERSITY> UP_ST_UNIVERSITY { get; set; }
         public virtual DbSet<UP_ST_CITY> UP_ST_CITY { get; set; }
         public virtual DbSet<UP_ST_DEPARTMENT> UP_ST_DEPARTMENT { get; set; }
         public virtual DbSet<UP_ST_EDUTYPE> UP_ST_EDUTYPE { get; set; }
         public virtual DbSet<UP_ST_PROGRAM> UP_ST_PROGRAM { get; set; }
         public virtual DbSet<UP_ST_SCORETYPE> UP_ST_SCORETYPE { get; set; }
-        public virtual DbSet<UP_ST_SELECT> UP_ST_SELECT { get; set; }
         public virtual DbSet<UP_ST_UNITYPE> UP_ST_UNITYPE { get; set; }
-        public virtual DbSet<UP_ST_UNIVERSITY> UP_ST_UNIVERSITY { get; set; }
+    
+        public virtual int sp_alterdiagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var versionParameter = version.HasValue ?
+                new ObjectParameter("version", version) :
+                new ObjectParameter("version", typeof(int));
+    
+            var definitionParameter = definition != null ?
+                new ObjectParameter("definition", definition) :
+                new ObjectParameter("definition", typeof(byte[]));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_alterdiagram", diagramnameParameter, owner_idParameter, versionParameter, definitionParameter);
+        }
+    
+        public virtual int sp_creatediagram(string diagramname, Nullable<int> owner_id, Nullable<int> version, byte[] definition)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var versionParameter = version.HasValue ?
+                new ObjectParameter("version", version) :
+                new ObjectParameter("version", typeof(int));
+    
+            var definitionParameter = definition != null ?
+                new ObjectParameter("definition", definition) :
+                new ObjectParameter("definition", typeof(byte[]));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_creatediagram", diagramnameParameter, owner_idParameter, versionParameter, definitionParameter);
+        }
+    
+        public virtual int sp_dropdiagram(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_dropdiagram", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual ObjectResult<sp_helpdiagramdefinition_Result> sp_helpdiagramdefinition(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_helpdiagramdefinition_Result>("sp_helpdiagramdefinition", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual ObjectResult<sp_helpdiagrams_Result> sp_helpdiagrams(string diagramname, Nullable<int> owner_id)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_helpdiagrams_Result>("sp_helpdiagrams", diagramnameParameter, owner_idParameter);
+        }
+    
+        public virtual int sp_renamediagram(string diagramname, Nullable<int> owner_id, string new_diagramname)
+        {
+            var diagramnameParameter = diagramname != null ?
+                new ObjectParameter("diagramname", diagramname) :
+                new ObjectParameter("diagramname", typeof(string));
+    
+            var owner_idParameter = owner_id.HasValue ?
+                new ObjectParameter("owner_id", owner_id) :
+                new ObjectParameter("owner_id", typeof(int));
+    
+            var new_diagramnameParameter = new_diagramname != null ?
+                new ObjectParameter("new_diagramname", new_diagramname) :
+                new ObjectParameter("new_diagramname", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_renamediagram", diagramnameParameter, owner_idParameter, new_diagramnameParameter);
+        }
+    
+        public virtual int sp_upgraddiagrams()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_upgraddiagrams");
+        }
+    
+        public virtual int UP_SP_CITY_SAVE(Nullable<int> cITYID, string cITYNAME)
+        {
+            var cITYIDParameter = cITYID.HasValue ?
+                new ObjectParameter("CITYID", cITYID) :
+                new ObjectParameter("CITYID", typeof(int));
+    
+            var cITYNAMEParameter = cITYNAME != null ?
+                new ObjectParameter("CITYNAME", cITYNAME) :
+                new ObjectParameter("CITYNAME", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("UP_SP_CITY_SAVE", cITYIDParameter, cITYNAMEParameter);
+        }
+    
+        public virtual ObjectResult<UP_SP_CITY_SELECT_Result> UP_SP_CITY_SELECT(string cATEGORYNAME)
+        {
+            var cATEGORYNAMEParameter = cATEGORYNAME != null ?
+                new ObjectParameter("CATEGORYNAME", cATEGORYNAME) :
+                new ObjectParameter("CATEGORYNAME", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<UP_SP_CITY_SELECT_Result>("UP_SP_CITY_SELECT", cATEGORYNAMEParameter);
+        }
+    
+        public virtual ObjectResult<UP_SP_DEPARTMENT_JOİN_Result> UP_SP_DEPARTMENT_JOİN(Nullable<System.Guid> dEPARTMENTID, Nullable<System.Guid> dEPARTMENTNAME)
+        {
+            var dEPARTMENTIDParameter = dEPARTMENTID.HasValue ?
+                new ObjectParameter("DEPARTMENTID", dEPARTMENTID) :
+                new ObjectParameter("DEPARTMENTID", typeof(System.Guid));
+    
+            var dEPARTMENTNAMEParameter = dEPARTMENTNAME.HasValue ?
+                new ObjectParameter("DEPARTMENTNAME", dEPARTMENTNAME) :
+                new ObjectParameter("DEPARTMENTNAME", typeof(System.Guid));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<UP_SP_DEPARTMENT_JOİN_Result>("UP_SP_DEPARTMENT_JOİN", dEPARTMENTIDParameter, dEPARTMENTNAMEParameter);
+        }
+    
+        public virtual int UP_SP_UNIVERSITY_SAVE(Nullable<int> uNIVERSITYID, string uNIVERSITYNAME, Nullable<int> cITYID, Nullable<int> uNITYPEID)
+        {
+            var uNIVERSITYIDParameter = uNIVERSITYID.HasValue ?
+                new ObjectParameter("UNIVERSITYID", uNIVERSITYID) :
+                new ObjectParameter("UNIVERSITYID", typeof(int));
+    
+            var uNIVERSITYNAMEParameter = uNIVERSITYNAME != null ?
+                new ObjectParameter("UNIVERSITYNAME", uNIVERSITYNAME) :
+                new ObjectParameter("UNIVERSITYNAME", typeof(string));
+    
+            var cITYIDParameter = cITYID.HasValue ?
+                new ObjectParameter("CITYID", cITYID) :
+                new ObjectParameter("CITYID", typeof(int));
+    
+            var uNITYPEIDParameter = uNITYPEID.HasValue ?
+                new ObjectParameter("UNITYPEID", uNITYPEID) :
+                new ObjectParameter("UNITYPEID", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("UP_SP_UNIVERSITY_SAVE", uNIVERSITYIDParameter, uNIVERSITYNAMEParameter, cITYIDParameter, uNITYPEIDParameter);
+        }
     }
 }

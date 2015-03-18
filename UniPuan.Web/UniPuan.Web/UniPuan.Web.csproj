@@ -169,6 +169,12 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>UniPuan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>UniPuan.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\UniPuan.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -185,6 +191,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UniPuan.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\UP_SP_CITY_SELECT_Result.cs">
+      <DependentUpon>UniPuan.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\UP_SP_DEPARTMENT_JOİN_Result.cs">
+      <DependentUpon>UniPuan.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\UP_ST_CITY.cs">
       <DependentUpon>UniPuan.tt</DependentUpon>
     </Compile>
@@ -198,9 +210,6 @@
       <DependentUpon>UniPuan.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\UP_ST_SCORETYPE.cs">
-      <DependentUpon>UniPuan.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\UP_ST_SELECT.cs">
       <DependentUpon>UniPuan.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\UP_ST_UNITYPE.cs">

@@ -69,17 +69,6 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_SCORE' does not have a primary k
           <Property Name="SCORETYPEID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="SCORETYPENAME" Type="nvarchar" MaxLength="50" Nullable="false" />
         </EntityType>
-        <EntityType Name="UP_ST_SELECT">
-          <Key>
-            <PropertyRef Name="ID" />
-          </Key>
-          <Property Name="SDEPARTMENT" Type="nvarchar" MaxLength="100" />
-          <Property Name="SCITY" Type="nvarchar" MaxLength="50" />
-          <Property Name="SUNI" Type="nvarchar" MaxLength="100" />
-          <Property Name="SSTYPE" Type="nvarchar" MaxLength="50" />
-          <Property Name="SUTYPE" Type="nvarchar" MaxLength="50" />
-          <Property Name="ID" Type="nchar" MaxLength="10" Nullable="false" />
-        </EntityType>
         <EntityType Name="UP_ST_UNITYPE">
           <Key>
             <PropertyRef Name="UNITYPEID" />
@@ -97,11 +86,15 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_SCORE' does not have a primary k
           <Property Name="UNITYPEID" Type="int" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+warning 6002: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="UP_ST_UNIVERSITYDEPARTMENT">
-          <Property Name="UNIVERSITYID" Type="int" />
-          <Property Name="DEPARTMENTID" Type="int" />
-        </EntityType>-->
+          <Key>
+            <PropertyRef Name="UNIVERSITYID" />
+            <PropertyRef Name="DEPARTMENTID" />
+          </Key>
+          <Property Name="UNIVERSITYID" Type="int" Nullable="false" />
+          <Property Name="DEPARTMENTID" Type="int" Nullable="false" />
+        </EntityType>
         <Association Name="FK_UP_ST_CITYDEPARTMENT_UP_ST_CITY">
           <End Role="UP_ST_CITY" Type="Self.UP_ST_CITY" Multiplicity="1" />
           <End Role="UP_ST_CITYDEPARTMENT" Type="Self.UP_ST_CITYDEPARTMENT" Multiplicity="*" />
@@ -126,6 +119,90 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_UP_ST_PROGRAM_UP_ST_PROGRAM">
+          <End Role="UP_ST_PROGRAM" Type="Self.UP_ST_PROGRAM" Multiplicity="1" />
+          <End Role="UP_ST_PROGRAM1" Type="Self.UP_ST_PROGRAM" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="UP_ST_PROGRAM">
+              <PropertyRef Name="PROGRAMID" />
+            </Principal>
+            <Dependent Role="UP_ST_PROGRAM1">
+              <PropertyRef Name="PROGRAMID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UP_ST_UNIVERSITYDEPARTMENT_UP_ST_DEPARTMENT">
+          <End Role="UP_ST_DEPARTMENT" Type="Self.UP_ST_DEPARTMENT" Multiplicity="1" />
+          <End Role="UP_ST_UNIVERSITYDEPARTMENT" Type="Self.UP_ST_UNIVERSITYDEPARTMENT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UP_ST_DEPARTMENT">
+              <PropertyRef Name="DEPARTMENTID" />
+            </Principal>
+            <Dependent Role="UP_ST_UNIVERSITYDEPARTMENT">
+              <PropertyRef Name="DEPARTMENTID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_UP_ST_UNIVERSITYDEPARTMENT_UP_ST_UNIVERSITY">
+          <End Role="UP_ST_UNIVERSITY" Type="Self.UP_ST_UNIVERSITY" Multiplicity="1" />
+          <End Role="UP_ST_UNIVERSITYDEPARTMENT" Type="Self.UP_ST_UNIVERSITYDEPARTMENT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UP_ST_UNIVERSITY">
+              <PropertyRef Name="UNIVERSITYID" />
+            </Principal>
+            <Dependent Role="UP_ST_UNIVERSITYDEPARTMENT">
+              <PropertyRef Name="UNIVERSITYID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+        <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="version" Type="int" Mode="In" />
+          <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+        </Function>
+        <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+        </Function>
+        <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+          <Parameter Name="owner_id" Type="int" Mode="In" />
+          <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="UP_SP_CITY_SAVE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CITYID" Type="int" Mode="In" />
+          <Parameter Name="CITYNAME" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="UP_SP_CITY_SELECT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="CATEGORYNAME" Type="nvarchar" Mode="In" />
+        </Function>
+        <Function Name="UP_SP_DEPARTMENT_JOİN" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="DEPARTMENTID" Type="uniqueidentifier" Mode="In" />
+          <Parameter Name="DEPARTMENTNAME" Type="uniqueidentifier" Mode="In" />
+        </Function>
+        <Function Name="UP_SP_UNIVERSITY_SAVE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="UNIVERSITYID" Type="int" Mode="In" />
+          <Parameter Name="UNIVERSITYNAME" Type="nvarchar" Mode="In" />
+          <Parameter Name="CITYID" Type="int" Mode="In" />
+          <Parameter Name="UNITYPEID" Type="int" Mode="In" />
+        </Function>
         <EntityContainer Name="UniPuanModelStoreContainer">
           <EntitySet Name="UP_ST_CITY" EntityType="Self.UP_ST_CITY" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UP_ST_CITYDEPARTMENT" EntityType="Self.UP_ST_CITYDEPARTMENT" Schema="dbo" store:Type="Tables" />
@@ -133,9 +210,14 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
           <EntitySet Name="UP_ST_EDUTYPE" EntityType="Self.UP_ST_EDUTYPE" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UP_ST_PROGRAM" EntityType="Self.UP_ST_PROGRAM" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UP_ST_SCORETYPE" EntityType="Self.UP_ST_SCORETYPE" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="UP_ST_SELECT" EntityType="Self.UP_ST_SELECT" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UP_ST_UNITYPE" EntityType="Self.UP_ST_UNITYPE" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UP_ST_UNIVERSITY" EntityType="Self.UP_ST_UNIVERSITY" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UP_ST_UNIVERSITYDEPARTMENT" EntityType="Self.UP_ST_UNIVERSITYDEPARTMENT" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [UP_ST_UNIVERSITYDEPARTMENT].[UNIVERSITYID] AS [UNIVERSITYID], 
+    [UP_ST_UNIVERSITYDEPARTMENT].[DEPARTMENTID] AS [DEPARTMENTID]
+    FROM [dbo].[UP_ST_UNIVERSITYDEPARTMENT] AS [UP_ST_UNIVERSITYDEPARTMENT]</DefiningQuery>
+          </EntitySet>
           <AssociationSet Name="FK_UP_ST_CITYDEPARTMENT_UP_ST_CITY" Association="Self.FK_UP_ST_CITYDEPARTMENT_UP_ST_CITY">
             <End Role="UP_ST_CITY" EntitySet="UP_ST_CITY" />
             <End Role="UP_ST_CITYDEPARTMENT" EntitySet="UP_ST_CITYDEPARTMENT" />
@@ -144,25 +226,129 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
             <End Role="UP_ST_DEPARTMENT" EntitySet="UP_ST_DEPARTMENT" />
             <End Role="UP_ST_CITYDEPARTMENT" EntitySet="UP_ST_CITYDEPARTMENT" />
           </AssociationSet>
+          <AssociationSet Name="FK_UP_ST_PROGRAM_UP_ST_PROGRAM" Association="Self.FK_UP_ST_PROGRAM_UP_ST_PROGRAM">
+            <End Role="UP_ST_PROGRAM" EntitySet="UP_ST_PROGRAM" />
+            <End Role="UP_ST_PROGRAM1" EntitySet="UP_ST_PROGRAM" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UP_ST_UNIVERSITYDEPARTMENT_UP_ST_DEPARTMENT" Association="Self.FK_UP_ST_UNIVERSITYDEPARTMENT_UP_ST_DEPARTMENT">
+            <End Role="UP_ST_DEPARTMENT" EntitySet="UP_ST_DEPARTMENT" />
+            <End Role="UP_ST_UNIVERSITYDEPARTMENT" EntitySet="UP_ST_UNIVERSITYDEPARTMENT" />
+          </AssociationSet>
+          <AssociationSet Name="FK_UP_ST_UNIVERSITYDEPARTMENT_UP_ST_UNIVERSITY" Association="Self.FK_UP_ST_UNIVERSITYDEPARTMENT_UP_ST_UNIVERSITY">
+            <End Role="UP_ST_UNIVERSITY" EntitySet="UP_ST_UNIVERSITY" />
+            <End Role="UP_ST_UNIVERSITYDEPARTMENT" EntitySet="UP_ST_UNIVERSITYDEPARTMENT" />
+          </AssociationSet>
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="UniPuanModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="UniPuanEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="UP_ST_UNIVERSITY" EntityType="UniPuanModel.UP_ST_UNIVERSITY" />
+          <FunctionImport Name="sp_alterdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_creatediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="version" Mode="In" Type="Int32" />
+            <Parameter Name="definition" Mode="In" Type="Binary" />
+          </FunctionImport>
+          <FunctionImport Name="sp_dropdiagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(UniPuanModel.sp_helpdiagramdefinition_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(UniPuanModel.sp_helpdiagrams_Result)">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_renamediagram">
+            <Parameter Name="diagramname" Mode="In" Type="String" />
+            <Parameter Name="owner_id" Mode="In" Type="Int32" />
+            <Parameter Name="new_diagramname" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="sp_upgraddiagrams" />
+          <FunctionImport Name="UP_SP_CITY_SAVE">
+            <Parameter Name="CITYID" Mode="In" Type="Int32" />
+            <Parameter Name="CITYNAME" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="UP_SP_CITY_SELECT" ReturnType="Collection(UniPuanModel.UP_SP_CITY_SELECT_Result)">
+          <Parameter Name="CATEGORYNAME" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="UP_SP_DEPARTMENT_JOİN" ReturnType="Collection(UniPuanModel.UP_SP_DEPARTMENT_JOİN_Result)">
+            <Parameter Name="DEPARTMENTID" Mode="In" Type="Guid" />
+            <Parameter Name="DEPARTMENTNAME" Mode="In" Type="Guid" />
+          </FunctionImport>
+          <FunctionImport Name="UP_SP_UNIVERSITY_SAVE">
+            <Parameter Name="UNIVERSITYID" Mode="In" Type="Int32" />
+            <Parameter Name="UNIVERSITYNAME" Mode="In" Type="String" />
+            <Parameter Name="CITYID" Mode="In" Type="Int32" />
+            <Parameter Name="UNITYPEID" Mode="In" Type="Int32" />
+          </FunctionImport>
           <EntitySet Name="UP_ST_CITY" EntityType="UniPuanModel.UP_ST_CITY" />
           <EntitySet Name="UP_ST_DEPARTMENT" EntityType="UniPuanModel.UP_ST_DEPARTMENT" />
           <EntitySet Name="UP_ST_EDUTYPE" EntityType="UniPuanModel.UP_ST_EDUTYPE" />
           <EntitySet Name="UP_ST_PROGRAM" EntityType="UniPuanModel.UP_ST_PROGRAM" />
           <EntitySet Name="UP_ST_SCORETYPE" EntityType="UniPuanModel.UP_ST_SCORETYPE" />
-          <EntitySet Name="UP_ST_SELECT" EntityType="UniPuanModel.UP_ST_SELECT" />
           <EntitySet Name="UP_ST_UNITYPE" EntityType="UniPuanModel.UP_ST_UNITYPE" />
-          <EntitySet Name="UP_ST_UNIVERSITY" EntityType="UniPuanModel.UP_ST_UNIVERSITY" />
+          <AssociationSet Name="FK_UP_ST_PROGRAM_UP_ST_PROGRAM" Association="UniPuanModel.FK_UP_ST_PROGRAM_UP_ST_PROGRAM">
+            <End Role="UP_ST_PROGRAM" EntitySet="UP_ST_PROGRAM" />
+            <End Role="UP_ST_PROGRAM1" EntitySet="UP_ST_PROGRAM" />
+          </AssociationSet>
           <AssociationSet Name="UP_ST_CITYDEPARTMENT" Association="UniPuanModel.UP_ST_CITYDEPARTMENT">
             <End Role="UP_ST_CITY" EntitySet="UP_ST_CITY" />
             <End Role="UP_ST_DEPARTMENT" EntitySet="UP_ST_DEPARTMENT" />
           </AssociationSet>
+          <AssociationSet Name="UP_ST_UNIVERSITYDEPARTMENT" Association="UniPuanModel.UP_ST_UNIVERSITYDEPARTMENT">
+            <End Role="UP_ST_DEPARTMENT" EntitySet="UP_ST_DEPARTMENT" />
+            <End Role="UP_ST_UNIVERSITY" EntitySet="UP_ST_UNIVERSITY" />
+          </AssociationSet>
         </EntityContainer>
+        <EntityType Name="UP_ST_UNIVERSITY">
+          <Key>
+            <PropertyRef Name="UNIVERSITYID" />
+          </Key>
+          <Property Name="UNIVERSITYID" Type="Int32" Nullable="false" />
+          <Property Name="UNIVERSITYNAME" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CITYID" Type="Int32" Nullable="false" />
+          <Property Name="UNITYPEID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="UP_ST_DEPARTMENT" Relationship="UniPuanModel.UP_ST_UNIVERSITYDEPARTMENT" FromRole="UP_ST_UNIVERSITY" ToRole="UP_ST_DEPARTMENT" />
+        </EntityType>
+        <ComplexType Name="sp_helpdiagramdefinition_Result">
+          <Property Type="Int32" Name="version" Nullable="true" />
+          <Property Type="Binary" Name="definition" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_helpdiagrams_Result">
+          <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+          <Property Type="Int32" Name="ID" Nullable="false" />
+          <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+          <Property Type="Int32" Name="OwnerID" Nullable="false" />
+        </ComplexType>
+        <ComplexType Name="UP_SP_CITY_SELECT_Result">
+          <Property Type="Int32" Name="CITYID" Nullable="false" />
+          <Property Type="String" Name="CITYNAME" Nullable="false" MaxLength="50" />
+        </ComplexType>
+        <ComplexType Name="UP_SP_DEPARTMENT_JOİN_Result">
+          <Property Type="Double" Name="PROGRAMID" Nullable="false" />
+          <Property Type="String" Name="UNIVERSITYNAME" Nullable="true" />
+          <Property Type="String" Name="DEPARTMENTNAME" Nullable="true" />
+          <Property Type="Int32" Name="QUOTAS" Nullable="true" />
+          <Property Type="String" Name="CONDITION" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="SCORETYPE" Nullable="true" MaxLength="50" />
+          <Property Type="Double" Name="SCOREMIN" Nullable="true" />
+          <Property Type="Double" Name="ORDERR" Nullable="true" />
+          <Property Type="Int32" Name="DEPARTMENTID" Nullable="true" />
+          <Property Type="Int32" Name="UNIVERSITYID" Nullable="true" />
+          <Property Type="Int32" Name="DEPARTMENTID1" Nullable="false" />
+        </ComplexType>
         <EntityType Name="UP_ST_CITY">
           <Key>
             <PropertyRef Name="CITYID" />
@@ -180,6 +366,7 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
           <Property Name="SCORETYPE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="EDUTYPE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="UP_ST_CITY" Relationship="UniPuanModel.UP_ST_CITYDEPARTMENT" FromRole="UP_ST_DEPARTMENT" ToRole="UP_ST_CITY" />
+          <NavigationProperty Name="UP_ST_UNIVERSITY" Relationship="UniPuanModel.UP_ST_UNIVERSITYDEPARTMENT" FromRole="UP_ST_DEPARTMENT" ToRole="UP_ST_UNIVERSITY" />
         </EntityType>
         <EntityType Name="UP_ST_EDUTYPE">
           <Key>
@@ -202,6 +389,8 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
           <Property Name="ORDERR" Type="Double" />
           <Property Name="DEPARTMENTID" Type="Int32" />
           <Property Name="UNIVERSITYID" Type="Int32" />
+          <NavigationProperty Name="UP_ST_PROGRAM1" Relationship="UniPuanModel.FK_UP_ST_PROGRAM_UP_ST_PROGRAM" FromRole="UP_ST_PROGRAM" ToRole="UP_ST_PROGRAM1" />
+          <NavigationProperty Name="UP_ST_PROGRAM2" Relationship="UniPuanModel.FK_UP_ST_PROGRAM_UP_ST_PROGRAM" FromRole="UP_ST_PROGRAM1" ToRole="UP_ST_PROGRAM" />
         </EntityType>
         <EntityType Name="UP_ST_SCORETYPE">
           <Key>
@@ -210,17 +399,6 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
           <Property Name="SCORETYPEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="SCORETYPENAME" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityType Name="UP_ST_SELECT">
-          <Key>
-            <PropertyRef Name="ID" />
-          </Key>
-          <Property Name="SDEPARTMENT" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="SCITY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="SUNI" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="SSTYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="SUTYPE" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="ID" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
-        </EntityType>
         <EntityType Name="UP_ST_UNITYPE">
           <Key>
             <PropertyRef Name="UNITYPEID" />
@@ -228,18 +406,25 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
           <Property Name="UNITYPEID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="UNITYPENAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityType Name="UP_ST_UNIVERSITY">
-          <Key>
-            <PropertyRef Name="UNIVERSITYID" />
-          </Key>
-          <Property Name="UNIVERSITYID" Type="Int32" Nullable="false" />
-          <Property Name="UNIVERSITYNAME" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="CITYID" Type="Int32" Nullable="false" />
-          <Property Name="UNITYPEID" Type="Int32" Nullable="false" />
-        </EntityType>
+        <Association Name="FK_UP_ST_PROGRAM_UP_ST_PROGRAM">
+          <End Type="UniPuanModel.UP_ST_PROGRAM" Role="UP_ST_PROGRAM" Multiplicity="1" />
+          <End Type="UniPuanModel.UP_ST_PROGRAM" Role="UP_ST_PROGRAM1" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="UP_ST_PROGRAM">
+              <PropertyRef Name="PROGRAMID" />
+            </Principal>
+            <Dependent Role="UP_ST_PROGRAM1">
+              <PropertyRef Name="PROGRAMID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="UP_ST_CITYDEPARTMENT">
           <End Type="UniPuanModel.UP_ST_CITY" Role="UP_ST_CITY" Multiplicity="*" />
           <End Type="UniPuanModel.UP_ST_DEPARTMENT" Role="UP_ST_DEPARTMENT" Multiplicity="*" />
+        </Association>
+        <Association Name="UP_ST_UNIVERSITYDEPARTMENT">
+          <End Type="UniPuanModel.UP_ST_DEPARTMENT" Role="UP_ST_DEPARTMENT" Multiplicity="*" />
+          <End Type="UniPuanModel.UP_ST_UNIVERSITY" Role="UP_ST_UNIVERSITY" Multiplicity="*" />
         </Association>
         </Schema>
     </edmx:ConceptualModels>
@@ -247,6 +432,67 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="UniPuanModelStoreContainer" CdmEntityContainer="UniPuanEntities1">
+          <EntitySetMapping Name="UP_ST_UNIVERSITY">
+            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_UNIVERSITY">
+              <MappingFragment StoreEntitySet="UP_ST_UNIVERSITY">
+                <ScalarProperty Name="UNITYPEID" ColumnName="UNITYPEID" />
+                <ScalarProperty Name="CITYID" ColumnName="CITYID" />
+                <ScalarProperty Name="UNIVERSITYNAME" ColumnName="UNIVERSITYNAME" />
+                <ScalarProperty Name="UNIVERSITYID" ColumnName="UNIVERSITYID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="UniPuanModel.Store.sp_alterdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="UniPuanModel.Store.sp_creatediagram" />
+          <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="UniPuanModel.Store.sp_dropdiagram" />
+          <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="UniPuanModel.Store.sp_helpdiagramdefinition">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="UniPuanModel.sp_helpdiagramdefinition_Result">
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="UniPuanModel.Store.sp_helpdiagrams">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="UniPuanModel.sp_helpdiagrams_Result">
+                <ScalarProperty Name="Database" ColumnName="Database" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Owner" ColumnName="Owner" />
+                <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="UniPuanModel.Store.sp_renamediagram" />
+          <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="UniPuanModel.Store.sp_upgraddiagrams" />
+          <FunctionImportMapping FunctionImportName="UP_SP_CITY_SAVE" FunctionName="UniPuanModel.Store.UP_SP_CITY_SAVE" />
+          <FunctionImportMapping FunctionImportName="UP_SP_CITY_SELECT" FunctionName="UniPuanModel.Store.UP_SP_CITY_SELECT">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="UniPuanModel.UP_SP_CITY_SELECT_Result">
+                <ScalarProperty Name="CITYID" ColumnName="CITYID" />
+                <ScalarProperty Name="CITYNAME" ColumnName="CITYNAME" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="UP_SP_DEPARTMENT_JOİN" FunctionName="UniPuanModel.Store.UP_SP_DEPARTMENT_JOİN">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="UniPuanModel.UP_SP_DEPARTMENT_JOİN_Result">
+                <ScalarProperty Name="PROGRAMID" ColumnName="PROGRAMID" />
+                <ScalarProperty Name="UNIVERSITYNAME" ColumnName="UNIVERSITYNAME" />
+                <ScalarProperty Name="DEPARTMENTNAME" ColumnName="DEPARTMENTNAME" />
+                <ScalarProperty Name="QUOTAS" ColumnName="QUOTAS" />
+                <ScalarProperty Name="CONDITION" ColumnName="CONDITION" />
+                <ScalarProperty Name="SCORETYPE" ColumnName="SCORETYPE" />
+                <ScalarProperty Name="SCOREMIN" ColumnName="SCOREMIN" />
+                <ScalarProperty Name="ORDERR" ColumnName="ORDERR" />
+                <ScalarProperty Name="DEPARTMENTID" ColumnName="DEPARTMENTID" />
+                <ScalarProperty Name="UNIVERSITYID" ColumnName="UNIVERSITYID" />
+                <ScalarProperty Name="DEPARTMENTID1" ColumnName="DEPARTMENTID1" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="UP_SP_UNIVERSITY_SAVE" FunctionName="UniPuanModel.Store.UP_SP_UNIVERSITY_SAVE" />
           <EntitySetMapping Name="UP_ST_CITY">
             <EntityTypeMapping TypeName="UniPuanModel.UP_ST_CITY">
               <MappingFragment StoreEntitySet="UP_ST_CITY">
@@ -297,33 +543,11 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="UP_ST_SELECT">
-            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_SELECT">
-              <MappingFragment StoreEntitySet="UP_ST_SELECT">
-                <ScalarProperty Name="ID" ColumnName="ID" />
-                <ScalarProperty Name="SUTYPE" ColumnName="SUTYPE" />
-                <ScalarProperty Name="SSTYPE" ColumnName="SSTYPE" />
-                <ScalarProperty Name="SUNI" ColumnName="SUNI" />
-                <ScalarProperty Name="SCITY" ColumnName="SCITY" />
-                <ScalarProperty Name="SDEPARTMENT" ColumnName="SDEPARTMENT" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="UP_ST_UNITYPE">
             <EntityTypeMapping TypeName="UniPuanModel.UP_ST_UNITYPE">
               <MappingFragment StoreEntitySet="UP_ST_UNITYPE">
                 <ScalarProperty Name="UNITYPENAME" ColumnName="UNITYPENAME" />
                 <ScalarProperty Name="UNITYPEID" ColumnName="UNITYPEID" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="UP_ST_UNIVERSITY">
-            <EntityTypeMapping TypeName="UniPuanModel.UP_ST_UNIVERSITY">
-              <MappingFragment StoreEntitySet="UP_ST_UNIVERSITY">
-                <ScalarProperty Name="UNITYPEID" ColumnName="UNITYPEID" />
-                <ScalarProperty Name="CITYID" ColumnName="CITYID" />
-                <ScalarProperty Name="UNIVERSITYNAME" ColumnName="UNIVERSITYNAME" />
-                <ScalarProperty Name="UNIVERSITYID" ColumnName="UNIVERSITYID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -333,6 +557,14 @@ warning 6013: The table/view 'UniPuan.dbo.UP_ST_UNIVERSITYDEPARTMENT' does not h
             </EndProperty>
             <EndProperty Name="UP_ST_CITY">
               <ScalarProperty Name="CITYID" ColumnName="CITYID" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="UP_ST_UNIVERSITYDEPARTMENT" TypeName="UniPuanModel.UP_ST_UNIVERSITYDEPARTMENT" StoreEntitySet="UP_ST_UNIVERSITYDEPARTMENT">
+            <EndProperty Name="UP_ST_UNIVERSITY">
+              <ScalarProperty Name="UNIVERSITYID" ColumnName="UNIVERSITYID" />
+            </EndProperty>
+            <EndProperty Name="UP_ST_DEPARTMENT">
+              <ScalarProperty Name="DEPARTMENTID" ColumnName="DEPARTMENTID" />
             </EndProperty>
           </AssociationSetMapping>
         </EntityContainerMapping>
