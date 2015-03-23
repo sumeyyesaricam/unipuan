@@ -20,5 +20,7 @@ namespace UniPuan.Web.Models
         public IEnumerable<SelectListItem> Universities { get; set; }
                  [DisplayName("Üniversite Türü")]
                  public IEnumerable<SelectListItem> Unitypes { get; set; }
+                 [DisplayName("Puan Türü")]
+                 public IEnumerable<SelectListItem> ScoreTypes { get; set; }
     }
 }

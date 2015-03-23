@@ -800,7 +800,6 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\SelectList.cshtml" />
-    <Content Include="Views\Home\AnaSayfa.cshtml" />
     <Content Include="Views\Home\TercihYap.cshtml" />
     <Content Include="Views\Home\Sonuclar.cshtml" />
     <Content Include="Views\Home\Ulasım.cshtml" />
