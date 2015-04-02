@@ -222,14 +222,6 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\demo\index.html" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\dist\bootstrap-duallistbox.css" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\dist\bootstrap-duallistbox.min.css" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\dist\jquery.bootstrap-duallistbox.js" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\dist\jquery.bootstrap-duallistbox.min.js" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\Gruntfile.js" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\src\bootstrap-duallistbox.css" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\src\jquery.bootstrap-duallistbox.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\devoops\ajax\calendar.html" />
@@ -709,17 +701,6 @@
       <DependentUpon>UniPuan.edmx</DependentUpon>
       <LastGenOutput>UniPuan1.cs</LastGenOutput>
     </Content>
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\.editorconfig" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\.gitignore" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\.jshintrc" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\.travis.yml" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\bootstrap-duallistbox.jquery.json" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\bower.json" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\composer.json" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\CONTRIBUTING.md" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\LICENSE.md" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\package.json" />
-    <Content Include="Content\bootstrap-duallistbox-master\bootstrap-duallistbox-master\README.md" />
     <Content Include="Content\devoops\COPYING" />
     <Content Include="Content\devoops\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\devoops\fonts\glyphicons-halflings-regular.ttf" />
