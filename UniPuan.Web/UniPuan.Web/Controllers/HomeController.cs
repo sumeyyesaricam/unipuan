@@ -287,7 +287,27 @@ namespace UniPuan.Web.Controllers
         }
         public ActionResult Sonuclar()
         {
-            return View();
+            UniPuanEntities1 uni = new UniPuanEntities1();
+            List<ProgramData> listprgrm = new List<ProgramData>();
+            foreach(var prgrm in uni.UP_ST_PROGRAM)
+            {
+                ProgramData program =new ProgramData()
+                {
+                 DEPARTMENTNAME=prgrm.DEPARTMENTNAME,
+                UNIVERSITYNAME = prgrm.UNIVERSITYNAME,
+                ORDERR = prgrm.ORDERR,
+                SCORETYPE= prgrm.SCORETYPE,
+                SCOREMIN = prgrm.SCOREMIN,
+                QUOTAS = prgrm.QUOTAS
+                };
+                
+                listprgrm.Add(program);
+            }
+            UniModel uniViewModel = new UniModel()
+            {
+                Programs=listprgrm,
+            };
+            return View(uniViewModel);
         }
         public ActionResult Ulasım()
         {
