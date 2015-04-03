@@ -160,7 +160,7 @@ namespace UniPuan.Web.Controllers
             UniPuanEntities1 uni = new UniPuanEntities1();
             var universities = (from u in uni.UP_ST_UNIVERSITY
                                 where
-                                idList.Contains(u.CITYID)
+                                uni.UP_ST_UNIVERSITY.Count(d=>idList.Contains(u.CITYID))>0
                 select new UniData() { UNIVERSITYID = u.UNIVERSITYID, UNIVERSITYNAME = u.UNIVERSITYNAME }).ToList();
             return Json(universities, JsonRequestBehavior.AllowGet);
         }
@@ -310,6 +310,10 @@ namespace UniPuan.Web.Controllers
             return View(uniViewModel);
         }
         public ActionResult Ulasım()
+        {
+            return View();
+        }
+        public ActionResult Test()
         {
             return View();
         }
