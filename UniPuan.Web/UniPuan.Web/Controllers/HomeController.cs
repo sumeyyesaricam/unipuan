@@ -135,13 +135,22 @@ namespace UniPuan.Web.Controllers
         }
         public ActionResult GetCities(string id)
         {
-            var idList = id.Split(',').Select(t => Convert.ToInt32(t));
             UniPuanEntities1 uni = new UniPuanEntities1();
-            var cities = (from c in uni.UP_ST_CITY
-                          where
-                          c.UP_ST_DEPARTMENT.Count(d => idList.Contains(d.DEPARTMENTID)) > 0
-                          select new CityData() { CITYID = c.CITYID, CITYNAME = c.CITYNAME }).ToList();
-            return Json(cities, JsonRequestBehavior.AllowGet);
+            if(id!=null)
+            {
+                var idList = id.Split(',').Select(t => Convert.ToInt32(t));               
+                var cities = (from c in uni.UP_ST_CITY
+                              where
+                              c.UP_ST_DEPARTMENT.Count(d => idList.Contains(d.DEPARTMENTID)) > 0
+                              select new CityData() { CITYID = c.CITYID, CITYNAME = c.CITYNAME }).ToList();
+                return Json(cities, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                var cities = (from c in uni.UP_ST_CITY                              
+                              select new CityData() { CITYID = c.CITYID, CITYNAME = c.CITYNAME }).ToList();
+                return Json(cities, JsonRequestBehavior.AllowGet);
+            }          
         }
         public ActionResult GetUniversities(string id)
         {
@@ -156,13 +165,22 @@ namespace UniPuan.Web.Controllers
         }
         public ActionResult GetUnies(string id)
         {
-            var idList = id.Split(',').Select(t => Convert.ToInt32(t));
             UniPuanEntities1 uni = new UniPuanEntities1();
+            if(id!=null)
+            {
+            var idList = id.Split(',').Select(t => Convert.ToInt32(t));       
             var universities = (from u in uni.UP_ST_UNIVERSITY
                                 where
                                 uni.UP_ST_UNIVERSITY.Count(d=>idList.Contains(u.CITYID))>0
                 select new UniData() { UNIVERSITYID = u.UNIVERSITYID, UNIVERSITYNAME = u.UNIVERSITYNAME }).ToList();
             return Json(universities, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                var universities = (from c in uni.UP_ST_UNIVERSITY
+                              select new UniData() { UNIVERSITYID = c.UNIVERSITYID, UNIVERSITYNAME = c.UNIVERSITYNAME }).ToList();
+                return Json(universities, JsonRequestBehavior.AllowGet);
+            }         
         }
         public ActionResult SearchDep(string id)
         {
