@@ -780,11 +780,9 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\SelectList.cshtml" />
     <Content Include="Views\Home\TercihYap.cshtml" />
     <Content Include="Views\Home\Sonuclar.cshtml" />
     <Content Include="Views\Home\Ulasım.cshtml" />
-    <Content Include="Views\Home\Test.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
