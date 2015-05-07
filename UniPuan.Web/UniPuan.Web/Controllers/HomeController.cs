@@ -122,6 +122,25 @@ namespace UniPuan.Web.Controllers
                         select new UniData() { UNIVERSITYID = u.UNIVERSITYID, UNIVERSITYNAME = u.UNIVERSITYNAME }).ToList();
             return Json(list, JsonRequestBehavior.AllowGet);
         }
+        public ActionResult GetDepartments(string id)
+        {
+            UniPuanEntities1 uni = new UniPuanEntities1();
+            if (id != null)
+            {
+                var idList = id.Split(',').Select(t => Convert.ToInt32(t));
+                var cities = (from c in uni.UP_ST_PROGRAM
+                              where
+                              c.SCORETYPE==id
+                              select new DepartmentData() { DEPARTMENTID = c.DEPARTMENTID, DEPARTMENTNAME = c.DEPARTMENTNAME }).ToList();
+                return Json(cities, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                var cities = (from d in uni.UP_ST_DEPARTMENT
+                              select new DepartmentData() { DEPARTMENTID = d.DEPARTMENTID, DEPARTMENTNAME = d.DEPARTMENTNAME }).ToList();
+                return Json(cities, JsonRequestBehavior.AllowGet);
+            }
+        }
         public class CityData
         {
             public int CITYID { get; set; }
@@ -215,7 +234,7 @@ namespace UniPuan.Web.Controllers
                 };
                 return View(uniViewModel);
         }
-        public ActionResult Sonuclar()
+        public ActionResult Sonuclar(Guid? Selected)
         {
             UniPuanEntities1 uni = new UniPuanEntities1();
             List<ProgramData> listprgrm = new List<ProgramData>();
