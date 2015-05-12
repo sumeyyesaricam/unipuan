@@ -127,7 +127,6 @@ namespace UniPuan.Web.Controllers
             UniPuanEntities1 uni = new UniPuanEntities1();
             if (id != null)
             {
-                var idList = id.Split(',').Select(t => Convert.ToInt32(t));
                 var cities = (from c in uni.UP_ST_PROGRAM
                               where
                               c.SCORETYPE==id
@@ -139,6 +138,24 @@ namespace UniPuan.Web.Controllers
                 var cities = (from d in uni.UP_ST_DEPARTMENT
                               select new DepartmentData() { DEPARTMENTID = d.DEPARTMENTID, DEPARTMENTNAME = d.DEPARTMENTNAME }).ToList();
                 return Json(cities, JsonRequestBehavior.AllowGet);
+            }
+        }
+        public ActionResult GetUniType(int id)
+        {
+            UniPuanEntities1 uni = new UniPuanEntities1();
+            if (id != null)
+            {
+                var univer = (from c in uni.UP_ST_UNIVERSITY
+                              where
+                              c.UNITYPEID == id
+                              select new UniData() { UNIVERSITYID = c.UNIVERSITYID, UNIVERSITYNAME = c.UNIVERSITYNAME }).ToList();
+                return Json(univer, JsonRequestBehavior.AllowGet);
+            }
+            else
+            {
+                var univer = (from c in uni.UP_ST_UNIVERSITY
+                              select new UniData() { UNIVERSITYID = c.UNIVERSITYID, UNIVERSITYNAME = c.UNIVERSITYNAME }).ToList();
+                return Json(univer, JsonRequestBehavior.AllowGet);
             }
         }
         public class CityData
@@ -153,7 +170,7 @@ namespace UniPuan.Web.Controllers
         }
         public class DepartmentData
         {
-            public int DEPARTMENTID { get; set; }
+            public int? DEPARTMENTID { get; set; }
             public string DEPARTMENTNAME { get; set; }
         }
         public ActionResult About()
@@ -234,31 +251,87 @@ namespace UniPuan.Web.Controllers
                 };
                 return View(uniViewModel);
         }
-        public ActionResult Sonuclar(Guid? Selected)
+        public ActionResult Sonuclar(List<DepartmentData> secimd, List<UniData> secimu,
+            string scoretype, double? scoremin, double? order, string secimd_hd)
         {
             UniPuanEntities1 uni = new UniPuanEntities1();
             List<ProgramData> listprgrm = new List<ProgramData>();
-            foreach(var prgrm in uni.UP_ST_PROGRAM)
+            //var gelenBolumler = string.Join(",", bolumler.Select(t => t.DEPARTMENTID));
+            //var gelenSehirler = string.Join(",", sehirler.Select(t => t.CITYID));
+            //var gelenUniversiteler = string.Join(",", universiteler.Select(t => t.UNIVERSITYID));
+
+            foreach (var prgrm in uni.UP_ST_PROGRAM)
             {
-                ProgramData program =new ProgramData()
+                ProgramData prm = new ProgramData();
+                               
+                if(scoremin==null || prgrm.SCOREMIN <= scoremin)
                 {
-                 DEPARTMENTNAME=prgrm.DEPARTMENTNAME,
-                UNIVERSITYNAME = prgrm.UNIVERSITYNAME,
-                ORDERR = prgrm.ORDERR,
-                SCORETYPE= prgrm.SCORETYPE,
-                SCOREMIN = prgrm.SCOREMIN,
-                QUOTAS = prgrm.QUOTAS
-                };
-                
-                listprgrm.Add(program);
-            }
+                    if (order == null || prgrm.ORDERR >= order)
+                    {
+                        if (scoretype=="" || prgrm.SCORETYPE == scoretype)
+                        {
+                            prm.SCOREMIN = prgrm.SCOREMIN;
+                            prm.ORDERR = prgrm.ORDERR;
+                            prm.SCORETYPE = prgrm.SCORETYPE;
+                            prm.QUOTAS = prgrm.QUOTAS;
+                            if (secimd == null)
+                            {
+                                prm.DEPARTMENTNAME = prgrm.DEPARTMENTNAME;
+                                if (secimu == null)
+                                {
+                                    prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
+                                    listprgrm.Add(prm);
+                                }
+                                else
+                                {
+                                    foreach (var univ in secimu)
+                                    {
+                                        if (prgrm.UNIVERSITYID == univ.UNIVERSITYID)
+                                        { 
+                                        prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
+                                        listprgrm.Add(prm);
+                                        }
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                foreach (var depart in secimd)
+                                {
+                                    if (prgrm.DEPARTMENTID == depart.DEPARTMENTID)
+                                    {
+                                        prm.DEPARTMENTNAME = prgrm.DEPARTMENTNAME;
+                                        if (secimu == null)
+                                        {
+                                            prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
+                                            listprgrm.Add(prm);
+                                        }
+                                        else
+                                        {
+                                            foreach (var univ in secimu)
+                                            {
+                                                if (prgrm.UNIVERSITYID == univ.UNIVERSITYID)
+                                                {
+                                                    prm.UNIVERSITYNAME = univ.UNIVERSITYNAME;
+                                                    listprgrm.Add(prm);
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }    
+            } 
+                               
             UniModel uniViewModel = new UniModel()
             {
                 Programs=listprgrm,
             };
             return View(uniViewModel);
         }
-        public ActionResult Ulasım()
+        public ActionResult Iletisim()
         {
             return View();
         }
