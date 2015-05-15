@@ -251,14 +251,12 @@ namespace UniPuan.Web.Controllers
                 };
                 return View(uniViewModel);
         }
-        public ActionResult Sonuclar(List<DepartmentData> secimd, List<UniData> secimu,
-            string scoretype, double? scoremin, double? order, string secimd_hd)
+        public ActionResult Sonuclar( string scoretype, double? scoremin, double? order, string secimd_hd,string secimd_ud)
         {
             UniPuanEntities1 uni = new UniPuanEntities1();
             List<ProgramData> listprgrm = new List<ProgramData>();
-            //var gelenBolumler = string.Join(",", bolumler.Select(t => t.DEPARTMENTID));
-            //var gelenSehirler = string.Join(",", sehirler.Select(t => t.CITYID));
-            //var gelenUniversiteler = string.Join(",", universiteler.Select(t => t.UNIVERSITYID));
+            var gelenBolumler = secimd_hd.Split(',');
+            var gelenUniversiteler = secimd_ud.Split(',');
 
             foreach (var prgrm in uni.UP_ST_PROGRAM)
             {
@@ -274,19 +272,19 @@ namespace UniPuan.Web.Controllers
                             prm.ORDERR = prgrm.ORDERR;
                             prm.SCORETYPE = prgrm.SCORETYPE;
                             prm.QUOTAS = prgrm.QUOTAS;
-                            if (secimd == null)
+                            if (secimd_hd == "")
                             {
                                 prm.DEPARTMENTNAME = prgrm.DEPARTMENTNAME;
-                                if (secimu == null)
+                                if (secimd_ud == "")
                                 {
                                     prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
                                     listprgrm.Add(prm);
                                 }
                                 else
                                 {
-                                    foreach (var univ in secimu)
+                                    foreach (var univ in gelenUniversiteler)
                                     {
-                                        if (prgrm.UNIVERSITYID == univ.UNIVERSITYID)
+                                        if (prgrm.UNIVERSITYID == Convert.ToInt32(univ))
                                         { 
                                         prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
                                         listprgrm.Add(prm);
@@ -296,23 +294,23 @@ namespace UniPuan.Web.Controllers
                             }
                             else
                             {
-                                foreach (var depart in secimd)
+                                foreach (var depart in gelenBolumler)
                                 {
-                                    if (prgrm.DEPARTMENTID == depart.DEPARTMENTID)
+                                    if (prgrm.DEPARTMENTID == Convert.ToInt32(depart))
                                     {
                                         prm.DEPARTMENTNAME = prgrm.DEPARTMENTNAME;
-                                        if (secimu == null)
+                                        if (secimd_ud == "")
                                         {
                                             prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
                                             listprgrm.Add(prm);
                                         }
                                         else
                                         {
-                                            foreach (var univ in secimu)
+                                            foreach (var univ in gelenUniversiteler)
                                             {
-                                                if (prgrm.UNIVERSITYID == univ.UNIVERSITYID)
+                                                if (prgrm.UNIVERSITYID == Convert.ToInt32(univ))
                                                 {
-                                                    prm.UNIVERSITYNAME = univ.UNIVERSITYNAME;
+                                                    prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
                                                     listprgrm.Add(prm);
                                                 }
                                             }

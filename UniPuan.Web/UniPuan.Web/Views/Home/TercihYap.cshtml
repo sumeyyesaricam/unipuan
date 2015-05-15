@@ -6,6 +6,7 @@
 @using (Html.BeginForm("Sonuclar", "Home", FormMethod.Post, new { id = "Sonuclar", @class = "form-horizontal" }))
 {
     @Html.Hidden("secimd_hd")
+    @Html.Hidden("secimd_ud")
 <div class="features" id="features">
     <div class="container box1 col-md-offset-12">
         <h3 class="text-head">Hayatta Başarılar</h3>
@@ -26,7 +27,7 @@
                             </div>
                             <div class="col-xs-6">
                                 <input type="text" class="form-control" placeholder="Ara" name="srchdp">
-                                <button type="button" class="btn btn-primary" name="btndp"><==</button>
+                                <button type="button" class="btn btn-primary" name="btndp" id="btndp"><==</button>
                                 <select multiple class="form-control" size="10" name="secimd">                                   
                                 </select>
                             </div>
@@ -125,9 +126,7 @@
                     for (i = 0; i < data.length; i++) {
                         $('select[name="Uni"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
                     }
-                }).fail(function (jqXHR, textStatus, errorThrown) {
-                    alert('Error getting cities!');
-                });
+                })
             });
     }    
     $('select[name="Departments"]').change(function () {
@@ -137,18 +136,8 @@
                 for (i = 0; i < data.length; i++) {
                     $('select[name="Departments"] :selected').remove();
                     $('select[name="secimd"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
-
-                    var dip = data[i].DEPARTMENTID
-                    if ($('#secimd_hd').val()) {
-                        $('#secimd_hd').val($('#secimd_hd').val() + "," + dip);
-                    }
-                    else {
-                        $('#secimd_hd').val(dip);
-                    }
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
-            });           
+            })          
             var dpid = $('select[name="secimd"]').children();
             var list = new Array(dpid.length)
             for (i = 0; i < dpid.length; i++)
@@ -157,23 +146,20 @@
             }
             list[dpid.length] = $(this).val();
             var dlist = list.join(",");
+            $('#secimd_hd').val(dlist);
             $.getJSON('/Home/GetCities/' + dlist, function (data)
             {
                     $('select[name="Cities"]').empty();
                     for (i = 0; i < data.length; i++) {
                         $('select[name="Cities"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
                     }
-                }).fail(function (jqXHR, textStatus, errorThrown) {
-                    alert('Error getting cities!');
-                });           
+                })           
             $.getJSON('/Home/GetUniversities/' + dlist, function (data) {
                 $('select[name="Uni"]').children().remove();
                 for (i = 0; i < data.length; i++) {
                     $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
-            });
+            })
         }
     });
     $('select[name="Cities"]').change(function () {
@@ -184,9 +170,7 @@
                     $('select[name="Cities"] :selected').remove();
                     $('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>').appendTo('select[name="secimc"]');
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
-            });
+            })
             var ctid = $('select[name="secimc"]').children();
             var list = new Array(ctid.length)
             for (i = 0; i < ctid.length; i++)
@@ -198,23 +182,27 @@
                 for (i = 0; i < data.length; i++) {
                     $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
-            });
+            })
             $('select[name="secimu"]').children().remove();
         }
     });
     $('select[name="Uni"]').change(function () {
         var depid = $(this).val();
+        var dpid = $('select[name="secimu"]').children();
+        var list = new Array(dpid.length)
+        for (i = 0; i < dpid.length; i++) {
+            list[i] = ($(dpid[i]).val());
+        }
+        list[dpid.length] = $(this).val();
+        var dlist = list.join(",");
+        $('#secimd_ud').val(dlist);
         if (depid.length > 0) {
             $.getJSON('/Home/SetUni/' + depid, function (data) {
                 for (i = 0; i < data.length; i++) {
                     $('select[name="Uni"] :selected').remove();
                     $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="secimu"]');
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
-            });
+            })
         }
     });
     $('select[name="secimd"]').change(function () {
@@ -232,23 +220,26 @@
                   }
         }
         var dlist = list.join(",");
+        $('#secimd_hd').val(dlist);
         if (depid.length > 0) {
             $.getJSON('/Home/SetDepartments/' + depid, function (data) {
                 for (i = 0; i < data.length; i++) {
                     $('select[name="secimd"] :selected').remove();
                     $('select[name="Departments"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
-            });
+            })
             $.getJSON('/Home/GetCities/' + dlist, function (data) {
                 $('select[name="Cities"]').empty();
                 for (i = 0; i < data.length; i++) {
                     $('select[name="Cities"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
-            });
+            })
+            $.getJSON('/Home/GetUnies/' + dlist, function (data) {
+                $('select[name="Uni"]').children().remove();
+                for (i = 0; i < data.length; i++) {
+                    $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
+                }
+            })
         }
     });
     $('select[name="secimc"]').change(function () {
@@ -259,9 +250,7 @@
                     $('select[name="secimc"] :selected').remove();
                     $('select[name="Cities"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
-            });
+            })
             var unid = $('select[name="secimc"]').children();
             var list = new Array(unid.length)
             for (i = 0; i < $(unid).length; i++) {
@@ -278,22 +267,30 @@
                 for (i = 0; i < data.length; i++) {
                     $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
-            });
+            })
         }
     });
     $('select[name="secimu"]').change(function () {
         var depid = $(this).val();
+        var dpid = $('select[name="secimu"]').children();
+        var list = new Array(dpid.length)
+        for (i = 0; i < $(dpid).length; i++) {
+            list[i] = ($(dpid[i]).val());
+        }
+        for (i = 0; i < $(dpid).length; i++) {
+            if ($(dpid[i]).val() == $(this).val()) {
+                list.splice(list.indexOf($(this).val()), 1);
+            }
+        }
+        var dlist = list.join(",");
+        $('#secimd_ud').val(dlist);
         if (depid.length > 0) {
             $.getJSON('/Home/SetUni/' + depid, function (data) {
                 for (i = 0; i < data.length; i++) {
                     $('select[name="secimu"] :selected').remove();
                     $('select[name="Uni"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
-            });
+            })
         }
     });
     $(document).ready(function () {
@@ -305,9 +302,7 @@
                     for (i = 0; i < data.length; i++) {
                         $('select[name="Departments"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
                     }
-                }).fail(function (jqXHR, textStatus, errorThrown) {
-                    alert('Error getting cities!');
-                });
+                })
             }
         });
         $('input[name="srchdp"]').keyup(function () {
@@ -318,9 +313,7 @@
                     for (i = 0; i < data.length; i++) {
                         $('select[name="secimd"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
                     }
-                }).fail(function (jqXHR, textStatus, errorThrown) {
-                    alert('Error getting cities!');
-                });
+                })
             }
         });
         $('input[name="srchcity"]').keyup(function () {
@@ -331,9 +324,7 @@
                     for (i = 0; i < data.length; i++) {
                         $('select[name="Cities"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
                     }
-                }).fail(function (jqXHR, textStatus, errorThrown) {
-                    alert('Error getting cities!');
-                });
+                })
             }
         });   
         $('input[name="srchcty"]').keyup(function () {
@@ -344,9 +335,7 @@
                     for (i = 0; i < data.length; i++) {
                         $('select[name="secimc"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
                     }
-                }).fail(function (jqXHR, textStatus, errorThrown) {
-                    alert('Error getting cities!');
-                });
+                })
             }
         });
         $('input[name="srchuni"]').keyup(function () {
@@ -357,9 +346,7 @@
                     for (i = 0; i < data.length; i++) {
                         $('select[name="Uni"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
                     }
-                }).fail(function (jqXHR, textStatus, errorThrown) {
-                    alert('Error getting cities!');
-                });
+                })
             }
         });
         $('input[name="srchun"]').keyup(function () {
@@ -370,9 +357,7 @@
                         for (i = 0; i < data.length; i++) {
                             $('select[name="secimu"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
                         }
-                    }).fail(function (jqXHR, textStatus, errorThrown) {
-                        alert('Error getting cities!');
-                    });
+                    })
                 }
         });
         $('select[name="ScoreType"]').change(function () {
@@ -385,10 +370,13 @@
                     for (i = 0; i < data.length; i++) {
                         $('select[name="Departments"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
                     }
-                }).fail(function (jqXHR, textStatus, errorThrown) {
-                    alert('Error getting cities!');
-                });
+                })
             }
+        });
+        $('html').on('click', function (event) {
+            // tıklanan nesne
+            var target = $(event.target);
+            alert(target.val().toString());
         });
         $('button[name="btndep"]').click(function () {
                 $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
