@@ -176,8 +176,8 @@ namespace UniPuan.Web.Controllers
         public ActionResult About()
         {
             return View();
-        }    
-        public ActionResult TercihYap(Guid? SelectedPuan, string boxuni, string boxcity, string boxdep, string searchd)
+        }
+        public ActionResult TercihYap(Guid? SelectedPuan, string boxuni, string boxcity, string boxdep, string searchd, List<ProgramData> listprogram)
         {
                 UniPuanEntities1 uni = new UniPuanEntities1();
                 ViewBag.SelectedPuan = new SelectList(uni.UP_ST_SCORETYPE, "SCORETYPEID", "SCORETYPENAME", SelectedPuan);
@@ -237,7 +237,11 @@ namespace UniPuan.Web.Controllers
                 List<string> listsct = new List<string>();
                 listsct.Add(boxcity);
                 List<string> listsun = new List<string>();
-                listsun.Add(boxuni);
+            listsun.Add(boxuni);
+            if (listprogram == null)
+            { 
+                listprogram = new List<ProgramData>(); 
+            }
                 UniModel uniViewModel = new UniModel()
                 {
                     Departments = listdep,
@@ -247,7 +251,8 @@ namespace UniPuan.Web.Controllers
                     ScoreTypes = listscoretype,
                     SelectedDepartments = listsec,
                     SelectedCities = listsct,
-                    SelectedUniversities = listsun
+                    SelectedUniversities = listsun,
+                    Programs = listprogram
                 };
                 return View(uniViewModel);
         }
@@ -327,7 +332,7 @@ namespace UniPuan.Web.Controllers
             {
                 Programs=listprgrm,
             };
-            return View(uniViewModel);
+            return RedirectToAction("TercihYap", new { listprogram = listprgrm });
         }
         public ActionResult Iletisim()
         {

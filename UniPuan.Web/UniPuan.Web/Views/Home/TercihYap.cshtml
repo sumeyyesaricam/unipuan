@@ -7,114 +7,144 @@
 {
     @Html.Hidden("secimd_hd")
     @Html.Hidden("secimd_ud")
-<div class="features" id="features">
-    <div class="container box1 col-md-offset-12">
-        <h3 class="text-head">Hayatta Başarılar</h3>
-        <div class="c1">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="col-xs-8">
-                        <form id="demoform" action="#" method="post">
-                            <div class="col-xs-6">
-                                <input type="text" class="form-control" placeholder="Ara" name="srchdep" >
-                                <button type="button" class="btn btn-primary" name="btndep">==></button>
-                                <select multiple class="form-control" size="10" name="Departments" >
-                                    @foreach (var dep in Model.Departments)
-                                    {
-                                        <option value="@dep.Value">@dep.Text</option>
-                                    }
-                                </select>
-                            </div>
-                            <div class="col-xs-6">
-                                <input type="text" class="form-control" placeholder="Ara" name="srchdp">
-                                <button type="button" class="btn btn-primary" name="btndp" id="btndp"><==</button>
-                                <select multiple class="form-control" size="10" name="secimd">                                   
-                                </select>
-                            </div>
-                        </form><br />
-                        <form id="demoform" action="#" method="post">
-                            <div class="col-xs-6">
-                                <input type="text" class="form-control" placeholder="Ara" name="srchcity">
-                                <button type="button" class="btn btn-primary" name="btncity">==></button>
-                                <select multiple class="form-control" size="10" name="Cities">
-                                    @foreach (var city in Model.Cities)
-                                    {
-                                        <option value="@city.Value">@city.Text</option>
-                                    }
-                                </select>
-                            </div>
-                            <div class="col-xs-6">
-                                <input type="text" class="form-control" placeholder="Ara" name="srchcty">
-                                <button type="button" class="btn btn-primary" name="btncty"><==</button>
-                                <select multiple class="form-control" size="10" name="secimc">
-                                </select>
-                            </div>
-                            <br>
-                        </form>
-                        <form id="demoform" action="#" method="post">
-                            <div class="col-xs-6">
-                                <input type="text" class="form-control" placeholder="Ara" name="srchuni">
-                                <button type="button" class="btn btn-primary" name="btnuni">==></button>
-                                <select multiple class="form-control" size="10" name="Uni">
-                                    @foreach (var uni in Model.Universities)
-                                    {
-                                        <option value="@uni.Value">@uni.Text</option>
-                                    }
-                                </select><br /><br />
-                            </div>
-                            <div class="col-xs-6">
-                                <input type="text" class="form-control" placeholder="Ara" name="srchun">
-                                <button type="button" class="btn btn-primary" name="btnun"><==</button>
-                                <select multiple class="form-control" size="10" name="secimu">
-                                </select>
-                            </div><br /><br />
-                        </form><br /><br />
-                    </div>
-                </div>
-                <div class="col-xs-4">
+    <div class="features" id="features">
+        <div class="container box1 col-md-offset-12">
+            <h3 class="text-head">Hayatta Başarılar</h3>
+            <div class="c1">
+                <div class="row">
                     <div class="col-xs-12">
-                        @Html.Label("Puan Türü")
-                        <select class="form-control" name="ScoreType">
-                            <option></option>
-                            @foreach (var typ in Model.ScoreTypes)
-                            {
-                                <option>@typ.Text</option>
-                            }
-                        </select><br />
-                    </div>
-                    <div class="col-xs-12">
-                        <label>
-                             Puan
-                        </label><br />
-                        <input type="text" class="form-control" placeholder="Maximum Puan" name="scoremin"><br />
-                        <label>
-                     Başarı Sıralaması
-                        </label><br />
-                        <input type="text" class="form-control" placeholder="Başarı Sıralaması" name="order"><br />
-                    </div>
-                    <div class="col-xs-12">
-                        <div id="box">
-                            @Html.Label("Üniversite Türü")<br />
-                            @foreach (var typ in Model.Unitypes)
-                            {
-                                <input type="checkbox" id=@typ.Value />@typ.Text <br />
-                            }
-                            <input type="button" onclick="Check()" value="Seç" />
+                        <div class="col-xs-8">
+                            <form id="demoform" action="#" method="post">
+                                <div class="col-xs-6">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchdep">
+                                    <button type="button" class="btn btn-primary" name="btndep" id="btndep">==></button>
+                                    <select multiple class="form-control" size="10" name="Departments">
+                                        @foreach (var dep in Model.Departments)
+                                        {
+                                            <option value="@dep.Value">@dep.Text</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-xs-6">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchdp">
+                                    <button type="button" class="btn btn-primary" name="btndp" id="btndp"><==</button>
+                                    <select multiple class="form-control" size="10" name="secimd"></select>
+                                </div>
+                            </form><br />
+                            <form id="demoform" action="#" method="post">
+                                <div class="col-xs-6">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchcity">
+                                    <button type="button" class="btn btn-primary" name="btncity" id="btncity">==></button>
+                                    <select multiple class="form-control" size="10" name="Cities">
+                                        @foreach (var city in Model.Cities)
+                                        {
+                                            <option value="@city.Value">@city.Text</option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-xs-6">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchcty">
+                                    <button type="button" class="btn btn-primary" name="btncty" id="btncty"><==</button>
+                                    <select multiple class="form-control" size="10" name="secimc"></select>
+                                </div>
+                                <br>
+                            </form>
+                            <form id="demoform" action="#" method="post">
+                                <div class="col-xs-6">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchuni">
+                                    <button type="button" class="btn btn-primary" name="btnuni" id="btnuni">==></button>
+                                    <select multiple class="form-control" size="10" name="Uni">
+                                        @foreach (var uni in Model.Universities)
+                                        {
+                                            <option value="@uni.Value">@uni.Text</option>
+                                        }
+                                    </select><br /><br />
+                                </div>
+                                <div class="col-xs-6">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchun">
+                                    <button type="button" class="btn btn-primary" name="btnun" id="btnun"><==</button>
+                                    <select multiple class="form-control" size="10" name="secimu"></select>
+                                </div><br /><br />
+                            </form><br /><br />
                         </div>
                     </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="col-xs-5">
-                        <button class="btn btn-danger btn-block " name="Search">
-                            Araştır
-                        </button>
+                    <div class="col-xs-4">
+                        <div class="col-xs-12">
+                            @Html.Label("Puan Türü")
+                            <select class="form-control" name="ScoreType">
+                                <option></option>
+                                @foreach (var typ in Model.ScoreTypes)
+                                {
+                                    <option>@typ.Text</option>
+                                }
+                            </select><br />
+                        </div>
+                        <div class="col-xs-12">
+                            <label>
+                                Puan
+                            </label><br />
+                            <input type="text" class="form-control" placeholder="Maximum Puan" name="scoremin"><br />
+                            <label>
+                                Başarı Sıralaması
+                            </label><br />
+                            <input type="text" class="form-control" placeholder="Başarı Sıralaması" name="order"><br />
+                        </div>
+                        <div class="col-xs-12">
+                            <div id="box">
+                                @Html.Label("Üniversite Türü")<br />
+                                @foreach (var typ in Model.Unitypes)
+                                {
+                                    <input type="checkbox" id=@typ.Value />@typ.Text <br />
+                                }
+                                <input type="button" onclick="Check()" value="Seç" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="col-xs-5">
+                                <button class="btn btn-danger btn-block " name="Search">
+                                    Araştır
+                                </button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 }
+<div class="stories" id="stories">
+    <div class="container box1 col-md-offset-12">
+        <div class="row">
+            <div class="col-xs-12">
+                <table class="table table-striped table-bordered table-hover table-heading no-border-bottom">
+                    <thead>
+                        <tr>
+                            <th>Üniversite Adı</th>
+                            <th>Bölüm Adı</th>
+                            <th>Kontenjan</th>
+                            <th>Puan Türü</th>
+                            <th>Minimum Puan</th>
+                            <th>Sıralama</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var typ in Model.Programs)
+                        {
+                            <tr>
+                                <td>@typ.UNIVERSITYNAME</td>
+                                <td>@typ.DEPARTMENTNAME</td>
+                                <td>@typ.QUOTAS</td>
+                                <td>@typ.SCORETYPE</td>
+                                <td>@typ.SCOREMIN</td>
+                                <td>@typ.ORDERR</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
 <script type="text/javascript">
     function Check() {
         $("#box input:checked").each(
@@ -128,32 +158,30 @@
                     }
                 })
             });
-    }    
+    }
     $('select[name="Departments"]').change(function () {
-        var depid = $(this).val();   
+        var depid = $(this).val();
         if (depid.length > 0) {
             $.getJSON('/Home/SetDepartments/' + depid, function (data) {
                 for (i = 0; i < data.length; i++) {
                     $('select[name="Departments"] :selected').remove();
                     $('select[name="secimd"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
                 }
-            })          
+            })
             var dpid = $('select[name="secimd"]').children();
             var list = new Array(dpid.length)
-            for (i = 0; i < dpid.length; i++)
-            {
+            for (i = 0; i < dpid.length; i++) {
                 list[i] = ($(dpid[i]).val());
             }
             list[dpid.length] = $(this).val();
             var dlist = list.join(",");
             $('#secimd_hd').val(dlist);
-            $.getJSON('/Home/GetCities/' + dlist, function (data)
-            {
-                    $('select[name="Cities"]').empty();
-                    for (i = 0; i < data.length; i++) {
-                        $('select[name="Cities"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
-                    }
-                })           
+            $.getJSON('/Home/GetCities/' + dlist, function (data) {
+                $('select[name="Cities"]').empty();
+                for (i = 0; i < data.length; i++) {
+                    $('select[name="Cities"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
+                }
+            })
             $.getJSON('/Home/GetUniversities/' + dlist, function (data) {
                 $('select[name="Uni"]').children().remove();
                 for (i = 0; i < data.length; i++) {
@@ -208,16 +236,14 @@
     $('select[name="secimd"]').change(function () {
         var depid = $(this).val();
         var dpid = $('select[name="secimd"]').children();
-        var list = new Array(dpid.length)         
-        for (i = 0; i < $(dpid).length; i++)
-        {
+        var list = new Array(dpid.length)
+        for (i = 0; i < $(dpid).length; i++) {
             list[i] = ($(dpid[i]).val());
         }
         for (i = 0; i < $(dpid).length; i++) {
-            if ($(dpid[i]).val() == $(this).val())
-                  {
+            if ($(dpid[i]).val() == $(this).val()) {
                 list.splice(list.indexOf($(this).val()), 1);
-                  }
+            }
         }
         var dlist = list.join(",");
         $('#secimd_hd').val(dlist);
@@ -326,7 +352,7 @@
                     }
                 })
             }
-        });   
+        });
         $('input[name="srchcty"]').keyup(function () {
             var depid = $(this).val();
             if (depid.length > 0) {
@@ -350,19 +376,18 @@
             }
         });
         $('input[name="srchun"]').keyup(function () {
-                var depid = $(this).val();
-                if (depid.length > 0) {
-                    $.getJSON('/Home/SearchUni/' + depid, function (data) {
-                        $('select[name="secimu"]').children().remove();
-                        for (i = 0; i < data.length; i++) {
-                            $('select[name="secimu"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
-                        }
-                    })
-                }
+            var depid = $(this).val();
+            if (depid.length > 0) {
+                $.getJSON('/Home/SearchUni/' + depid, function (data) {
+                    $('select[name="secimu"]').children().remove();
+                    for (i = 0; i < data.length; i++) {
+                        $('select[name="secimu"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
+                    }
+                })
+            }
         });
         $('select[name="ScoreType"]').change(function () {
             var tik = $(this).val();
-            
             if (tik.length > 0) {
                 $.getJSON('/Home/GetDepartments/' + tik, function (data) {
                     $('select[name="secimd"]').children().remove();
@@ -373,52 +398,53 @@
                 })
             }
         });
-        $('html').on('click', function (event) {
-            // tıklanan nesne
-            var target = $(event.target);
-            alert(target.val().toString());
-        });
+        function Ekle(id)
+        {
+            var element = document.getElementById(id);
+            $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
+            $('select[name="Departments"] option').prop('selected', true).remove();
+        }
         $('button[name="btndep"]').click(function () {
-                $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
-                $('select[name="Departments"] option').prop('selected', true).remove();               
-            });   
+            $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
+            $('select[name="Departments"] option').prop('selected', true).remove();
+        });
         $('button[name="btndp"]').click(function () {
-                $('select[name="secimd"]').find('option').clone().appendTo('select[name="Departments"]');
-                $('select[name="secimd"] option').prop('selected', true).remove();
-                location.reload();
-            });
-        $('button[name="btncity"]').click(function () {           
-                $('select[name="Cities"]').find('option').clone().appendTo('select[name="secimc"]');
-                $('select[name="Cities"] option').prop('selected', true).remove();
-            }); 
+            $('select[name="secimd"]').find('option').clone().appendTo('select[name="Departments"]');
+            $('select[name="secimd"] option').prop('selected', true).remove();
+            location.reload();
+        });
+        $('button[name="btncity"]').click(function () {
+            $('select[name="Cities"]').find('option').clone().appendTo('select[name="secimc"]');
+            $('select[name="Cities"] option').prop('selected', true).remove();
+        });
         $('button[name="btncty"]').click(function () {
-                $('select[name="secimc"]').find('option').clone().appendTo('select[name="Cities"]');
-                $('select[name="secimc"] option').prop('selected', true).remove();
-                var cityid = $('select[name="Cities"]').children();
-                var list = new Array(cityid.length)
-                for (i = 0; i < $(cityid).length; i++) {
-                    list[i] = ($(cityid[i]).val());
+            $('select[name="secimc"]').find('option').clone().appendTo('select[name="Cities"]');
+            $('select[name="secimc"] option').prop('selected', true).remove();
+            var cityid = $('select[name="Cities"]').children();
+            var list = new Array(cityid.length)
+            for (i = 0; i < $(cityid).length; i++) {
+                list[i] = ($(cityid[i]).val());
+            }
+            list[cityid.length] = $(this).val();
+            var dlist = list.join(",");
+            $.getJSON('/Home/GetUnies/' + dlist, function (data) {
+                $('select[name="Uni"]').empty();
+                for (i = 0; i < data.length; i++) {
+                    $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
                 }
-                list[cityid.length] = $(this).val();
-                var dlist = list.join(",");
-                $.getJSON('/Home/GetUnies/' + dlist, function (data) {
-                    $('select[name="Uni"]').empty();
-                    for (i = 0; i < data.length; i++) {
-                        $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
-                    }
-                }).fail(function (jqXHR, textStatus, errorThrown) {
-                    alert('Error getting cities!');
-                });
+            }).fail(function (jqXHR, textStatus, errorThrown) {
+                alert('Error getting cities!');
             });
+        });
         $('button[name="btnuni"]').click(function () {
-                $('select[name="Uni"]').find('option').clone().appendTo('select[name="secimu"]');
-                $('select[name="Uni"] option').prop('selected', true).remove();
-            });  
+            $('select[name="Uni"]').find('option').clone().appendTo('select[name="secimu"]');
+            $('select[name="Uni"] option').prop('selected', true).remove();
+        });
         $('button[name="btnun"]').click(function () {
-                $('select[name="secimu"]').find('option').clone().appendTo('select[name="Uni"]');
-                $('select[name="secimu"] option').prop('selected', true).remove();
-            });
-        
+            $('select[name="secimu"]').find('option').clone().appendTo('select[name="Uni"]');
+            $('select[name="secimu"] option').prop('selected', true).remove();
+        });
+
     });
 </script>
 <style>
