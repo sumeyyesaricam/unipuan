@@ -95,33 +95,37 @@ namespace UniPuan.Web.Controllers
                 return Json(universities, JsonRequestBehavior.AllowGet);
             }         
         }
-        public ActionResult SearchDep(string id)
+        
+        public ActionResult Search(string id,string name)
         {
-            UniPuanEntities1 dep = new UniPuanEntities1();
-            var list = (from d in dep.UP_ST_DEPARTMENT
+            UniPuanEntities1 prgrm = new UniPuanEntities1();
+            if(name=="srchdep" || name=="srchdp")
+            {
+              var list = (from d in prgrm.UP_ST_DEPARTMENT
                         where
-                        d.DEPARTMENTNAME.IndexOf(id)!=-1
-                        select new DepartmentData() { DEPARTMENTID = d.DEPARTMENTID, DEPARTMENTNAME = d.DEPARTMENTNAME }).ToList();
-            return Json(list, JsonRequestBehavior.AllowGet);
-        }
-        public ActionResult SearchCity(string id)
-        {
-            UniPuanEntities1 city = new UniPuanEntities1();
-            var list = (from c in city.UP_ST_CITY
+                        d.DEPARTMENTNAME.IndexOf(id) != -1
+                        select new ProgramData() { ID = d.DEPARTMENTID, NAME = d.DEPARTMENTNAME }).ToList();
+              return Json(list, JsonRequestBehavior.AllowGet);
+            }
+            else if(name=="srchcity" || name=="srchcty")
+            {
+                var list = (from c in prgrm.UP_ST_CITY
                         where
                         c.CITYNAME.IndexOf(id) != -1
-                        select new CityData() { CITYID = c.CITYID, CITYNAME = c.CITYNAME }).ToList();
-            return Json(list, JsonRequestBehavior.AllowGet);
-        }
-        public ActionResult SearchUni(string id)
-        {
-            UniPuanEntities1 uni = new UniPuanEntities1();
-            var list = (from u in uni.UP_ST_UNIVERSITY
+                        select new ProgramData() { ID = c.CITYID, NAME = c.CITYNAME }).ToList();
+                return Json(list, JsonRequestBehavior.AllowGet);
+            }
+            else if (name == "srchuni" || name == "srchun")
+            {
+                var list = (from u in prgrm.UP_ST_UNIVERSITY
                         where
                         u.UNIVERSITYNAME.IndexOf(id) != -1
-                        select new UniData() { UNIVERSITYID = u.UNIVERSITYID, UNIVERSITYNAME = u.UNIVERSITYNAME }).ToList();
-            return Json(list, JsonRequestBehavior.AllowGet);
+                        select new ProgramData() { ID = u.UNIVERSITYID, NAME = u.UNIVERSITYNAME }).ToList();
+                return Json(list, JsonRequestBehavior.AllowGet);
+            }
+            return Json( JsonRequestBehavior.AllowGet);
         }
+       
         public ActionResult GetDepartments(string id)
         {
             UniPuanEntities1 uni = new UniPuanEntities1();
@@ -173,6 +177,7 @@ namespace UniPuan.Web.Controllers
             public int? DEPARTMENTID { get; set; }
             public string DEPARTMENTNAME { get; set; }
         }
+
         public ActionResult About()
         {
             return View();

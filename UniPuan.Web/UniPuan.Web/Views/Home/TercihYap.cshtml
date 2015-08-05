@@ -13,9 +13,9 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="col-xs-8">
-                            <form id="demoform" action="#" method="post">
-                                <div class="col-xs-6">
-                                    <input type="text" class="form-control" placeholder="Ara" name="srchdep">
+                            <form  action="#" method="post" >
+                                <div class="col-xs-6" id="frmdep">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchdep" onkeyup="Arama($(this).attr('name'), $('#frmdep').children('select').attr('name'))">
                                     <button type="button" class="btn btn-primary" name="btndep" id="btndep">==></button>
                                     <select multiple class="form-control" size="10" name="Departments">
                                         @foreach (var dep in Model.Departments)
@@ -24,15 +24,15 @@
                                         }
                                     </select>
                                 </div>
-                                <div class="col-xs-6">
-                                    <input type="text" class="form-control" placeholder="Ara" name="srchdp">
+                                <div class="col-xs-6" id="frmdpr">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchdp" onkeyup="Arama($(this).attr('name'), $('#frmdpr').children('select').attr('name'))">
                                     <button type="button" class="btn btn-primary" name="btndp" id="btndp"><==</button>
                                     <select multiple class="form-control" size="10" name="secimd"></select>
                                 </div>
                             </form><br />
                             <form id="demoform" action="#" method="post">
-                                <div class="col-xs-6">
-                                    <input type="text" class="form-control" placeholder="Ara" name="srchcity">
+                                <div class="col-xs-6" id="frmcity">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchcity" onkeyup="Arama($(this).attr('name'), $('#frmcity').children('select').attr('name'))">
                                     <button type="button" class="btn btn-primary" name="btncity" id="btncity">==></button>
                                     <select multiple class="form-control" size="10" name="Cities">
                                         @foreach (var city in Model.Cities)
@@ -41,16 +41,16 @@
                                         }
                                     </select>
                                 </div>
-                                <div class="col-xs-6">
-                                    <input type="text" class="form-control" placeholder="Ara" name="srchcty">
+                                <div class="col-xs-6" id="frmcty">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchcty" onkeyup="Arama($(this).attr('name'), $('#frmcty').children('select').attr('name'))">
                                     <button type="button" class="btn btn-primary" name="btncty" id="btncty"><==</button>
                                     <select multiple class="form-control" size="10" name="secimc"></select>
                                 </div>
                                 <br>
                             </form>
                             <form id="demoform" action="#" method="post">
-                                <div class="col-xs-6">
-                                    <input type="text" class="form-control" placeholder="Ara" name="srchuni">
+                                <div class="col-xs-6" id="frmuni" name="frmuni">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchuni" onkeyup="Arama($(this).attr('name'), $('#frmuni').children('select').attr('name'))">
                                     <button type="button" class="btn btn-primary" name="btnuni" id="btnuni">==></button>
                                     <select multiple class="form-control" size="10" name="Uni">
                                         @foreach (var uni in Model.Universities)
@@ -59,8 +59,8 @@
                                         }
                                     </select><br /><br />
                                 </div>
-                                <div class="col-xs-6">
-                                    <input type="text" class="form-control" placeholder="Ara" name="srchun">
+                                <div class="col-xs-6" id="frmun">
+                                    <input type="text" class="form-control" placeholder="Ara" name="srchun" onkeyup="Arama($(this).attr('name'), $('#frmun').children('select').attr('name'))">
                                     <button type="button" class="btn btn-primary" name="btnun" id="btnun"><==</button>
                                     <select multiple class="form-control" size="10" name="secimu"></select>
                                 </div><br /><br />
@@ -306,183 +306,149 @@
             })
         }
     });
-    $(document).ready(function () {
-        $('input[name="srchdep"]').keyup(function () {
-            var depid = $(this).val();
-            if (depid.length > 0) {
-                $.getJSON('/Home/SearchDep/' + depid, function (data) {
-                    $('select[name="Departments"]').children().remove();
-                    for (i = 0; i < data.length; i++) {
-                        $('select[name="Departments"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
-                    }
-                })
-            }
-        });
-        $('input[name="srchdp"]').keyup(function () {
-            var depid = $(this).val();
-            if (depid.length > 0) {
-                $.getJSON('/Home/SearchDep/' + depid, function (data) {
-                    $('select[name="secimd"]').children().remove();
-                    for (i = 0; i < data.length; i++) {
-                        $('select[name="secimd"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
-                    }
-                })
-            }
-        });
-        $('input[name="srchcity"]').keyup(function () {
-            var depid = $(this).val();
-            if (depid.length > 0) {
-                $.getJSON('/Home/SearchCity/' + depid, function (data) {
-                    $('select[name="Cities"]').children().remove();
-                    for (i = 0; i < data.length; i++) {
-                        $('select[name="Cities"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
-                    }
-                })
-            }
-        });
-        $('input[name="srchcty"]').keyup(function () {
-            var depid = $(this).val();
-            if (depid.length > 0) {
-                $.getJSON('/Home/SearchCity/' + depid, function (data) {
-                    $('select[name="secimc"]').children().remove();
-                    for (i = 0; i < data.length; i++) {
-                        $('select[name="secimc"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
-                    }
-                })
-            }
-        });
-        $('input[name="srchuni"]').keyup(function () {
-            var depid = $(this).val();
-            if (depid.length > 0) {
-                $.getJSON('/Home/SearchUni/' + depid, function (data) {
-                    $('select[name="Uni"]').children().remove();
-                    for (i = 0; i < data.length; i++) {
-                        $('select[name="Uni"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
-                    }
-                })
-            }
-        });
-        $('input[name="srchun"]').keyup(function () {
-            var depid = $(this).val();
-            if (depid.length > 0) {
-                $.getJSON('/Home/SearchUni/' + depid, function (data) {
-                    $('select[name="secimu"]').children().remove();
-                    for (i = 0; i < data.length; i++) {
-                        $('select[name="secimu"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
-                    }
-                })
-            }
-        });
-        $('select[name="ScoreType"]').change(function () {
-            var tik = $(this).val();
-            if (tik.length > 0) {
-                $.getJSON('/Home/GetDepartments/' + tik, function (data) {
-                    $('select[name="secimd"]').children().remove();
-                    $('select[name="Departments"]').children().remove();
-                    for (i = 0; i < data.length; i++) {
-                        $('select[name="Departments"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
-                    }
-                })
-            }
-        });
-        function Ekle()
-        {
-            var element = document.getElementById(id);
-            $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
-            $('select[name="Departments"] option').prop('selected', true).remove();
-        }
-        $('button[name="btndep"]').click(function () {
-            $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
-            $('select[name="Departments"] option').prop('selected', true).remove();
-        });
-        $('button[name="btndp"]').click(function () {
-            $('select[name="secimd"]').find('option').clone().appendTo('select[name="Departments"]');
-            $('select[name="secimd"] option').prop('selected', true).remove();
-            location.reload();
-        });
-        $('button[name="btncity"]').click(function () {
-            $('select[name="Cities"]').find('option').clone().appendTo('select[name="secimc"]');
-            $('select[name="Cities"] option').prop('selected', true).remove();
-        });
-        $('button[name="btncty"]').click(function () {
-            $('select[name="secimc"]').find('option').clone().appendTo('select[name="Cities"]');
-            $('select[name="secimc"] option').prop('selected', true).remove();
-            var cityid = $('select[name="Cities"]').children();
-            var list = new Array(cityid.length)
-            for (i = 0; i < $(cityid).length; i++) {
-                list[i] = ($(cityid[i]).val());
-            }
-            list[cityid.length] = $(this).val();
-            var dlist = list.join(",");
-            $.getJSON('/Home/GetUnies/' + dlist, function (data) {
-                $('select[name="Uni"]').empty();
-                for (i = 0; i < data.length; i++) {
-                    $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
+    
+        function Arama(iname,sname)
+    {
+               $('input[name="' + iname + '"]').keyup(function () {
+                var depid = $(this).val();
+                var inputname=$(this).attr('name');
+                if (depid.length > 0) {
+                    $.ajax(
+             {
+                 url: "/Home/Search/",
+                 type: "POST",
+                 data: {
+                     id: depid,
+                     name: inputname
+                 },
+                 success: function (data) {
+                     $('select[name="' + sname + '"]').children().remove();
+                     for (i = 0; i < data.length; i++) {
+                         $('select[name="' + sname + '"]').append('<option value="' + data[i].ID + '">' + data[i].NAME + '</option>');
+                     }
+                 },
+                 error: function (xhr, status, p3, p4) {
+                     var err = "Error " + " " + status + " " + p3;
+                     if (xhr.responseText && xhr.responseText[0] == "{")
+                         err = JSON.parse(xhr.responseText).message;
+                     alert(err);
+                 }
+             });
                 }
-            }).fail(function (jqXHR, textStatus, errorThrown) {
-                alert('Error getting cities!');
             });
-        });
-        $('button[name="btnuni"]').click(function () {
-            $('select[name="Uni"]').find('option').clone().appendTo('select[name="secimu"]');
-            $('select[name="Uni"] option').prop('selected', true).remove();
-        });
-        $('button[name="btnun"]').click(function () {
-            $('select[name="secimu"]').find('option').clone().appendTo('select[name="Uni"]');
-            $('select[name="secimu"] option').prop('selected', true).remove();
-        });
-        $('button[name="Search"]').click(function () {
-            var dpid = $('select[name="secimd"]').children();
-            var list = new Array(dpid.length)
-            for (i = 0; i < dpid.length; i++) {
-                list[i] = ($(dpid[i]).val());
-            }
-            list[dpid.length] = $(this).val();
-            var dlist = list.join(",");
+        }
+        
+                $('select[name="ScoreType"]').change(function () {
+                    var tik = $(this).val();
+                    if (tik.length > 0) {
+                        $.getJSON('/Home/GetDepartments/' + tik, function (data) {
+                            $('select[name="secimd"]').children().remove();
+                            $('select[name="Departments"]').children().remove();
+                            for (i = 0; i < data.length; i++) {
+                                $('select[name="Departments"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
+                            }
+                        })
+                    }
+                });
+                function Ekle()
+                {
+                    var element = document.getElementById(id);
+                    $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
+                    $('select[name="Departments"] option').prop('selected', true).remove();
+                }
+                $('button[name="btndep"]').click(function () {
+                    $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
+                    $('select[name="Departments"] option').prop('selected', true).remove();
+                });
+                $('button[name="btndp"]').click(function () {
+                    $('select[name="secimd"]').find('option').clone().appendTo('select[name="Departments"]');
+                    $('select[name="secimd"] option').prop('selected', true).remove();
+                    location.reload();
+                });
+                $('button[name="btncity"]').click(function () {
+                    $('select[name="Cities"]').find('option').clone().appendTo('select[name="secimc"]');
+                    $('select[name="Cities"] option').prop('selected', true).remove();
+                });
+                $('button[name="btncty"]').click(function () {
+                    $('select[name="secimc"]').find('option').clone().appendTo('select[name="Cities"]');
+                    $('select[name="secimc"] option').prop('selected', true).remove();
+                    var cityid = $('select[name="Cities"]').children();
+                    var list = new Array(cityid.length)
+                    for (i = 0; i < $(cityid).length; i++) {
+                        list[i] = ($(cityid[i]).val());
+                    }
+                    list[cityid.length] = $(this).val();
+                    var dlist = list.join(",");
+                    $.getJSON('/Home/GetUnies/' + dlist, function (data) {
+                        $('select[name="Uni"]').empty();
+                        for (i = 0; i < data.length; i++) {
+                            $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
+                        }
+                    }).fail(function (jqXHR, textStatus, errorThrown) {
+                        alert('Error getting cities!');
+                    });
+                });
+                $('button[name="btnuni"]').click(function () {
+                    $('select[name="Uni"]').find('option').clone().appendTo('select[name="secimu"]');
+                    $('select[name="Uni"] option').prop('selected', true).remove();
+                });
+                $('button[name="btnun"]').click(function () {
+                    $('select[name="secimu"]').find('option').clone().appendTo('select[name="Uni"]');
+                    $('select[name="secimu"] option').prop('selected', true).remove();
+                });
+                $('button[name="Search"]').click(function () {
+                    var dpid = $('select[name="secimd"]').children();
+                    var list = new Array(dpid.length)
+                    for (i = 0; i < dpid.length; i++) {
+                        list[i] = ($(dpid[i]).val());
+                    }
+                    list[dpid.length] = $(this).val();
+                    var dlist = list.join(",");
 
 
-            var upid = $('select[name="secimu"]').children();
-            var lst = new Array(upid.length)
-            for (i = 0; i < upid.length; i++) {
-                lst[i] = ($(upid[i]).val());
-            }
-            lst[upid.length] = $(this).val();
-            var ulist = lst.join(",");
+                    var upid = $('select[name="secimu"]').children();
+                    var lst = new Array(upid.length)
+                    for (i = 0; i < upid.length; i++) {
+                        lst[i] = ($(upid[i]).val());
+                    }
+                    lst[upid.length] = $(this).val();
+                    var ulist = lst.join(",");
 
-            var tscrtyp = $('select[name="ScoreType"] option:selected').text();
-            var tscrmn = $('input[name="scoremin"]').val();
-            var torder = $('input[name="order"]').val();
-            var tscmhd = dlist;
-            var tscmud = ulist;      
-            $.ajax(
-         {
-             url: "/Home/Sonuclar/",
-             type: "POST",
-             data: {
-             scoretype: tscrtyp,
-             scoremin: tscrmn,
-             order: torder,
-             secimd_hd: tscmhd,
-             secimd_ud: tscmud
-         },
-         success: function (data) {
-             alert(data.length);
-             for (i = 0; i < data.length; i++) {
-                 $('table')
-     .find('tbody').append('<tr><td>' + data[i].UNIVERSITYNAME + '</td><td>' + data[i].DEPARTMENTNAME +
-                     '</td> <td>' + data[i].QUOTAS + '</td><td>' + data[i].SCORETYPE +
-                     '</td><td>' + data[i].SCOREMIN + '</td><td>' + data[i].ORDERR+ '</tr>');
-             }
-          },
-    error: function (xhr, status, p3, p4) {
-        var err = "Error " + " " + status + " " + p3;
-        if (xhr.responseText && xhr.responseText[0] == "{")
-            err = JSON.parse(xhr.responseText).message;
-        alert(err);
-    }
-    });
-        });
-    });
+                    var tscrtyp = $('select[name="ScoreType"] option:selected').text();
+                    var tscrmn = $('input[name="scoremin"]').val();
+                    var torder = $('input[name="order"]').val();
+                    var tscmhd = dlist;
+                    var tscmud = ulist;      
+                    $.ajax(
+                 {
+                     url: "/Home/Sonuclar/",
+                     type: "POST",
+                     data: {
+                         scoretype: tscrtyp,
+                         scoremin: tscrmn,
+                         order: torder,
+                         secimd_hd: tscmhd,
+                         secimd_ud: tscmud
+                     },
+                     success: function (data) {
+                         alert(data.length);
+                         for (i = 0; i < data.length; i++) {
+                             $('table')
+                 .find('tbody').append('<tr><td>' + data[i].UNIVERSITYNAME + '</td><td>' + data[i].DEPARTMENTNAME +
+                                 '</td> <td>' + data[i].QUOTAS + '</td><td>' + data[i].SCORETYPE +
+                                 '</td><td>' + data[i].SCOREMIN + '</td><td>' + data[i].ORDERR+ '</tr>');
+                         }
+                     },
+                     error: function (xhr, status, p3, p4) {
+                         var err = "Error " + " " + status + " " + p3;
+                         if (xhr.responseText && xhr.responseText[0] == "{")
+                             err = JSON.parse(xhr.responseText).message;
+                         alert(err);
+                     }
+                 });
+                });
+           
+            
 </script>
 <style>
     .c1 {
