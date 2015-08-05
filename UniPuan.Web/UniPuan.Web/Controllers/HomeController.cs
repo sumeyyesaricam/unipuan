@@ -179,8 +179,11 @@ namespace UniPuan.Web.Controllers
         }
         public ActionResult TercihYap(Guid? SelectedPuan, string boxuni, string boxcity, string boxdep, string searchd, List<ProgramData> listprogram)
         {
+            ViewBag.uniViewModel = null;
                 UniPuanEntities1 uni = new UniPuanEntities1();
                 ViewBag.SelectedPuan = new SelectList(uni.UP_ST_SCORETYPE, "SCORETYPEID", "SCORETYPENAME", SelectedPuan);
+                var obj = TempData["myObj"];
+                
                 List<SelectListItem> listunitype = new List<SelectListItem>();
                 foreach (var type in uni.UP_ST_UNITYPE)
                 {
@@ -289,10 +292,13 @@ namespace UniPuan.Web.Controllers
                                 {
                                     foreach (var univ in gelenUniversiteler)
                                     {
-                                        if (prgrm.UNIVERSITYID == Convert.ToInt32(univ))
-                                        { 
-                                        prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
-                                        listprgrm.Add(prm);
+                                        if (univ != "")
+                                        {
+                                            if (prgrm.UNIVERSITYID == Convert.ToInt32(univ))
+                                            {
+                                                prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
+                                                listprgrm.Add(prm);
+                                            }
                                         }
                                     }
                                 }
@@ -301,6 +307,8 @@ namespace UniPuan.Web.Controllers
                             {
                                 foreach (var depart in gelenBolumler)
                                 {
+                                    if(depart!="")
+                                    {
                                     if (prgrm.DEPARTMENTID == Convert.ToInt32(depart))
                                     {
                                         prm.DEPARTMENTNAME = prgrm.DEPARTMENTNAME;
@@ -313,26 +321,32 @@ namespace UniPuan.Web.Controllers
                                         {
                                             foreach (var univ in gelenUniversiteler)
                                             {
-                                                if (prgrm.UNIVERSITYID == Convert.ToInt32(univ))
+                                                if (univ != "")
                                                 {
-                                                    prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
-                                                    listprgrm.Add(prm);
+                                                    if (prgrm.UNIVERSITYID == Convert.ToInt32(univ))
+                                                    {
+                                                        prm.UNIVERSITYNAME = prgrm.UNIVERSITYNAME;
+                                                        listprgrm.Add(prm);
+                                                    }
                                                 }
                                             }
                                         }
+                                    }
                                     }
                                 }
                             }
                         }
                     }
                 }    
-            } 
-                               
+            }
+            TempData["myObj"] = new { listprogram = listprgrm };
+            int uzunluk = listprgrm.Count();
             UniModel uniViewModel = new UniModel()
             {
                 Programs=listprgrm,
             };
-            return RedirectToAction("TercihYap", new { listprogram = listprgrm });
+            
+            return Json(listprgrm, JsonRequestBehavior.AllowGet);
         }
         public ActionResult Iletisim()
         {

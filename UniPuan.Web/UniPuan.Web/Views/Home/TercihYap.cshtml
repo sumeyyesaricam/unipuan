@@ -3,8 +3,7 @@
     ViewBag.Title = "TercihYap";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@using (Html.BeginForm("Sonuclar", "Home", FormMethod.Post, new { id = "Sonuclar", @class = "form-horizontal" }))
-{
+
     @Html.Hidden("secimd_hd")
     @Html.Hidden("secimd_ud")
     <div class="features" id="features">
@@ -111,12 +110,12 @@
             </div>
         </div>
     </div>
-}
+
 <div class="stories" id="stories">
     <div class="container box1 col-md-offset-12">
         <div class="row">
             <div class="col-xs-12">
-                <table class="table table-striped table-bordered table-hover table-heading no-border-bottom">
+                <table class="table table-striped table-bordered table-hover table-heading no-border-bottom" name="tablo">
                     <thead>
                         <tr>
                             <th>Üniversite Adı</th>
@@ -127,19 +126,7 @@
                             <th>Sıralama</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        @foreach (var typ in Model.Programs)
-                        {
-                            <tr>
-                                <td>@typ.UNIVERSITYNAME</td>
-                                <td>@typ.DEPARTMENTNAME</td>
-                                <td>@typ.QUOTAS</td>
-                                <td>@typ.SCORETYPE</td>
-                                <td>@typ.SCOREMIN</td>
-                                <td>@typ.ORDERR</td>
-                            </tr>
-                        }
-                    </tbody>
+                    <tbody> </tbody>
                 </table>
             </div>
         </div>
@@ -398,7 +385,7 @@
                 })
             }
         });
-        function Ekle(id)
+        function Ekle()
         {
             var element = document.getElementById(id);
             $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
@@ -444,7 +431,57 @@
             $('select[name="secimu"]').find('option').clone().appendTo('select[name="Uni"]');
             $('select[name="secimu"] option').prop('selected', true).remove();
         });
+        $('button[name="Search"]').click(function () {
+            var dpid = $('select[name="secimd"]').children();
+            var list = new Array(dpid.length)
+            for (i = 0; i < dpid.length; i++) {
+                list[i] = ($(dpid[i]).val());
+            }
+            list[dpid.length] = $(this).val();
+            var dlist = list.join(",");
 
+
+            var upid = $('select[name="secimu"]').children();
+            var lst = new Array(upid.length)
+            for (i = 0; i < upid.length; i++) {
+                lst[i] = ($(upid[i]).val());
+            }
+            lst[upid.length] = $(this).val();
+            var ulist = lst.join(",");
+
+            var tscrtyp = $('select[name="ScoreType"] option:selected').text();
+            var tscrmn = $('input[name="scoremin"]').val();
+            var torder = $('input[name="order"]').val();
+            var tscmhd = dlist;
+            var tscmud = ulist;      
+            $.ajax(
+         {
+             url: "/Home/Sonuclar/",
+             type: "POST",
+             data: {
+             scoretype: tscrtyp,
+             scoremin: tscrmn,
+             order: torder,
+             secimd_hd: tscmhd,
+             secimd_ud: tscmud
+         },
+         success: function (data) {
+             alert(data.length);
+             for (i = 0; i < data.length; i++) {
+                 $('table')
+     .find('tbody').append('<tr><td>' + data[i].UNIVERSITYNAME + '</td><td>' + data[i].DEPARTMENTNAME +
+                     '</td> <td>' + data[i].QUOTAS + '</td><td>' + data[i].SCORETYPE +
+                     '</td><td>' + data[i].SCOREMIN + '</td><td>' + data[i].ORDERR+ '</tr>');
+             }
+          },
+    error: function (xhr, status, p3, p4) {
+        var err = "Error " + " " + status + " " + p3;
+        if (xhr.responseText && xhr.responseText[0] == "{")
+            err = JSON.parse(xhr.responseText).message;
+        alert(err);
+    }
+    });
+        });
     });
 </script>
 <style>
