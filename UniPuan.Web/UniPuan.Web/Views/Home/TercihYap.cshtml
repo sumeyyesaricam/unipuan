@@ -16,7 +16,7 @@
                             <form  action="#" method="post" >
                                 <div class="col-xs-6" id="frmdep">
                                     <input type="text" class="form-control" placeholder="Ara" name="srchdep" onkeyup="Arama($(this).attr('name'), $('#frmdep').children('select').attr('name'))">
-                                    <button type="button" class="btn btn-primary" name="btndep" id="btndep">==></button>
+                                    <button type="button" class="btn btn-primary" name="btndep" id="btndep" onclick="Ekle($(this).attr('name'), $('#frmdep').children('select').attr('name'), $('#frmdpr').children('select').attr('name'))">==></button>
                                     <select multiple class="form-control" size="10" name="Departments">
                                         @foreach (var dep in Model.Departments)
                                         {
@@ -26,14 +26,14 @@
                                 </div>
                                 <div class="col-xs-6" id="frmdpr">
                                     <input type="text" class="form-control" placeholder="Ara" name="srchdp" onkeyup="Arama($(this).attr('name'), $('#frmdpr').children('select').attr('name'))">
-                                    <button type="button" class="btn btn-primary" name="btndp" id="btndp"><==</button>
+                                    <button type="button" class="btn btn-primary" name="btndp" id="btndp" onclick="Ekle($(this).attr('name'), $('#frmdpr').children('select').attr('name'), $('#frmdep').children('select').attr('name'))"><==</button>
                                     <select multiple class="form-control" size="10" name="secimd"></select>
                                 </div>
                             </form><br />
                             <form id="demoform" action="#" method="post">
                                 <div class="col-xs-6" id="frmcity">
                                     <input type="text" class="form-control" placeholder="Ara" name="srchcity" onkeyup="Arama($(this).attr('name'), $('#frmcity').children('select').attr('name'))">
-                                    <button type="button" class="btn btn-primary" name="btncity" id="btncity">==></button>
+                                    <button type="button" class="btn btn-primary" name="btncity" id="btncity" onclick="Ekle($(this).attr('name'), $('#frmcity').children('select').attr('name'), $('#frmcty').children('select').attr('name'))">==></button>
                                     <select multiple class="form-control" size="10" name="Cities">
                                         @foreach (var city in Model.Cities)
                                         {
@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="col-xs-6" id="frmcty">
                                     <input type="text" class="form-control" placeholder="Ara" name="srchcty" onkeyup="Arama($(this).attr('name'), $('#frmcty').children('select').attr('name'))">
-                                    <button type="button" class="btn btn-primary" name="btncty" id="btncty"><==</button>
+                                    <button type="button" class="btn btn-primary" name="btncty" id="btncty" ><==</button>
                                     <select multiple class="form-control" size="10" name="secimc"></select>
                                 </div>
                                 <br>
@@ -51,7 +51,7 @@
                             <form id="demoform" action="#" method="post">
                                 <div class="col-xs-6" id="frmuni" name="frmuni">
                                     <input type="text" class="form-control" placeholder="Ara" name="srchuni" onkeyup="Arama($(this).attr('name'), $('#frmuni').children('select').attr('name'))">
-                                    <button type="button" class="btn btn-primary" name="btnuni" id="btnuni">==></button>
+                                    <button type="button" class="btn btn-primary" name="btnuni" id="btnuni" onclick="Ekle($(this).attr('name'), $('#frmuni').children('select').attr('name'), $('#frmun').children('select').attr('name'))">==></button>
                                     <select multiple class="form-control" size="10" name="Uni">
                                         @foreach (var uni in Model.Universities)
                                         {
@@ -61,7 +61,7 @@
                                 </div>
                                 <div class="col-xs-6" id="frmun">
                                     <input type="text" class="form-control" placeholder="Ara" name="srchun" onkeyup="Arama($(this).attr('name'), $('#frmun').children('select').attr('name'))">
-                                    <button type="button" class="btn btn-primary" name="btnun" id="btnun"><==</button>
+                                    <button type="button" class="btn btn-primary" name="btnun" id="btnun" onclick="Ekle($(this).attr('name'), $('#frmun').children('select').attr('name'), $('#frmuni').children('select').attr('name'))"><==</button>
                                     <select multiple class="form-control" size="10" name="secimu"></select>
                                 </div><br /><br />
                             </form><br /><br />
@@ -133,20 +133,8 @@
     </div>
 </div>
 <script type="text/javascript">
-    function Check() {
-        $("#box input:checked").each(
-            function () {
-                var secilen = $(this).attr("id");
-                $.getJSON('/Home/GetUniType/' + secilen, function (data) {
-                    $('select[name="secimu"]').children().remove();
-                    $('select[name="Uni"]').children().remove();
-                    for (i = 0; i < data.length; i++) {
-                        $('select[name="Uni"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
-                    }
-                })
-            });
-    }
-    $('select[name="Departments"]').change(function () {
+               
+                $('select[name="Departments"]').change(function () {
         var depid = $(this).val();
         if (depid.length > 0) {
             $.getJSON('/Home/SetDepartments/' + depid, function (data) {
@@ -176,8 +164,9 @@
                 }
             })
         }
-    });
-    $('select[name="Cities"]').change(function () {
+                });
+
+                $('select[name="Cities"]').change(function () {
         var depid = $(this).val();
         if (depid.length > 0) {
             $.getJSON('/Home/SetCities/' + depid, function (data) {
@@ -200,8 +189,9 @@
             })
             $('select[name="secimu"]').children().remove();
         }
-    });
-    $('select[name="Uni"]').change(function () {
+                });
+
+                $('select[name="Uni"]').change(function () {
         var depid = $(this).val();
         var dpid = $('select[name="secimu"]').children();
         var list = new Array(dpid.length)
@@ -219,8 +209,9 @@
                 }
             })
         }
-    });
-    $('select[name="secimd"]').change(function () {
+                });
+
+                $('select[name="secimd"]').change(function () {
         var depid = $(this).val();
         var dpid = $('select[name="secimd"]').children();
         var list = new Array(dpid.length)
@@ -254,8 +245,9 @@
                 }
             })
         }
-    });
-    $('select[name="secimc"]').change(function () {
+                });
+
+                $('select[name="secimc"]').change(function () {
         var depid = $(this).val();
         if (depid.length > 0) {
             $.getJSON('/Home/SetCities/' + depid, function (data) {
@@ -282,8 +274,9 @@
                 }
             })
         }
-    });
-    $('select[name="secimu"]').change(function () {
+                });
+
+                $('select[name="secimu"]').change(function () {
         var depid = $(this).val();
         var dpid = $('select[name="secimu"]').children();
         var list = new Array(dpid.length)
@@ -305,9 +298,93 @@
                 }
             })
         }
-    });
-    
-        function Arama(iname,sname)
+                });
+
+                $('select[name="ScoreType"]').change(function () {
+                    var tik = $(this).val();
+                    if (tik.length > 0) {
+                        $.getJSON('/Home/GetDepartments/' + tik, function (data) {
+                            $('select[name="secimd"]').children().remove();
+                            $('select[name="Departments"]').children().remove();
+                            for (i = 0; i < data.length; i++) {
+                                $('select[name="Departments"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
+                            }
+                        })
+                    }
+                });
+
+                $('button[name="btncty"]').click(function () {
+                    $('select[name="secimc"]').find('option').clone().appendTo('select[name="Cities"]');
+                    $('select[name="secimc"] option').prop('selected', true).remove();
+                    var cityid = $('select[name="Cities"]').children();
+                    var list = new Array(cityid.length)
+                    for (i = 0; i < $(cityid).length; i++) {
+                        list[i] = ($(cityid[i]).val());
+                    }
+                    list[cityid.length] = $(this).val();
+                    var dlist = list.join(",");
+                    $.getJSON('/Home/GetUnies/' + dlist, function (data) {
+                        $('select[name="Uni"]').empty();
+                        for (i = 0; i < data.length; i++) {
+                            $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
+                        }
+                    }).fail(function (jqXHR, textStatus, errorThrown) {
+                        alert('Error getting cities!');
+                    });
+                });
+
+                $('button[name="Search"]').click(function () {
+                    var dpid = $('select[name="secimd"]').children();
+                    var list = new Array(dpid.length)
+                    for (i = 0; i < dpid.length; i++) {
+                        list[i] = ($(dpid[i]).val());
+                    }
+                    list[dpid.length] = $(this).val();
+                    var dlist = list.join(",");
+
+
+                    var upid = $('select[name="secimu"]').children();
+                    var lst = new Array(upid.length)
+                    for (i = 0; i < upid.length; i++) {
+                        lst[i] = ($(upid[i]).val());
+                    }
+                    lst[upid.length] = $(this).val();
+                    var ulist = lst.join(",");
+
+                    var tscrtyp = $('select[name="ScoreType"] option:selected').text();
+                    var tscrmn = $('input[name="scoremin"]').val();
+                    var torder = $('input[name="order"]').val();
+                    var tscmhd = dlist;
+                    var tscmud = ulist;
+                    $.ajax(
+                 {
+                     url: "/Home/Sonuclar/",
+                     type: "POST",
+                     data: {
+                         scoretype: tscrtyp,
+                         scoremin: tscrmn,
+                         order: torder,
+                         secimd_hd: tscmhd,
+                         secimd_ud: tscmud
+                     },
+                     success: function (data) {
+                         alert(data.length);
+                         for (i = 0; i < data.length; i++) {
+                             $('table')
+                 .find('tbody').append('<tr><td>' + data[i].UNIVERSITYNAME + '</td><td>' + data[i].DEPARTMENTNAME +
+                                 '</td> <td>' + data[i].QUOTAS + '</td><td>' + data[i].SCORETYPE +
+                                 '</td><td>' + data[i].SCOREMIN + '</td><td>' + data[i].ORDERR + '</tr>');
+                         }
+                     },
+                     error: function (xhr, status, p3, p4) {
+                         var err = "Error " + " " + status + " " + p3;
+                         if (xhr.responseText && xhr.responseText[0] == "{")
+                             err = JSON.parse(xhr.responseText).message;
+                         alert(err);
+                     }
+                 });
+                });
+                function Arama(iname,sname)
     {
                $('input[name="' + iname + '"]').keyup(function () {
                 var depid = $(this).val();
@@ -337,116 +414,30 @@
                 }
             });
         }
-        
-                $('select[name="ScoreType"]').change(function () {
-                    var tik = $(this).val();
-                    if (tik.length > 0) {
-                        $.getJSON('/Home/GetDepartments/' + tik, function (data) {
-                            $('select[name="secimd"]').children().remove();
-                            $('select[name="Departments"]').children().remove();
-                            for (i = 0; i < data.length; i++) {
-                                $('select[name="Departments"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
-                            }
-                        })
-                    }
-                });
-                function Ekle()
+                   
+                function Ekle(bname,sname,sname1)
                 {
-                    var element = document.getElementById(id);
-                    $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
-                    $('select[name="Departments"] option').prop('selected', true).remove();
-                }
-                $('button[name="btndep"]').click(function () {
-                    $('select[name="Departments"]').find('option').clone().appendTo('select[name="secimd"]');
-                    $('select[name="Departments"] option').prop('selected', true).remove();
-                });
-                $('button[name="btndp"]').click(function () {
-                    $('select[name="secimd"]').find('option').clone().appendTo('select[name="Departments"]');
-                    $('select[name="secimd"] option').prop('selected', true).remove();
-                    location.reload();
-                });
-                $('button[name="btncity"]').click(function () {
-                    $('select[name="Cities"]').find('option').clone().appendTo('select[name="secimc"]');
-                    $('select[name="Cities"] option').prop('selected', true).remove();
-                });
-                $('button[name="btncty"]').click(function () {
-                    $('select[name="secimc"]').find('option').clone().appendTo('select[name="Cities"]');
-                    $('select[name="secimc"] option').prop('selected', true).remove();
-                    var cityid = $('select[name="Cities"]').children();
-                    var list = new Array(cityid.length)
-                    for (i = 0; i < $(cityid).length; i++) {
-                        list[i] = ($(cityid[i]).val());
-                    }
-                    list[cityid.length] = $(this).val();
-                    var dlist = list.join(",");
-                    $.getJSON('/Home/GetUnies/' + dlist, function (data) {
-                        $('select[name="Uni"]').empty();
-                        for (i = 0; i < data.length; i++) {
-                            $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
-                        }
-                    }).fail(function (jqXHR, textStatus, errorThrown) {
-                        alert('Error getting cities!');
+                    $('button[name="' + bname + '"]').click(function () {
+                        $('select[name="' + sname + '"]').find('option').clone().appendTo('select[name="' + sname1 + '"]');
+                        $('select[name="' + sname + '"] option').prop('selected', true).remove();
                     });
-                });
-                $('button[name="btnuni"]').click(function () {
-                    $('select[name="Uni"]').find('option').clone().appendTo('select[name="secimu"]');
-                    $('select[name="Uni"] option').prop('selected', true).remove();
-                });
-                $('button[name="btnun"]').click(function () {
-                    $('select[name="secimu"]').find('option').clone().appendTo('select[name="Uni"]');
-                    $('select[name="secimu"] option').prop('selected', true).remove();
-                });
-                $('button[name="Search"]').click(function () {
-                    var dpid = $('select[name="secimd"]').children();
-                    var list = new Array(dpid.length)
-                    for (i = 0; i < dpid.length; i++) {
-                        list[i] = ($(dpid[i]).val());
-                    }
-                    list[dpid.length] = $(this).val();
-                    var dlist = list.join(",");
+                }
 
+                function Check() {
+                    $("#box input:checked").each(
+                        function () {
+                            var secilen = $(this).attr("id");
+                            $.getJSON('/Home/GetUniType/' + secilen, function (data) {
+                                $('select[name="secimu"]').children().remove();
+                                $('select[name="Uni"]').children().remove();
+                                for (i = 0; i < data.length; i++) {
+                                    $('select[name="Uni"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
+                                }
+                            })
+                        });
+                }
 
-                    var upid = $('select[name="secimu"]').children();
-                    var lst = new Array(upid.length)
-                    for (i = 0; i < upid.length; i++) {
-                        lst[i] = ($(upid[i]).val());
-                    }
-                    lst[upid.length] = $(this).val();
-                    var ulist = lst.join(",");
-
-                    var tscrtyp = $('select[name="ScoreType"] option:selected').text();
-                    var tscrmn = $('input[name="scoremin"]').val();
-                    var torder = $('input[name="order"]').val();
-                    var tscmhd = dlist;
-                    var tscmud = ulist;      
-                    $.ajax(
-                 {
-                     url: "/Home/Sonuclar/",
-                     type: "POST",
-                     data: {
-                         scoretype: tscrtyp,
-                         scoremin: tscrmn,
-                         order: torder,
-                         secimd_hd: tscmhd,
-                         secimd_ud: tscmud
-                     },
-                     success: function (data) {
-                         alert(data.length);
-                         for (i = 0; i < data.length; i++) {
-                             $('table')
-                 .find('tbody').append('<tr><td>' + data[i].UNIVERSITYNAME + '</td><td>' + data[i].DEPARTMENTNAME +
-                                 '</td> <td>' + data[i].QUOTAS + '</td><td>' + data[i].SCORETYPE +
-                                 '</td><td>' + data[i].SCOREMIN + '</td><td>' + data[i].ORDERR+ '</tr>');
-                         }
-                     },
-                     error: function (xhr, status, p3, p4) {
-                         var err = "Error " + " " + status + " " + p3;
-                         if (xhr.responseText && xhr.responseText[0] == "{")
-                             err = JSON.parse(xhr.responseText).message;
-                         alert(err);
-                     }
-                 });
-                });
+                
            
             
 </script>
