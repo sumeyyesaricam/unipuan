@@ -133,16 +133,20 @@
     </div>
 </div>
 <script type="text/javascript">
-               
-                $('select[name="Departments"]').change(function () {
-        var depid = $(this).val();
-        if (depid.length > 0) {
-            $.getJSON('/Home/SetDepartments/' + depid, function (data) {
-                for (i = 0; i < data.length; i++) {
-                    $('select[name="Departments"] :selected').remove();
-                    $('select[name="secimd"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
-                }
-            })
+   
+           $('select[name="Departments"]').change(function () {
+               var depid = $(this).val();
+               var sname = $(this).attr('name');
+               if (sname == "Departments")
+               {
+                   var yname = "secimd";
+               }
+               else
+               {
+                   var yname = "Departments";
+               }
+            if (depid.length > 0) {
+                SetProgram(depid,sname,yname);
             var dpid = $('select[name="secimd"]').children();
             var list = new Array(dpid.length)
             for (i = 0; i < dpid.length; i++) {
@@ -167,26 +171,25 @@
                 });
 
                 $('select[name="Cities"]').change(function () {
-        var depid = $(this).val();
-        if (depid.length > 0) {
-            $.getJSON('/Home/SetCities/' + depid, function (data) {
-                for (i = 0; i < data.length; i++) {
-                    $('select[name="Cities"] :selected').remove();
-                    $('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>').appendTo('select[name="secimc"]');
-                }
-            })
+                    var depid = $(this).val();
+                    var sname = $(this).attr('name');
+                    if (sname == "Cities")
+                    {
+                        var yname = "secimc";
+                    }
+                    else
+                    {
+                        var yname = "Cities";
+                    }
+                if (depid.length > 0) {
+            SetProgram(depid,sname,yname)
             var ctid = $('select[name="secimc"]').children();
             var list = new Array(ctid.length)
             for (i = 0; i < ctid.length; i++)
             { list[i] = ($(ctid[i]).val()); }
             list[ctid.length] = $(this).val();
             var dlist = list.join(",");
-            $.getJSON('/Home/GetUnies/' + dlist, function (data) {
-                $('select[name="Uni"]').children().remove();
-                for (i = 0; i < data.length; i++) {
-                    $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
-                }
-            })
+            GetUnies(dlist);
             $('select[name="secimu"]').children().remove();
         }
                 });
@@ -201,13 +204,15 @@
         list[dpid.length] = $(this).val();
         var dlist = list.join(",");
         $('#secimd_ud').val(dlist);
+        var sname = $(this).attr('name');
+        if (sname == "Uni") {
+            var yname = "secimu";
+        }
+        else {
+            var yname = "Uni";
+        }
         if (depid.length > 0) {
-            $.getJSON('/Home/SetUni/' + depid, function (data) {
-                for (i = 0; i < data.length; i++) {
-                    $('select[name="Uni"] :selected').remove();
-                    $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="secimu"]');
-                }
-            })
+            SetProgram(depid, sname, yname);
         }
                 });
 
@@ -225,37 +230,36 @@
         }
         var dlist = list.join(",");
         $('#secimd_hd').val(dlist);
+        var sname = $(this).attr('name');
+        if (sname == "secimd") {
+            var yname = "Departments";
+        }
+        else {
+            var yname = "secimd";
+        }
         if (depid.length > 0) {
-            $.getJSON('/Home/SetDepartments/' + depid, function (data) {
-                for (i = 0; i < data.length; i++) {
-                    $('select[name="secimd"] :selected').remove();
-                    $('select[name="Departments"]').append('<option value="' + data[i].DEPARTMENTID + '">' + data[i].DEPARTMENTNAME + '</option>');
-                }
-            })
+            SetProgram(depid, sname, yname);
             $.getJSON('/Home/GetCities/' + dlist, function (data) {
                 $('select[name="Cities"]').empty();
                 for (i = 0; i < data.length; i++) {
                     $('select[name="Cities"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
                 }
             })
-            $.getJSON('/Home/GetUnies/' + dlist, function (data) {
-                $('select[name="Uni"]').children().remove();
-                for (i = 0; i < data.length; i++) {
-                    $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
-                }
-            })
+            GetUnies(dlist);
         }
                 });
 
                 $('select[name="secimc"]').change(function () {
-        var depid = $(this).val();
+                    var depid = $(this).val();
+                    var sname = $(this).attr('name');
+                    if (sname == "secimc") {
+                        var yname = "Cities";
+                    }
+                    else {
+                        var yname = "secimc";
+                    }
         if (depid.length > 0) {
-            $.getJSON('/Home/SetCities/' + depid, function (data) {
-                for (i = 0; i < data.length; i++) {
-                    $('select[name="secimc"] :selected').remove();
-                    $('select[name="Cities"]').append('<option value="' + data[i].CITYID + '">' + data[i].CITYNAME + '</option>');
-                }
-            })
+            SetProgram(depid, sname, yname);
             var unid = $('select[name="secimc"]').children();
             var list = new Array(unid.length)
             for (i = 0; i < $(unid).length; i++) {
@@ -267,12 +271,7 @@
                 }
             }
             var dlist = list.join(",");
-            $.getJSON('/Home/GetUnies/' + dlist, function (data) {
-                $('select[name="Uni"]').empty();
-                for (i = 0; i < data.length; i++) {
-                    $('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>').appendTo('select[name="Uni"]');
-                }
-            })
+            GetUnies(dlist);
         }
                 });
 
@@ -290,13 +289,15 @@
         }
         var dlist = list.join(",");
         $('#secimd_ud').val(dlist);
+        var sname = $(this).attr('name');
+        if (sname == "secimu") {
+            var yname = "Uni";
+        }
+        else {
+            var yname = "secimu";
+        }
         if (depid.length > 0) {
-            $.getJSON('/Home/SetUni/' + depid, function (data) {
-                for (i = 0; i < data.length; i++) {
-                    $('select[name="secimu"] :selected').remove();
-                    $('select[name="Uni"]').append('<option value="' + data[i].UNIVERSITYID + '">' + data[i].UNIVERSITYNAME + '</option>');
-                }
-            })
+            SetProgram(depid, sname, yname);
         }
                 });
 
@@ -323,6 +324,10 @@
                     }
                     list[cityid.length] = $(this).val();
                     var dlist = list.join(",");
+                    GetUnies(dlist);
+                });
+                function GetUnies(dlist)
+                {
                     $.getJSON('/Home/GetUnies/' + dlist, function (data) {
                         $('select[name="Uni"]').empty();
                         for (i = 0; i < data.length; i++) {
@@ -331,7 +336,8 @@
                     }).fail(function (jqXHR, textStatus, errorThrown) {
                         alert('Error getting cities!');
                     });
-                });
+
+                }
 
                 $('button[name="Search"]').click(function () {
                     var dpid = $('select[name="secimd"]').children();
@@ -437,7 +443,30 @@
                         });
                 }
 
-                
+                function SetProgram(depid, sname, yname) {
+                    $.ajax(
+                {
+                url: "/Home/SetProgram/",
+                type: "POST",
+                data: {
+                    id: depid,
+                    name: sname
+                },
+                success: function (data) {
+                   
+                    for (i = 0; i < data.length; i++) {
+                        $('select[name="' + sname + '"] :selected').remove();
+                        $('select[name="' + yname + '"]').append('<option value="' + data[i].ID + '">' + data[i].NAME + '</option>');
+                    }
+                },
+                error: function (xhr, status, p3, p4) {
+                    var err = "Error " + " " + status + " " + p3;
+                    if (xhr.responseText && xhr.responseText[0] == "{")
+                        err = JSON.parse(xhr.responseText).message;
+                    alert(err);
+                }
+            });
+                }
            
             
 </script>

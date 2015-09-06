@@ -8,6 +8,7 @@ using UniPuan.Web.Models;
 using System.Data;
 using System.Data.Entity;
 using System.Data.SqlClient;
+using System.Web.Script.Serialization;
 namespace UniPuan.Web.Controllers
 {
     public class HomeController : Controller
@@ -16,36 +17,36 @@ namespace UniPuan.Web.Controllers
         {
             return View();
         }
-        public ActionResult SetDepartments(string id)
+        public ActionResult SetProgram(string id,string name)
         {
-            var idList = id.Split(',').Select(t => Convert.ToInt32(t));           
+            var idList = id.Split(',').Select(t => Convert.ToInt32(t));
             UniPuanEntities1 uni = new UniPuanEntities1();
-            var dep = (from c in uni.UP_ST_DEPARTMENT
-                       where  
-                             (idList.Contains(c.DEPARTMENTID)) 
-                          select new DepartmentData() { DEPARTMENTID = c.DEPARTMENTID, DEPARTMENTNAME = c.DEPARTMENTNAME }).ToList();
+            if(name=="Departments" || name=="secimd")
+            {
+               var dep = (from c in uni.UP_ST_DEPARTMENT
+                       where
+                             (idList.Contains(c.DEPARTMENTID))
+                       select new ProgramData() {ID = c.DEPARTMENTID, NAME = c.DEPARTMENTNAME }).ToList();
             return Json(dep, JsonRequestBehavior.AllowGet);
+            }
+            else if (name == "Cities" || name == "secimc")
+            {
+                var dep = (from c in uni.UP_ST_CITY
+                           where
+                                 (idList.Contains(c.CITYID))
+                           select new ProgramData() { ID = c.CITYID, NAME = c.CITYNAME }).ToList();
+                return Json(dep, JsonRequestBehavior.AllowGet);
+            }
+            else if (name == "Uni" || name == "secimu")
+            {
+                var dep = (from c in uni.UP_ST_UNIVERSITY
+                           where
+                                 (idList.Contains(c.UNIVERSITYID))
+                           select new ProgramData() { ID = c.UNIVERSITYID, NAME = c.UNIVERSITYNAME }).ToList();
+                return Json(dep, JsonRequestBehavior.AllowGet);
+            } return Json( JsonRequestBehavior.AllowGet);
         }
-        public ActionResult SetCities(string id)
-        {
-            var idList = id.Split(',').Select(t => Convert.ToInt32(t));
-            UniPuanEntities1 uni = new UniPuanEntities1();
-            var cities = (from c in uni.UP_ST_CITY
-                       where
-                             (idList.Contains(c.CITYID))
-                       select new CityData() { CITYID = c.CITYID, CITYNAME = c.CITYNAME }).ToList();
-            return Json(cities, JsonRequestBehavior.AllowGet);
-        }
-        public ActionResult SetUni(string id)
-        {
-            var idList = id.Split(',').Select(t => Convert.ToInt32(t));
-            UniPuanEntities1 uni = new UniPuanEntities1();
-            var univ = (from u in uni.UP_ST_UNIVERSITY
-                       where
-                             (idList.Contains(u.UNIVERSITYID))
-                        select new UniData() { UNIVERSITYID = u.UNIVERSITYID, UNIVERSITYNAME = u.UNIVERSITYNAME }).ToList();
-            return Json(univ, JsonRequestBehavior.AllowGet);
-        }
+        
         public ActionResult GetCities(string id)
         {
             UniPuanEntities1 uni = new UniPuanEntities1();
@@ -182,13 +183,27 @@ namespace UniPuan.Web.Controllers
         {
             return View();
         }
+        public static List<SelectListItem> DepListGonder()
+        {
+            UniPuanEntities1 uni = new UniPuanEntities1();
+            List<SelectListItem> listdep = new List<SelectListItem>();
+            foreach (var dep in uni.UP_ST_DEPARTMENT)
+            {
+                SelectListItem selectList = new SelectListItem()
+                {
+                    Text = dep.DEPARTMENTNAME,
+                    Value = dep.DEPARTMENTID.ToString(),
+                };
+                listdep.Add(selectList);
+            }
+            return listdep;
+        }
+        
         public ActionResult TercihYap(Guid? SelectedPuan, string boxuni, string boxcity, string boxdep, string searchd, List<ProgramData> listprogram)
         {
-            ViewBag.uniViewModel = null;
                 UniPuanEntities1 uni = new UniPuanEntities1();
                 ViewBag.SelectedPuan = new SelectList(uni.UP_ST_SCORETYPE, "SCORETYPEID", "SCORETYPENAME", SelectedPuan);
-                var obj = TempData["myObj"];
-                
+    
                 List<SelectListItem> listunitype = new List<SelectListItem>();
                 foreach (var type in uni.UP_ST_UNITYPE)
                 {
@@ -344,8 +359,7 @@ namespace UniPuan.Web.Controllers
                     }
                 }    
             }
-            TempData["myObj"] = new { listprogram = listprgrm };
-            int uzunluk = listprgrm.Count();
+             int uzunluk = listprgrm.Count();
             UniModel uniViewModel = new UniModel()
             {
                 Programs=listprgrm,
